@@ -6,6 +6,7 @@ hari, dan batas risiko masing-masing.
 - `forex`     : EURUSD, XAUUSD — instrumen bot (G-09).
 - `forex_uji` : GBPUSD, USDJPY — hanya untuk menilai versi baru di data yang belum
                 pernah disentuh (rencana cadangan); bukan instrumen trading bot.
+- `forex_riset`: AUDUSD, USDCAD, USDCHF, NZDUSD — hanya untuk uji forex cepat (bukan instrumen bot).
 - `crypto`    : BTC, ETH (spot Binance), pasar asal setup mentor saham–kripto.
 """
 from __future__ import annotations
@@ -76,6 +77,15 @@ INSTRUMENTS: dict[str, Instrument] = {
                          spread_min=0.00018, spread_pct=0.0, swap_markup=0.01),
     "USDJPY": Instrument("USDJPY", "forex_uji", "oanda", "OANDA_USDJPY_USDJPY", "USD", "JPY", 1000, ("USD", "JPY"),
                          spread_min=0.014, spread_pct=0.0, swap_markup=0.01),
+    # Pair riset (uji forex cepat, reports/RENCANA_FOREX_CEPAT.md); spread ritel standar tipikal.
+    "AUDUSD": Instrument("AUDUSD", "forex_riset", "oanda", "OANDA_AUDUSD_AUDUSD", "AUD", "USD", 1000, ("USD",),
+                         spread_min=0.00016, spread_pct=0.0, swap_markup=0.01),
+    "USDCAD": Instrument("USDCAD", "forex_riset", "oanda", "OANDA_USDCAD_USDCAD", "USD", "CAD", 1000, ("USD",),
+                         spread_min=0.00020, spread_pct=0.0, swap_markup=0.01),
+    "USDCHF": Instrument("USDCHF", "forex_riset", "oanda", "OANDA_USDCHF_USDCHF", "USD", "CHF", 1000, ("USD",),
+                         spread_min=0.00018, spread_pct=0.0, swap_markup=0.01),
+    "NZDUSD": Instrument("NZDUSD", "forex_riset", "oanda", "OANDA_NZDUSD_NZDUSD", "NZD", "USD", 1000, ("USD",),
+                         spread_min=0.00020, spread_pct=0.0, swap_markup=0.01),
     # Kripto spot Binance: komisi 0,1% per sisi + setengah spread 0,01% → biaya pulang-pergi 0,22%.
     "BTCUSD": Instrument("BTCUSD", "crypto", "binance", "BTCUSDT", "BTC", "USD", 0.0001, ("USD",),
                          spread_min=0.0, spread_pct=0.0022, swap_markup=0.0, swap=False, news_events=_CRYPTO_NEWS),
@@ -87,6 +97,8 @@ MARKETS: dict[str, Market] = {
     # Forex & emas: hari mulai 17.00 New York, minggu mulai Minggu 17.00 New York (D-12).
     "forex": Market("forex", ("EURUSD", "XAUUSD"), "America/New_York", 17, 5, "2010-01-01"),
     "forex_uji": Market("forex_uji", ("GBPUSD", "USDJPY"), "America/New_York", 17, 5, "2010-01-01"),
+    "forex_riset": Market("forex_riset", ("AUDUSD", "USDCAD", "USDCHF", "NZDUSD"), "America/New_York", 17, 5,
+                          "2014-01-01"),
     # Kripto: hari mulai 00.00 UTC, minggu mulai Senin; data sejak BTC & ETH sama-sama ada di Binance (Q-50).
     "crypto": Market("crypto", ("BTCUSD", "ETHUSD"), "UTC", 0, 7, "2017-09-01",
                      long_only_live=True, leverage_cap=1.0, weekend_closed=False),
