@@ -161,7 +161,7 @@ Sumber tabel: [forex_3 L800–L875](../materi/mentah/forex_3.txt#L800-L875).
 3. **Keseimbangan waktu:** gerakan berikutnya sering sama panjang waktunya dengan gerakan sebelumnya (contoh 26 = 26 = 26; 13 = 13) ([forex_3 L1013–L1095](../materi/mentah/forex_3.txt#L1013-L1095)). Di praktik: turun 25 candle + koreksi 18 candle = 42 (angka Hosoda), lalu proyeksi waktu CD = AB, = BC, atau = ABC ([forex_3 L151–L300](../materi/mentah/forex_3.txt#L151-L300)).
 4. **Gabungkan dengan target harga** ([ICH-04](06-mentor-forex.md#ich-04--target-harga-hosoda-untuk-tp)). Ambil untung terutama saat target waktu bertepatan dengan target harga ([forex_3 L3194–L3250](../materi/mentah/forex_3.txt#L3194-L3250), [forex_3 L611–L660](../materi/mentah/forex_3.txt#L611-L660)).
 
-Rafał juga menyarankan memeriksa apakah pasar pilihan Anda bereaksi pada angka-angka ini, atau pada angka lain ([forex_3 L1170–L1184](../materi/mentah/forex_3.txt#L1170-L1184)). Jadi angka ini pun harus diuji per instrumen.
+Rafał juga menyarankan memeriksa apakah pasar pilihan Anda bereaksi pada angka-angka ini, atau pada angka lain ([forex_3 L1170–L1184](../materi/mentah/forex_3.txt#L1170-L1184)). Jadi angka ini pun harus diuji. Di bot, uji dan pilihannya dibuat **per pasar**, dengan hasil per instrumen tetap dilaporkan ([G-17](00-aturan-global.md#g-17--parameter-uji-dan-pemilihan-varian), Q-50).
 
 **Efek kalau lolos uji (Q-38: waktu ambil untung):** posisi ICH-01 – ICH-03 **ditutup** saat hitungan candle sejak titik awal mencapai angka Hosoda **dan** harga berada di zona salah satu target ICH-04 (target ± 0,5 × ATR(14)), walaupun TP-nya belum tersentuh. *(Terjemahan saya dari "ambil untung saat target waktu bertepatan dengan target harga".)*
 

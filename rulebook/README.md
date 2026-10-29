@@ -5,7 +5,7 @@ Rulebook ini menerjemahkan isi kelas ke dalam **aturan yang bisa dikodekan**. Su
 **Prinsip penyusunan:**
 
 1. **Mesin utama** diambil dari kelas **kripto** (Akademi Crypto) dan **saham** (Remora, Andre Hakim), ditambah materi **forex** (Pola N dan Ichimoku Rafał).
-2. Bot hanya untuk **forex dan kripto**: **EURUSD, XAUUSD, BTC, ETH** (Q-02). Bagian yang **hanya berlaku di saham** (broker summary, antrean bid–offer, SID/KSEI, ARA/ARB, PER/PBV, MSCI, dan lain-lain) **tidak dijadikan aturan**. Daftarnya ada di [08-tidak-dijadikan-aturan.md](08-tidak-dijadikan-aturan.md).
+2. Bot hanya untuk **forex dan kripto**: **EURUSD, XAUUSD, BTC, ETH** (Q-02). **Tahap sekarang hanya forex**; kripto ditambahkan nanti, di akun terpisah dengan batasnya sendiri (Q-49, Q-50). Bagian yang **hanya berlaku di saham** (broker summary, antrean bid–offer, SID/KSEI, ARA/ARB, PER/PBV, MSCI, dan lain-lain) **tidak dijadikan aturan**. Daftarnya ada di [08-tidak-dijadikan-aturan.md](08-tidak-dijadikan-aturan.md).
 3. Konsep **Astronacci** (PETA bagian 9) masuk sebagai **filter waktu opsional**, default **mati**, di [07-filter-waktu.md](07-filter-waktu.md).
 4. **Bagian yang ambigu tidak ditebak.** Kalau mentor tidak menyebut angka atau definisinya, aturan itu ditandai 🟡 dan diberi nomor pertanyaan **Q-xx** di [09-pertanyaan-untuk-anda.md](09-pertanyaan-untuk-anda.md). **Jawaban Anda** disimpan di [10-jawaban.md](10-jawaban.md) dan sudah diterapkan. Kalau saya harus mengisi detail teknis kecil sendiri, tempatnya ditandai "usulan saya" atau "terjemahan saya".
 5. Angka "uji dulu" menjadi **parameter backtest** dengan nilai awal dari Anda, diuji hanya di sekitar nilai itu, dan varian dipilih dari data yang tidak dipakai saat menyusun strategi ([G-17](00-aturan-global.md#g-17--parameter-uji-dan-pemilihan-varian)).
@@ -25,8 +25,8 @@ Rulebook ini menerjemahkan isi kelas ke dalam **aturan yang bisa dikodekan**. Su
 | [06-mentor-forex.md](06-mentor-forex.md) | Dua sumber forex: **Pola N** di emas (forex_2) dan **Ichimoku** Rafał Zuchowicz (forex_3). FXcopet tidak dipakai. |
 | [07-filter-waktu.md](07-filter-waktu.md) | **Filter waktu opsional**: Astronacci (fase bulan, Fibonacci waktu, retrograde) dan angka waktu Hosoda (Ichimoku). |
 | [08-tidak-dijadikan-aturan.md](08-tidak-dijadikan-aturan.md) | Materi yang sengaja **tidak** dijadikan aturan atau **ditunda**, beserta alasannya. Termasuk arsip FXcopet. |
-| [09-pertanyaan-untuk-anda.md](09-pertanyaan-untuk-anda.md) | Semua pertanyaan. Q-01 – Q-48 sudah dijawab; **Q-49 – Q-51 masih terbuka**. |
-| [10-jawaban.md](10-jawaban.md) | **Jawaban Anda** untuk Q-01 – Q-48, dengan tautan ke tempat penerapannya. |
+| [09-pertanyaan-untuk-anda.md](09-pertanyaan-untuk-anda.md) | Semua pertanyaan, Q-01 – Q-51. Semuanya sudah dijawab. |
+| [10-jawaban.md](10-jawaban.md) | **Jawaban Anda** untuk Q-01 – Q-51, dengan tautan ke tempat penerapannya. |
 
 ---
 
@@ -109,7 +109,7 @@ Semua setup dipasang di dalam alur yang sama. Urutan ini diambil dari cara para 
 | AFS-19 | Pantulan POC (volume profile) | K, F\* | H1 / H4 / D1 | 🟢 |
 | AFS-20 | Linear Regression Channel | K, F | H4 | 🟢 |
 | AFS-21 | Renko reversal | K, F | D1 | 🟢 |
-| AFS-22 | Order flow: divergensi delta, stacked imbalance, unfinished auction | K | — | 🟡 Q-51 |
+| AFS-22 | Order flow: divergensi delta, stacked imbalance, unfinished auction | K | — | ⏸ |
 | AFS-23 | Pola grafik klasik selain double/triple top-bottom | K, F | H4 / D1 | ⏸ |
 | AFS-24 | Elliott Wave (masuk di gelombang 2 & 4) | K, F | D1 | 🔴 |
 | AFS-25 | Andrews Pitchfork | K, F | D1 | 🔴 |
@@ -187,8 +187,4 @@ Ini **saran**, bukan aturan dari mentor. Alasannya: mulai dari setup yang aturan
 
 ## Pertanyaan yang masih terbuka
 
-Detailnya di [09 · Bagian 9](09-pertanyaan-untuk-anda.md#bagian-9--pertanyaan-lanjutan-kedua). Tidak ada yang menghambat setup selain AFS-22:
-
-- **Q-49** Akun forex dan akun kripto: batas transaksi, risiko terbuka, dan rem darurat dihitung gabungan atau terpisah?
-- **Q-50** Pilihan parameter/varian dibuat per instrumen atau gabungan, dan periode data apa untuk kripto (tidak ada data sejak 2010)?
-- **Q-51** Order flow AFS-22: tunda, atau jadikan filter tambahan?
+Tidak ada. Semua pertanyaan (Q-01 – Q-51) sudah dijawab di [10-jawaban.md](10-jawaban.md). Tidak ada setup yang berstatus 🟡.

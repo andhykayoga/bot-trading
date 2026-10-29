@@ -6,7 +6,7 @@ Jawaban Anda untuk [09-pertanyaan-untuk-anda.md](09-pertanyaan-untuk-anda.md). I
 
 > Terapkan ke rulebook: ubah 🟡 jadi 🟢 sesuai jawaban, dan simpan jawaban ini di rulebook/10-jawaban.md. Jawaban "uji dulu" jadikan parameter backtest dengan nilai awal yang saya tulis, dan uji hanya di sekitar nilai itu supaya tidak overfitting. Pilih varian berdasarkan hasil di data yang tidak dipakai saat menyusun strategi.
 
-Cara instruksi ini dijalankan ada di [G-17](00-aturan-global.md#g-17--parameter-uji-dan-pemilihan-varian). Jawaban Q-42 – Q-48 ada di [Bagian 8](#bagian-8--pertanyaan-lanjutan). Pertanyaan yang masih terbuka ada di [09 · Bagian 9](09-pertanyaan-untuk-anda.md#bagian-9--pertanyaan-lanjutan-kedua).
+Cara instruksi ini dijalankan ada di [G-17](00-aturan-global.md#g-17--parameter-uji-dan-pemilihan-varian). Jawaban Q-42 – Q-48 ada di [Bagian 8](#bagian-8--pertanyaan-lanjutan), dan Q-49 – Q-51 di [Bagian 9](#bagian-9--pertanyaan-lanjutan-kedua). Saat ini tidak ada pertanyaan terbuka.
 
 ---
 
@@ -79,7 +79,7 @@ C, ikut mentor masing-masing setup. Untuk setup yang punya dua versi (AFS-03, AF
 
 A. Di kripto, persen dari mentor tetap dipakai. Di forex, persen diubah jadi kelipatan ATR(14) harian dengan patokan BTC: k = persen mentor ÷ rata-rata ATR% harian BTC di periode backtest. Lalu pakai k × ATR harian pair forex. Contoh mentor sendiri: ATR BTC 3,36% ([AC_crypto_59 L2841](../materi/mentah/AC_crypto_59.txt#L2841)). Backtest hanya menguji di sekitar nilai k itu.
 
-→ Diterapkan di: [D-09](00-aturan-global.md#d-09--angka-persen-kripto-di-forex).
+→ Diterapkan di: [D-09](00-aturan-global.md#d-09--angka-persen-kripto-di-forex). Rumus k kemudian diubah oleh [Q-50](#q-50--pemilihan-varian-dan-data-kripto) butir 3: k = persen ÷ 3,36.
 
 ---
 
@@ -195,7 +195,7 @@ B. Hanya ABCD dan double/triple top-bottom. Pola harmonic XABCD dan pola grafik 
 - Renko: ukuran bata dari ATR(14), cara bawaan TradingView.
 - POC: uji dulu dua rentang: minggu lalu (untuk H1) dan bulan lalu (untuk H4/D1).
 
-→ Diterapkan di: [AFS-13](01-alvesting-akademi-crypto.md#afs-13--keltner-channel), [AFS-16](01-alvesting-akademi-crypto.md#afs-16--donchian-channel), [AFS-19](01-alvesting-akademi-crypto.md#afs-19--pantulan-poc-volume-profile), [AFS-20](01-alvesting-akademi-crypto.md#afs-20--linear-regression-channel), [AFS-21](01-alvesting-akademi-crypto.md#afs-21--renko-reversal). Pertanyaan lanjutan (timeframe): [Q-47](09-pertanyaan-untuk-anda.md#q-47--timeframe-dan-cara-masuk-yang-belum-disebut).
+→ Diterapkan di: [AFS-13](01-alvesting-akademi-crypto.md#afs-13--keltner-channel), [AFS-16](01-alvesting-akademi-crypto.md#afs-16--donchian-channel), [AFS-19](01-alvesting-akademi-crypto.md#afs-19--pantulan-poc-volume-profile), [AFS-20](01-alvesting-akademi-crypto.md#afs-20--linear-regression-channel), [AFS-21](01-alvesting-akademi-crypto.md#afs-21--renko-reversal). Pertanyaan lanjutan (timeframe): [Q-47](09-pertanyaan-untuk-anda.md#q-47--timeframe-dan-cara-masuk-yang-belum-disebut). Pilihan mode Keltner kemudian dibuat per pasar, bukan per instrumen ([Q-50](#q-50--pemilihan-varian-dan-data-kripto)).
 
 ### [Q-25](09-pertanyaan-untuk-anda.md#q-25--altcoin) · Altcoin
 
@@ -350,7 +350,7 @@ C. Data dibagi tiga menurut tanggal, dengan periode yang sama untuk semua instru
 - Alasannya: data yang dipakai untuk memilih membuat hasilnya terlalu bagus (G-17 butir 5 versi sebelumnya; sekarang G-17 bagian 1). Bailey dkk. (2014) juga menunjukkan metode hold-out tidak memperhitungkan berapa banyak percobaan sebelum model dipilih. Jadi laporan juga mencatat berapa varian yang dicoba untuk tiap setup.
 - Pakai data sepanjang yang tersedia dan rapi, idealnya sejak 2010 (sekitar 16 tahun). Ini sesuai saran mentor forex_2 untuk D1, yaitu 15–20 tahun ([forex_2 L1400–L1405](../materi/mentah/forex_2.txt#L1400-L1405)). Data penyusunan jadi jauh di atas batas minimal 2 tahun H1 (G-14), dan tiap bagian punya cukup transaksi.
 
-→ Diterapkan di: [G-14](00-aturan-global.md#g-14--backtest-dulu-dan-nilai-hasilnya-dengan-data), [G-17](00-aturan-global.md#g-17--parameter-uji-dan-pemilihan-varian), [07 · cara menguji](07-filter-waktu.md#cara-menguji-sebelum-dipakai). Pertanyaan lanjutan (data kripto tidak ada sejak 2010): [Q-50](09-pertanyaan-untuk-anda.md#q-50--pemilihan-varian-per-instrumen-atau-gabungan).
+→ Diterapkan di: [G-14](00-aturan-global.md#g-14--backtest-dulu-dan-nilai-hasilnya-dengan-data), [G-17](00-aturan-global.md#g-17--parameter-uji-dan-pemilihan-varian), [07 · cara menguji](07-filter-waktu.md#cara-menguji-sebelum-dipakai). Pertanyaan lanjutan (data kripto tidak ada sejak 2010): [Q-50](09-pertanyaan-untuk-anda.md#q-50--pemilihan-varian-per-instrumen-atau-gabungan). Jawabannya: "sama untuk semua instrumen" berarti sama untuk instrumen dalam satu pasar.
 
 ### [Q-43](09-pertanyaan-untuk-anda.md#q-43--hasil-lebih-baik-diukur-dengan-apa) · Ukuran "hasil lebih baik"
 
@@ -440,3 +440,41 @@ D, ditentukan per setup:
 - BabyPips, overlap sesi London–New York: <https://www.babypips.com/learn/forex/session-overlaps>
 - Bailey, Borwein, López de Prado, Zhu (2014), "Pseudo-Mathematics and Financial Charlatanism": <https://carmamaths.org/jon/backtest.pdf>
 - backtrader, SQN (≥ 30 transaksi): <https://backtrader.readthedocs.io/en/latest/api/analyzers/backtrader.analyzers.sqn.html>
+
+---
+
+## Bagian 9 — Pertanyaan lanjutan kedua
+
+### [Q-49](09-pertanyaan-untuk-anda.md#q-49--forex-dan-kripto-batas-digabung-atau-terpisah) · Forex dan kripto: batas digabung atau terpisah
+
+A, terpisah per akun.
+
+- Tiap akun memakai saldonya sendiri dan batas harinya sendiri (D-12). Ini berlaku untuk risiko per transaksi, 3 transaksi baru per hari, 3 posisi, risiko terbuka 3%, rem harian 3%, rem mingguan 6%, dan batas drawdown.
+- Semua batas dihitung dalam persen saldo tiap akun. Jadi kalau dijumlah, tidak pernah melebihi persen yang sama dari total modal. Contoh: risiko terbuka 3% di akun forex + 3% di akun kripto = paling banyak 3% dari total modal.
+- Rem darurat satu akun tidak menghentikan akun lain, karena setupnya berbeda. Pengecualian: tombol stop darurat manual menutup semua posisi di kedua akun.
+
+→ Diterapkan di: [G-16](00-aturan-global.md#g-16--jenis-akun-dan-leverage), [G-01](00-aturan-global.md#g-01--risiko-per-transaksi-maksimal-1), [G-08](00-aturan-global.md#g-08--jangan-overtrading), [G-15](00-aturan-global.md#g-15--rem-darurat), [D-12](00-aturan-global.md#d-12--batas-hari-minggu-dan-candle).
+
+### [Q-50](09-pertanyaan-untuk-anda.md#q-50--pemilihan-varian-per-instrumen-atau-gabungan) · Pemilihan varian dan data kripto
+
+1. C, per pasar. Satu pilihan untuk forex (EURUSD dan XAUUSD digabung), satu untuk kripto (BTC dan ETH digabung). Recovery Factor dan syarat 30 transaksi dihitung dari gabungan transaksi instrumen yang aktif di pasar itu.
+   - Alasannya: aturan mentor sama untuk semua instrumen. Kalau dipilih per instrumen, jumlah percobaan bertambah (Bailey dkk.) dan syarat 30 transaksi lebih sulit dipenuhi.
+   - Laporan tetap menampilkan hasil per instrumen. Setup boleh dimatikan di satu instrumen kalau di instrumen itu rugi, baik di data penyusunan maupun data pemilihan. Parameternya tidak diatur ulang per instrumen.
+   - Keltner: mode 13A atau 13B juga dipilih per pasar.
+2. B. Forex memakai data sejak 2010. Kripto memakai data sejak BTC dan ETH sama-sama tersedia di exchange yang dipakai (contoh Binance: 2017). Tanggal potong 60/20/20 dihitung per pasar. Jadi "sama untuk semua instrumen" di Q-42 berarti sama untuk instrumen dalam satu pasar. Data kripto belum perlu diunduh sekarang, karena bot masih forex saja.
+3. D-09 diubah supaya backtest forex tidak butuh data kripto: k = persen mentor ÷ 3,36. Angka 3,36% adalah ATR BTC yang disebut mentor sendiri ([AC_crypto_59 L2838–L2851](../materi/mentah/AC_crypto_59.txt#L2838-L2851)). Variasi 0,5k / k / 1,5k tetap seperti sebelumnya.
+
+**Catatan penerapan:** urutannya saya tulis begini: (1) pilih nilai dan varian dengan semua instrumen di pasar itu; (2) dengan pilihan itu, matikan instrumen yang rugi di kedua bagian; (3) uji akhir dengan instrumen yang masih aktif. Pilihan di langkah (1) tidak diulang setelah ada instrumen yang dimatikan.
+
+→ Diterapkan di: [G-17](00-aturan-global.md#g-17--parameter-uji-dan-pemilihan-varian), [D-09](00-aturan-global.md#d-09--angka-persen-kripto-di-forex), [G-09](00-aturan-global.md#g-09--hanya-instrumen-yang-likuid) (tahap sekarang forex saja), [AFS-13](01-alvesting-akademi-crypto.md#afs-13--keltner-channel), [KMS-02](02-kalimasada-akademi-crypto.md#kms-02--wyckoff-breakout-range--retest), [07 · WKT-05](07-filter-waktu.md#wkt-05--angka-waktu-hosoda-ichimoku).
+
+### [Q-51](09-pertanyaan-untuk-anda.md#q-51--order-flow-afs-22) · Order flow (AFS-22)
+
+A, tunda (⏸) di versi pertama.
+
+- Bot sekarang hanya forex, dan data order flow tidak ada di forex spot.
+- Mentor tidak menyebut entry, SL, dan TP, jadi aturan filternya harus dikarang sendiri.
+- Datanya per transaksi, jauh lebih besar dan berat daripada data candle.
+- Dibuka lagi saat kripto ditambahkan, sebagai kandidat filter (pilihan B) yang diuji dengan aturan G-17.
+
+→ Diterapkan di: [AFS-22](01-alvesting-akademi-crypto.md#afs-22--sinyal-order-flow), [08 · bagian H](08-tidak-dijadikan-aturan.md#h-ditunda-di-versi-pertama-sesuai-jawaban-anda).

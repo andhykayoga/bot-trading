@@ -83,6 +83,7 @@ Materi berikut tetap ada di file masing-masing dengan label ⏸, tetapi **tidak 
 | Pola harmonic XABCD ([AFS-11](01-alvesting-akademi-crypto.md#afs-11--pola-harmonic-xabcd)) | Hanya ABCD dan double/triple top-bottom yang dipakai. | Q-23 |
 | Pola grafik klasik selain double/triple top-bottom ([AFS-23](01-alvesting-akademi-crypto.md#afs-23--pola-grafik-klasik)) | Sama. | Q-23 |
 | Screening altcoin & korelasi BTC ([AFS-F1](01-alvesting-akademi-crypto.md#afs-f1--screening-altcoin--korelasi-btc)) | Hanya BTC dan ETH. | Q-25 |
+| Sinyal order flow ([AFS-22](01-alvesting-akademi-crypto.md#afs-22--sinyal-order-flow)) | Tidak ada datanya di forex spot; mentor tidak menyebut entry/SL/TP; datanya sangat besar. Dibuka lagi saat kripto ditambahkan, sebagai kandidat filter. | Q-51 |
 | Modul investasi spot Kalimasada ([KMS-I1–I4](02-kalimasada-akademi-crypto.md#b-modul-investasi-spot-kripto-ditunda)) | Versi pertama hanya trading. | Q-29 |
 | Siklus halving ([LIVE-01](03-analis-live-akademi-crypto.md#live-01--siklus-halving-bitcoin-spot-jangka-panjang)) | Bot tidak mengelola investasi jangka panjang. | Q-27 |
 | Token baru / TGE ([LIVE-02](03-analis-live-akademi-crypto.md#live-02--token-baru-tge-30-saat-listing-70-di-base)) | Tidak dipakai. | Q-30 |

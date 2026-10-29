@@ -77,7 +77,7 @@ Kalimasada mengajar investasi, money management, dan Wyckoff. Aturan money manag
 - **Lama:** minimal **20 candle D1** (sekitar satu bulan di forex). Jadi bot memeriksa 20 candle terakhir sebelum candle breakout.
 - **Lebar** = high tertinggi − low terendah di dalam range. Batasnya:
   - Kripto: **≤ 20%** (batas atas contoh mentor), dihitung terhadap low terendah *(pembagi ini usulan saya)*.
-  - Forex & emas: **≤ k × ATR(14) D1** pair itu, dengan k = 20 ÷ rata-rata ATR% harian BTC ([D-09](00-aturan-global.md#d-09--angka-persen-kripto-di-forex)).
+  - Forex & emas: **≤ k × ATR(14) D1** pair itu, dengan k = 20 ÷ 3,36 ≈ 5,95 ([D-09](00-aturan-global.md#d-09--angka-persen-kripto-di-forex), Q-50).
 - Batas atas range = high tertinggi; batas bawah = low terendah.
 - Angka 20 candle, 20%, dan k **tidak divariasikan** (tanpa 0,5k/1,5k), supaya jumlah percobaan KMS-02 tetap kecil.
 

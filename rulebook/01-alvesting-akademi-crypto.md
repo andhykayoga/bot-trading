@@ -620,7 +620,7 @@ Mentor: tunggu setup pivot-nya siap, jangan asal masuk ([AC_crypto_44 L285–L29
 
 **Setting (Q-24):** bawaan TradingView yang dipakai mentor: garis tengah **EMA 20**, ATR **10**, pengali **2**. Pita atas = EMA + 2 × ATR, pita bawah = EMA − 2 × ATR ([AC_crypto_44 L340–L369](../materi/mentah/AC_crypto_44.txt#L340-L369)). Mentor sempat menyebut SMA, tetapi angka yang ia sebut persis setting bawaan TradingView yang memakai EMA ([AC_crypto_44 L362–L365](../materi/mentah/AC_crypto_44.txt#L362-L365)).
 
-Mode tren dan mode pantulan bisa memberi sinyal berlawanan di saat yang sama. Karena itu keduanya dijadikan **dua setup terpisah** dan diuji sendiri-sendiri. **Di live, hanya satu yang aktif per instrumen**, dipilih dari hasil di data pemilihan ([G-17](00-aturan-global.md#g-17--parameter-uji-dan-pemilihan-varian)) (Q-24).
+Mode tren dan mode pantulan bisa memberi sinyal berlawanan di saat yang sama. Karena itu keduanya dijadikan **dua setup terpisah** dan diuji sendiri-sendiri. **Di live, hanya satu yang aktif**, dipilih **per pasar** (forex, kripto; Q-50) dari hasil di data pemilihan ([G-17](00-aturan-global.md#g-17--parameter-uji-dan-pemilihan-varian)) (Q-24).
 
 #### AFS-13A · Mode tren
 
@@ -830,7 +830,16 @@ Order flow butuh data transaksi per level harga (*footprint*). Data ini tersedia
 |---|---|
 | Sumber | [AC_crypto_57 L2713–L3272](../materi/mentah/AC_crypto_57.txt#L2713-L3272), [AC_crypto_59 L2360–L2639](../materi/mentah/AC_crypto_59.txt#L2360-L2639), [AC_crypto_58 L3879–L3946](../materi/mentah/AC_crypto_58.txt#L3879-L3946) |
 | Pasar | K |
-| Status | 🟡 (definisinya jelas, tetapi entry/SL/TP tidak disebut; paling cocok sebagai sinyal tambahan) → [Q-51](09-pertanyaan-untuk-anda.md#q-51--order-flow-afs-22) |
+| Status | ⏸ ditunda di versi pertama (Q-51) |
+
+**Kenapa ditunda (Q-51):**
+
+- Bot sekarang hanya forex, dan data order flow tidak ada di forex spot.
+- Mentor tidak menyebut entry, SL, dan TP, jadi aturan filternya harus dikarang sendiri.
+- Datanya per transaksi, jauh lebih besar dan berat daripada data candle.
+
+Dibuka lagi saat kripto ditambahkan, sebagai **kandidat filter tambahan** untuk setup kripto (misalnya long hanya diizinkan kalau delta candle pemicu positif), yang diuji dengan aturan [G-17](00-aturan-global.md#g-17--parameter-uji-dan-pemilihan-varian).
+
 
 | Sinyal | Definisi dari mentor | Arti |
 |---|---|---|

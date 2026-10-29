@@ -20,7 +20,7 @@ Isinya berasal dari dua sumber: **kata mentor** (dengan tautan ke transkrip) dan
 
 **Aturan:**
 
-1. Kerugian maksimal **satu** transaksi, jika kena stop loss, adalah **1% dari saldo akun bot**. Akun bot hanya berisi uang trading (Q-01).
+1. Kerugian maksimal **satu** transaksi, jika kena stop loss, adalah **1% dari saldo akun bot**. Akun bot hanya berisi uang trading (Q-01). Akun forex dan akun kripto masing-masing memakai saldonya sendiri ([G-16](#g-16--jenis-akun-dan-leverage), Q-49).
 2. Posisi berlabel **scalping** ([D-11](#d-11--label-posisi-scalping-atau-trading)): **0,5%**. Ini batas bawah Alvesting, karena scalping lebih sering bertransaksi dan biayanya lebih besar (Q-01).
 3. Ukuran posisi (lot/kontrak) **dihitung dari** jarak stop loss, bukan sebaliknya:
 
@@ -147,12 +147,12 @@ Alvesting juga memakai CHoCH berlawanan arah untuk mengamankan sebagian profit (
 
 **Aturan (Q-06):**
 
-1. Maksimal **3 transaksi baru per hari**, semua instrumen digabung. Di bawah batas itu, frekuensi mengikuti mentor masing-masing setup.
+1. Maksimal **3 transaksi baru per hari**, semua instrumen di satu akun digabung. Di bawah batas itu, frekuensi mengikuti mentor masing-masing setup.
 2. Maksimal **1 posisi per instrumen** dan **3 posisi bersamaan**. **BTC dan ETH yang searah dihitung satu posisi**, karena geraknya sangat mirip.
 3. **Total risiko terbuka** (jumlah kerugian kalau semua posisi kena SL) maksimal **3%**.
 4. Kalau dua setup memberi sinyal di instrumen yang sama, yang **lebih dulu** terpicu yang dipakai. Sinyal lain diabaikan selama posisi itu masih terbuka. *(Usulan saya, konsekuensi dari butir 2.)*
 
-"Hari" mengikuti batas di [D-12](#d-12--batas-hari-minggu-dan-candle) (Q-44). Apakah batas ini dihitung gabungan untuk akun forex dan akun kripto, atau terpisah per akun → [Q-49](09-pertanyaan-untuk-anda.md#q-49--forex-dan-kripto-batas-digabung-atau-terpisah).
+"Hari" mengikuti batas di [D-12](#d-12--batas-hari-minggu-dan-candle) (Q-44). Semua batas di sini dihitung **per akun**: akun forex dan akun kripto masing-masing punya 3 transaksi per hari, 3 posisi, dan risiko terbuka 3% dari saldonya sendiri ([G-16](#g-16--jenis-akun-dan-leverage), Q-49).
 
 Yang dikatakan mentor:
 
@@ -175,6 +175,8 @@ Yang dikatakan mentor:
 | Kripto (**K**) | **BTC**, **ETH** |
 
 Pair contoh Ichimoku Rafał (AUD/CHF, USD/JPY, USD/TRY) tidak dipakai dulu; USD/TRY tidak likuid (Q-02). Altcoin tidak dipakai di versi pertama (Q-25).
+
+**Tahap sekarang: bot hanya forex** (EURUSD, XAUUSD). Kripto ditambahkan nanti; data kripto belum perlu diunduh (Q-50, Q-51).
 
 Dasar dari mentor:
 
@@ -285,9 +287,9 @@ Tidak ada mentor yang menyebut batas ini. Angkanya dari Anda (Q-05, Q-44).
 
 **Arti "berhenti total" (Q-44):** bot **tidak membuka posisi baru**. Posisi yang sudah ada **tetap diurus** sesuai aturannya: SL/TP-nya tersimpan dan dijalankan di server broker ([MetaTrader 5](https://www.metatrader5.com/en/terminal/help/trading/performing_deals)), dan posisi scalping tetap ditutup setelah 3 jam atau sebelum berita. Selama koneksi putus, SL/TP tetap jalan di server, tetapi bot tidak bisa menutup posisi scalping tepat waktu; karena itu ada langkah (2) di atas.
 
-**Tombol stop darurat manual** yang Anda tekan sendiri (tahap 3) **menutup semua posisi**.
+**Per akun (Q-49):** semua batas di atas dihitung dari saldo dan batas hari akun masing-masing ([G-16](#g-16--jenis-akun-dan-leverage)). Batas drawdown memakai drawdown terburuk di backtest pasar akun itu. Rem darurat satu akun **tidak** menghentikan akun lain, karena setupnya berbeda.
 
-Apakah batas ini dihitung gabungan untuk akun forex dan akun kripto, atau terpisah per akun → [Q-49](09-pertanyaan-untuk-anda.md#q-49--forex-dan-kripto-batas-digabung-atau-terpisah).
+**Tombol stop darurat manual** yang Anda tekan sendiri (tahap 3) **menutup semua posisi di kedua akun**.
 
 ---
 
@@ -308,6 +310,16 @@ Akibatnya:
 
 Patokan dari Anda: ESMA membatasi trader ritel **30×** untuk pair mayor, **20×** untuk emas, dan **2×** untuk kripto.
 
+**Batas dihitung per akun (Q-49).** Forex (akun broker) dan kripto (exchange) adalah dua akun terpisah. Tiap akun memakai **saldonya sendiri** dan **batas harinya sendiri** ([D-12](#d-12--batas-hari-minggu-dan-candle)) untuk semua batas:
+
+- risiko per transaksi ([G-01](#g-01--risiko-per-transaksi-maksimal-1));
+- 3 transaksi baru per hari, 3 posisi, dan risiko terbuka 3% ([G-08](#g-08--jangan-overtrading));
+- rem harian 3%, rem mingguan 6%, dan batas drawdown ([G-15](#g-15--rem-darurat)).
+
+Semua batas dalam persen saldo tiap akun, jadi kalau dijumlah tidak pernah melebihi persen yang sama dari total modal. Contoh: risiko terbuka 3% di akun forex + 3% di akun kripto = paling banyak 3% dari total modal. Rem darurat satu akun tidak menghentikan akun lain; hanya tombol stop darurat manual yang menutup semua posisi di kedua akun.
+
+**Tahap sekarang** bot hanya memakai akun forex ([G-09](#g-09--hanya-instrumen-yang-likuid)).
+
 ---
 
 ## G-17 · Parameter uji dan pemilihan varian
@@ -322,7 +334,9 @@ Patokan dari Anda: ESMA membatasi trader ritel **30×** untuk pair mayor, **20×
 | **Pemilihan** | 20% berikutnya | Memilih nilai parameter dan varian (aturan di butir 4). |
 | **Uji akhir** | 20% paling baru | Tidak dilihat sampai semua pilihan dikunci, lalu dijalankan **sekali**. Hasil inilah yang dilaporkan sebagai "hasil di data yang tidak dipakai saat menyusun strategi". |
 
-- Periode dan tanggal potongnya **sama untuk semua instrumen**. Data dipakai sepanjang yang tersedia dan rapi, idealnya **sejak 2010** ([G-14](#g-14--backtest-dulu-dan-nilai-hasilnya-dengan-data)). Data kripto tidak ada sejak 2010 → [Q-50](09-pertanyaan-untuk-anda.md#q-50--pemilihan-varian-per-instrumen-atau-gabungan).
+- Periode dan tanggal potong 60/20/20 dihitung **per pasar**, dan sama untuk semua instrumen dalam satu pasar (Q-42, Q-50). Data dipakai sepanjang yang tersedia dan rapi ([G-14](#g-14--backtest-dulu-dan-nilai-hasilnya-dengan-data)):
+  - **Forex & emas:** sejak **2010**.
+  - **Kripto:** sejak BTC dan ETH **sama-sama tersedia** di exchange yang dipakai (contoh Binance: 2017). Data kripto belum perlu diunduh sekarang, karena bot masih forex saja.
 - Alasannya: data yang dipakai untuk memilih membuat hasilnya terlalu bagus. Bailey dkk. (2014) juga menunjukkan metode *hold-out* tidak memperhitungkan berapa banyak percobaan sebelum model dipilih ([Bailey dkk.](https://carmamaths.org/jon/backtest.pdf)). Karena itu laporan juga mencatat **berapa varian yang dicoba** untuk tiap setup.
 
 ### 2. Rentang uji
@@ -343,12 +357,18 @@ Patokan dari Anda: ESMA membatasi trader ritel **30×** untuk pair mayor, **20×
 3. Kalau nilai awal tidak memenuhi butir 1, atau kalau pasangan variannya **setara** (tidak ada default; ditandai "setara" di tabel bawah), pilih varian yang memenuhi butir 1 dengan Recovery Factor **terbaik di data pemilihan**.
 4. Kalau tidak ada varian yang memenuhi butir 1, setup dilaporkan **"belum bisa dinilai"** (bukan gagal) dan belum dipakai.
 
-Apakah pilihan ini dibuat per instrumen atau satu untuk semua instrumen → [Q-50](09-pertanyaan-untuk-anda.md#q-50--pemilihan-varian-per-instrumen-atau-gabungan).
+### 5. Pilihan dibuat per pasar (Q-50)
 
-### 5. Uji akhir (Q-42)
+- Satu pilihan untuk **forex** (EURUSD dan XAUUSD digabung) dan satu untuk **kripto** (BTC dan ETH digabung). Recovery Factor dan syarat 30 transaksi dihitung dari **gabungan transaksi instrumen yang aktif** di pasar itu.
+- Alasannya: aturan mentor sama untuk semua instrumen. Kalau dipilih per instrumen, jumlah percobaan bertambah (Bailey dkk.) dan syarat 30 transaksi lebih sulit dipenuhi.
+- Laporan tetap menampilkan hasil **per instrumen**. Setup boleh **dimatikan di satu instrumen** kalau di instrumen itu rugi, baik di data penyusunan maupun di data pemilihan. Parameternya **tidak** diatur ulang per instrumen.
+- Keltner: mode AFS-13A atau AFS-13B juga dipilih **per pasar**.
+- Urutannya *(usulan saya)*: (1) pilih nilai dan varian dengan semua instrumen di pasar itu; (2) dengan pilihan itu, lihat hasil per instrumen dan matikan instrumen yang rugi di kedua bagian; (3) uji akhir dengan instrumen yang masih aktif. Pilihan di langkah (1) tidak diulang setelah ada instrumen yang dimatikan.
+
+### 6. Uji akhir (Q-42)
 
 - Setelah semua pilihan dikunci, data uji akhir dijalankan **sekali**.
-- Setup **lolos** kalau di uji akhir **untung bersih setelah biaya** dengan **minimal 30 transaksi**. Selain itu, setup **tidak lolos**.
+- Setup **lolos** kalau di uji akhir **untung bersih setelah biaya** dengan **minimal 30 transaksi**, dihitung dari gabungan instrumen yang aktif di pasar itu. Selain itu, setup **tidak lolos**.
 - Setup **tidak boleh diubah lalu diuji ulang** di data uji akhir yang sama, karena data itu jadi tidak bersih lagi.
 - Setup yang lolos masih diuji di **akun demo** sebelum memakai uang sungguhan (Q-03).
 
@@ -357,7 +377,7 @@ Apakah pilihan ini dibuat per instrumen atau satu untuk semua instrumen → [Q-5
 | Parameter | Dipakai di | Nilai awal | Nilai yang diuji | Dasar |
 |---|---|---|---|---|
 | Jarak tambahan SL | semua setup (G-02) | 1 × ATR(14) | 0,5× · 1× · 1,5× | Q-11 |
-| Faktor k persen→ATR (forex) | AFS-04, AFS-09 di forex (D-09) | k = persen ÷ ATR% BTC | 0,5k · k · 1,5k | Q-10 |
+| Faktor k persen→ATR (forex) | AFS-04, AFS-09 di forex (D-09) | k = persen ÷ 3,36 | 0,5k · k · 1,5k | Q-10, Q-50 |
 | Pantulan varian konfirmasi | AFS-04 | — | 3% · 4% · 5% (rentang mentor) | mentor, Q-09 |
 | Selisih maksimal puncak double/triple | AFS-03 | 0,5 × ATR(14) | 0,25× · 0,5× · 0,75× | Q-23 |
 | Stop hunt: tembus minimal | AFS-06 | 0,1 × ATR(14) | 0,05× · 0,1× · 0,15× | Q-20 |
@@ -384,7 +404,7 @@ Apakah pilihan ini dibuat per instrumen atau satu untuk semua instrumen → [Q-5
 | AFS-05, AFS-13A, AFS-13B, AFS-16 | — | timeframe H1 · H4 · D1 — **setara**, dipilih lebih dulu | Q-47 |
 | AFS-06 | — | (a) masuk saat candle BMS close · (b) limit order di OB/FVG — **setara** | Q-20 |
 | AFS-12 | — | SL di bawah P · SL di bawah S1 — **setara** | Q-22 |
-| AFS-13 | — | AFS-13A (mode tren) · AFS-13B (mode pantulan) — diuji terpisah, **setara**; di live hanya satu yang aktif per instrumen | Q-24 |
+| AFS-13 | — | AFS-13A (mode tren) · AFS-13B (mode pantulan) — diuji terpisah, **setara**; di live hanya satu yang aktif, dipilih per pasar | Q-24, Q-50 |
 | AFS-19 | — | POC minggu lalu (chart H1) · POC bulan lalu (chart H4/D1) — **setara** | Q-24 |
 | ICH-01 – ICH-03 | SL di balik Kijun + ATR | SL di balik swing terakhir + ATR | Q-35 |
 | PLN-01 | entry 18.00–23.59 WIB | tanpa batas jam | Q-34, Q-44 |
@@ -420,7 +440,7 @@ Dari Q-12 (fractal 2 kiri, 2 kanan):
 
 - **ATR(14)** dengan rumus bawaan TradingView (rata-rata Wilder).
 - Selalu diambil dari **timeframe level/swing yang bersangkutan** (Q-11, Q-17).
-- **ATR%** = ATR ÷ harga close × 100. Dipakai di D-09.
+- **ATR%** = ATR ÷ harga close × 100: cara mentor menyatakan ATR di kripto (contoh BTC 3,36%, dipakai sebagai angka tetap di D-09).
 
 ### D-04 · Zona support dan resistance
 
@@ -475,13 +495,14 @@ Dari Q-10:
 - **Forex & emas:** angka persen diganti dengan **k × ATR(14) harian** instrumen itu, dengan
 
   ```
-  k = persen mentor ÷ rata-rata ATR%(14) harian BTC selama periode data penyusunan
+  k = persen mentor ÷ 3,36
   ```
 
-- **Contoh hitungan:** kalau rata-rata ATR% harian BTC = 3,36% (angka contoh mentor, [AC_crypto_59 L2841](../materi/mentah/AC_crypto_59.txt#L2841)), maka untuk aturan 3%: k = 3 ÷ 3,36 ≈ 0,89. Kalau ATR harian EURUSD 70 pip, ambangnya 0,89 × 70 ≈ 62 pip.
+- **3,36** adalah ATR BTC (dalam persen) yang disebut mentor sendiri ([AC_crypto_59 L2838–L2851](../materi/mentah/AC_crypto_59.txt#L2838-L2851)). Dengan angka tetap ini, backtest forex **tidak butuh data kripto** (Q-50). Sebelumnya k dihitung dari rata-rata ATR% harian BTC di periode backtest (Q-10).
+- **Contoh hitungan:** untuk aturan 3%: k = 3 ÷ 3,36 ≈ 0,89. Kalau ATR harian EURUSD 70 pip, ambangnya 0,89 × 70 ≈ 62 pip.
 - Dipakai di:
   - [AFS-09](01-alvesting-akademi-crypto.md#afs-09--validasi-tembus-3-dow-theory) (3%) dan [AFS-04](01-alvesting-akademi-crypto.md#afs-04--pantulan-golden-pocket-fibonacci) varian konfirmasi (3–5%): backtest menguji **0,5k, k, 1,5k** (G-17).
-  - [KMS-02](02-kalimasada-akademi-crypto.md#kms-02--wyckoff-breakout-range--retest), lebar maksimal range 20%: k = 20 ÷ ATR% BTC, **tanpa** variasi 0,5k/1,5k (Q-48).
+  - [KMS-02](02-kalimasada-akademi-crypto.md#kms-02--wyckoff-breakout-range--retest), lebar maksimal range 20%: k = 20 ÷ 3,36 ≈ 5,95, **tanpa** variasi 0,5k/1,5k (Q-48).
 
 ### D-10 · Konvensi eksekusi
 
@@ -527,7 +548,7 @@ Dari Q-44:
 - Banyak broker MT5 memakai jam server yang tengah malamnya jatuh di 17.00 New York ([MQL5](https://www.mql5.com/en/blogs/post/774934)). Kalau jam server broker nanti berbeda, bot **membentuk candle sendiri** dengan batas ini supaya sama dengan backtest.
 - **Bulan** (untuk PMH/PML di AFS-06 – AFS-08) dimulai di awal hari pertama bulan kalender, dengan batas hari di atas. *(Usulan saya.)*
 - Dipakai oleh: batas transaksi per hari ([G-08](#g-08--jangan-overtrading)), rem darurat ([G-15](#g-15--rem-darurat)), pivot harian dan mingguan (AFS-12), PDH/PDL/PWH/PWL (AFS-06 – AFS-08), ATR harian (D-09), dan semua setup D1/W1.
-- Apakah batas G-08 dan G-15 dihitung gabungan untuk akun forex dan akun kripto, atau terpisah per akun → [Q-49](09-pertanyaan-untuk-anda.md#q-49--forex-dan-kripto-batas-digabung-atau-terpisah).
+- Tiap akun memakai batas hari pasarnya sendiri: akun forex 17.00 New York, akun kripto 00.00 UTC ([G-16](#g-16--jenis-akun-dan-leverage), Q-49).
 
 ---
 

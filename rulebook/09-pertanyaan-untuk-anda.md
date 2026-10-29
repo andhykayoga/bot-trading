@@ -2,7 +2,7 @@
 
 Bagian-bagian di bawah ini **tidak saya tebak**, karena mentor tidak menyebutnya, menyebutnya dengan kabur, atau para mentor berbeda pendapat. Jawaban Anda akan mengubah label 🟡 di rulebook menjadi 🟢.
 
-> **Status:** Q-01 – Q-48 **sudah dijawab**. Jawabannya ada di [10-jawaban.md](10-jawaban.md) dan sudah diterapkan ke rulebook. Teks pertanyaannya dibiarkan seperti aslinya sebagai catatan. Yang **masih terbuka** hanya [Bagian 9 (Q-49 – Q-51)](#bagian-9--pertanyaan-lanjutan-kedua). Tidak ada setup lain yang menunggu bagian ini, kecuali AFS-22.
+> **Status:** semua pertanyaan, Q-01 – Q-51, **sudah dijawab**. Jawabannya ada di [10-jawaban.md](10-jawaban.md) dan sudah diterapkan ke rulebook. Teks pertanyaannya dibiarkan seperti aslinya sebagai catatan. Saat ini **tidak ada pertanyaan terbuka**.
 
 **Cara menjawab:** cukup tulis nomornya dan pilihan Anda, misalnya `Q-01: A, scalping 0,5%`. Kalau tidak ada pilihan yang cocok, tulis jawaban sendiri. Kalau belum yakin, tulis "uji dulu" — artinya angka itu akan dicari lewat backtest.
 
@@ -16,7 +16,7 @@ Bagian-bagian di bawah ini **tidak saya tebak**, karena mentor tidak menyebutnya
 6. [Saham (Q-37)](#bagian-6--saham)
 7. [Filter waktu Astronacci & Hosoda (Q-38 – Q-41)](#bagian-7--filter-waktu)
 8. [Pertanyaan lanjutan (Q-42 – Q-48)](#bagian-8--pertanyaan-lanjutan)
-9. [**Pertanyaan lanjutan kedua (Q-49 – Q-51) — masih terbuka**](#bagian-9--pertanyaan-lanjutan-kedua)
+9. [Pertanyaan lanjutan kedua (Q-49 – Q-51)](#bagian-9--pertanyaan-lanjutan-kedua)
 
 ---
 
@@ -614,6 +614,8 @@ Mentor tidak menyebut timeframe untuk setup berikut:
 ---
 
 ## Bagian 9 — Pertanyaan lanjutan kedua
+
+*Sudah dijawab → [10 · Bagian 9](10-jawaban.md#bagian-9--pertanyaan-lanjutan-kedua).*
 
 Pertanyaan ini muncul saat menerapkan jawaban Q-42 – Q-48. Tidak ada yang menghambat setup, kecuali Q-51 untuk AFS-22.
 
