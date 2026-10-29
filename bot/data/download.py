@@ -15,8 +15,10 @@ Sumber:
   (data-api.binance.vision), Fear & Greed Index (alternative.me).
 
 - Candle 1 jam BTC/ETH dengan volume beli taker (order flow) dan data token baru Binance (TGE).
+- Harga harian, dividen, dan split saham BEI (LQ45 2018) + IHSG dari Yahoo Finance.
 
-Jalankan: python -m bot.data.download [forex forex_uji forex_riset crypto riset harian kripto_harian orderflow tge]
+Jalankan: python -m bot.data.download [forex forex_uji forex_riset crypto riset harian kripto_harian orderflow tge
+idx]
 """
 from __future__ import annotations
 
@@ -237,6 +239,44 @@ def download_orderflow() -> None:
         print(f"orderflow: {sym} {len(df)} jam sejak {df.t.iloc[0]}")
 
 
+# Konstituen LQ45 periode Agustus 2018 – Januari 2019 (daftar tetap, termasuk saham yang kemudian ambruk).
+LQ45_2018 = ["ADHI", "ADRO", "AKRA", "ANTM", "ASII", "BBCA", "BBNI", "BBRI", "BBTN", "BJBR", "BKSL", "BMRI", "BRPT",
+             "BSDE", "ELSA", "EXCL", "GGRM", "HMSP", "ICBP", "INCO", "INDF", "INDY", "INKP", "INTP", "ITMG", "JSMR",
+             "KLBF", "LPKR", "LPPF", "MEDC", "MNCN", "PGAS", "PTBA", "PTPP", "SCMA", "SMGR", "SRIL", "SSMS", "TLKM",
+             "TPIA", "UNTR", "UNVR", "WIKA", "WSBP", "WSKT"]
+
+
+def download_idx() -> None:
+    """Harga harian, dividen, dan split saham LQ45_2018 + IHSG sejak 2014 dari Yahoo Finance (chart API).
+    Saham yang sudah dihapus Yahoo (mis. SRIL, WSKT) dicatat di gagal.txt."""
+    out = DATA / "idx"
+    out.mkdir(parents=True, exist_ok=True)
+    aksi, gagal = [], []
+    for kode, yahoo in [("IHSG", "%5EJKSE"), *((k, f"{k}.JK") for k in LQ45_2018)]:
+        url = (f"https://query1.finance.yahoo.com/v8/finance/chart/{yahoo}?period1=1388534400"
+               f"&period2={int(time.time())}&interval=1d&events=div%2Csplit")
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+            r = json.loads(urllib.request.urlopen(req, timeout=60).read())["chart"]["result"][0]
+        except Exception as e:  # noqa: BLE001 - catat lalu lanjut ke saham berikutnya
+            gagal.append(f"{kode}: {e}")
+            continue
+        q = r["indicators"]["quote"][0]
+        df = pd.DataFrame({"t": pd.to_datetime(r["timestamp"], unit="s").normalize(), "o": q["open"], "h": q["high"],
+                           "l": q["low"], "c": q["close"], "v": q["volume"],
+                           "adj": r["indicators"]["adjclose"][0]["adjclose"]}).dropna(subset=["c"])
+        df.to_parquet(out / f"{kode}.parquet", index=False)
+        for jenis, ev in r.get("events", {}).items():
+            for e in ev.values():
+                nilai = e["amount"] if jenis == "dividends" else e["numerator"] / e["denominator"]
+                aksi.append((kode, pd.to_datetime(e["date"], unit="s").date(), jenis, nilai))
+        print(f"idx: {kode} {len(df)} hari sejak {df.t.iloc[0].date()}")
+    pd.DataFrame(aksi, columns=["kode", "tanggal", "jenis", "nilai"]).sort_values(["kode", "tanggal"]).to_csv(
+        out / "aksi_korporasi.csv", index=False)
+    (out / "gagal.txt").write_text("\n".join(gagal) or "semua berhasil")
+    print("idx gagal:", gagal or "tidak ada")
+
+
 def download_tge() -> None:
     """Tanggal listing semua pasangan USDT di Binance spot + candle harian token yang punya valuasi (LIVE-02)."""
     out = DATA / "tge"
@@ -259,7 +299,7 @@ def download_tge() -> None:
 def main(markets: list[str] | None = None) -> None:
     for nama, fungsi in [("riset", download_riset), ("harian", download_harian),
                          ("kripto_harian", download_kripto_harian), ("orderflow", download_orderflow),
-                         ("tge", download_tge)]:
+                         ("tge", download_tge), ("idx", download_idx)]:
         if markets and nama in markets:
             fungsi()
             markets = [m for m in markets if m != nama]

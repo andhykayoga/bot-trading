@@ -53,26 +53,11 @@ Supaya angkanya terbaca tepat:
 Kalau 45 saham terlalu banyak sekaligus, kirim bertahap (misalnya 5–10 saham per kiriman). Saya mulai menghitung
 setelah semuanya lengkap.
 
-## Paket 2 — harga harian, dividen, dan split (2014–2026)
+## Paket 2 — harga harian, dividen, dan split (2014–2026): **tidak perlu dikirim**
 
-Stockbit tidak menyediakan unduhan harga historis, jadi pakai salah satu cara ini:
-
-- **Cara A (paling lengkap, perlu Python di komputer Anda):** ambil file `scripts/ambil_data_idx.py` dari repo,
-  lalu jalankan:
-
-  ```bash
-  pip install yfinance pandas
-  ```
-
-  ```bash
-  python ambil_data_idx.py
-  ```
-
-  Hasilnya `data_idx.zip` (harga, dividen, split, dan IHSG untuk 45 saham).
-- **Cara B (tanpa Python):** Google Sheets, satu sheet per saham, isi sel A1 dengan
-  `=GOOGLEFINANCE("IDX:BBCA"; "all"; DATE(2014;1;1); TODAY(); "DAILY")` (ganti kodenya; kalau `IDX:` tidak jalan,
-  coba tanpa awalan). Lalu File → Download → CSV, beri nama `KODE.csv`. Cara ini tidak memuat dividen, jadi untuk
-  dividen salin riwayatnya dari Stockbit (tab Corporate Action / Keystats → Dividen) ke `KODE_dividen.csv`.
+Sudah saya ambil sendiri dari Yahoo Finance (`python -m bot.data.download idx`): 43 dari 45 saham plus IHSG, lengkap
+dengan dividen dan stock split. Dua saham yang sudah dihapus Yahoo (SRIL dan WSKT, keduanya disuspensi lalu
+bermasalah) akan saya lengkapi dari pengumuman suspensi/delisting, dan perlakuannya ditulis di pra-registrasi.
 
 ## Paket 3 — bandarmologi Ko Hengki (broker summary harian)
 
