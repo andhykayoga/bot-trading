@@ -102,6 +102,24 @@ def tsmom_positions(market: str, long_only: bool) -> list[dict]:
     return out
 
 
+def kripto_spot_tren() -> list[dict]:
+    """Status hari ini untuk aturan spot tanpa leverage dari reports/LAPORAN_MODUL_BARU.md:
+    A1 (pegang selama close di atas SMA 200) dan B6 (trailing stop 10%, masuk lagi di tertinggi 20 hari)."""
+    from bot.research import kripto_investasi as ki
+    ki.harga.cache_clear()
+    kemarin = (pd.Timestamp.now(tz="UTC").normalize() - pd.Timedelta(days=1)).tz_localize(None)
+    out = []
+    for coin in ("BTC", "ETH"):
+        c = ki.harga(coin)["c"].loc[:kemarin]            # candle hari ini belum close: tidak dipakai
+        sma = c.rolling(200).mean()
+        b6 = ki.b6_trailing(coin, 0.10, akhir=str(kemarin.date()))
+        out.append({"koin": coin, "tanggal_close": c.index[-1].date(), "close": round(float(c.iloc[-1]), 2),
+                    "SMA_200": round(float(sma.iloc[-1]), 2),
+                    "A1_filter_tren": "PEGANG" if c.iloc[-1] > sma.iloc[-1] else "STABLECOIN",
+                    "B6_trailing_10%": "PEGANG" if b6.iloc[-1] else "STABLECOIN"})
+    return out
+
+
 def main():
     cfg = tomllib.loads((ROOT / "config" / "sinyal.toml").read_text())
     bal, risk = float(cfg["saldo_usd"]), float(cfg["risiko_per_transaksi"])
@@ -121,6 +139,11 @@ def main():
         if mcfg.get("tsmom"):
             lines.append(f"## Posisi patokan time-series momentum — {market} (ubah hanya di akhir bulan)\n")
             lines.append(md_table(tsmom_positions(market, bool(mcfg.get("tsmom_long_only")))) + "\n")
+    if cfg.get("kripto_spot", {}).get("aktif"):
+        lines.append("## Kripto spot tanpa leverage — aturan tren (eksekusi di open besok, 07.00 WIB)\n")
+        lines.append(md_table(kripto_spot_tren()) + "\n")
+        lines.append("Perbarui data dulu: `python -m bot.data.download kripto_harian`. Hanya untuk porsi kecil uang yang "
+                     "siap turun 40–60%; lihat reports/LAPORAN_MODUL_BARU.md.\n")
     lines += ["## Aturan yang Anda jaga sendiri\n",
               "- Maks 3 transaksi baru per hari, 1 posisi per instrumen, total risiko terbuka maks 3% (G-08). Kalau ada "
               "beberapa sinyal di instrumen yang sama, ambil paling banyak satu; sinyal yang berlawanan arah di candle "

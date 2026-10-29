@@ -116,6 +116,39 @@ def test_ea_grid_basket_math():
     assert np.isclose(k.nilai(2000.0, 0.4), OZ * (0.01 * -0.2 + 0.02 * 9.8))
 
 
+def test_harmonic_ratios_follow_rulebook():
+    from bot.setups.pola import AFS11B, AFS11C, AFS11F, AFS11G
+    assert AFS11G().rasio_ok(0.55, 0.6, 0.79, 1.5) and not AFS11G().rasio_ok(0.7, 0.6, 0.79, 1.5)
+    assert AFS11B().rasio_ok(0.6, 0.5, 0.88, 2.0) and not AFS11B().rasio_ok(0.6, 0.5, 0.80, 2.0)
+    assert AFS11C().rasio_ok(0.5, 0.5, 1.6, 2.5) and not AFS11C().rasio_ok(0.5, 0.5, 1.4, 2.5)
+    assert AFS11F().rasio_ok(0.79, 0.5, 1.27, 2.0) and not AFS11F().rasio_ok(0.79, 0.95, 1.27, 2.0)
+
+
+def test_zigzag_keeps_most_extreme_of_same_kind():
+    from types import SimpleNamespace
+    from bot.setups.pola import zigzag_events
+    h = np.array([1, 2, 5, 3, 4, 3, 6, 2, 1, 0, 1, 2.0])
+    lo = h - 0.5
+    sh, sl = ind.swings(h, lo)
+    memo = {}
+    ctx = SimpleNamespace(b=SimpleNamespace(h=h, l=lo), sw=SimpleNamespace(sh=sh, sl=sl),
+                          _memo=lambda k, fn: memo.setdefault(k, fn()))
+    ev = zigzag_events(ctx)
+    t_last, seq = ev[-1]
+    # high 5 (indeks 2) dan high 6 (indeks 6) berurutan tanpa low yang diakui di antaranya → disimpan yang 6
+    assert [s[2] for s in seq] == [1, -1] and seq[0][:2] == (6, 6.0) and t_last == seq[-1][0] + 2
+
+
+def test_new_layak_rules():
+    from bot.research.kripto_investasi import layak
+    from bot.research.multi_aset import layak as layak_ma
+    pat = {"sharpe": 0.6, "dd": 80.0}
+    st = {"sharpe": 0.7, "dd": 60.0, "sub": {"a": 1, "b": -1, "c": 2}}
+    assert layak(st, pat)["lolos"] and not layak(dict(st, dd=85.0), pat)["lolos"]
+    ok = {"t": 2.1, "sub": {"a": 1, "b": 1, "c": -1}, "cagr": 3.0, "dd": 19.0}
+    assert layak_ma(ok)["lolos"] and not layak_ma(dict(ok, dd=24.0))["lolos"]
+
+
 def test_tsmom_stats_cagr():
     import pandas as pd
     from bot.research.tsmom import stats

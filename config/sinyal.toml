@@ -18,6 +18,10 @@ tsmom_long_only = true    # akun kripto versi pertama hanya spot (G-16)
 "AFS-20B" = { sl_atr = 1.0, retest = 10 }
 "HKI-01-H4" = { style = "breakout", sl_atr = 1.0 }
 
+[kripto_spot]
+# Aturan spot tanpa leverage dari reports/LAPORAN_MODUL_BARU.md (A1 SMA 200, B6 trailing stop 10%).
+aktif = true
+
 [pasar.forex]
 # Tidak ada setup forex yang lolos. Tambahkan ID setup di sini kalau ingin mengamati di demo.
 setup = []

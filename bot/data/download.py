@@ -11,7 +11,10 @@ Sumber:
 
 - Data riset jangka panjang (Damodaran, Kenneth French, FRED) untuk rencana investasi.
 
-Jalankan: python -m bot.data.download [forex forex_uji crypto riset]
+- Candle harian multi-aset OANDA (folder D/), candle harian spot Binance untuk altcoin/meme
+  (data-api.binance.vision), Fear & Greed Index (alternative.me).
+
+Jalankan: python -m bot.data.download [forex forex_uji forex_riset crypto riset harian kripto_harian]
 """
 from __future__ import annotations
 
@@ -150,12 +153,74 @@ def download_riset() -> None:
         print(f"riset: {name}")
 
 
+MULTI_ASET = [
+    "SPX500USD_US-SPX-500", "NAS100USD_US-Nas-100", "US2000USD_US-Russ-2000", "DE30EUR_Germany-30",
+    "UK100GBP_UK-100", "FR40EUR_France-40", "EU50EUR_Europe-50", "JP225USD_Japan-225", "AU200AUD_Australia-200",
+    "HK33HKD_Hong-Kong-33",
+    "USB02YUSD_US-2Y-T-Note", "USB05YUSD_US-5Y-T-Note", "USB10YUSD_US-10Y-T-Note", "USB30YUSD_US-T-Bond",
+    "DE10YBEUR_Bund", "UK10YBGBP_UK-10Y-Gilt",
+    "XAUUSD_Gold", "XAGUSD_Silver", "XPTUSD_Platinum", "XCUUSD_Copper", "WTICOUSD_West-Texas-Oil",
+    "BCOUSD_Brent-Crude-Oil", "NATGASUSD_Natural-Gas", "CORNUSD_Corn", "SOYBNUSD_Soybeans", "WHEATUSD_Wheat",
+    "SUGARUSD_Sugar",
+    "EURUSD_EURUSD", "GBPUSD_GBPUSD", "USDJPY_USDJPY", "AUDUSD_AUDUSD", "USDCAD_USDCAD", "USDCHF_USDCHF",
+    "NZDUSD_NZDUSD",
+]
+ALTCOIN = ["ETH", "BNB", "XRP", "ADA", "SOL", "DOT", "LTC", "BCH", "EOS", "TRX", "XLM", "LINK", "ETC", "NEO", "IOTA",
+           "VET", "ATOM", "AVAX", "MATIC", "FIL", "UNI", "NEAR", "ICP", "APT", "ARB", "OP", "SUI", "TON", "XMR", "ZEC",
+           "DASH", "ALGO", "AAVE", "SAND", "MANA", "AXS", "LUNA", "FTT", "XTZ", "HBAR"]
+MEME = ["DOGE", "SHIB", "PEPE", "FLOKI", "BONK", "WIF"]
+
+
+def download_harian() -> None:
+    """Candle harian OANDA untuk trend-following multi-aset (folder D/ dataset bunqi)."""
+    out = DATA / "harian"
+    out.mkdir(parents=True, exist_ok=True)
+    for name in MULTI_ASET:
+        dataset = f"bunqi/OANDA_{name}"
+        parts = []
+        for f in sorted(x for x in list_files(dataset) if x.startswith("D/") and x.endswith(".parquet")):
+            parts.append(pd.read_parquet(io.BytesIO(_get(f"{HF}/datasets/{dataset}/resolve/main/{f}"))))
+        df = pd.concat(parts).drop_duplicates("time").sort_values("time")
+        df.to_parquet(out / f"{name.split('_')[0]}.parquet", index=False)
+        print(f"harian: {name} {len(df)} hari")
+
+
+def download_kripto_harian() -> None:
+    """Candle harian spot Binance (BTC, ETH, altcoin, meme) lewat data-api.binance.vision, plus Fear & Greed."""
+    out = DATA / "kripto_harian"
+    out.mkdir(parents=True, exist_ok=True)
+    api = "https://data-api.binance.vision/api/v3/klines"
+    for coin in ["BTC", *ALTCOIN, *MEME]:
+        rows, start = [], 0
+        while True:
+            chunk = json.loads(_get(f"{api}?symbol={coin}USDT&interval=1d&limit=1000&startTime={start}", retries=3))
+            if not isinstance(chunk, list) or not chunk:
+                break
+            rows.extend(chunk)
+            if len(chunk) < 1000:
+                break
+            start = chunk[-1][0] + 86400_000
+        if not rows:
+            print(f"kripto: {coin} tidak ada")
+            continue
+        df = pd.DataFrame([r[:8] for r in rows], columns=["t", "o", "h", "l", "c", "v", "t_close", "qv"])
+        df = df.astype({c: float for c in ["o", "h", "l", "c", "v", "qv"]})
+        df["t"] = pd.to_datetime(df["t"], unit="ms")
+        df[["t", "o", "h", "l", "c", "v", "qv"]].to_parquet(out / f"{coin}.parquet", index=False)
+        print(f"kripto: {coin} {len(df)} hari sejak {df.t.iloc[0].date()}")
+    fng = json.loads(_get("https://api.alternative.me/fng/?limit=0&format=json"))["data"]
+    pd.DataFrame(fng).to_csv(DATA / "riset" / "fng.csv", index=False)
+    print(f"fear & greed: {len(fng)} hari")
+
+
 def main(markets: list[str] | None = None) -> None:
-    if markets and "riset" in markets:
-        download_riset()
-        markets = [m for m in markets if m != "riset"]
-        if not markets:
-            return
+    for nama, fungsi in [("riset", download_riset), ("harian", download_harian),
+                         ("kripto_harian", download_kripto_harian)]:
+        if markets and nama in markets:
+            fungsi()
+            markets = [m for m in markets if m != nama]
+            if not markets:
+                return
     for name, market in MARKETS.items():
         if markets and name not in markets:
             continue
