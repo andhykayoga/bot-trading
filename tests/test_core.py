@@ -107,6 +107,15 @@ def test_forex_cepat_session_windows_eurusd_winter():
     assert (posisi("S1", "USDCAD", t.as_unit("ns").asi8) == 0).all()
 
 
+def test_ea_grid_basket_math():
+    from bot.research.ea_xauusd import OZ, Keranjang, lot_round
+    assert lot_round(0.015) == 0.02 and lot_round(0.001) == 0.01 and lot_round(0.0225) == 0.02
+    k = Keranjang(1, base=0.01, lots=[0.01, 0.02], harga=[2000.0, 1990.0])
+    assert np.isclose(k.rata(), (0.01 * 2000 + 0.02 * 1990) / 0.03)
+    # ditutup di harga tengah 2000 dengan spread 0,4 → keluar di bid 1999,8
+    assert np.isclose(k.nilai(2000.0, 0.4), OZ * (0.01 * -0.2 + 0.02 * 9.8))
+
+
 def test_tsmom_stats_cagr():
     import pandas as pd
     from bot.research.tsmom import stats

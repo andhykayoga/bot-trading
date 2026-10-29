@@ -6,6 +6,7 @@
 - [`reports/LAPORAN_RENCANA_CADANGAN.md`](reports/LAPORAN_RENCANA_CADANGAN.md) — **rencana cadangan**: perbaikan terbatas (diuji di GBPUSD/USDJPY), setup mentor di BTC/ETH, patokan riset time-series momentum, kesimpulan, dan usulan semi-otomatis. Pra-registrasinya di [`reports/RENCANA_CADANGAN.md`](reports/RENCANA_CADANGAN.md).
 - [`reports/RENCANA_UNTUNG.md`](reports/RENCANA_UNTUNG.md) — **rencana supaya uang bertambah** berdasarkan riset (bukan trading): portofolio Seimbang 50/40/10, kalkulasi untung per minggu/bulan/tahun, rentang hasil, dan peluang rugi.
 - [`reports/LAPORAN_FOREX_CEPAT.md`](reports/LAPORAN_FOREX_CEPAT.md) — **uji forex cepat**: hitungan impas scalping, tiga pola forex dari jurnal (jam sesi, hari FOMC, fixing London) di 7 pair, dan demo otak-atik teknikal. Pra-registrasinya di [`reports/RENCANA_FOREX_CEPAT.md`](reports/RENCANA_FOREX_CEPAT.md).
+- [`reports/LAPORAN_EA_XAUUSD.md`](reports/LAPORAN_EA_XAUUSD.md) — **uji tipe EA XAUUSD yang viral** (grid martingale beli saja/dua arah, breakout London) di data emas 2010–2026, plus cara memeriksa EA sebelum membeli. Pra-registrasinya di [`reports/RENCANA_EA_XAUUSD.md`](reports/RENCANA_EA_XAUUSD.md).
 - `bot/` — kode bot Python (backtest sekarang, live nanti). Belum terhubung ke broker.
 
 ## Struktur kode
@@ -18,7 +19,7 @@
 | `bot/setups/` | **Satu kelas per setup**, masing-masing berdiri sendiri: `pln01.py` (Pola N), `ichimoku.py` (ICH-01–04), `afs_*.py` (Alvesting), `kms_hki.py` (Wyckoff, Ko Hengki), `improved.py` (versi perbaikan V1–V4). |
 | `bot/engine/` | Mesin backtest dengan aturan global G-01, G-03, G-07, G-08, G-13, G-15, G-16 dan biaya (spread + swap). |
 | `bot/filters/astro.py` | Filter Astronacci WKT-01 – WKT-04 (fase bulan, Fibonacci waktu, Merkurius retrograde) dengan pustaka `ephem`. |
-| `bot/research/` | Pembagian data 60/20/20, pemilihan varian G-17, uji filter waktu, pembanding entry acak, patokan time-series momentum (`tsmom.py`), simulasi portofolio jangka panjang (`investasi.py`), uji forex cepat (`forex_cepat.py`). |
+| `bot/research/` | Pembagian data 60/20/20, pemilihan varian G-17, uji filter waktu, pembanding entry acak, patokan time-series momentum (`tsmom.py`), simulasi portofolio jangka panjang (`investasi.py`), uji forex cepat (`forex_cepat.py`), uji tipe EA XAUUSD (`ea_xauusd.py`). |
 | `bot/live.py` | Kerangka live: antarmuka `Broker`, `PaperBroker`, pemeriksaan keselamatan G-15. |
 | `scripts/sinyal.py` | **Mode semi-otomatis**: memindai sinyal, menghitung lot, mencatat jurnal; Anda yang mengeksekusi. |
 | `config/setups.toml` | **Menyalakan/mematikan setup** satu per satu (daftar `enabled`), per pasar. |
@@ -81,6 +82,12 @@ python -m bot.data.download forex forex_uji forex_riset
 
 ```bash
 python scripts/run_forex_cepat.py
+```
+
+Uji tipe EA XAUUSD yang viral (±5 menit):
+
+```bash
+python scripts/run_ea_xauusd.py --ulang
 ```
 
 Rencana investasi dan kalkulasi untung (ubah angka di `config/rencana.toml`):
