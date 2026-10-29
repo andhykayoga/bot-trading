@@ -31,10 +31,27 @@ Untuk **setiap** saham di daftar:
      diatribusikan ke pemilik entitas induk, EPS, total liabilitas, total ekuitas, jumlah saham beredar, dan
      dividen yang dibayar — tapi namanya bisa berbeda, jadi salin semuanya.
 4. Simpan dengan nama: `KODE_income.csv`, `KODE_balance.csv`, `KODE_cashflow.csv` (contoh `BBCA_income.csv`).
-5. Satu file tambahan untuk semua saham: `sektor.csv` berisi dua kolom `kode,sektor` (sektor tertulis di halaman
-   profil/Keystats tiap saham). Ko Andri membandingkan valuasi **dengan sektor sejenis**, jadi ini wajib.
 
-Kalau 45 saham terlalu banyak sekaligus, kirim bertahap. Saya mulai menghitung setelah semuanya lengkap.
+Sektor tiap saham tidak perlu dikirim: saya kelompokkan sendiri memakai klasifikasi sektor resmi BEI (IDX-IC).
+
+**Cara pengganti: screenshot.** Kalau menyalin tabel merepotkan, screenshot juga bisa saya baca. Cukup **2 screenshot
+per saham** (Cash Flow tidak perlu):
+
+1. **Income Statement**, Annual, mode layar penuh, sampai tabel **Key Ratio** di bawahnya ikut terlihat (Share
+   Outstanding, EPS, PE, ROE).
+2. **Balance Sheet**, Annual, mode layar penuh, sampai baris **Total Liabilitas**, **Kepentingan Non Pengendali**, dan
+   **Total Ekuitas** terlihat.
+
+Supaya angkanya terbaca tepat:
+
+- Ketik kode saham di kotak *Symbol* sebelum screenshot (kodenya harus ikut terlihat), atau beri nama file
+  `KODE_1.png` dan `KODE_2.png`.
+- Semua kolom tahun (2008/2014–2025) harus masuk, jangan dipotong, dan jangan diperkecil sampai angkanya buram.
+- Saya akan mencocokkan angka antarbaris (misalnya EPS × jumlah saham ≈ laba bersih). Kalau ada yang tidak cocok,
+  saya minta ulang saham itu saja.
+
+Kalau 45 saham terlalu banyak sekaligus, kirim bertahap (misalnya 5–10 saham per kiriman). Saya mulai menghitung
+setelah semuanya lengkap.
 
 ## Paket 2 — harga harian, dividen, dan split (2014–2026)
 
