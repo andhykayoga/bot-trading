@@ -74,6 +74,28 @@ def test_crypto_spot_has_no_swap_and_round_trip_cost():
     assert np.isclose(btc.spread(100_000.0) / 100_000.0, 0.0022)
 
 
+def test_proyeksi_without_return_is_just_deposits():
+    from bot.research.investasi import proyeksi
+    sal = proyeksi(np.zeros((1, 2)), 10e6, 1e6, inflasi=0.0)
+    assert sal.shape == (1, 25) and np.isclose(sal[0, -1], 10e6 + 24 * 1e6)
+
+
+def test_proyeksi_compounds_monthly_to_annual_rate():
+    from bot.research.investasi import proyeksi
+    sal = proyeksi(np.full((1, 3), 0.05), 100.0, 0.0, inflasi=0.0)
+    assert np.isclose(sal[0, 12], 105.0) and np.isclose(sal[0, -1], 100 * 1.05 ** 3)
+
+
+def test_bootstrap_keeps_five_year_blocks_in_order():
+    from bot.research.investasi import bootstrap
+    r = np.arange(20, dtype=float)
+    bs = bootstrap(r, 10, n=50, blok=5, seed=1)
+    assert bs.shape == (50, 10)
+    for row in bs:
+        for k in (0, 5):
+            assert all((row[k + i + 1] - row[k + i]) % 20 == 1 for i in range(4))
+
+
 def test_tsmom_stats_cagr():
     import pandas as pd
     from bot.research.tsmom import stats

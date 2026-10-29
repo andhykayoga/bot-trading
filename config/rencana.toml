@@ -1,0 +1,10 @@
+# Rencana investasi untuk scripts/rencana_untung.py. Semua angka dalam rupiah.
+# Ubah angka di sini, lalu jalankan: python scripts/rencana_untung.py --layar
+
+modal = 10_000_000            # uang yang diinvestasikan sekarang
+setoran_bulanan = 1_000_000   # setoran rutin tiap bulan (tetap)
+portofolio = "seimbang"       # hati_hati (20/70/10) | seimbang (50/40/10) | agresif (80/10/10)
+
+# Pembanding berbunga tetap, setelah pajak, per tahun (cek angka terbaru sebelum dipakai)
+deposito_bersih = 0.04        # deposito/RDPU kira-kira 4–5% saat BI rate 5,75% (Okt 2026)
+sbn_bersih = 0.062            # SBN ritel ORI030 kupon 6,9% (3 th) dikurangi pajak 10%
