@@ -20,7 +20,7 @@ Yang diambil adalah prinsip manajemen posisinya, karena berlaku di pasar mana pu
 2. **Scalping & trading yang rugi → cut loss.** Hanya posisi **investasi** yang boleh di-*average down*.
 3. Labelnya tidak boleh berubah di tengah jalan: posisi trading yang rugi tidak boleh "diubah jadi investasi".
 
-Untuk bot: semua setup di rulebook ini berlabel **scalping** atau **trading**, kecuali modul investasi spot ([KMS-I1–I4](02-kalimasada-akademi-crypto.md#b-modul-investasi-spot-kripto-opsional), [LIVE-01](03-analis-live-akademi-crypto.md#live-01--siklus-halving-bitcoin-spot-jangka-panjang)). Ini memperkuat G-04.
+Untuk bot: semua setup yang dipakai di versi pertama berlabel **scalping** atau **trading** ([D-11](00-aturan-global.md#d-11--label-posisi-scalping-atau-trading)). Label **investasi** hanya untuk modul investasi spot ([KMS-I1–I4](02-kalimasada-akademi-crypto.md#b-modul-investasi-spot-kripto-ditunda), [LIVE-01](03-analis-live-akademi-crypto.md#live-01--siklus-halving-bitcoin-spot-jangka-panjang)), yang ditunda (Q-29). Jadi di versi pertama tidak ada posisi yang boleh di-*average down* (G-04).
 
 ---
 
@@ -45,11 +45,11 @@ Untuk bot: semua setup di rulebook ini berlabel **scalping** atau **trading**, k
 |---|---|
 | Sumber | [AndreHakim_saham_1 L690–L705](../materi/mentah/AndreHakim_saham_1.txt#L690-L705) |
 | Pasar | K (spot), asalnya saham |
-| Status | 🟡 |
+| Status | ⏸ tidak dipakai (Q-37) |
 
 **Aturan dari mentor:** bagi yang tidak memantau pasar sepanjang hari, pasang **trailing stop 5% sampai 10%**. Kalau harga naik, stop ikut naik; kalau harga turun sejauh itu, posisi otomatis terjual.
 
-**Belum jelas:** dipakai di mana dan berapa persen → **Q-37**. Angka 5–10% berasal dari saham; untuk kripto spot mungkin masuk akal, untuk forex terlalu lebar (lihat Q-10).
+**Kenapa tidak dipakai (Q-37):** trailing stop itu untuk investor yang tidak memantau pasar; bot selalu punya SL dan TP sendiri.
 
 ---
 

@@ -12,14 +12,17 @@ Sebagian besar isinya adalah pandangan pasar saat itu (BTC di 80 ribu, 50 ribu, 
 |---|---|
 | Sumber | [AC_crypto_2 L11–L40](../materi/mentah/AC_crypto_2.txt#L11-L40), [AC_crypto_1 L20–L29](../materi/mentah/AC_crypto_1.txt#L20-L29), [AC_crypto_5 L30–L39](../materi/mentah/AC_crypto_5.txt#L30-L39) |
 | Pasar | K, F |
-| Status | ⚪ 🟡 |
+| Status | ⚪ 🟢 |
 
 **Aturan:** **jangan buka posisi** kalau harga ada di "grey area", yaitu:
 
 - Harga **dekat resistance** **dan** stochastic **sudah silang turun**. Long di situ sulit menaruh SL; short di situ RR-nya jelek (contoh mentor 1:1,79) ([AC_crypto_2 L11–L30](../materi/mentah/AC_crypto_2.txt#L11-L30)).
 - Kalau pasar bimbang, mentor memilih **menunggu**, kadang berhari-hari ([AC_crypto_2 L31–L40](../materi/mentah/AC_crypto_2.txt#L31-L40)).
 
-**Belum jelas:** seberapa dekat dihitung "dekat resistance" → **Q-28**.
+**Ukuran untuk bot (Q-28):**
+
+- **Dekat resistance** = harga dalam **1 × ATR(14)** dari level resistance (swing high, [D-04](00-aturan-global.md#d-04--zona-support-dan-resistance)), diukur di timeframe resistance itu. Contoh mentor di D1. Nilai awal 1×; diuji 0,5× · 1× · 1,5×.
+- **Stochastic sudah silang turun** = %K di bawah %D pada candle terakhir yang close, di timeframe yang sama ([D-08](00-aturan-global.md#d-08--osilator)).
 
 ---
 
@@ -43,7 +46,7 @@ Sebagian besar isinya adalah pandangan pasar saat itu (BTC di 80 ribu, 50 ribu, 
 |---|---|
 | Sumber | [AC_crypto_4](../materi/mentah/AC_crypto_4.txt), [AC_crypto_5 L1–L130](../materi/mentah/AC_crypto_5.txt#L1-L130), [AC_crypto_1 L40–L130](../materi/mentah/AC_crypto_1.txt#L40-L130), [AC_crypto_3 L51–L55](../materi/mentah/AC_crypto_3.txt#L51-L55) |
 | Pasar | K (BTC spot) |
-| Status | 🟡 |
+| Status | ⏸ ditunda: bot tidak mengelola investasi jangka panjang di versi pertama (Q-27, Q-29) |
 
 **Aturan yang diucapkan mentor:**
 
@@ -55,10 +58,7 @@ Sebagian besar isinya adalah pandangan pasar saat itu (BTC di 80 ribu, 50 ribu, 
 6. **Target alokasi setelah membeli:** 70% BTC, 30% cash (atau 20% cash + 10% emas) ([AC_crypto_5 L11–L20](../materi/mentah/AC_crypto_5.txt#L11-L20)).
 7. Altcoin hanya **2–5%** portofolio ([AC_crypto_5 L391–L400](../materi/mentah/AC_crypto_5.txt#L391-L400)).
 
-**Belum jelas:**
-
-- "Setahun setelah halving" atau "500 hari setelah halving"? Dua angka ini berbeda ±4–5 bulan → **Q-27**.
-- Apakah bot mengelola investasi jangka panjang sama sekali → **Q-29**.
+**Catatan untuk nanti:** "setahun setelah halving" dan "500 hari setelah halving" berbeda ±4–5 bulan. Kalau modul ini dibuka, salah satunya perlu dipilih.
 
 ---
 
@@ -68,7 +68,7 @@ Sebagian besar isinya adalah pandangan pasar saat itu (BTC di 80 ribu, 50 ribu, 
 |---|---|
 | Sumber | [AC_crypto_1 L460–L951](../materi/mentah/AC_crypto_1.txt#L460-L951) |
 | Pasar | K (spot) |
-| Status | 🔴 (butuh data valuasi investor yang diinput manual) |
+| Status | ⏸ tidak dipakai (Q-30) |
 
 **Aturan yang diucapkan mentor:**
 
@@ -82,4 +82,4 @@ Sebagian besar isinya adalah pandangan pasar saat itu (BTC di 80 ribu, 50 ribu, 
 8. Kalau naik 2×: *moon bag* ([KMS-I2](02-kalimasada-akademi-crypto.md#kms-i2--moon-bag)). TP bertahap sepanjang kenaikan.
 9. Alokasi total untuk permainan ini **±5% portofolio** ([AC_crypto_1 L731–L735](../materi/mentah/AC_crypto_1.txt#L731-L735), [AC_crypto_1 L891–L900](../materi/mentah/AC_crypto_1.txt#L891-L900)).
 
-**Kenapa 🔴:** lantai harga butuh data valuasi investor dan *max supply* yang harus dicari dan dimasukkan manual. Bot hanya bisa menjalankan bagian eksekusinya (30/70, cut loss, moon bag) setelah angka itu diisi → **Q-30**.
+**Kenapa tidak dipakai:** lantai harga butuh data valuasi investor dan *max supply* yang harus dicari dan dimasukkan manual. Anda memilih tidak memakainya sebagai fitur setengah-otomatis (Q-30).

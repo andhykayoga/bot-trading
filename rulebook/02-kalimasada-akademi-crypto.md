@@ -3,7 +3,7 @@
 Kalimasada mengajar investasi, money management, dan Wyckoff. Aturan money management-nya sudah masuk ke [aturan global](00-aturan-global.md) (G-01, G-04, G-05, G-06). Halaman ini berisi sisanya:
 
 - [A. Wyckoff](#a-wyckoff) — untuk trading, khusus aset besar (BTC, ETH).
-- [B. Modul investasi spot kripto](#b-modul-investasi-spot-kripto-opsional) — **opsional**, hanya relevan kalau bot juga mengelola portofolio spot jangka panjang (Q-29).
+- [B. Modul investasi spot kripto](#b-modul-investasi-spot-kripto-ditunda) — **ditunda**: versi pertama hanya trading (Q-29).
 
 ---
 
@@ -67,21 +67,24 @@ Kalimasada mengajar investasi, money management, dan Wyckoff. Aturan money manag
 | Sumber | [AC_crypto_40 L360–L441](../materi/mentah/AC_crypto_40.txt#L360-L441), [AC_crypto_60 L3385–L3440](../materi/mentah/AC_crypto_60.txt#L3385-L3440) |
 | Pasar | K (BTC, ETH) |
 | Arah | Long (markup), short (markdown) |
-| Status | 🟡 |
+| Label | Trading |
+| RR minimum | TP tetap: 1:2 (entry H1 ke bawah) / 1:3 (H4 ke atas) (Q-07) |
+| Status | 🟡 (tinggal Q-48) |
 
 **Long (markup):**
 
-1. Ada range konsolidasi yang lama (fase akumulasi).
-2. Harga **breakout ke atas** range **dengan volume naik**. Kalau volume belum mendukung: *wait and see*, supaya tidak kena *false breakout* ([AC_crypto_40 L381–L399](../materi/mentah/AC_crypto_40.txt#L381-L399)).
-3. Tunggu **retest** batas range (LPS) — menurut mentor harga selalu retest dulu ([AC_crypto_60 L3401–L3420](../materi/mentah/AC_crypto_60.txt#L3401-L3420)).
-4. → Long di retest.
+1. Ada range konsolidasi yang lama (fase akumulasi). Ukuran range → [Q-48](09-pertanyaan-untuk-anda.md#q-48--wyckoff-kms-02-range-seperti-apa).
+2. Candle **close di atas** range **dengan volume naik**, yaitu volume di atas rata-rata 20 candle ([D-07](00-aturan-global.md#d-07--volume), Q-26). Kalau volume belum mendukung: *wait and see*, supaya tidak kena *false breakout* ([AC_crypto_40 L381–L399](../materi/mentah/AC_crypto_40.txt#L381-L399)).
+3. Tunggu **retest** batas atas range (LPS) — menurut mentor harga selalu retest dulu ([AC_crypto_60 L3401–L3420](../materi/mentah/AC_crypto_60.txt#L3401-L3420)). Retest mengikuti [D-05](00-aturan-global.md#d-05--retest): harga masuk zona batas range dalam maksimal 10 candle.
+4. → Long: order limit di tepi atas zona itu.
 
-**Short (markdown):** breakdown dari range distribusi dengan volume jual naik → retest (LPSY) → short ([AC_crypto_40 L421–L431](../materi/mentah/AC_crypto_40.txt#L421-L431), [AC_crypto_60 L3420–L3430](../materi/mentah/AC_crypto_60.txt#L3420-L3430)).
+**Short (markdown):** close di bawah range distribusi dengan volume jual naik → retest (LPSY) → short ([AC_crypto_40 L421–L431](../materi/mentah/AC_crypto_40.txt#L421-L431), [AC_crypto_60 L3420–L3430](../materi/mentah/AC_crypto_60.txt#L3420-L3430)).
 
-**Belum jelas:**
+**SL:** mentor tidak menyebut → di titik invalidasi (G-02): long = swing low terakhir di dalam range − 1 × ATR(14); short = swing high terakhir + 1 × ATR(14).
 
-- Berapa lama/sempit range yang dihitung "akumulasi"; seberapa besar kenaikan volume → **Q-26**.
-- SL dan TP tidak disebut mentor. SL mengikuti aturan umum G-02 (di titik invalidasi), TP mengikuti RR minimum → **Q-07**. Target harga Hosoda ([ICH-04](06-mentor-forex.md#ich-04--target-harga-hosoda-untuk-tp)) bisa jadi alternatif kalau Anda setuju.
+**TP:** mentor tidak menyebut → TP tetap 1:2 atau 1:3 sesuai timeframe entry (Q-07).
+
+**Belum jelas** → [Q-48](09-pertanyaan-untuk-anda.md#q-48--wyckoff-kms-02-range-seperti-apa): timeframe, berapa lama minimal range, dan selebar apa maksimalnya.
 
 ---
 
@@ -91,7 +94,7 @@ Kalimasada mengajar investasi, money management, dan Wyckoff. Aturan money manag
 |---|---|
 | Sumber | [AC_crypto_61 L1325–L1505](../materi/mentah/AC_crypto_61.txt#L1325-L1505) |
 | Pasar | K, F\* |
-| Status | ⚪ 🟡 |
+| Status | ⚪ 🟢 |
 
 Tabel ringkas dari mentor ([AC_crypto_61 L1365–L1390](../materi/mentah/AC_crypto_61.txt#L1365-L1390)):
 
@@ -106,13 +109,13 @@ Kegunaan untuk bot: (1) menyaring sinyal pembalikan (hanya diambil kalau VSA jug
 
 Pola penyerapan (*absorption*): beli agresif beruntun tetapi muncul wick atas = diserap penjual limit; jual agresif beruntun tetapi muncul wick bawah = diserap pembeli limit ([AC_crypto_57 L3665–L3705](../materi/mentah/AC_crypto_57.txt#L3665-L3705)).
 
-**Belum jelas:** mentor tidak memberi angka untuk "tinggi/rendah" dan "besar/kecil" → **Q-26**. Volume forex → **Q-14**.
+**Ukuran untuk bot (Q-26):** volume tinggi/naik = di atas rata-rata 20 candle; rendah/turun = di bawahnya ([D-07](00-aturan-global.md#d-07--volume)). Candle besar = panjang (high − low) di atas rata-rata 20 candle; kecil = di bawahnya ([D-06](00-aturan-global.md#d-06--candle)). Di forex memakai tick volume, dibandingkan dengan versi tanpa filter ini (Q-14).
 
 ---
 
-## B. Modul investasi spot kripto (opsional)
+## B. Modul investasi spot kripto (ditunda)
 
-Bagian ini berasal dari kelas **investasi**, bukan trading. Hanya dipakai kalau Anda ingin bot juga mengelola portofolio spot kripto jangka panjang → **Q-29**. Kalau tidak, seluruh bagian B dilewati.
+Bagian ini berasal dari kelas **investasi**, bukan trading. **Tidak dipakai di versi pertama**: Anda memilih bot hanya untuk trading (Q-29). Isinya disimpan untuk versi berikutnya; semua setup di bagian ini berstatus ⏸.
 
 ### KMS-I1 · Alokasi portofolio 70/15/15
 
@@ -120,7 +123,7 @@ Bagian ini berasal dari kelas **investasi**, bukan trading. Hanya dipakai kalau 
 |---|---|
 | Sumber | [AC_crypto_6 L1–L192](../materi/mentah/AC_crypto_6.txt#L1-L192), [AC_crypto_62 L1329–L1558](../materi/mentah/AC_crypto_62.txt#L1329-L1558) |
 | Pasar | K (spot) |
-| Status | 🟡 |
+| Status | ⏸ ditunda (Q-29) |
 
 **Aturan dari mentor:**
 
@@ -131,7 +134,7 @@ Bagian ini berasal dari kelas **investasi**, bukan trading. Hanya dipakai kalau 
 5. **30% selalu cair** (cash/stablecoin) untuk membeli saat harga jatuh ([AC_crypto_62 L1528–L1558](../materi/mentah/AC_crypto_62.txt#L1528-L1558)).
 6. Meme coin: "tebar jala", **1% per posisi** dari porsi tersebut ([AC_crypto_6 L126–L175](../materi/mentah/AC_crypto_6.txt#L126-L175)).
 
-**Belum jelas:** angka 2 dan 5 tidak sama dengan angka 1 (70/30 vs 70/30 + 30% cair). Kombinasi mana yang dipakai → **Q-29**.
+**Catatan untuk nanti:** angka 2 dan 5 tidak sama dengan angka 1 (70/30 vs 70/30 + 30% cair). Kalau modul ini dibuka, kombinasinya perlu dipilih.
 
 ---
 
@@ -141,7 +144,7 @@ Bagian ini berasal dari kelas **investasi**, bukan trading. Hanya dipakai kalau 
 |---|---|
 | Sumber | [AC_crypto_49](../materi/mentah/AC_crypto_49.txt) |
 | Pasar | K (spot) |
-| Status | 🟢 |
+| Status | ⏸ ditunda (Q-29) |
 
 **Aturan:** ketika sebuah aset spot **naik 100% (2×)**, **jual 50%**. Uang yang keluar sama dengan modal awal, jadi sisanya menjadi "moon bag" gratis yang dibiarkan berjalan. Modal yang sudah bebas boleh diputar ke aset lain ([AC_crypto_49 L141–L189](../materi/mentah/AC_crypto_49.txt#L141-L189)).
 
@@ -156,7 +159,7 @@ Mentor menyebut strategi ini cocok untuk: mengejar *top gainer*, ikut *pump and 
 | Sumber | [AC_crypto_27 L595–L711](../materi/mentah/AC_crypto_27.txt#L595-L711) |
 | Pasar | K (spot) |
 | Timeframe | W1 (juga MN dan D1 untuk tren). **Bukan** H4/M15 ([AC_crypto_27 L655–L665](../materi/mentah/AC_crypto_27.txt#L655-L665)) |
-| Status | 🟡 |
+| Status | ⏸ ditunda (Q-29) |
 
 **Aturan:**
 
@@ -165,7 +168,7 @@ Mentor menyebut strategi ini cocok untuk: mengejar *top gainer*, ikut *pump and 
 3. **Keluar bertahap** (5 kali) saat osilator W1 di area **jenuh beli** / fase distribusi ([AC_crypto_27 L660–L700](../materi/mentah/AC_crypto_27.txt#L660-L700)).
 4. Bisa digabung dengan moon bag ([AC_crypto_27 L700–L711](../materi/mentah/AC_crypto_27.txt#L700-L711)).
 
-**Belum jelas:** jarak antar-cicilan (setiap candle W1? setiap turun X%?) dan level jenuh beli/jual → **Q-13**, **Q-29**.
+**Catatan untuk nanti:** jarak antar-cicilan (setiap candle W1? setiap turun X%?) tidak disebut mentor. Level jenuh beli/jual sudah ada di [D-08](00-aturan-global.md#d-08--osilator).
 
 ---
 
@@ -175,10 +178,10 @@ Mentor menyebut strategi ini cocok untuk: mengejar *top gainer*, ikut *pump and 
 |---|---|
 | Sumber | [AC_crypto_24 L150–L347](../materi/mentah/AC_crypto_24.txt#L150-L347); dipakai juga oleh analis live ([AC_crypto_5 L141–L160](../materi/mentah/AC_crypto_5.txt#L141-L160)) |
 | Pasar | K (spot) |
-| Status | ⚪ 🟡 |
+| Status | ⏸ ditunda (Q-29) |
 
 **Aturan:** indeks 0–100. **Extreme fear** = potensi dasar → saat untuk membeli. Contoh mentor: angka 26 di awal 2023, dan angka sangat rendah di 2019. **Extreme greed** = tanda koreksi → saat untuk menjual. Kondisi ekstrem bisa bertahan berbulan-bulan ([AC_crypto_24 L260–L310](../materi/mentah/AC_crypto_24.txt#L260-L310)).
 
 Tanda puncak lain menurut mentor (tidak bisa diukur bot): semua orang membicarakan kripto, muncul prediksi harga yang tidak masuk akal ([AC_crypto_24 L210–L259](../materi/mentah/AC_crypto_24.txt#L210-L259)).
 
-**Belum jelas:** ambang angka "extreme" tidak dibakukan mentor → **Q-29**.
+**Catatan untuk nanti:** ambang angka "extreme" tidak dibakukan mentor.

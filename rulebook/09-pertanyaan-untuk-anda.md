@@ -2,6 +2,8 @@
 
 Bagian-bagian di bawah ini **tidak saya tebak**, karena mentor tidak menyebutnya, menyebutnya dengan kabur, atau para mentor berbeda pendapat. Jawaban Anda akan mengubah label 🟡 di rulebook menjadi 🟢.
 
+> **Status:** Q-01 – Q-41 **sudah dijawab**. Jawabannya ada di [10-jawaban.md](10-jawaban.md) dan sudah diterapkan ke rulebook. Teks pertanyaannya dibiarkan seperti aslinya sebagai catatan. Yang **masih terbuka** hanya [Bagian 8 (Q-42 – Q-48)](#bagian-8--pertanyaan-lanjutan).
+
 **Cara menjawab:** cukup tulis nomornya dan pilihan Anda, misalnya `Q-01: A, scalping 0,5%`. Kalau tidak ada pilihan yang cocok, tulis jawaban sendiri. Kalau belum yakin, tulis "uji dulu" — artinya angka itu akan dicari lewat backtest.
 
 ## Daftar isi
@@ -13,10 +15,13 @@ Bagian-bagian di bawah ini **tidak saya tebak**, karena mentor tidak menyebutnya
 5. [Forex (Q-31 – Q-36)](#bagian-5--forex)
 6. [Saham (Q-37)](#bagian-6--saham)
 7. [Filter waktu Astronacci & Hosoda (Q-38 – Q-41)](#bagian-7--filter-waktu)
+8. [**Pertanyaan lanjutan (Q-42 – Q-48) — masih terbuka**](#bagian-8--pertanyaan-lanjutan)
 
 ---
 
 ## Bagian 1 — Wajib dijawab sebelum mulai
+
+*Sudah dijawab → [10 · Bagian 1 — Wajib dijawab sebelum mulai](10-jawaban.md#bagian-1--wajib).*
 
 ### Q-01 · Risiko per transaksi: 1% dari apa?
 
@@ -68,7 +73,7 @@ Dan untuk setup **scalping**: 0,5% atau 1%?
 
 ### Q-05 · Rem darurat
 
-**Pertanyaannya:** apakah bot perlu **berhenti otomatis** kalau rugi terlalu banyak dalam waktu singkat? Tidak ada mentor yang menyebut ini ([G-15](00-aturan-global.md#g-15--rem-darurat-belum-ada-di-materi)).
+**Pertanyaannya:** apakah bot perlu **berhenti otomatis** kalau rugi terlalu banyak dalam waktu singkat? Tidak ada mentor yang menyebut ini ([G-15](00-aturan-global.md#g-15--rem-darurat)).
 
 **Contoh bentuknya:**
 
@@ -101,7 +106,7 @@ Dan untuk setup **scalping**: 0,5% atau 1%?
 
 **Pertanyaannya:** target untung paling kecil berapa kali besar risikonya? Contoh RR 1:2 = mempertaruhkan Rp100 ribu untuk mengincar Rp200 ribu.
 
-**Yang dikatakan mentor** ([G-03](00-aturan-global.md#g-03--perbandingan-untungrugi-rr-tidak-boleh-di-bawah-11)): Pola N 1:1,5–1:2 · Alvesting minimal 1:2 (jangka pendek), di atas 1:3 (swing) · contoh Kalimasada 1:3. Semua sepakat: di bawah 1:1 = judi.
+**Yang dikatakan mentor** ([G-03](00-aturan-global.md#g-03--rr-minimum-115)): Pola N 1:1,5–1:2 · Alvesting minimal 1:2 (jangka pendek), di atas 1:3 (swing) · contoh Kalimasada 1:3. Semua sepakat: di bawah 1:1 = judi.
 
 **Pilihan:** A. 1:1,5 · B. 1:2 · C. 1:3 · D. ikut mentor masing-masing setup.
 
@@ -157,6 +162,8 @@ Di kripto, angka itu wajar. Tapi EURUSD biasanya bergerak kurang dari 1% sehari,
 
 ## Bagian 2 — Aturan teknis umum
 
+*Sudah dijawab → [10 · Bagian 2 — Aturan teknis umum](10-jawaban.md#bagian-2--aturan-teknis-umum).*
+
 ### Q-11 · Seberapa jauh stop loss dari titik "analisa salah"?
 
 **Pertanyaannya:** stop loss ditaruh di bawah swing low, **plus** jarak tambahan supaya tidak mudah tersapu. Mentor bilang jarak tambahannya diukur dengan **ATR** (rata-rata besar pergerakan per candle), tapi tidak menyebut berapa. Ada juga dua cara yang berbeda ([G-02](00-aturan-global.md#g-02--stop-loss-wajib-di-titik-analisa-saya-salah)).
@@ -208,7 +215,7 @@ Di kripto, angka itu wajar. Tapi EURUSD biasanya bergerak kurang dari 1% sehari,
 
 ### Q-15 · Jadwal berita
 
-**Pertanyaannya** ([G-13](00-aturan-global.md#g-13--berita-besar-forex)):
+**Pertanyaannya** ([G-13](00-aturan-global.md#g-13--berita-besar)):
 
 1. Berapa menit **sebelum** dan **sesudah** berita besar bot tidak boleh membuka posisi? (contoh: 30 menit sebelum, 30 menit sesudah)
 2. Berita apa saja? (contoh: NFP, keputusan suku bunga, inflasi/CPI)
@@ -234,6 +241,8 @@ Di kripto, angka itu wajar. Tapi EURUSD biasanya bergerak kurang dari 1% sehari,
 ---
 
 ## Bagian 3 — Setup Alvesting
+
+*Sudah dijawab → [10 · Bagian 3 — Setup Alvesting](10-jawaban.md#bagian-3--setup-alvesting).*
 
 ### Q-18 · AFS-01: berapa "poin" minimal?
 
@@ -326,6 +335,8 @@ Kalau ya:
 
 ## Bagian 4 — Kalimasada & analis live
 
+*Sudah dijawab → [10 · Bagian 4 — Kalimasada & analis live](10-jawaban.md#bagian-4--kalimasada--analis-live).*
+
 ### Q-26 · Seberapa besar yang disebut "volume naik"?
 
 **Pertanyaannya:** Wyckoff, VSA, Ko Hengki, dan filter breakout semuanya bilang "volume naik/tinggi" atau "candle besar/kecil", tanpa angka.
@@ -354,7 +365,7 @@ Pertanyaan yang sama untuk "candle besar/kecil" (dibanding rata-rata ukuran cand
 
 ### Q-29 · Modul investasi spot kripto
 
-**Pertanyaannya:** apakah bot juga mengelola **investasi spot jangka panjang** (bukan hanya trading)? Kalau tidak, seluruh [modul investasi Kalimasada](02-kalimasada-akademi-crypto.md#b-modul-investasi-spot-kripto-opsional) dan [LIVE-01](03-analis-live-akademi-crypto.md#live-01--siklus-halving-bitcoin-spot-jangka-panjang) dilewati.
+**Pertanyaannya:** apakah bot juga mengelola **investasi spot jangka panjang** (bukan hanya trading)? Kalau tidak, seluruh [modul investasi Kalimasada](02-kalimasada-akademi-crypto.md#b-modul-investasi-spot-kripto-ditunda) dan [LIVE-01](03-analis-live-akademi-crypto.md#live-01--siklus-halving-bitcoin-spot-jangka-panjang) dilewati.
 
 Kalau ya:
 
@@ -374,9 +385,13 @@ Kalau ya:
 
 ## Bagian 5 — Forex
 
+*Sudah dijawab → [10 · Bagian 5 — Forex](10-jawaban.md#bagian-5--forex).*
+
 ### Q-31 · Indikator FXcopet
 
-**Pertanyaannya:** setup FXcopet bergantung pada garis merah/aqua dari indikator khusus mereka, yang cara kerjanya tidak dijelaskan di video ([FXC-01](06-mentor-forex.md#fxc-01--tembus-garis-merahaqua-eurusd-m1)).
+*Jawaban akhir: FXcopet di-skip sepenuhnya; FXC-01 dipindahkan ke [08](08-tidak-dijadikan-aturan.md#g-fxcopet-forex_1-tidak-dipakai). Q-32 dan Q-33 jadi tidak relevan.*
+
+**Pertanyaannya:** setup FXcopet bergantung pada garis merah/aqua dari indikator khusus mereka, yang cara kerjanya tidak dijelaskan di video ([FXC-01](08-tidak-dijadikan-aturan.md#fxc-01--tembus-garis-merahaqua-eurusd-m1-arsip)).
 
 1. Apakah Anda punya file indikator FXcopet ("copet"/"kompas") untuk MetaTrader?
 2. Kalau tidak: **A.** tiru dengan garis horizontal di puncak/lembah terakhir M1 (ini **perkiraan**, belum tentu sama dengan aslinya), atau **B.** tunda setup FXcopet.
@@ -386,6 +401,8 @@ Kalau ya:
 
 ### Q-32 · Teknik "recover" FXcopet
 
+*Tidak relevan lagi (Q-31).*
+
 **Pertanyaannya:** setelah kena stop loss, FXcopet langsung membuka posisi **arah sebaliknya** dengan target 2× kerugian, untuk "menutup rugi". Ini bertentangan dengan larangan *revenge trading* dari Kalimasada dan Alvesting ([G-06](00-aturan-global.md#g-06--dilarang-revenge-trading)). Mentor juga tidak menyebut stop loss untuk posisi recover ini.
 
 **Pilihan:** A. Jangan dipakai · B. Dipakai, dengan ukuran posisi tetap mengikuti G-01 dan stop loss ___ · C. Uji dulu terpisah.
@@ -393,6 +410,8 @@ Kalau ya:
 ---
 
 ### Q-33 · Jam tutup FXcopet
+
+*Tidak relevan lagi (Q-31).*
 
 **Pertanyaannya:** transkrip menyebut posisi ditutup manual "di penutupan sesi Eropa, jam **5.00 sampai 6.00 WIB**". Pagi atau sore? Sesi Eropa (London) biasanya tutup sekitar 23.00–24.00 WIB, jadi angka ini tidak cocok untuk keduanya.
 
@@ -429,6 +448,8 @@ Untuk [PLN-01](06-mentor-forex.md#pln-01--pola-n-impuls--koreksi-sempit--tembus)
 
 ## Bagian 6 — Saham
 
+*Sudah dijawab → [10 · Bagian 6 — Saham](10-jawaban.md#bagian-6--saham).*
+
 ### Q-37 · Trailing stop Ko Andri
 
 **Pertanyaannya:** Ko Andri menyarankan *trailing stop* 5–10% bagi yang tidak memantau pasar ([AND-02](05-ko-andri-andre-hakim.md#and-02--trailing-stop-510)). Mau dipakai?
@@ -438,6 +459,8 @@ Untuk [PLN-01](06-mentor-forex.md#pln-01--pola-n-impuls--koreksi-sempit--tembus)
 ---
 
 ## Bagian 7 — Filter waktu
+
+*Sudah dijawab → [10 · Bagian 7 — Filter waktu](10-jawaban.md#bagian-7--filter-waktu).*
 
 ### Q-38 · Apa efek filter waktu pada bot?
 
@@ -473,3 +496,114 @@ Untuk [PLN-01](06-mentor-forex.md#pln-01--pola-n-impuls--koreksi-sempit--tembus)
 **Pertanyaannya:** selama Merkurius *retrograde* (±24 hari, 3–4 kali setahun), apa yang dilakukan bot?
 
 **Pilihan:** A. Setup breakout dimatikan · B. Ukuran posisi dikecilkan ___% · C. Hanya dicatat · D. Tidak dipakai sama sekali.
+
+---
+
+## Bagian 8 — Pertanyaan lanjutan
+
+Pertanyaan ini muncul saat menerapkan jawaban Anda. Setup yang masih 🟡 hanya menunggu pertanyaan di bagian ini. Cara menjawabnya sama: tulis nomor dan pilihan, misalnya `Q-45: B`.
+
+### Q-42 · Data mana yang disisihkan untuk memilih varian?
+
+**Pertanyaannya:** Anda minta varian dipilih dari hasil di data yang **tidak dipakai saat menyusun strategi** ([G-17](00-aturan-global.md#g-17--parameter-uji-dan-pemilihan-varian)). Data dibagi menurut waktu: bagian lama untuk menyusun dan memeriksa kode, bagian terbaru disimpan dan baru dipakai untuk memilih. Berapa bagian terbaru yang disisihkan?
+
+**Pilihan:**
+
+- **A.** 30% terakhir dari periode data. Contoh: data 10 tahun → 7 tahun pertama untuk menyusun, 3 tahun terakhir untuk memilih.
+- **B.** 12 bulan terakhir.
+- **C.** Lainnya: ___
+
+**Catatan:** mentor forex_2 minta data H1 minimal 2 tahun ([G-14](00-aturan-global.md#g-14--backtest-dulu-dan-nilai-hasilnya-dengan-data)). Batas itu saya pakai untuk bagian penyusunan, jadi data totalnya harus lebih panjang.
+
+---
+
+### Q-43 · "Hasil lebih baik" diukur dengan apa?
+
+**Pertanyaannya:** saat dua varian dibandingkan (misalnya SL 1× ATR lawan 1,5× ATR, atau tick volume lawan tanpa volume di Q-14), angka apa yang menentukan pemenangnya?
+
+**Pilihan:**
+
+- **A.** Untung bersih setelah biaya, dibagi drawdown terburuk ("untung per rasa sakit").
+- **B.** Untung bersih setelah biaya saja.
+- **C.** Rata-rata untung per transaksi dalam satuan risiko (R). Contoh: +0,3R = rata-rata tiap transaksi menghasilkan 0,3 kali risikonya.
+- **D.** Lainnya: ___
+
+**Tambahan:** varian dengan transaksi terlalu sedikit sulit dinilai. Minimal berapa transaksi di data pemilihan supaya hasilnya dihitung? (contoh: 30)
+
+---
+
+### Q-44 · "Hari" dan "rugi" dihitung bagaimana?
+
+Untuk rem darurat ([G-15](00-aturan-global.md#g-15--rem-darurat)) dan batas 3 transaksi per hari ([G-08](00-aturan-global.md#g-08--jangan-overtrading)):
+
+1. **Hari dan minggu mulai jam berapa?**
+   - **A.** 00.00 WIB; minggu mulai Senin 00.00 WIB.
+   - **B.** Ikut pergantian candle harian sumber data (kripto biasanya 07.00 WIB; forex biasanya 04.00 atau 05.00 WIB).
+   - **C.** Lainnya: ___
+2. **"Rugi hari ini 3%"** dihitung dari: **A.** saldo awal hari, **termasuk** rugi posisi yang masih terbuka · **B.** hanya transaksi yang sudah ditutup.
+3. **Saat bot berhenti total**, posisi yang masih terbuka: **A.** dibiarkan sampai kena TP/SL · **B.** langsung ditutup semua.
+4. **"Koneksi putus lama"** = putus lebih dari ___ menit (contoh: 15 menit).
+5. **Pola N** ([PLN-01](06-mentor-forex.md#pln-01--pola-n-impuls--koreksi-sempit--tembus)) hanya masuk "mulai 18.00 WIB", tanpa batas akhir dari mentor. Sementara saya pakai sampai **23.59 WIB**. **A.** Setuju · **B.** Sampai jam ___ WIB.
+
+---
+
+### Q-45 · Setup mana yang dihitung "scalping"?
+
+**Kenapa penting:** label scalping berarti risiko **0,5%**, posisi **ditutup setelah 3 jam**, dan **ditutup sebelum berita besar** ([D-11](00-aturan-global.md#d-11--label-posisi-scalping-atau-trading)). AFS-02 jelas scalping. Tiga setup lain belum jelas:
+
+| Setup | Kata mentor |
+|---|---|
+| [AFS-03](01-alvesting-akademi-crypto.md#afs-03--double-topbottom--tembus-neckline) Double top/bottom | Contohnya diberikan di pelajaran scalping, di M15 |
+| [AFS-12](01-alvesting-akademi-crypto.md#afs-12--pivot-point-entry-di-garis-p) Pivot point | Fokus H1, M15, M5; "yang suka intraday trading, suka scalping" |
+| [AFS-20](01-alvesting-akademi-crypto.md#afs-20--linear-regression-channel) Linear Regression Channel | "Cocok buat kalian yang suka scalping", "selesai dalam satu hari" |
+
+**Pilihan:**
+
+- **A.** Ketiganya scalping.
+- **B.** Hanya AFS-03 scalping; AFS-12 dan AFS-20 trading biasa (1%, tanpa batas 3 jam).
+- **C.** Ketiganya trading biasa.
+- **D.** Lainnya: ___
+
+---
+
+### Q-46 · AFS-01: indikator untuk poin 5
+
+Untuk [AFS-01](01-alvesting-akademi-crypto.md#afs-01--technical-research-5-tahap-versi-swing) dan AFS-02. Anda memilih minimal 4 dari 5 poin, dengan poin 1, 2, dan 4 wajib (Q-18).
+
+1. **Poin 5, "indikator mendukung".** G-11 membatasi satu indikator per kategori. Indikator mana?
+   - **A.** Bollinger Bands (20, 2): long kalau harga menyentuh band bawah, short kalau menyentuh band atas. Ini contoh mentor saat menjelaskan 5 poin.
+   - **B.** Stochastic 5,3,3 (setting favorit mentor) di area jenuh jual/beli.
+   - **C.** MA50: harga di atas MA50 untuk long, di bawahnya untuk short. Contoh mentor untuk downtrend ("ditolak MA50").
+   - **D.** Uji ketiganya, pilih di data pemilihan.
+2. **Poin 1, "tren terlihat secara kasat mata".** Tidak ada ukurannya, jadi saya samakan dengan poin 2 (minimal 2 higher high & 2 higher low). Akibatnya: poin 2 dan 4 wajib, ditambah minimal satu dari poin 3 dan 5. **A.** Setuju · **B.** Tidak: ___
+3. **Syarat pola (H4).** Di versi pertama, pola yang dikenali hanya double/triple top-bottom dan ABCD (Q-23), jadi setup ini akan jarang muncul. **A.** Pola tetap wajib · **B.** Pola tidak wajib.
+
+---
+
+### Q-47 · Timeframe dan cara masuk yang belum disebut
+
+Mentor tidak menyebut timeframe untuk setup berikut:
+
+| Setup | Yang perlu dipastikan |
+|---|---|
+| [AFS-05](01-alvesting-akademi-crypto.md#afs-05--money-magnet-ema-13--21) EMA 13 & 21 (berdiri sendiri) | Timeframe, **dan** cara masuk: langsung saat harga menyentuh pita EMA, atau menunggu candle pemicu ([D-06](00-aturan-global.md#d-06--candle)) |
+| [AFS-13A / AFS-13B](01-alvesting-akademi-crypto.md#afs-13--keltner-channel) Keltner | Timeframe |
+| [AFS-16](01-alvesting-akademi-crypto.md#afs-16--donchian-channel) Donchian | Timeframe |
+| [AFS-20](01-alvesting-akademi-crypto.md#afs-20--linear-regression-channel) Linear Regression Channel | Timeframe chart (mentor hanya bilang "intraday") |
+
+**Pilihan untuk timeframe:**
+
+- **A.** Uji beberapa timeframe dan pilih di data pemilihan: H1, H4, D1 (AFS-20: M15 dan H1).
+- **B.** Saya tentukan sendiri per setup: ___
+
+**Pilihan untuk cara masuk AFS-05:** **A.** Langsung saat harga menyentuh pita EMA · **B.** Tunggu candle pemicu di pita EMA.
+
+---
+
+### Q-48 · Wyckoff KMS-02: range seperti apa?
+
+[KMS-02](02-kalimasada-akademi-crypto.md#kms-02--wyckoff-breakout-range--retest) butuh definisi "range konsolidasi yang lama". Mentor hanya memberi contoh: range akumulasi BTC sekitar 10–20% ([AC_crypto_60 L2824–L3104](../materi/mentah/AC_crypto_60.txt#L2824-L3104)).
+
+1. **Timeframe:** **A.** D1 · **B.** H4 · **C.** Uji keduanya.
+2. **Lama minimal range:** ___ candle (contoh: 20).
+3. **Lebar maksimal range:** **A.** 20% (batas atas contoh mentor) · **B.** ___ × ATR(14) · **C.** Uji dulu, nilai awal ___.

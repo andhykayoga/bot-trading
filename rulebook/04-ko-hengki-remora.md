@@ -12,7 +12,7 @@ Yang diambil hanya bagian yang ia sebut sebagai **dasar teknikal**, yaitu **harg
 |---|---|
 | Sumber | [Remora_saham_11 L3870–L3899](../materi/mentah/Remora_saham_11.txt#L3870-L3899), [Remora_saham_11 L3960–L3999](../materi/mentah/Remora_saham_11.txt#L3960-L3999) |
 | Pasar | K, F\* |
-| Status | ⚪ 🟡 |
+| Status | ⚪ 🟢 |
 
 **Aturan:** tren naik dianggap **sehat** kalau:
 
@@ -23,7 +23,7 @@ Pola ini menandakan pemain besar belum menjual. Ikuti arahnya: koreksi yang seha
 
 Ini sejalan dengan VSA Kalimasada ([KMS-F1](02-kalimasada-akademi-crypto.md#kms-f1--filter-vsa-volume-vs-ukuran-candle)).
 
-**Belum jelas:** ukuran "volume naik/mengecil" → **Q-26**; volume forex → **Q-14**.
+**Ukuran untuk bot (Q-26):** candle naik bervolume = volume di atas rata-rata 20 candle; koreksi "tanpa volume" = rata-rata volume candle-candle koreksi di bawah rata-rata 20 candle ([D-07](00-aturan-global.md#d-07--volume)). Forex memakai tick volume, dibandingkan dengan versi tanpa filter ini (Q-14).
 
 ---
 
@@ -33,11 +33,11 @@ Ini sejalan dengan VSA Kalimasada ([KMS-F1](02-kalimasada-akademi-crypto.md#kms-
 |---|---|
 | Sumber | [Remora_saham_11 L3680–L3699](../materi/mentah/Remora_saham_11.txt#L3680-L3699) |
 | Pasar | K, F\* |
-| Status | ⚪ 🟡 |
+| Status | ⚪ 🟢 |
 
 **Aturan:** pola seperti *cup*, *sideways breakout*, *bottoming rebound*, double bottom **harus tembus dengan volume**. "Kalau break-nya nggak dengan volume, kalian jangan pakai."
 
-Sama dengan [AFS-F2](01-alvesting-akademi-crypto.md#afs-f2--konfirmasi-volume-untuk-breakout) dan prinsip Dow Theory.
+Sama dengan [AFS-F2](01-alvesting-akademi-crypto.md#afs-f2--konfirmasi-volume-untuk-breakout) dan prinsip Dow Theory. "Bervolume" = volume candle breakout di atas rata-rata 20 candle (Q-26).
 
 ---
 
@@ -47,9 +47,13 @@ Sama dengan [AFS-F2](01-alvesting-akademi-crypto.md#afs-f2--konfirmasi-volume-un
 |---|---|
 | Sumber | [Remora_saham_11 L1975–L2109](../materi/mentah/Remora_saham_11.txt#L1975-L2109) |
 | Pasar | K, F |
-| Status | 🟡 |
+| Timeframe | Tren sekunder **D1**, tren minor **H4** (Q-12) |
+| Arah | Long saja ("hanya main aset yang sedang naik") |
+| Label | Trading |
+| RR minimum | TP tetap 1:3 (entry D1/H4, mentor tidak menyebut target; Q-07) |
+| Status | 🟢 |
 
-**Aturan:**
+**Aturan dari mentor:**
 
 1. Hanya main aset yang sedang **naik** (*uptrend*).
 2. Untuk dana yang belum besar, pakai **tren sekunder dan minor**, bukan tren mayor (sulit ditahan) ([Remora_saham_11 L2005–L2020](../materi/mentah/Remora_saham_11.txt#L2005-L2020)).
@@ -65,10 +69,16 @@ Sama dengan [AFS-F2](01-alvesting-akademi-crypto.md#afs-f2--konfirmasi-volume-un
 
 **Checklist entry** yang ia sebut: support + volume + pola + RR. Kalau tembus sedikit di bawah support, *cut* ([Remora_saham_11 L3985–L3999](../materi/mentah/Remora_saham_11.txt#L3985-L3999), [Remora_saham_11 L4090–L4095](../materi/mentah/Remora_saham_11.txt#L4090-L4095)).
 
-**Belum jelas:**
+**Untuk bot:**
 
-- Batas tren mayor/sekunder/minor dalam timeframe tidak disebut → **Q-12**. Gaya masuk mana yang dipakai bot → **Q-09**.
-- Besar *cut loss*: Ko Hengki bilang tergantung karakter masing-masing (3%? 5%?) ([Remora_saham_14 L2040–L2049](../materi/mentah/Remora_saham_14.txt#L2040-L2049)) → mengikuti G-01/G-02.
+- **Dua versi timeframe** (Q-12), masing-masing dijalankan sebagai setup tersendiri: **sekunder = D1** dan **minor = H4**. Tren naik = struktur bullish di timeframe itu ([D-02](00-aturan-global.md#d-02--struktur-dan-tren)).
+- **Dua gaya masuk**, keduanya sah menurut Ko Hengki, jadi **keduanya diuji** (Q-09):
+  - *Buy on weakness*: harga koreksi ke zona support (swing low terakhir, [D-04](00-aturan-global.md#d-04--zona-support-dan-resistance)) dengan volume mengecil ([HKI-F1](#hki-f1--naik-bervolume-koreksi-tanpa-volume)) → order limit di tepi atas zona.
+  - *Buy on breakout*: candle close di atas zona resistance dengan volume naik ([HKI-F2](#hki-f2--breakout-pola-harus-bervolume)) → order pasar saat candle itu close.
+- **SL:** swing low terakhir − 1 × ATR(14) ([G-02](00-aturan-global.md#g-02--stop-loss-wajib-di-titik-analisa-saya-salah)). Ko Hengki sendiri bilang besar *cut loss* tergantung karakter masing-masing ([Remora_saham_14 L2040–L2049](../materi/mentah/Remora_saham_14.txt#L2040-L2049)).
+- **TP:** 1:3 (Q-07).
+- **Keluar lebih awal:** kalau struktur patah (candle close di bawah higher low terakhir) sebelum TP atau SL tersentuh, posisi ditutup. Ini aturan keluar dari mentor, jadi termasuk pengecualian [G-07](00-aturan-global.md#g-07--rencana-tidak-diubah-di-tengah-jalan).
+- **Dua akun terpisah** tidak diperlukan: kedua versi timeframe berjalan di satu akun bot, tetap dibatasi 1 posisi per instrumen ([G-08](00-aturan-global.md#g-08--jangan-overtrading)).
 
 ---
 

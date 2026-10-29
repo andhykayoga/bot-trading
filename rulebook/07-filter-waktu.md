@@ -8,9 +8,26 @@ Halaman ini berisi dua kelompok konsep **waktu**:
 ## Status: opsional, default MATI
 
 - Semua filter di halaman ini **mati secara default**. Mesin utama bot tetap setup dari kelas kripto, saham, dan forex.
-- Filter hanya boleh dinyalakan **setelah lolos uji** (lihat [cara menguji](#cara-menguji-sebelum-dipakai)).
 - Filter waktu **tidak pernah** menjadi sinyal masuk sendiri. Astronacci sendiri: teknikal menjawab "**di harga berapa**", waktu menjawab "**kapan**"; teknikal adalah "level 1", astrologi "level 2" ([PETA 9.1 butir 1](../materi/PETA.md#91-konsep-dasarnya)).
-- Bagaimana filter memengaruhi keputusan bot (memblokir, mengizinkan, atau hanya mencatat) **belum ditentukan** → **Q-38**.
+- **Efek pada bot (Q-38):**
+
+  | Tahap | Fase bulan, Fibonacci waktu, tanggal Astronacci (WKT-01 – 03) | Angka waktu Hosoda (WKT-05) | Mercury retrograde (WKT-04) |
+  |---|---|---|---|
+  | **Sebelum lolos uji** | Hanya **dicatat** di log setiap transaksi; keputusan bot tidak berubah | Sama | Sama |
+  | **Kalau lolos uji** | Di tanggal kandidat, hanya **setup pembalikan** yang boleh masuk | Dipakai untuk **waktu ambil untung** | Kalau terbukti setup breakout lebih sering gagal saat retrograde: **setup breakout dimatikan** selama retrograde (Q-41) |
+
+- Dasar efek "kalau lolos" dari sumbernya sendiri: Astronacci memakai tanggal kandidat sebagai **titik balik** yang dikonfirmasi teknikal; Rafał mengambil untung saat **target waktu bertepatan dengan target harga**.
+
+### Setup mana yang dihitung "pembalikan" dan "breakout"
+
+*Usulan saya; hanya dipakai kalau filter lolos uji. Silakan diubah.*
+
+| Kelompok | Setup |
+|---|---|
+| **Pembalikan** | AFS-03 (double/triple top-bottom), AFS-06 (stop hunt), AFS-07 (CHoCH), AFS-09 (pembalikan Dow), AFS-10 (ABCD), AFS-13B (pantulan Keltner), AFS-15 (PSAR), AFS-16 mode pantulan, AFS-17 (KST), AFS-18 versi divergensi, AFS-21 (Renko reversal) |
+| **Breakout** | AFS-03 versi konfirmasi (tembus neckline), AFS-09, AFS-18 versi breakout, AFS-20 mode breakout, KMS-02, HKI-01 *buy on breakout*, PLN-01 |
+
+Filter fase bulan dan Fibonacci waktu hanya berlaku untuk setup dengan **entry di H4 ke atas** (Q-39), karena jendela harian kurang berarti untuk timeframe kecil.
 
 ### Seberapa kuat buktinya (dari PETA 9.2)
 
@@ -24,14 +41,13 @@ Catatan dari PETA: sampelnya sangat kecil, diuji pada data yang sama dengan data
 
 ---
 
-## Definisi bersama: titik balik (swing) 5 candle
+## Definisi bersama: titik balik
 
-Dipakai oleh WKT-02, WKT-03, dan untuk mengukur hasil uji.
+Dipakai oleh WKT-02, WKT-03, WKT-05, dan untuk mengukur hasil uji.
 
-- **Puncak** = candle yang *high*-nya lebih tinggi daripada 2 candle sebelumnya **dan** 2 candle sesudahnya.
-- **Lembah** = candle yang *low*-nya lebih rendah daripada 2 candle sebelumnya **dan** 2 candle sesudahnya.
-
-Ini definisi dari makalah Gema dkk. dan mirip indikator *fractal* ([PETA 9.1 butir 6](../materi/PETA.md#91-konsep-dasarnya)). Konsekuensinya: titik balik baru **pasti** setelah 2 candle sesudahnya selesai.
+- Bot memakai **swing fractal 2–2** ([D-01](00-aturan-global.md#d-01--swing-high-dan-swing-low)), seperti semua swing lain di rulebook (Q-12, Q-40): puncak = *high* lebih tinggi dari 2 candle sebelumnya dan 2 candle sesudahnya; lembah sebaliknya.
+- Titik balik baru **pasti** setelah 2 candle sesudahnya selesai.
+- Makalah Gema dkk. memakai versi yang sedikit lebih ketat: *high* naik **dua kali berturut-turut** sebelum puncak, lalu turun dua kali berturut-turut sesudahnya ([PETA 9.1 butir 6](../materi/PETA.md#91-konsep-dasarnya); makalah hlm. 1586). Untuk perbandingan dengan angka di makalah, titik balik versi makalah juga bisa dihitung dan dicatat.
 
 ---
 
@@ -40,18 +56,17 @@ Ini definisi dari makalah Gema dkk. dan mirip indikator *fractal* ([PETA 9.1 but
 | | |
 |---|---|
 | Sumber | [PETA 9.1 butir 2](../materi/PETA.md#91-konsep-dasarnya) |
-| Pasar | Paling banyak diriset di IHSG dan **emas**; di saham AS hasilnya "fifty-fifty" |
-| Status | ⚪ 🟡 |
+| Pasar | Paling banyak diriset di IHSG dan **emas**; di saham AS hasilnya "fifty-fifty". Bot menguji **XAUUSD, EURUSD, BTC, ETH** (Q-39) |
+| Status | ⚪ 🟢 (siap diuji) |
 
 **Aturan:**
 
 1. Hitung tanggal **New Moon** (Matahari–Bulan berimpit 0°) dan **Full Moon** (berseberangan 180°).
-2. Hari dalam jendela **±1–2 hari** dari tanggal itu = **kandidat titik balik**: bisa puncak, bisa lembah.
-3. Kandidat ini **wajib dikonfirmasi teknikal**: support/resistance, Fibonacci, gap, EMA21.
+2. Hari dalam jendela **±1 hari** atau **±2 hari** dari tanggal itu = **kandidat titik balik**: bisa puncak, bisa lembah. Kedua jendela **diuji** (Q-39).
+3. Kandidat ini **wajib dikonfirmasi teknikal**: support/resistance, Fibonacci, gap, EMA21. Di bot, konfirmasinya adalah setup pembalikan yang memberi sinyal di tanggal itu.
+4. Hanya untuk setup dengan **entry di H4 ke atas** (Q-39).
 
 Tanggal fase bulan bisa dihitung otomatis dengan pustaka astronomi Python (misalnya `skyfield` atau `ephem`), tanpa situs pihak ketiga ([PETA 9.3](../materi/PETA.md#93-cara-memakainya-di-bot-bisa-diuji-secara-objektif)).
-
-**Belum jelas** → **Q-39**: jendela ±1 atau ±2 hari? Instrumen mana yang diuji? Berlaku untuk setup timeframe berapa?
 
 ---
 
@@ -59,20 +74,17 @@ Tanggal fase bulan bisa dihitung otomatis dengan pustaka astronomi Python (misal
 
 | | |
 |---|---|
-| Sumber | [PETA 9.1 butir 4](../materi/PETA.md#91-konsep-dasarnya) |
-| Status | ⚪ 🟡 |
+| Sumber | [PETA 9.1 butir 4](../materi/PETA.md#91-konsep-dasarnya); makalah Gema dkk. 2021 ([PETA 9.4](../materi/PETA.md#94-sumber)) |
+| Status | ⚪ 🟢 (siap diuji) |
 
-**Aturan:**
+**Aturan (Q-40):**
 
-1. Ukur **jarak waktu** antar-titik balik: puncak ke puncak, lembah ke lembah.
-2. Proyeksikan ke depan dengan angka Fibonacci: **13, 21, 34, 55, 89, 144, 233, …** (dalam jumlah candle/hari).
-3. Tanggal tempat **≥3 proyeksi bertumpuk** = kandidat titik balik yang kuat.
-
-**Belum jelas** → **Q-40**:
-
-- Titik balik yang dipakai diambil dari timeframe apa (D1?) dan berapa titik ke belakang?
-- Seberapa dekat proyeksi harus jatuh supaya dihitung "bertumpuk" (hari yang sama, atau ±1 hari)?
-- Angka Fibonacci dipakai sebagai kelipatan jarak antar-titik, atau sebagai jumlah hari langsung dari titik balik? PETA menyebut "proyeksikan ke depan dengan angka Fibonacci" tanpa merinci.
+1. **Titik balik** dari **D1**, fractal 2–2. Pakai **semua** titik balik dalam **233 candle D1 terakhir** (233 = angka Fibonacci terbesar yang dipakai).
+2. **Proyeksi ke depan.** Makalah Gema dkk. (versi TURCOMAT 12(4), hlm. 1583–1595) **tidak menjelaskan** cara menghitung proyeksinya; ia hanya mengelompokkan hari menjadi "proyeksi kurang dari 3" dan "lebih dari 3". Jadi dua cara diuji:
+   - **(a)** Dari **tiap** titik balik, hitung maju **13, 21, 34, 55, 89, 144, 233** candle.
+   - **(b)** Untuk tiap pasangan titik balik sejenis yang berurutan (puncak ke puncak, lembah ke lembah; [PETA 9.1 butir 4](../materi/PETA.md#91-konsep-dasarnya)), ukur jaraknya, lalu proyeksikan dari titik yang lebih baru dengan kelipatan **0,382; 0,618; 1; 1,618; 2,618** × jarak itu.
+3. **Toleransi:** proyeksi yang jatuh **±1 hari** dari suatu tanggal dihitung bertumpuk di tanggal itu.
+4. **Kandidat titik balik kuat** = tanggal dengan **≥3 proyeksi** bertumpuk (PETA). Makalah menulis "lebih dari 3" untuk kelompok ini dan "kurang dari 3" untuk kelompok lain, jadi angka 3 sendiri tidak tegas → diuji **≥3** dan **≥4**.
 
 ---
 
@@ -81,11 +93,9 @@ Tanggal fase bulan bisa dihitung otomatis dengan pustaka astronomi Python (misal
 | | |
 |---|---|
 | Sumber | [PETA 9.1 butir 5](../materi/PETA.md#91-konsep-dasarnya) |
-| Status | ⚪ 🟡 |
+| Status | ⚪ 🟢 (siap diuji) |
 
-**Aturan:** tanggal "Astronacci" = tanggal peristiwa astro (terutama fase bulan, WKT-01) yang **juga** jatuh di tumpukan proyeksi Fibonacci waktu (WKT-02). Ini kombinasi yang menghasilkan angka 64%/54% di makalah Gema.
-
-**Belum jelas:** sama dengan WKT-01 dan WKT-02 (Q-39, Q-40).
+**Aturan:** tanggal "Astronacci" = tanggal di jendela fase bulan (WKT-01) yang **juga** jatuh di tumpukan proyeksi Fibonacci waktu (WKT-02). Ini kombinasi yang menghasilkan angka 64%/54% di makalah Gema. Semua pilihan uji WKT-01 dan WKT-02 ikut berlaku.
 
 ---
 
@@ -94,13 +104,15 @@ Tanggal fase bulan bisa dihitung otomatis dengan pustaka astronomi Python (misal
 | | |
 |---|---|
 | Sumber | [PETA 9.1 butir 3](../materi/PETA.md#91-konsep-dasarnya) |
-| Status | ⚪ 🟡 |
+| Status | ⚪ 🟢 (siap diuji) |
 
-**Aturan:** Merkurius *retrograde* (±24 hari, 3–4 kali setahun) dipakai Astronacci sebagai **penanda waktu** pasar yang rawan **sideways** dan **false breakout**. Menurut Astronacci sendiri ini **bukan** sinyal beli/jual.
+**Aturan:** Merkurius *retrograde* (±24 hari, 3–4 kali setahun) dipakai Astronacci sebagai **penanda waktu** pasar yang rawan **sideways** dan **false breakout**. Menurut Astronacci sendiri ini **bukan** sinyal beli/jual. Tanggal retrograde bisa dihitung dengan pustaka astronomi.
 
-Tanggal retrograde juga bisa dihitung dengan pustaka astronomi.
+**Cara uji dan efeknya (Q-41):**
 
-**Belum jelas** → **Q-41**: saat retrograde, apa yang dilakukan bot? (contoh pilihan: setup breakout dimatikan, ukuran posisi dikecilkan, atau hanya dicatat).
+1. Sebelum lolos uji: hanya **dicatat** apakah sebuah transaksi dibuka saat retrograde.
+2. Bandingkan persentase gagal (kena SL) **setup breakout** (daftar di atas) saat retrograde dan di luar retrograde, di data pemilihan ([G-17](00-aturan-global.md#g-17--parameter-uji-dan-pemilihan-varian)).
+3. Kalau terbukti lebih sering gagal saat retrograde: **setup breakout dimatikan** selama retrograde. Kalau tidak: tetap hanya dicatat.
 
 ---
 
@@ -112,7 +124,7 @@ PETA juga menyebut **deklinasi bulan**, **aspek planet** (0° konjungsi, 60° se
 
 PETA 9.1 butir 7 menyebut teknik harga yang sering diajarkan Astronacci: Fibonacci retracement & ekstensi, *price action* (engulfing, pin bar, hammer, shooting star), koreksi ABC di emas H4 (masuk di akhir gelombang C), dan SL di luar area retracement. Semuanya sudah tercakup di [AFS-04](01-alvesting-akademi-crypto.md#afs-04--pantulan-golden-pocket-fibonacci), [AFS-01](01-alvesting-akademi-crypto.md#afs-01--technical-research-5-tahap-versi-swing), dan [AFS-24](01-alvesting-akademi-crypto.md#afs-24--elliott-wave).
 
-Satu prinsip yang berguna untuk bot: **setiap pasar punya rasio Fibonacci "favorit" sendiri** (misalnya 1,618 vs 2,618) yang harus dicari lewat **backtest ±5 tahun** ([PETA 9.1 butir 7](../materi/PETA.md#91-konsep-dasarnya)). Ini bisa dipakai saat mengatur parameter AFS-04 per instrumen.
+Satu prinsip yang berguna untuk bot: **setiap pasar punya rasio Fibonacci "favorit" sendiri** (misalnya 1,618 vs 2,618) yang harus dicari lewat **backtest ±5 tahun** ([PETA 9.1 butir 7](../materi/PETA.md#91-konsep-dasarnya)). Di rulebook ini, pemilihan target AFS-04 sudah diatur oleh RR minimum (Q-08); prinsip ini dicatat untuk versi berikutnya.
 
 ---
 
@@ -122,7 +134,7 @@ Satu prinsip yang berguna untuk bot: **setiap pasar punya rasio Fibonacci "favor
 |---|---|
 | Sumber | [forex_3 L713–L1184](../materi/mentah/forex_3.txt#L713-L1184), dipakai di praktik live [forex_3 L151–L300](../materi/mentah/forex_3.txt#L151-L300) |
 | Pasar | Semua (contoh: DAX M5, minyak, AUD/CHF, USD/JPY, USD/TRY) |
-| Status | ⚪ 🟡 |
+| Status | ⚪ 🟢 (siap diuji) |
 
 **Angka dasar:** **9, 17, 26**. Angka turunan dibentuk dengan menjumlahkan angka dasar lalu **mengurangi candle yang dihitung dua kali** (candle puncak/lembah ikut dihitung di dua gerakan) ([forex_3 L733–L800](../materi/mentah/forex_3.txt#L733-L800)):
 
@@ -144,14 +156,14 @@ Sumber tabel: [forex_3 L800–L875](../materi/mentah/forex_3.txt#L800-L875).
 
 **Cara pakai menurut Rafał:**
 
-1. Beri nomor **1** pada candle awal tren atau titik balik.
+1. Beri nomor **1** pada candle awal tren atau titik balik. Di bot: swing D-01 di timeframe entry (Q-12).
 2. Waspadai **reaksi atau pembalikan** saat hitungan mencapai 26, 33, 42, 51, 65, 76, dan seterusnya. Berlaku di timeframe apa pun ([forex_3 L895–L955](../materi/mentah/forex_3.txt#L895-L955)).
 3. **Keseimbangan waktu:** gerakan berikutnya sering sama panjang waktunya dengan gerakan sebelumnya (contoh 26 = 26 = 26; 13 = 13) ([forex_3 L1013–L1095](../materi/mentah/forex_3.txt#L1013-L1095)). Di praktik: turun 25 candle + koreksi 18 candle = 42 (angka Hosoda), lalu proyeksi waktu CD = AB, = BC, atau = ABC ([forex_3 L151–L300](../materi/mentah/forex_3.txt#L151-L300)).
 4. **Gabungkan dengan target harga** ([ICH-04](06-mentor-forex.md#ich-04--target-harga-hosoda-untuk-tp)). Ambil untung terutama saat target waktu bertepatan dengan target harga ([forex_3 L3194–L3250](../materi/mentah/forex_3.txt#L3194-L3250), [forex_3 L611–L660](../materi/mentah/forex_3.txt#L611-L660)).
 
 Rafał juga menyarankan memeriksa apakah pasar pilihan Anda bereaksi pada angka-angka ini, atau pada angka lain ([forex_3 L1170–L1184](../materi/mentah/forex_3.txt#L1170-L1184)). Jadi angka ini pun harus diuji per instrumen.
 
-**Belum jelas:** dipakai untuk apa di bot (filter masuk, pengatur waktu TP, atau hanya catatan) → **Q-38**. Titik awal hitungan → **Q-12**.
+**Efek kalau lolos uji (Q-38: waktu ambil untung):** posisi ICH-01 – ICH-03 **ditutup** saat hitungan candle sejak titik awal mencapai angka Hosoda **dan** harga berada di zona salah satu target ICH-04 (target ± 0,5 × ATR(14)), walaupun TP-nya belum tersentuh. *(Terjemahan saya dari "ambil untung saat target waktu bertepatan dengan target harga".)*
 
 ---
 
@@ -160,8 +172,8 @@ Rafał juga menyarankan memeriksa apakah pasar pilihan Anda bereaksi pada angka-
 Diambil dari [PETA 9.3](../materi/PETA.md#93-cara-memakainya-di-bot-bisa-diuji-secara-objektif), dirinci menjadi langkah:
 
 1. **Hitung tanggal-tanggal kandidat** untuk periode historis: fase bulan dan retrograde (pustaka astronomi), tumpukan Fibonacci waktu (WKT-02), dan hitungan Hosoda (WKT-05).
-2. **Tandai titik balik sebenarnya** di data harga dengan definisi 5 candle di atas.
+2. **Tandai titik balik sebenarnya** di data harga dengan definisi di atas.
 3. **Bandingkan:** apakah tanggal kandidat **lebih sering** menjadi titik balik dibanding hari biasa (patokan dasar ±8–9% di makalah Gema)?
-4. **Uji di data yang berbeda** dari data yang dipakai untuk mengatur parameter (supaya tidak mengulang kelemahan makalah Gema), dan pastikan jumlah kejadiannya cukup banyak.
-5. **Kalau tidak lebih baik dari acak → buang.** Kalau lebih baik → boleh dinyalakan sebagai filter tambahan sesuai jawaban Q-38.
-6. Instrumen yang disarankan PETA untuk diuji: **EURUSD** dan **XAUUSD**; tambahkan instrumen kripto jika bot juga trading kripto.
+4. **Uji di data yang berbeda** dari data yang dipakai untuk mengatur parameter (supaya tidak mengulang kelemahan makalah Gema), dan pastikan jumlah kejadiannya cukup banyak. Pembagian datanya sama dengan [G-17](00-aturan-global.md#g-17--parameter-uji-dan-pemilihan-varian) ([Q-42](09-pertanyaan-untuk-anda.md#q-42--data-mana-yang-disisihkan-untuk-memilih-varian)).
+5. **Kalau tidak lebih baik dari acak → buang.** Kalau lebih baik → boleh dinyalakan dengan efek di tabel atas (Q-38).
+6. Instrumen yang diuji: **XAUUSD, EURUSD, BTC, ETH** (Q-39).
