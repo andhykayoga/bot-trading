@@ -59,3 +59,25 @@ def test_every_setup_has_plan_and_defaults():
         st = cls()
         assert st.id == sid and st.defaults
         st.plan()
+
+
+def test_usdjpy_conversion_to_usd():
+    inst = INSTRUMENTS["USDJPY"]
+    assert np.isclose(inst.usd_per_quote(150.0), 1 / 150.0)
+    assert np.isclose(inst.notional_usd(1000, 150.0), 1000)       # 1000 unit USDJPY = 1000 USD
+    assert np.isclose(INSTRUMENTS["GBPUSD"].notional_usd(1000, 1.3), 1300)
+
+
+def test_crypto_spot_has_no_swap_and_round_trip_cost():
+    btc = INSTRUMENTS["BTCUSD"]
+    assert not btc.swap
+    assert np.isclose(btc.spread(100_000.0) / 100_000.0, 0.0022)
+
+
+def test_tsmom_stats_cagr():
+    import pandas as pd
+    from bot.research.tsmom import stats
+    idx = pd.date_range("2020-01-01", "2022-01-01", freq="D")
+    eq = pd.Series(np.linspace(1.0, 1.21, len(idx)), index=idx)
+    st = stats(eq, 365)
+    assert abs(st["cagr_pct"] - 10.0) < 0.2 and st["max_dd_pct"] == 0

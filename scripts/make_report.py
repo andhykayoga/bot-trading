@@ -53,6 +53,7 @@ PARAM_TEXT = {
     "retest": lambda v: f"retest maks {v} candle",
     "poc": lambda v: "POC minggu lalu (H1)" if v == "week" else "POC bulan lalu (H4)",
     "style": lambda v: "buy on weakness" if v == "weakness" else "buy on breakout",
+    "rebound_pct": lambda v: f"pantulan {v:g}% (kripto)",
 }
 
 

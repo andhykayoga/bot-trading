@@ -19,7 +19,7 @@ class Splits:
 
     def seg(self, name: str) -> tuple[int, int]:
         return {"dev": (self.start, self.dev_end), "sel": (self.dev_end, self.sel_end),
-                "final": (self.sel_end, self.end)}[name]
+                "final": (self.sel_end, self.end), "full": (self.start, self.end)}[name]
 
     def describe(self) -> dict:
         f = lambda x: str(pd.Timestamp(x, tz="UTC").tz_convert("Asia/Jakarta").strftime("%Y-%m-%d %H:%M WIB"))

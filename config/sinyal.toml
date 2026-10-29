@@ -1,0 +1,24 @@
+# Mode semi-otomatis (scripts/sinyal.py): bot memberi sinyal, Anda yang mengeksekusi.
+# Tidak ada setup yang lolos uji; daftar di bawah adalah kandidat untuk DIAMATI di akun demo,
+# dipilih dari setup yang paling mendekati di laporan rencana cadangan. Ubah sesuai keinginan.
+
+saldo_usd = 1000
+risiko_per_transaksi = 0.01   # G-01: 1% (scalping otomatis setengahnya)
+
+[pasar.crypto]
+# Keluarga setup tren/breakout H4 yang untung di 2017–2024 tetapi rugi di uji akhir 2025–2026.
+setup = ["AFS-16T", "AFS-18", "AFS-20B", "HKI-01-H4"]
+tsmom = true              # posisi bulanan time-series momentum
+tsmom_long_only = true    # akun kripto versi pertama hanya spot (G-16)
+
+[pasar.crypto.parameter]
+# Parameter terkunci dari pemilihan G-17 tahap 2 (reports/LAPORAN_RENCANA_CADANGAN.md).
+"AFS-16T" = { tf = "H4", sl_atr = 1.0, retest = 10 }
+"AFS-18" = { tf = "H4", sl_atr = 1.0 }
+"AFS-20B" = { sl_atr = 1.0, retest = 10 }
+"HKI-01-H4" = { style = "breakout", sl_atr = 1.0 }
+
+[pasar.forex]
+# Tidak ada setup forex yang lolos. Tambahkan ID setup di sini kalau ingin mengamati di demo.
+setup = []
+tsmom = false

@@ -72,10 +72,10 @@ class AstroFilter:
 
 
 class Evaluator:
-    def __init__(self, market: str = "forex"):
+    def __init__(self, market: str = "forex", splits: Splits | None = None):
         self.market = market
         self.sim = Simulator(market)
-        self.splits: Splits = market_splits(market)
+        self.splits: Splits = splits or market_splits(market)
         self.data = {s: load_instrument(s) for s in self.sim.syms}
         self._sig: dict[str, list[Order]] = {}
 
