@@ -84,11 +84,7 @@ Sebelum mengambil Paket 3, kirim dulu **satu contoh** (satu saham, satu hari) su
 - unggah ke repo GitHub di branch `claude/confident-newton-sa3u9i`, folder `data_stockbit/` (GitHub → Add file →
   Upload files). Pastikan repo **privat**, karena data Stockbit tidak boleh disebarkan ulang.
 
-## Yang akan saya uji setelah data masuk (dikunci dulu sebelum hasil dihitung)
+## Yang akan saya uji setelah data masuk
 
-- **Valuasi Ko Andri:** tiap akhir April (setelah laporan tahunan terbit, supaya tidak memakai data yang belum
-  ada), pilih saham dari daftar di atas dengan PBV < 1 dan PER rendah dibanding sektornya, ROE > 5%, DER lebih kecil
-  dari median sektor, dan membagi dividen. Bandingkan dengan membeli semua 45 saham (bobot sama) dan dengan IHSG,
-  setelah biaya transaksi saham (beli ±0,15%, jual ±0,25%). Detailnya ditulis di pra-registrasi sebelum dihitung.
-- **Bandarmologi Ko Hengki** (kalau datanya ada): akumulasi broker besar vs ritel (XL, XC, YP, PD, dll.) sebelum
-  kenaikan harga, dibanding saham yang sama tanpa sinyal.
+Aturan uji valuasi Ko Andri sudah dikunci sebelum data masuk, di
+[`RENCANA_SAHAM_KO_ANDRI.md`](RENCANA_SAHAM_KO_ANDRI.md). Bandarmologi Ko Hengki menunggu contoh broker summary.
