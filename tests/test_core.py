@@ -156,3 +156,30 @@ def test_tsmom_stats_cagr():
     eq = pd.Series(np.linspace(1.0, 1.21, len(idx)), index=idx)
     st = stats(eq, 365)
     assert abs(st["cagr_pct"] - 10.0) < 0.2 and st["max_dd_pct"] == 0
+
+
+def _candle_tge(c, low=None):
+    import pandas as pd
+    c = np.asarray(c, float)
+    o = np.r_[c[0], c[:-1]]
+    lo = np.minimum(o, c) - 0.1 if low is None else np.asarray(low, float)
+    return pd.DataFrame({"o": o, "h": np.maximum(o, c) + 0.1, "l": lo, "c": c},
+                        index=pd.date_range("2024-01-01", periods=len(c), freq="D"))
+
+
+def test_tge_base_entry_then_target():
+    from bot.research.tge import simulasi
+    c = [10, 8, 7, 6, 5.5, 4.8] + [4.8] * 20 + [6, 8, 10, 12, 14] + [14] * 9
+    low = np.minimum(np.r_[c[0], c[:-1]], c) - 0.1
+    low[5], low[6:26] = 4.5, 4.7                 # low terendah di hari 5, base dibeli setelah 14 hari (hari 19 → open 20)
+    r = simulasi(_candle_tge(c, low), lantai=4.0)
+    units = 0.3 * 0.998 / 10 + 0.7 * 0.998 / 4.8
+    assert str(r["tgl_base"]) == "2024-01-21" and r["alasan"] == "target" and r["hari_keluar"] == 31
+    assert abs(r["hasil"] - (units * 14 * 0.998 - 1)) < 1e-9
+
+
+def test_tge_cut_loss_below_floor():
+    from bot.research.tge import simulasi
+    r = simulasi(_candle_tge([10, 8, 6, 4, 3.2, 3.0, 3.0]), lantai=4.0)
+    assert r["alasan"] == "cut loss" and r["tgl_base"] is None and r["hari_keluar"] == 5
+    assert abs(r["hasil"] - (0.3 * 0.998 / 10 * 3.2 * 0.998 - 0.3)) < 1e-9

@@ -14,7 +14,9 @@ Sumber:
 - Candle harian multi-aset OANDA (folder D/), candle harian spot Binance untuk altcoin/meme
   (data-api.binance.vision), Fear & Greed Index (alternative.me).
 
-Jalankan: python -m bot.data.download [forex forex_uji forex_riset crypto riset harian kripto_harian]
+- Candle 1 jam BTC/ETH dengan volume beli taker (order flow) dan data token baru Binance (TGE).
+
+Jalankan: python -m bot.data.download [forex forex_uji forex_riset crypto riset harian kripto_harian orderflow tge]
 """
 from __future__ import annotations
 
@@ -185,27 +187,39 @@ def download_harian() -> None:
         print(f"harian: {name} {len(df)} hari")
 
 
+BINANCE_API = "https://data-api.binance.vision/api/v3"
+
+
+def _klines(symbol: str, interval: str = "1d", start: int = 0) -> pd.DataFrame | None:
+    """Semua candle spot Binance sejak `start` (ms). Kolom t o h l c v qv n tbv (tbv = volume beli taker)."""
+    step = {"1d": 86400_000, "1h": 3600_000}[interval]
+    rows = []
+    while True:
+        chunk = json.loads(_get(f"{BINANCE_API}/klines?symbol={symbol}&interval={interval}&limit=1000"
+                                f"&startTime={start}", retries=3))
+        if not isinstance(chunk, list) or not chunk:
+            break
+        rows.extend(chunk)
+        if len(chunk) < 1000:
+            break
+        start = chunk[-1][0] + step
+    if not rows:
+        return None
+    df = pd.DataFrame([r[:10] for r in rows], columns=["t", "o", "h", "l", "c", "v", "t_close", "qv", "n", "tbv"])
+    df = df.astype({c: float for c in ["o", "h", "l", "c", "v", "qv", "tbv"]})
+    df["t"] = pd.to_datetime(df["t"], unit="ms")
+    return df[["t", "o", "h", "l", "c", "v", "qv", "n", "tbv"]]
+
+
 def download_kripto_harian() -> None:
     """Candle harian spot Binance (BTC, ETH, altcoin, meme) lewat data-api.binance.vision, plus Fear & Greed."""
     out = DATA / "kripto_harian"
     out.mkdir(parents=True, exist_ok=True)
-    api = "https://data-api.binance.vision/api/v3/klines"
     for coin in ["BTC", *ALTCOIN, *MEME]:
-        rows, start = [], 0
-        while True:
-            chunk = json.loads(_get(f"{api}?symbol={coin}USDT&interval=1d&limit=1000&startTime={start}", retries=3))
-            if not isinstance(chunk, list) or not chunk:
-                break
-            rows.extend(chunk)
-            if len(chunk) < 1000:
-                break
-            start = chunk[-1][0] + 86400_000
-        if not rows:
+        df = _klines(f"{coin}USDT")
+        if df is None:
             print(f"kripto: {coin} tidak ada")
             continue
-        df = pd.DataFrame([r[:8] for r in rows], columns=["t", "o", "h", "l", "c", "v", "t_close", "qv"])
-        df = df.astype({c: float for c in ["o", "h", "l", "c", "v", "qv"]})
-        df["t"] = pd.to_datetime(df["t"], unit="ms")
         df[["t", "o", "h", "l", "c", "v", "qv"]].to_parquet(out / f"{coin}.parquet", index=False)
         print(f"kripto: {coin} {len(df)} hari sejak {df.t.iloc[0].date()}")
     fng = json.loads(_get("https://api.alternative.me/fng/?limit=0&format=json"))["data"]
@@ -213,9 +227,39 @@ def download_kripto_harian() -> None:
     print(f"fear & greed: {len(fng)} hari")
 
 
+def download_orderflow() -> None:
+    """Candle 1 jam BTCUSDT & ETHUSDT dengan volume beli taker, untuk uji order flow (AFS-22)."""
+    out = DATA / "orderflow"
+    out.mkdir(parents=True, exist_ok=True)
+    for sym in ["BTCUSDT", "ETHUSDT"]:
+        df = _klines(sym, "1h")
+        df[["t", "o", "h", "l", "c", "v", "n", "tbv"]].to_parquet(out / f"{sym}_1h.parquet", index=False)
+        print(f"orderflow: {sym} {len(df)} jam sejak {df.t.iloc[0]}")
+
+
+def download_tge() -> None:
+    """Tanggal listing semua pasangan USDT di Binance spot + candle harian token yang punya valuasi (LIVE-02)."""
+    out = DATA / "tge"
+    (out / "harian").mkdir(parents=True, exist_ok=True)
+    info = json.loads(_get(f"{BINANCE_API}/exchangeInfo"))["symbols"]
+    pairs = sorted(s["baseAsset"] for s in info if s["quoteAsset"] == "USDT" and s["symbol"].isascii())
+    rows = []
+    for coin in pairs:
+        k = json.loads(_get(f"{BINANCE_API}/klines?symbol={coin}USDT&interval=1d&limit=1&startTime=0", retries=3))
+        if k:
+            rows.append((coin, pd.to_datetime(k[0][0], unit="ms").date(), float(k[0][1]), float(k[0][4])))
+    pd.DataFrame(rows, columns=["coin", "listing", "open1", "close1"]).to_csv(out / "listing_binance.csv", index=False)
+    print(f"tge: {len(rows)} pasangan USDT")
+    valuasi = pd.read_csv(ROOT / "bot" / "research" / "tge_valuasi.csv")
+    for coin in valuasi["coin"]:
+        _klines(f"{coin}USDT").to_parquet(out / "harian" / f"{coin}.parquet", index=False)
+    print(f"tge: candle harian {len(valuasi)} token")
+
+
 def main(markets: list[str] | None = None) -> None:
     for nama, fungsi in [("riset", download_riset), ("harian", download_harian),
-                         ("kripto_harian", download_kripto_harian)]:
+                         ("kripto_harian", download_kripto_harian), ("orderflow", download_orderflow),
+                         ("tge", download_tge)]:
         if markets and nama in markets:
             fungsi()
             markets = [m for m in markets if m != nama]

@@ -8,6 +8,8 @@
 - [`reports/LAPORAN_FOREX_CEPAT.md`](reports/LAPORAN_FOREX_CEPAT.md) — **uji forex cepat**: hitungan impas scalping, tiga pola forex dari jurnal (jam sesi, hari FOMC, fixing London) di 7 pair, dan demo otak-atik teknikal. Pra-registrasinya di [`reports/RENCANA_FOREX_CEPAT.md`](reports/RENCANA_FOREX_CEPAT.md).
 - [`reports/LAPORAN_EA_XAUUSD.md`](reports/LAPORAN_EA_XAUUSD.md) — **uji tipe EA XAUUSD yang viral** (grid martingale beli saja/dua arah, breakout London) di data emas 2010–2026, plus cara memeriksa EA sebelum membeli. Pra-registrasinya di [`reports/RENCANA_EA_XAUUSD.md`](reports/RENCANA_EA_XAUUSD.md).
 - [`reports/LAPORAN_MODUL_BARU.md`](reports/LAPORAN_MODUL_BARU.md) — **rancangan sendiri + semua modul mentor yang belum diuji**: filter tren kripto spot, trend-following 34 pasar, modul investasi spot Kalimasada, siklus halving, trailing stop Ko Andri, pola harmonic & klasik. Pra-registrasinya di [`reports/RENCANA_MODUL_BARU.md`](reports/RENCANA_MODUL_BARU.md).
+- [`reports/LAPORAN_ORDERFLOW_TGE.md`](reports/LAPORAN_ORDERFLOW_TGE.md) — **order flow (delta) di BTC/ETH dan aturan token baru (TGE)** dengan valuasi investor 24 token beserta sumbernya. Pra-registrasinya di [`reports/RENCANA_ORDERFLOW_TGE.md`](reports/RENCANA_ORDERFLOW_TGE.md).
+- [`reports/PANDUAN_DATA_STOCKBIT.md`](reports/PANDUAN_DATA_STOCKBIT.md) — **cara mengambil data saham** (Stockbit, Yahoo, broker summary) untuk uji valuasi Ko Andri dan bandarmologi Ko Hengki.
 - `bot/` — kode bot Python (backtest sekarang, live nanti). Belum terhubung ke broker.
 
 ## Struktur kode
@@ -17,10 +19,10 @@
 | `bot/markets.py` | Pasar = akun: **forex** (EURUSD, XAUUSD), **forex_uji** (GBPUSD, USDJPY) dan **forex_riset** (AUDUSD, USDCAD, USDCHF, NZDUSD), keduanya hanya untuk pengujian, **crypto** (BTC, ETH spot Binance). Instrumen, batas hari D-12, spread/komisi, swap. |
 | `bot/data/` | Pengunduh data (`download.py`), pembentuk candle M5→M15/H1/H4/D1/W1/MN dengan batas 17.00 New York (`candles.py`), kalender berita G-13 (`news.py`). |
 | `bot/indicators.py` | Indikator dan definisi bersama D-01 – D-08 (swing fractal 2–2, struktur, ATR TradingView, Ichimoku geser 25, Stochastic, KST, CMF, PSAR, dll.). |
-| `bot/setups/` | **Satu kelas per setup**, masing-masing berdiri sendiri: `pln01.py` (Pola N), `ichimoku.py` (ICH-01–04), `afs_*.py` (Alvesting), `kms_hki.py` (Wyckoff, Ko Hengki), `improved.py` (versi perbaikan V1–V4), `pola.py` (pola harmonic & klasik). |
+| `bot/setups/` | **Satu kelas per setup**, masing-masing berdiri sendiri: `pln01.py` (Pola N), `ichimoku.py` (ICH-01–04), `afs_*.py` (Alvesting), `kms_hki.py` (Wyckoff, Ko Hengki), `improved.py` (versi perbaikan V1–V4), `pola.py` (pola harmonic & klasik), `orderflow.py` (delta order flow AFS-22). |
 | `bot/engine/` | Mesin backtest dengan aturan global G-01, G-03, G-07, G-08, G-13, G-15, G-16 dan biaya (spread + swap). |
 | `bot/filters/astro.py` | Filter Astronacci WKT-01 – WKT-04 (fase bulan, Fibonacci waktu, Merkurius retrograde) dengan pustaka `ephem`. |
-| `bot/research/` | Pembagian data 60/20/20, pemilihan varian G-17, uji filter waktu, pembanding entry acak, patokan time-series momentum (`tsmom.py`), simulasi portofolio jangka panjang (`investasi.py`), uji forex cepat (`forex_cepat.py`), uji tipe EA XAUUSD (`ea_xauusd.py`), modul investasi kripto (`kripto_investasi.py`), trend-following multi-aset (`multi_aset.py`). |
+| `bot/research/` | Pembagian data 60/20/20, pemilihan varian G-17, uji filter waktu, pembanding entry acak, patokan time-series momentum (`tsmom.py`), simulasi portofolio jangka panjang (`investasi.py`), uji forex cepat (`forex_cepat.py`), uji tipe EA XAUUSD (`ea_xauusd.py`), modul investasi kripto (`kripto_investasi.py`), trend-following multi-aset (`multi_aset.py`), aturan token baru (`tge.py`, valuasi di `tge_valuasi.csv`). |
 | `bot/live.py` | Kerangka live: antarmuka `Broker`, `PaperBroker`, pemeriksaan keselamatan G-15. |
 | `scripts/sinyal.py` | **Mode semi-otomatis**: memindai sinyal, menghitung lot, mencatat jurnal; Anda yang mengeksekusi. Termasuk status harian aturan tren kripto spot (A1 SMA 200, B6 trailing stop). |
 | `config/setups.toml` | **Menyalakan/mematikan setup** satu per satu (daftar `enabled`), per pasar. |
