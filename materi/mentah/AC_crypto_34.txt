@@ -1,0 +1,824 @@
+Halo guys kembali lagi dengan saya
+alvesting dari akademi crypto
+kali ini kita memasuki ya bagian ke-3
+ya dari modul crypto oh smart money
+jadi apa yang akan kita bahas di modul ke-3 ini
+jadi kita di sini
+akan membahas yang mengenai konsep liquidity
+yang pertama oke jadi
+apa sih ya konsep liquidity
+saya kan udah mengungkapkan
+ya sebelumnya kalau fokus dari smart money konsep
+ini kita adalah yang melihat
+dan juga mempelajari dari liquidity
+ya atau likuiditas
+karena ya tanpa adanya likuiditas ya pasar
+ini tidak akan bisa
+bergerak ya sehingga
+liquiditas ini selalu ada ya dalam pasar yang
+bullish ataupun bearish ketika
+pasar bullish yaitu liquiditasnya kan naiknya ke atas
+ya karena
+lebih banyak ya pembeli daripada penjual
+it means ya liquidity ya to the upside
+tapi ketika pasar turun itu kan berarti
+liquiditasnya ya itu
+ada ya di dalam
+pasar yang beris ya it means
+ya ada orang yang short selling
+dengan jumlah yang besar atau ada orang yang menjual
+dalam jumlah yang besar
+yang mana dia lebih besar daripada
+pembeli sehingga market turun ke bawah
+nah di sini kita ketika mempelajari ya konsep liquidity
+kita tidak akan ya
+ada ya dalam suatu
+kita sebut ya istilahnya trend yang salah ya atau kita
+tidak bergerak ya ke mana
+berlawanan dengan arah
+likuiditasnya karena ketika kita bergerak
+ya ke arah yang berlawanan
+itu pasti kita akan
+ya memperoleh kerugian jadi
+kenapa ya liquidity
+ini harus tetap ada ya karena ya fungsi liquidity
+itu ada dua
+ya satu adalah menjaga order book ya jadi
+ketika ya teman-teman mau bertransaksi ya ketika market
+participant mau istilahnya
+trading ya ini kan mereka mengisi order
+book-nya ya
+mereka ya pasang di order penjualan
+mereka juga pasang di order pembelian
+ya untuk menjaga ya likuiditas ya ini order
+book ini harus selalu berjalan
+kemudian ya ke-2 ya memastikan exchange
+ini tetap hidup ya jadi kan
+kita nggak bisa pungkiri ya jadi profit utama exchange
+yaitu dari kalian bertransaksi
+sehingga apa ketika
+mungkin transaksinya ini
+relatif sepi
+ya udah nggak terlalu gerak
+ya market kadang mereka ini memang
+mem Beat ya atau beating koin-koin tertentu
+ya supaya ya rame lagi market-nya ya karena kan ketika
+suatu koin ya ini
+bergerak ya
+volumenya ada wah berarti kan
+kita ya para
+tren follower
+ya trader yang tren follower
+atau kita para misalkan
+yang hunting ya project-project ini kan melihat
+ada suatu spike ya atau unusual volume
+yang mana ya ketika kita tahu ada unusual volume ya
+biasanya
+kita juga ikut berpartisipasi ya mungkin trading
+ya di secondary trennya
+berharap ini akan naik lagi
+oke di situlah ya exchange cari duitnya ya
+karena ketika sepi ya mereka buat transaksi sendiri ya
+mereka juga pasti ya
+ingin ya memastikan bisnisnya itu tetap hidup ya
+mereka bisa hidup bisnisnya itu ketika
+yang trading itu masih ada oke dalam konsep smart money
+ya ini dua hal yang paling penting
+yang harus teman-teman perhatikan itu adalah
+bsl dan ssl
+apa bsl apa xsl jadi bsl itu stand for ya by
+side liquidity bisa juga
+disebut dengan by stop liquidity sementara
+ssl ini ini adalah sel side liquidity atau sel stop
+liquidity jadi apa itu bsl apa itu ssl
+mari kita jelasin jadi bsl yaitu by
+side liquidity itu adalah
+suatu area ya di mana para smart money
+ini mengumpulkan ya dalam tanda kutip
+stop loss ya jadi orang-orang yang short di resistance
+tapi di saat yang sama ya mereka itu juga mengambil
+likuiditas ya dari orang yang long ya ketika breakout
+jadi di sini smart money ini membunuh ya dua
+entitas sekaligus
+dua pelaku pasar
+sekaligus yaitu adalah mereka yang
+short ya dalam tanda kutip di resistance
+dan mereka yang ya long ya setelah
+resistance itu tembus atau mengalami breakout
+jadi ketika kita lihat ya ini
+ada dua sisi yang dibunuh ya jadi
+ilustrasi ini ya kita bisa melihat ya gimana
+sih ya para smart money
+ini bekerja
+misalkan di sini ada
+titik ya tinggi atau high
+dari suatu harga
+kemudian harga
+reject ya di sini
+oke kemudian di sini harga
+naik ya ya pasti ya para
+trader yang menggunakan
+tradisional konsep mereka pasti akan short di sini
+kenapa di sini karena di sini adalah
+preview ya high ya yang mana
+bisa disebut ya sebagai dalam tanda kutip resistance
+jadi mereka short di sini
+hoping ya suatu patterns
+play out ya yaitu adalah double top
+oke pasti mereka pasang di sini
+stop loss di mana stop loss pasti di atas ya dari high
+ini sehingga apa yang terjadi teman-teman
+ya seringkali harga ini selalu
+naik dulu ya di atas resistance
+ini sehingga ya yang sorting di sini apa yang terjadi
+mereka ter stop loss
+terlikuidasi sehingga harga ada di titik ini nih oke
+at the same time ya para
+pembeli ya setelah harga breakout
+ini mereka melihat opportunity di sini
+oke sehingga di sini mereka long
+ya dan apa yang terjadi
+harga turun lagi
+karena mereka kan pasti pasang
+stop loss di sini ya long di sini ya pasang
+stop loss di sini
+justru harga ini turun ya dan
+harga terdeviasi ya
+kembali ke range
+inilah cara kerja dari smart money
+jadi mereka nggak hanya membunuh ya para short
+ya early short
+ya tapi mereka juga membunuh ya para breakout
+longer ya di sini ya sehingga dua
+likuiditas sekaligus ya yang terambil
+ya karena begitulah yang cara market bekerja
+jadi ketika kita
+lihat ya ini ada oh double top ya
+the same time ya sometimes itu
+mereka ya para smart money ini menggunakan
+teman-teman punya pattern ya tradisional pattern
+ya untuk menjebak ya dan
+bergerak ya ke arah yang memang dari awal ini mau turun
+tapi ketika teman-teman
+nggak lihat ya ada liquidity yang taken
+terlebih dahulu atau likuiditas yang terambil
+ya bisa aja teman-teman
+dijadikan korban ya oleh para smart money
+sehingga ketika teman-teman memahami
+konsep ini harapannya ya teman-teman
+tahu ya kapan
+ketika likuiditas itu sudah terambil
+atau kapan ketika buy stop
+liquidity itu already
+taken karena ketika enggak ya teman-teman
+mungkin bisa jadi
+early ya resistance shorter
+ya atau misalkan teman-teman bisa jadi breakout longer
+yang mana yang untung di sini di mana ya mereka yang
+trade di sini
+ketika mereka udah tahu ya liquidity ini valid terambil
+ya dari para ya resistance sorter dan breakout longer
+jadi ketika teman-teman udah tahu ya di sini
+ya para resistance sorter udah terliquidasi
+dan para breakout longer sudah terliquidasi
+ya itu berarti
+by stop liquidity sudah taken dan ketika teman-teman
+ambil ya short position ya ketika bsl ya sudah
+taken ini probabilitasnya saya bilang lebih dari 80%
+dari semua time frame bisa teman-teman cek ya
+pasti selalu ada by stop liquidity di mana ya dua
+market participant
+ini selalu dikerjain terlebih dahulu
+sebelum harga
+juga akhirnya bergerak
+sesuai dengan arah yang ditetapkan dari awal atau arah
+aslinya seperti itu
+di mana teman-teman bisa melihat bsl
+oke jadi teman-teman
+bisa melihat bsl yaitu
+pertama di preview mon
+high atau pmh
+ke-2 ya preview week high atau pwh ke-3 preview d high
+atau pdh ya atau PDF
+dan terakhir adalah privis swing high
+nah ini pertama ini adalah
+candle ya monthly dari bitcoin
+ya ketika teman-teman lihat ya
+monthly chart ini ya
+ini kita bisa mengetahui ya bisept liquidity
+sudah diambil ya sebelum harga ini bergerak turun
+ini kan ini adalah titik high ya dari candle bulanan
+oke kemudian apa yang terjadi di sini teman-teman harga
+turun dulu terus kemudian apa di sini harga breakout
+ya di atas titik high-nya ini dan seakan-akan membuat
+suatu pola continuation ya karena ada breakout di sini
+dan apa yang terjadi teman-teman
+harga justru turun dan terdeviasi kembali ya ke
+dalam area sini
+ini pasti ya teman-teman yang short
+di sini ya di range
+ini ketika teman-teman melihat ini ada potensi kan ini
+monthly ya kalau teman-teman
+misalkan zoom in ya misalkan ke
+weekly ya even daily ini pasti teman-teman bisa melihat
+baris pattern ya entah itu
+misalkan double top
+ya di weekly ya atau misalkan rising
+wage di weekly
+namun yang terjadi ya justru harga naik dulu kayak
+ketika teman-teman di sini pasti tempting ya untuk oh
+ini adalah breakout candle oke saya akan long
+di sini dan apa yang terjadi ketika teman-teman
+long di sini ya
+teman-teman pasti juga
+diguyur ya sehingga harga ini turun
+lihat teman-teman ya previous mon high ya atau pmh
+ya dari by stop liquidity atau by side liquidity
+melihatkan ya ada suatu
+trap di sini ya kalau teman-teman lihat ini bahkan
+monthly ya monthly
+candle dari bitcoin itu kita
+bisa melihat ya ada suatu
+aksi ambil likuiditas sehingga konsep smart money ini
+works di dalam semua
+time frame jadi teman-teman amati
+lah coba semua time frame yang ada ya dari bitcoin
+coba apakah benar ya by
+stop liquidity atau by side liquidity-nya ini
+benar-benar
+di apply atau enggak seperti itu
+ya selanjutnya ya
+previous week high atau pwh ya pada bitcoin jadi
+di sini ya dalam previous week high
+ketika teman-teman lihat ya harga naik
+ya kemudian di sini menembus
+ya atau membuat titik high
+kemudian harga turun
+dan kemudian dia seakan-akan break dari sini ya ini
+week week yang terjadi di sini ini adalah
+week yang menunjukkan ya suatu
+pengambilan likuiditas ya di mana mereka yang
+di sini ya bye ya ketika long di sini
+ini ter stop loss dan harga terdepresiasi turun
+begitu juga mereka yang short
+di sini ya to early to short ya mereka masih diangkat
+dulu sehingga ini range yang sangat choppy
+ya untuk dua arah ya
+namun ketika
+yang menang ya ketika
+mereka sudah tahu ya liquidity-nya sudah
+taken ya dalam bsl ini
+dan kemudian
+harga bergerak turun
+jadi para pemenang ya ketika
+mereka yang menerapkan ya konsep smart money
+ini adalah mereka yang sudah memahami kalau
+likuiditas dari dua arah
+ya ini sudah diambil
+oke jadi ketika mereka sudah tahu ya
+by side liquidity-nya already taken
+ya ini mereka mengetahui suatu probabilitas tinggi
+ya untuk melakukan short atau penjualan
+sehingga harga bergerak turun
+selanjutnya ya preview day
+high atau pdh
+dari bitcoin
+sehingga di sini teman-teman melihat ya harga naik
+ya kemudian di sini ada titik high oke dalam
+candle harian
+ya kemudian di sini ya dia naik
+ya ini teman-teman lihat
+ya ada wig ya di mana di sini orang yang
+long ya ketika breakout
+ini pasti diambil ya
+kemudian harga bergerak turun
+dan bitcoin ya melanjutkan penurunannya ya ke bawah
+atau terjadi suatu reversal di sini ya
+yang awalnya ini adalah bullish ya kemudian
+by side liquidity-nya ya dalam daily chart ya taken
+kemudian harga justru turun
+ya bergerak ke arah sebaliknya
+dan selanjutnya ya previous
+swing high yang mana ini saya bilang relatively
+yang saya bilang
+secara relatif ya ini bisa diterapkan hampir di semua
+time frame kalau ini di h empatnya
+bitcoin ya jadi teman-teman bisa ya lihat ya ini
+h-nya ini terambil dulu ya yang long
+di sini ya ketika breakout
+ya pasti ter stop
+loss yang short
+early di sini
+naik dulu ya ke stop loss dulu ke likuidasi dulu
+baru harga deviat dan return tuh origin ya atau ke sisi
+ya yang mana market ini mau bergerak oke
+jadi di sini teman-teman
+bisa melihat ya kalau by
+side liquidity
+atau by stop liquidity itu hampir ya almost happens ya
+every single time
+frame ya kamu cek aja ya semua time frame
+ya even m15 ya m5
+konsep market tuh selalu bergerak seperti itu ya jadi
+selalu bergerak ya
+ke dalam arah ya pengambilan likuiditas ya dari by
+side liquidity
+atau dari cell side
+liquidity-nya yang akan kita bahas setelah ini
+di sini kita akan membahas ya cell side liquidity
+jadi cell side liquidity itu adalah kebalikan dari by
+side liquidity
+di mana cell side liquidity
+ya ini merupakan area ya teman-teman di mana
+para smart money
+ya ini mengumpulkan ya stop loss ya dari
+pembeli ya di support
+dan kemudian mengambil ya likuiditas dari breakdown
+sorter untuk lagi-lagi ya membunuh
+dua ya pelaku pasar
+sekaligus jadi ssl yaitu adalah kebalikan dari bsl
+yang mana kalau tadi ya
+early sorter yang dibunuh kalau ini adalah early longer
+dan yang tadi yang dibunuh itu adalah breakout
+ya longer kalau di dalam sell
+side liquidity
+yang dibunuh ini adalah breakdown
+sorter di mana area melihat ssl ya
+pada dasarnya sama dengan bsl ya previous mon low
+ya atau pml previous week
+low atau pwl
+ya previous delo atau pdl dan previous swing low
+ini adalah contoh ya grafik dari sell side
+liquidity ya di mana di sini ya harga bergerak turun
+ya dan kemudian di sini harga mengalami dead cat bonds
+dan ketika dia kembali ya ke previous low oke
+teman-teman di sini pasti ya mengira ya kalau area
+low ini akan hold
+dan membuat suatu pattern yang namanya double bottom
+ya untuk dia kembali naik
+apa yang terjadi ketika teman-teman
+long di sini ya teman-teman terlikuidasi dulu oke
+terus teman-teman melihat nih
+wah ini sudah tertembus ya titik low-nya
+saatnya saya short di sini
+justru yang terjadi ya para break down sorter
+ini malah juga ikut dilikuidasi
+sehingga harga malah ya bergerak ya naik ke atas
+ya jadi di sini kita melihat ya smart money
+ya ini membunuh ya para
+longer ya di support dan juga
+menjebak ya para
+breakdown sorter
+ketika harganya bergerak turun
+jadi teman-teman harus memahami ya ketika winning
+trade-nya gimana ya winning trade-nya atau winning
+situation-nya itu adalah
+teman-teman long di sini
+ketika teman-teman tahu ya dari
+early longer di sini sudah diambil
+ya dan juga
+breakdown sorted di sini sudah diambil
+ketika dia deviat atau terjadi deviasi ya
+di sini teman-teman bisa long
+ya untuk betting arah bergerak ke
+sebaliknya yaitu ke arah atas
+atau bullish
+nah ini contoh dari pml ya atau previous
+month low dari bitcoin ya di mana di sini harga turun
+ya membuat suatu titik low
+ya deadline bonds kemudian harga turun
+ya di sini ya
+jadi kalau teman-teman lihat ya ini yang early
+longer ya ini pasti terbunuh ya oleh week ini oke
+yang mereka yang short di sini pun
+ya ini akan terangkat naik ya ini
+kita melihat ya di dalam monthly ya even
+monthly chart ya
+kita bisa melihat ya konsep dari stops ya
+kita bisa melihat ya konsep dari ssl ya atau
+sell stop liquidity atau sell side liquidity
+nah ini adalah
+previous week low ya atau pbl pada bitcoin
+ya di mana teman-teman lihat ya di sini
+harga bergerak turun ya
+terus kemudian
+mengalami dead cat bounce ya kemudian dia retest
+low di sini oke
+di sini pasti banyak yang mengira ya kalau ini bakal
+hold
+dan ada double bottom ya di sini
+apa yang terjadi
+teman-teman
+justru mereka ter stop loss ya oleh candle ini
+setelah itu mereka melihat ini ini adalah mungkin
+mikirnya adalah momentum
+candle untuk short
+justru ketika mereka short di sini harga diangkat
+sehingga yang menang
+adalah mereka yang membeli ketika
+harga sudah terdeviasi ke atas ya
+it means ssl-nya ya already taken
+dan harga bergerak ya siap
+ya untuk melakukan reli ke atas
+ya di dalam weekly
+chart ya dari bitcoin
+selanjutnya ini adalah previous
+delo ya sama ya konsepnya harga turun dulu ya
+yang long duluan di stop loss ya di candle ini
+dan mereka yang nge short breakdown ini diangkat
+lagi ke atas sehingga yang menang adalah mereka yang
+trade ya ketika mereka udah tahu ya kalau
+liquidity ini udah taken
+dan harga bergerak naik ke atas
+seperti itu
+dan ini juga kita ya melihat ya penerapan
+previous winglow ya pada m15 ya dari bitcoin
+ya dimana ketika
+harga ini trdeviate lagi ya back
+ya itu origin
+ini kita bisa melihat suatu winning trade
+di mana almost happens ya eighty persen ya ketika
+harga itu sudah kembali lagi ke range dan cell side
+liquidity-nya atau cell
+stop liquidity-nya udah already
+taken di sini
+ini harga akan ya bergerak naik ke atas
+seperti itu ya teman-teman jadi udah paham ya konsep
+bsl dan ssl
+selanjutnya kita akan
+lanjut ya ke konsep liquidity yang ke-2
+saya all investing dari akademi crypto
+sampai berjumpa di modul selanjutnya
+Halo guys kembali dengan saya
+alvesting dari akademi crypto
+kali ini kita membahas ya bagian ke-4
+ya dari crypto smart money
+ya di mana di bagian ke-4
+kita akan mempelajari konsep
+liquidity yang ke-2
+di sebelumnya kita sudah
+mempelajari ya mengenai konsep liquidity yang pertama
+ya kali ini kita akan membahas ya konsep
+liquidity yang ke-2 di mana
+sebelum teman-teman trade
+ya menggunakan
+konsep liquidity ya
+teman-teman harus memperhatikan tiga hal
+ya satu dalam konsep smart money
+yang lebih relevan pun tetap
+tren jangka panjang
+jadi higher time frame ya itu always been
+better dan lower time frame even
+on smart money konsep jadi ketika teman-teman trading
+ya menggunakan
+konsep smart money ya fokus pada liquidity liquidity
+dari time frame yang lebih besar
+yaitu lebih meters daripada
+yang dari time frame yang
+lebih rendah atau time frame yang kecil
+karena kalau kita ngomong ya time frame
+daily lebih valid daripada time frame h1 oke
+time frame h 4 itu lebih valid daripada m 15
+sehingga teman-teman tetap harus memperhatikan tren
+jangka panjangnya
+karena apa karena tren
+jangka pendek itu seringkali ada banyak sekali ya
+noise-nya sehingga teman-teman juga harus filter
+out ya the noise dan teman-teman juga
+harus ya melihat
+secara keseluruhan atau
+holistiknya ini marketingnya akan bergerak ke mana oke
+ke-2 ya teman-teman juga harus ya memperhatikan
+supply and demand
+ya atau kita sebutnya
+support dan resistance atau ya
+equal high ya equal h ya dan juga equal low atau eql
+oke karena dua area
+ini ya atau kita sebutnya biasanya area all value
+ya atau area yang penting itu selalu
+take part ya dalam teman-teman punya analisis
+terutama ketika teman-teman analyze ya menggunakan
+konsep dari smart money
+dan yang ke-3 ya
+teman-teman juga tetap harus
+memperhatikan ya retracement
+atau pull back
+untuk memperoleh historical word yang jauh lebih baik
+nah seperti yang saya ungkapin ya di sini ya tren htf
+atau higher time frame itu selalu
+lebih relevan
+ya dan lebih diperhatikan ya oleh para smart money
+ini daripada lower time frame
+yang mana jelas ya lebih banyak noise oke
+jadi most of the time ya para smart money
+ini menggunakan h
+4 ya untuk mengidentifikasi
+ya arah gerak harga dan m 15 tetap ya kita gunakan
+sebagai entry trigger oke jadi teman-teman
+h 4 dan m 15
+ini adalah kombinasi yang dalam tanda kutip ya ciami
+ya yang diterapkan ketika teman-teman menggunakan
+ya konsep dari smart money
+selanjutnya ya teman-teman juga harus memperhatikan
+supply and demand area ya
+dimana teman-teman ya pasti
+harus memiliki kecenderungan long ya ketika
+harga ya bergerak ya menuju ya support atau demand area
+dan ada
+bias short ya ketika harga berada di supply area
+atau resistance jadi
+tetap harus memperhatikan ya area
+di mana perdagangan ini sering terjadi
+tapi nanti ketika
+kita menggunakan
+trumps-nya smart money
+mempelajari ilmunya smart money entar kita
+ada banyak istilah ya seperti order
+block obi atau
+value gap atau fvg
+seperti itu ya
+selanjutnya ya teman-teman juga tetap harus melihat ya
+restore word yang terbaik ya sebelum mengambil
+suatu posisi
+ya karena pada dasarnya mengantisipasi suatu posisi
+ya itu lebih baik daripada mengejar
+suatu posisi pada
+itu saya selalu
+anticipating the breakout ya atau
+anticipating the breakdown daripada
+chasing the breakout atau chasing the breakdown karena
+teman-teman harus memahami
+ya di dalam nanti ya ada konsepnya
+fair value gap dan order
+block ya harga itu selalu bergerak ya menuju area
+efisiennya jadi ketika ada
+ketidakefisienan harga itu selalu
+kembali ya ke mana
+dia arahnya yang efisien
+atau titik yang efisiennya
+sehingga titik efisien itu bisa kita jadikan ya suatu
+trigger-nya untuk membuka
+suatu posisi tertentu
+entah itu long atau itu short
+teman-teman juga harus melihat ya dua elemen penting
+ya ketika trading likuiditas ya pertama adalah stop
+hunt atau sh atau
+sh dan ke-2 adalah break market structure atau bms oke
+jadi stop hunt ini apa
+stop hunt ini keadaannya
+ketika terjadi breakout ya atau breakdown
+yang sangat agresif ya
+kemudian liquidity-nya ini diambil ya
+sebelum pasar
+akhirnya kembali ke arah original
+atau return to origin jadi stop Han ini
+ini terjadi ketika
+sebelumnya ya kita bahas ada bsl
+ya ada ssl jadi stop Han ini terjadi
+ya ketika market ini sudah secara valid ya membuat
+ya atau mengambil ya by
+side liquidity dan juga mengambil dari
+sell side liquidity-nya jadi
+ketika sudah terjadi bsl ya atau ssl
+kita bisa mengatakan kalau sudah valid terjadi stop
+hunt di dalam market ketika kita trading ya menggunakan
+konsep dari smart money ini dan yang ke-2 ya ini ketika
+terjadi break market structure
+atau juga bisa disebut dengan
+bos ya atau break off structure
+jadi ada dua istilah di sini
+yang bisa teman-teman gunakan
+istilah bms dan istilah bos
+bms adalah break market structure
+bos adalah break off structure
+jadi dua istilah ini ini adalah istilah yang
+sama-sama valid ya digunakan
+ketika teman-teman
+trading ya menggunakan konsep smart money
+jadi bms yaitu terkait
+ketika market itu
+sudah berhasil ya
+break dari suatu titik high tertentu
+ya atau titik low tertentu
+yang mana yaitu mengindikasikan suatu ya
+perubahan ya dari struktur market
+jadi dua hal ini
+harus teman-teman perhatikan ketika teman-teman
+trading yang menggunakan
+konsep likuiditas
+dalam smart money konsep
+ini ilustrasi dari stop hunt
+ya ini adalah
+by side liquidity atau by stop liquidity-nya ya ketika
+dia
+tertahan high di sini kemudian dia break ya tapi dia
+justru melakukan stop hunting dan kembali ke area
+asalnya ya atau kita sebutnya return to origin atau rto
+dan di sini di kanan ini ya ini terjadi stop hunt
+ketika terjadi
+ssl ya atau sell stop
+liquidity atau sell side liquidity ya di mana harga
+turun ya menguji lo di sini ya
+membuat dead cat
+bonds kemudian harga turun lagi ya stop hunting
+dan dia return to origin atau kembali ke area asalnya
+oke ke-2 ya
+setelah kita melihat ya terjadi suatu stop Han atau sh
+kita bisa melihat adanya ya break market structure
+atau bms atau bos
+ya break of
+structure di mana harga ini naik ya ada titik high
+di sini ya kemudian dia turun ya
+dia break di sini
+valid terjadi stop Han
+kemudian harga turun oke
+titik ini ya previous
+high low di sini kalau trennya ini adalah bullish ya
+ketika dia sudah tertembus ya ini
+valid ya terjadi suatu bms atau bos jadi sh dulu stop
+Han dulu di by side liquidity
+ya baru ketika harga
+ini break dari high low ini
+kita bisa sebut ya sebagai valid
+break market structure atau valid dari break off
+structure begitu juga ketika di sini ya
+trennya itu adalah
+di sini yang taken itu adalah ssl
+atau sell side liquidity
+harga turun
+dulu ya membuat dead cat
+bounce ya kemudian
+low di sini tidak berhasil diuji ya di sini breakdown
+ya terjadi stop hunt
+oke kemudian harga naik lagi ya return to origin
+dan titik di sini ya kalau lower
+high di sini
+tertembus ya terjadi break market
+structure atau break of structure
+ya di sini dan dia
+kembali ke atas
+sehingga di sini dikatakan ya konsep
+atau ilustrasi
+valid ya dari break market structure atau bms
+jadi kombinasi yang
+paling ampuh ya teman-teman
+ketika teman-teman trading menggunakan
+smart money konsep
+adalah ketika teman-teman mengkombinasikan stop
+hunt dan bms oke
+jadi kombinasi dari
+sh dan bms itu adalah kombinasi yang bisa kita bilang
+valid ya ketika teman-teman
+trading menggunakan
+smart money konsep jadi di sini ya harga ya naik ya
+kemudian di sini ada titik h ya
+kemudian dia tembus dari sini ya terjadi stop hunt
+oke jadi yang short
+di sini ya ini terlikuidasi
+dan yang long di sini juga terlikuidasi
+kemudian harga kembali lagi
+return to origin
+oke dan higher low terakhir ini ditembus
+oke jadi ketika teman-teman
+sporting ya di market ini ada stop hunt oke
+ada bsl yang taken
+kemudian terjadi return to origin ya dan hilo
+terakhirnya ini tertembus ya atau terjadi break market
+structure di sini teman-teman bisa please ya suatu
+transaksi short ya atau transaksi penjualan karena
+sudah teman-teman lihat ya ada kombinasi ya
+stop hunt dan juga break market structure
+di mana kombinasi
+sh ya dan bms
+adalah kombinasi yang valid ya dalam
+trading menggunakan
+smart money konsep
+dan kemudian selanjutnya
+ya di sini ya
+ketika yang ini harga ya
+dari titik high-nya ini turun ya
+kemudian testing
+low di sini oke dan low di sini ter break oke
+ter break down
+dan kemudian terjadi
+stop hunting di sini oke teman-teman
+harga kembali ya
+return to origin dan dia break
+lower high di sini atau break
+market structure-nya di sini
+ketika teman-teman long
+ya ketika teman-teman spotted stop
+hunt spotted break market structure atau bos
+ya atau break of structure di sini
+dan teman-teman place long
+di sini itu
+probabilitas ya win rate-nya itu adalah sangat tinggi
+ya probably
+ya 70-80 persen ya depends on ya
+dari teman-teman punya time frame ya
+semakin besar time frame-nya itu artinya
+akan semakin
+valid ini adalah contoh ya penerapan ya stop hunt dan
+bms ya pada konsep liquidity
+smart money
+jadi ini contohnya ini h 4 dari bitcoin
+apa yang terjadi teman-teman harga naik
+oke kemudian di sini turun
+ya membuat suatu titik high oke di sini berarti kan
+ya sebagai higher low ya di sini ya low
+ya higher low higher low
+ini higher low lagi
+dan apa yang terjadi teman-teman ya harga
+break ya dari titik ini pasti yang short di sini
+oke ini terlikuidasi nah ini
+wig ini adalah melikuidasi parasol
+dan setelah teman-teman melihat breakout di sini
+apa yang terjadi teman-teman oke jadi di sini
+mereka pasti long ya di sini
+ketika mereka long
+di sini apa yang terjadi justru harga turun ya return
+to origin dan higher low di sini ya
+ini supposedly harusnya ini dia hold ya ketika
+dia nggak hold
+berarti terjadi ya break of
+structure atau break market
+structure di sini
+sehingga teman-teman ya di sini ya break harga
+dan harga turun ke bawah
+sehingga ketika teman-teman short ya ketika
+spotted ya stop Han
+dan juga ada break market structure di sini
+ya ini adalah
+probabilitas ya di mana smart money ini
+push harga ke bawah ketika
+teman-teman lihat
+ya ini betapa agresif dan besar ya volume dari
+candle ya ketika mendorong harga setelah dia
+terjadi stop hunt dan tembus
+dari market struktur selanjutnya ini h1 bitcoin ya same
+skenario ya teman-teman
+stop hunting terjadi ya kemudian return to origin dan
+struktur market di sini ya air
+low-nya tertembus ya bms-nya tertembus ya
+bws-nya tertembus dan harga bergerak turun
+ya dengan sangat agresif
+kalau ini ya
+kita lihat ya
+kombinasi ya stop
+hunt dan bms
+ya ini pada h 4 bitcoin ya tapi ini adalah
+suatu perubahan ya from
+bearish ya to bullish
+ya kalau kita lihat di sini teman-teman
+harga turun oke
+membuat suatu low di sini ya harga
+konsolidasi deadline
+bonds dan ketika dia breakdown ya dari sini oke
+ini terjadi stop
+hunt dan kemudian harga return to origin oke dan
+break ya market structure di sini
+jadi ketika teman-teman di sini ya sudah valid break
+ini adalah valid ya untuk teman-teman melakukan long
+nah ketika teman-teman lihat ya harga terus
+ya bergerak naik ya ketika
+terjadi ya kombinasi dari stop
+hunt dan juga break market structure atau break off
+structure nah di sini sama juga ya di h1 bitcoin ya
+di mana ketika harga turun ya kemudian
+harga di sini ya bouncing ya melakukan stop hunt
+dan di sini terjadi ya break market structure di sini
+ini adalah suatu valid long dan
+ketika teman-teman lihat ya harga bergerak
+naik terus ke atas
+jadi ketika
+sudah terjadi ya stop hunt
+ya dan kemudian terjadi break market structure
+ini adalah suatu
+pertanda ya kalau teman-teman bisa ya melakukan suatu
+long jadi udah paham ya di sini konsep liquidity
+dan gimana teman-teman mengkombinasikan ya stop
+hunt dan juga break market structure
+karena dua hal ini merupakan
+suatu kombinasi yang
+cukup ampuh ya ketika teman-teman
+terapkan ketika teman-teman trading
+yang menggunakan
+smart money konsep jadi tunggu dulu terjadi spot Han
+dan kemudian
+teman-teman lihat ya apakah terjadi break market
+structure karena sudah terjadi stop Han
+setelah itu terjadi
+break market
+structure atau break off structure
+itu adalah suatu keadaan di mana teman-teman
+valid ya untuk melakukan
+suatu long atau short tergantung arahnya ya ketika bsl
+ya taken teman-teman bisa short ya ketika ssl taken
+ya itu teman-teman bisa long karena
+teman-teman juga bisa melihat
+ya suatu kecenderungan ketika market ini mau bergerak
+arah atau mau
+terjadi suatu reversal oke
+jadi cukup sekian ya video saya
+ya saya allvesting dari
+akademi crypto sampai berjumpa di modul selanjutnya

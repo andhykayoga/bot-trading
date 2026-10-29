@@ -1,0 +1,3894 @@
+Halo guys
+kembali lagi dengan saya alvesting dari akademi crypto
+kali ini kita akan
+membahas ya bagian ke-2
+ya mengenai modul crypto smart money
+jadi apa sih fokusnya smart money
+kalau saya bilang kan
+sebenarnya setiap trading genre
+atau genre trading
+saya bilang
+itu selalu memiliki fokus yang berbeda-beda
+misalkan order
+flow itu fokusnya ke pembacaan order book
+kemudian misalkan harmonic trading
+pada misalkan harmonic pattern
+jadi fokus dari smart money
+konsep ini kita adalah berfokus ya pada likuiditas
+ya kalau misalkan dua teori ini kan fokusnya tren
+jadi smart money ini fokusnya adalah likuiditas ya
+jadi smart money ya itu always follow the liquidity
+entah itu bullish ya ataupun bearish
+kalau kita ngomong apa aja
+poin-poin fokus dari smart money
+jadi fokusnya
+itu kita akan membahas ya berbagai hal di sini
+pertama itu adalah terkait dengan liquidity
+ke-2 terkait market making
+ke-3 terkait dengan fair value gap
+ke-4 order
+block dan yang terakhir itu juga ada market structure
+ini tidak urut ya tapi
+poin poinnya seperti ini
+kurang lebih yang akan disampaikan
+pertama ya itu masalah
+liquidity ya
+jadi liquidity atau order flow itu merupakan transaksi
+yang menggunakan suatu aset
+jadi liquidity yaitu menunjukkan
+seberapa liquid market
+ya semakin liquid itu semakin
+mudah ketika teman-teman mau memperdagangkan suatu aset
+namun ketika semakin
+iliquid ya market itu teman-teman
+akan sulit mentradingkannya karena nggak ada barangnya
+jadi liquidity ini sebagai suatu tolak ukur ya
+apakah market ini bisa bergerak full hotel atau enggak
+karena kan smart money
+ini pasti mereka tuh
+trading bukan di size yang kecil
+sehingga ketika mereka gelontorin uang triliunan
+ya at the same time
+itu juga harus ada likuiditas dari
+investor lain ya likuiditas dari smart money
+lain likuiditas dari ritel lain
+karena ketika liquidity-nya dry
+mereka pun juga nggak bisa untung ya
+jadi market ini jangan dibayangkan ya seperti tempat
+yang bisa suka-suka cari uang
+karena smart money
+pun mereka juga sangat memperhatikan liquidity
+even on crypto yang masih
+follow tile ya
+tapi kalau kita bandingkan
+liquidity-nya ya dengan
+market yang lain ya misalkan Forex ya
+yang sudah ada lebih lama
+itu kita liquidity-nya tuh masih sangat kecil
+dibandingkan dengan para big aset ini
+nah karena pada dasarnya
+smartpan itu pun
+provide liquidity ke financial market
+karena mereka yang provide ya
+market pun juga sama ya seperti bisnis ya
+istilahnya para pemain besar lah kita bilangnya
+bandarnya ini mereka juga
+nggak mau ya namanya bisnisnya rugi ya
+sehingga ketika mereka provide liquidity
+ya dalam market
+mereka juga mengharapkan liquidity balik
+dari para ritel
+itulah mengapa ketika mereka sudah
+selesai dengan
+akumulasinya
+itu mereka selalu
+baru koar koar di media
+ya untuk mempromote ya suatu aset tertentu
+karena ketika teman-teman lihat ya
+ketika mereka beli itu diam-diam aja ya
+tapi ketika mereka
+mau jualan ya
+biasanya mereka buat buat di berita ya kalau
+misalkan aset ini adalah masa depan
+dan lain sebagainya
+itulah kenapa ya teman-teman ketika trading
+ya menggunakan
+smart money
+konsep ya saya bilang
+most
+likely ya itu lebih valid ketika teman-teman trading
+di pair ya di aset ya
+di koin crypto yang memiliki likuiditas yang besar
+misalkan ya bitcoin
+ya kemudian ethereum ya bnb
+karena mereka jelas ada liquidity-nya ya
+market cap lebih besar
+sehingga selalu menjadi pilihan
+dari para smart money
+lain untuk memarkir likuiditasnya ke sana
+jadi ketika teman-teman ini ya pakai smart money
+konsep ya tapi teman-teman ini
+buat ini trading misalkan e liquid ya meme coins
+yaitu nggak relevan 100%
+saya bilang nggak relevan
+karena likuiditasnya di situ ya
+konsepnya berbeda dengan likuiditas ya
+ketika teman-teman lihat
+per dari bitcoin
+per dari ethereum
+yang mana jelas jelas di trading oleh algoritma ya
+di trading oleh trading bot yang mana memiliki ya
+volatilitas dan juga size yang besar
+sehingga hanya relevan
+sehingga hanya relevan untuk
+teman-teman gunakan konsep ini dalam big caps
+selanjutnya ya market making ya
+karena kan smart money ini kan LP
+ya jadi mereka kan adalah
+liquidity provider ya yang bisa menggerakkan pasar
+jadi mereka itu memiliki kecenderungan seperti ini
+teman-teman
+mereka menggerakkan ke arah yang menguntungkan mereka
+ya let's say
+ketika mereka lagi betting ya market ini akan naik
+apa yang mereka lakukan ya mereka
+bisa ya melakukan
+Beat ya harga naik ya
+begitu juga ketika mereka lagi shorting
+mereka bisa jual
+at the same time juga shorting
+karena mereka punya likuiditasnya ya
+sehingga kita harus follow ya gimana
+mereka ini berpikir ya kira-kira
+gimana mereka itu menaruh likuiditas
+dan lain sebagainya
+karena ketika teman-teman ngomong ya
+bisnis ini pun juga bisnis yang nggak ada yang jujur
+ya dalam bisnis
+karena menurut secara sah ya dan legal
+itu terbukti
+kalau mereka itu trading melawan customer mereka ya
+jadi mereka yang
+punya exchange ini kan mereka tahu ya dengan pasti ya
+stop loss-nya
+ini para konsumen saya ini ditaruh di mana
+misalkan saya long di 40.000
+saya stop loss di 39.800
+ya itu kan mereka tahu datanya
+sehingga apa yang terjadi
+ya pasti harganya diturunin dulu ya
+supaya apa supaya dia dapat
+harganya tuh lebih murah lagi
+sementara posisi kamu juga exit
+ya mereka dapat untung dari mana
+review transaksi ketika kamu close posisi
+karena kan stop loss-nya ke hit
+terus gimana kalau saya nggak pakai stop loss
+ya kan mereka tahu likuidasi kamu di mana
+let's say ya kamu misalkan
+dari 40.000 ya
+terus kamu pakai
+margin ya dari entry 40.000 itu kamu pakai margin
+misalkan 50 kali ya
+terus mereka tahu nih ya oh
+stop loss-nya dia
+di sini ya misalkan
+tapi likuidasinya ya dia nggak pakai stop loss
+ya likuidasinya di sekitar mungkin 37.000
+itu pasti bisa-bisa kamu juga kena liquid dulu
+baru harga naik
+ya karena mereka kan lihat ya mana nih ya
+likuidasinya yang paling banyak ya
+liquidity-nya likuidasi yang paling banyak
+ya udah kita habisin dulu likuidasinya
+sehingga ketika teman-teman lihat ya ini kan
+seperti ini ya ikan yang di jaring di bawah itu
+ya baru kemudian harga bisa naik
+bisnis ini seperti ini ya
+ketika teman-teman
+masih mau bertahan di sini ya
+teman-teman harus mengikuti caranya
+gimana supaya saya nggak kesaring
+seperti itu
+selanjutnya ya ke-2 ada fair value gap atau f vg
+jadi fvg itu merupakan ya area di mana
+ada ketidakefisienan ya
+karena harga ini harusnya lebih tinggi
+atau lebih rendah
+jadi kan ketika smart money
+masuk ya dalam pasar
+itu berarti ya ada suatu
+ketidakefisienan
+dari harga ini
+karena mereka kan selalu dalam tanda kutip ya
+ada Mark nya
+mereka ketika melakukan suatu transaksi itu pasti
+dalam jumlah yang besar
+sehingga transaksi yang hadir dari smart money
+itu menimbulkan suatu gap ya atau jarak
+sehingga gap ini
+itu kan terjadi ya ketika nggak semua adalah
+market participant itu
+bisa berkontribusi di situ
+sehingga ini adalah wujud ya
+ketidak efisienan yang ditimbulkan
+ya oleh para smart money
+nah ini adalah contoh fair value gap ya
+ketika teman-teman lihat ya ada big ya sale order
+seperti ini
+it means ya smart money is there ya
+karena teman-teman ini ritelnya hanya kecil ya
+ikan-ikan kecil yang bisa
+menyumbang ya beberapa
+order flow di sini ya
+hanya week kecil sekali
+tapi this week ya sale candle
+ya itu adalah smart money
+itu adalah suatu pertanda bahwa smart money is here
+ini adalah candle ya yang menunjukkan
+adanya suatu
+ketidak efisienan atau gap di dalam market
+nah selanjutnya ya kita ngomongin order block
+jadi order block itu apa ya
+order block itu
+suatu area ya di mana smart money ini aktif ya
+dan mungkin ya mereka ini bersembunyi di sana
+sehingga kita bisa jadikan
+orde blok ya atau singkatannya ubi ini sebagai suatu
+area ya di mana teman-teman berpotensi ya melakukan
+suatu perdagangan
+jadi misalkan teman-teman mau short ya
+teman-teman mau long
+teman-teman juga bisa jadikan obi sebagai area
+ya untuk teman-teman pasang
+suatu posisi perdagangan
+nah
+selanjutnya ya kita berbicara mengenai market structure
+ya
+mungkin teman-teman di sini sudah sering ya mendengar
+market structure
+terutama ketika teman-teman
+ya trading yang menggunakan press action analisis
+di mana market structure pun ya dalam smart money
+konsep ini juga masih ya diperhatikan ya oleh
+para smart money
+jadi institusi pun
+memperhatikan struktur pasar
+sebelum
+mereka melakukan aksi ya penjualan atau pembelian
+seperti yang teman-teman tahu ya ini contoh dari
+market structure yang beris ya
+ada titik high atau titik tinggi ya
+kemudian juga ada titik
+lower high ya di mana market yang turun
+atau bearish itu consistently yang making
+lower high dan lower high lagi ya
+lower high dan juga lower low
+jadi market ya bisa dipastikan baris ya ketika
+market itu selalu printing ya new
+lower high dan juga new
+lower low jadi teman-teman udah paham ya fokus
+apa aja sih yang kira-kira
+akan kita bahas ya di dalam 8 modul ke depan
+mengenai smart money ini
+jadi ketika teman-teman masih bingung
+ya mungkin modulnya bisa diulang-ulang ya dilihat
+beberapa kali
+sebelum teman-teman
+mengeksekusi ya trade
+menggunakan
+smart money konsep
+oke saya investing dari akademi crypto
+sampai berjumpa di modul ke-3
+Halo guys
+kembali lagi dengan saya avesting dari akademi crypto
+kali ini kita akan membahas
+ya suatu topik yang berjudul
+crypto smart money
+jadi sekarang kita memasuki
+modul ya bagian pertama
+jadi sebenarnya apa sih ya smart money itu dan gimana
+atau bagaimana
+penerapan smart money
+dalam market sekarang
+jadi ilmu trading itu
+sama seperti cabang ilmu lain ya teman-teman
+jadi selalu berkembang
+dan karena kita ketika berbicara
+perspektif berkembang itu kan berarti
+ada awalnya
+nah jadi pada dasarnya ya semua konsep technical
+research ya
+teknical analysis
+yang ada itu adalah konsep dari do teori
+ya yang mana ya pasti
+do teori itu menurunkan
+banyak ya sekali
+pendekatan ya dan teori trading yang berbeda
+ya dan salah satunya itu adalah
+smart money konsep ini
+nah sebenarnya apa sih ya smart money konsep ya
+jadi pada dasarnya
+smart money konsep itu merupakan
+suatu pendekatan trading yang baru ya
+yang baru di refill
+yang mana fokus utama dari smart money
+ya ini adalah kita melihat ya gimana pendekatan yang
+dilakukan ya oleh para institusi besar
+yang mana institusi besar itu
+selalu berfokus pada liquidity atau likuiditas
+sehingga kita
+ketika
+tradingnya menggunakan konsep smart money dalam crypto
+kita selalu berfokus pada likuiditas
+yang mana pokok utama
+yang kita perhatikan di sini adalah likuiditas
+sehingga kita follow the liquidity
+entah itu ke arah bullish ya ataupun ke arah bearish
+karena likuiditas itu tidak peduli ya dengan
+arah market ya tapi dia
+hanya ya melihat likuiditasnya itu ada di mana
+sehingga ketika kita follow the liquidity ya
+kita follow the trend juga
+lalu ada suatu pertanyaan ya kenapa smart money
+ini kok populer
+ya karena kan ketika teman-teman
+mempelajari ya teknikal analisis yang ada ya dengan
+ilmu dalam tanda kutip ya tarik tarik garis
+ya gambar
+trend line
+ya support resistance
+terus juga teman-teman misalkan
+acknowledge sesuatu pattern tertentu
+itu pada dasarnya
+seringkali ya
+nggak selalu ya tapi seringkali digunakan
+smart money
+ya untuk Meng counter trade
+teman-teman punya idea
+karena teman-teman ini kan pada dasarnya menggunakan
+ilmu yang sama
+ya yang mana semua orang ini pakai
+sehingga smart money ini tahu
+oh kecenderungan teman-teman bakal long di sini
+oh kecenderungan teman-teman bakal
+short di sini
+sehingga itu dimanfaatkan ya
+oleh para smart money
+untuk Meng counter trade
+teman-teman
+jadi pasti ya teman-teman ini pernah ngerasa ya
+oh saya udah jago ya ta
+ya saya udah pintar
+ya tarik tarik gadis
+ya udah bener nih
+tapi kok trading-nya tetap rugi
+ya mungkin jawabannya ya teman-teman
+harus mempelajari ya mengenai smart money
+karena ketika teman-teman failed ya dalam trading itu
+sometimes
+bukan karena teman-teman bukan seorang trader yang jago
+mungkin
+ada faktor di mana teman-teman harus Meng upgrade
+ilmu yang teman-teman miliki
+jadi ketika teman-teman udah tarik tarik garis
+ya udah jago
+tapi kok masih failed
+di situ teman-teman mungkin
+harus melihat
+perspektif ya ilmu trading ke arah yang berbeda
+mungkin di situ
+teman-teman lagi dikerjain ya oleh para smart money
+jadi teman-teman ya harus memahami
+ada suatu information gap yang mana dimiliki oleh
+para smart money ini dengan kita
+sehingga ketika kita pengen
+memperkecil odds
+ya memperbesar kemungkinan kita untuk menang
+ya kita mau nggak mau satu harus
+mempelajari cara mereka bekerja
+dan ke-2
+kita mungkin juga harus bekerja dengan cara mereka
+sehingga teman-teman harus ya mempelajari
+smart money ini
+karena kalau kita ngomong
+keuntungannya trading menggunakan
+smart money apa ya
+satu ini adalah metode yang masih
+fresh ya from the oven
+ketika teman-teman 97 ini
+masih menggunakan
+normal ya
+technical analysis ya based on do
+teori ya pattern ya
+kemudian teman-teman masih tarik support
+resistance ya dengan cara yang tradisional ya
+di sini ada ilmu yang baru sehingga bisa memberikan
+teman-teman
+age ya against all the market participant
+jadi teman-teman nggak harus ya rubah
+switching semua program yang teman-teman buat
+sistem yang
+teman-teman udah buat ya
+tapi mungkin teman-teman bisa menemukan hal yang baru
+ya hal yang berbeda
+ketika teman-teman juga mempelajari smart money
+ke-2 teman-teman juga
+bisa ya melihat gimana
+smart money ini menggodok market crypto
+karena setelah tahun 2018
+ada kecenderungan teman-teman kalau para smart money
+ini masuk ke crypto
+karena kan kalau kita lihat ya 2/3
+trading volume di dalam pasar keuangan
+event crypto ya itu juga
+mereka tradingnya pakai algoritma ya atau trading bot
+sehingga ketika teman-teman membedah mekaniknya
+teman-teman akan tahu gimana cara mereka beroperasi
+sehingga teman-teman juga bisa
+memiliki ya tambahan pengetahuan
+ya yang bisa mengasah ya kemampuan teman-teman trading
+oke teman-teman
+mungkin itu penyampaian dan pembukaan saya mengenai
+crypto smart money
+jadi kita akan lanjut ke modul bagian ke-2
+saya alvesting dari akademi crypto
+sampai berjumpa di modul selanjutnya
+Halo guys kembali lagi dengan saya
+alvesting dari akademi crypto di
+kesempatan kali ini ya kita akan
+membahas mengenai crypto order flow
+jadi di modul pertama ini ya kita akan
+membahas ya mengenai apa sih sebenarnya order
+flow trading
+jadi seperti yang sudah saya ungkapin ya di dalam
+modul-modul sebelumnya
+bahwa banyak sekali ya suatu pendekatan trading
+dan order flow
+ini merupakan salah satu
+pendekatan trading juga
+jadi
+beberapa elemen yang diperhatikan ya dalam order flow
+trading itu adalah pergerakan onchain ya
+order book order blok
+serta volume
+jadi pada dasarnya ya di sini pendekatan order
+flow trading itu intinya kita memperhatikan ya order
+book ya
+serta bagaimana
+dengan kita membaca order book ya kita bisa kayak
+figure out ya ke mana arah marketingnya akan bergerak
+entah itu naik
+ya atau turun
+apa sebenarnya fungsi dari kita melihat ya order flow
+atau ketika kita menggunakan
+order flow trading
+jadi pertama ya kita bisa melihat ya likuiditas ya
+yang mana kita
+dengan melihat likuiditas
+kita bisa menentukan ya arah pergerakan harga
+dan yang ke-2 ya melalui order
+book ya ini kita bisa melihat kecenderungan
+apakah market ini akan bullish ya
+karena
+order flow ini merupakan
+suatu pendekatan trading yang sangat data base
+atau semua sangat tergantung ya pada data
+kuantitatif yang ada
+sehingga order flow trading ini merupakan
+suatu pendekatan ya untuk melihat
+market ya dari sisi kuantitatif
+jadi di sini benar-benar semua base on data ya
+base on previous history
+di mana dengan data historis
+itu kita akan menentukan ya arah pergerakan harga
+kalau price action yaitu dalam tanda kutip cenderung
+ada subjektivitas dari trader
+tapi kalau di sini ya
+kita berbicara mengenai order flow trading ya
+order flow trading ini merupakan
+suatu pendekatan yang kuantitatif
+jadi semua base on data
+lalu apa aja elemen dari order flow
+jadi kemarin kita udah menjelaskan ya
+elemen apa aja ya dari smart money konsep
+jadi ini ada beberapa elemen juga ya dalam order flow
+yang mana di sini
+tidak by urutan
+ya tapi ini hanya list aja ya
+pertama kita
+akan memperhatikan ya elemen tentang order book
+ke-2 kita akan memperhatikan ya elemen
+volume atau liquidity
+kemudian kita
+bisa ya memperhatikan
+long and short rasio
+dan kemudian ke-4 ya depth of market ya atau di um
+dan yang terakhir adalah liquidation map
+pertama kita akan membahas order book
+apa sih sebenarnya order book
+jadi order book itu merupakan suatu daftar ya
+atau tempat
+di mana para market
+participant
+ya ini melakukan aksi jual dan juga aksi beli
+jadi order book
+ini kalau teman-teman lihat
+ini kan seperti suatu buku ya di mana buku ini
+bisa kita
+jadikan suatu petunjuk ya untuk melihat kedalaman pasar
+serta kita bisa melihat ya potensi pergerakan harga
+sama aja ketika kamu ngintip ya order book-nya ini
+banyak mana ya pembeli atau penjual
+kalau banyak pembeli
+ya dalam tanda kutip ya quotes on quotes
+berarti pasar cenderung bullish
+kalau misalkan kamu lihat order book
+wah banyak yang mau jualan nih
+berarti ada kecenderungan harga ini akan turun
+simpelnya itu seperti itu
+tapi nanti yang lebih
+advance lagi akan kita
+jelaskan yaitu di modul-modul ke depan
+selanjutnya liquidity
+seperti yang
+udah kita jelasin ya di smart money konsep
+jadi konsep dari order flow trading
+itu sebenarnya memiliki
+intersection
+dengan smart money konsep
+di mana di dalam smart money konsep
+kita berfokus ya pada liquidity
+di mana smart money selalu hunting liquidity
+namun kalau kita ngomongin order flow trading
+di sini fokusnya itu adalah order book
+jadi order flow
+order book oke
+jadi kita melihat pergerakan dari order book
+untuk menentukan
+ya kira-kira ke mana ya arah pergerakan harga
+nah liquidity ya ini merupakan
+suatu kecenderungan ya apakah aset ini mudah di
+pertukarkan atau enggak
+kalau liquidity-nya tipis ya atau kering
+ini semakin sulit kita untuk
+melakukan suatu perdagangan
+tapi kalau coach on coach ya order book-nya ini tebal
+ya ini berarti semakin mudah
+ya kita memperdagangkan suatu aset
+nah selanjutnya long
+versus short rasio
+jadi long versus short rasio itu merupakan ya
+rasio yang menunjukkan ya
+mayoritas pelaku pasar
+banyak yang long atau short
+long berarti mereka melakukan pembelian
+kalau short berarti mereka
+melakukan penjualan
+jadi kita kan bisa melihat sentimen pasar
+ya dengan mengetahui long versus short rasio
+let say kita melihat ya
+long rasio itu lebih banyak daripada short rasio
+berarti kita bisa berpikir ya bahwa oh memang
+pasangnya mau bullish ya karena long-nya lebih tinggi
+daripada short-nya
+begitu juga sebaliknya
+kalau short-nya
+lebih banyak
+ya kita bisa make assumption ya kalau misalkan
+sentimennya ini cenderung bearish
+nah selanjutnya ini adalah doom ya atau depth of market
+jadi depth of market ya ini merupakan
+suatu elemen di mana kita bisa melihat ya by order ya
+atau bits dan juga sale order
+atau over pada suatu
+area perdagangan tertentu ya atau area of value
+jadi dengan melihat
+doom ya di area support atau resistance
+kita bisa ngelihat ya ini
+kira-kira banyak nggak sih ya yang melakukan
+penjualannya
+banyak nggak sih yang melakukan pembelian ya
+jadi dengan melihat bom ya
+kita akan mengetahui ya suatu kecenderungan penjual
+atau pembeli
+dalam area of value
+atau support
+and resistance
+nah selanjutnya adalah liquidation map ya
+liquidation map ini merupakan peta likuidasi ya
+mana kecenderungan ya para trader ini terliquidasi
+jadi kita bisa mengetahui
+lebih dari stop loss-nya ya tapi area likuidasinya ya
+it means kalau misalkan harga bergerak di arah tertentu
+ya ini liquidation price
+mereka akan ter trigger
+ya dan mereka akan kehilangan ya
+seluruh posisi yang mereka miliki ya
+itu bisa kita lakukan ya dengan kita melakukan analisis
+underflow
+oke di sini teman-teman udah paham ya konsep dasar dari
+order flow
+jadi selanjutnya kita akan jelaskan
+berbagai elemen tersebut
+yang menjadi suatu
+teori yang lebih komprehensif
+oke saya off testing dari akan crypto
+sampai berjumpa di modul selanjutnya
+Halo guys kembali lagi dengan saya
+alvesting dari akademi crypto ya
+kali ini kita masuk yang modul ke-6 ya
+kripto harmonik trading
+tahap kali ini ya kita akan membahas ya dasar
+pola dan rasio ya untuk
+harmonik trading
+jadi dua rasio utama ya yang harus teman-teman
+perhatikan ya ketika menerapkan harmonik trading
+yaitu adalah harmonik extension dan juga harmonik
+impulsif
+apa itu harmonik extension dan harmonik impulsif
+yuk mari kita bahas
+jadi
+harmonik extension itu adalah pola ya yang berbentuk
+karena adanya penolakan dari area of value sehingga
+membentuk ya ketika bearish itu pola m
+dan ketika bullish itu adalah pola w
+atau w sementara ya harmonik impulsif
+yaitu adalah pola tajam ya jangka pendek
+yang mana merupakan ya
+pattern yang cukup akurat
+ya dan teman-teman akan sering temui di market
+jadi ketika teman-teman mau menggambar
+ya harmonik pattern di trading view
+teman-teman bisa ya klik ya di bagian pattern
+ya 4 dari atas
+dan kita akan gunakan ya x
+abcd pattern ya atau cipher
+pattern ya ketika teman-teman ya mau menerapkan
+harmonik pattern ya
+oke pertama kita akan membahas ya harmonik extension
+jadi bullish harmonik extension ini seperti ini ya
+ini bentuknya
+seperti huruf w ya
+di mana di sini ada pola ya seperti double bottom
+ya dan juga harga mengalami kenaikan
+dan setelah di titik d ini adalah point of reversal
+zone ini
+harga akan memiliki ya kecenderungan untuk turun
+dan bergerak ke bawah
+nah ini contoh ya
+di dalam bitcoin ya ini
+teman-teman
+selalu ya fokus ya di bagian ya a sampai c
+ini di skala ya satu satu tiga ya
+jadi di sini ada a
+b dan juga c
+di sini selalu fokus di satu titik satu tiga
+jadi teman-teman bisa relatif ya mengabaikan ya
+pola yang lain
+tapi selalu fokus di satu satu tiga ya
+di a sampai c
+dan ketika teman-teman lihat ya di sini di pola d
+di sini harga akan mengalami penolakan ya
+reject ya di sini
+dan juga mengalami penurunan
+bisa teman-teman lihat ya setelah dia hit di titik d
+harga mulai
+slowing down dan juga akan mengalami koreksi
+selanjutnya kita akan membahas ya baris harmonik
+extension ya di mana di sini seperti huruf m ya x
+a b c d ya
+dan titik d ini adalah point of
+reversal zone dimana setelah harga ada di titik d
+ini harga akan mengalami kenaikan
+ke atas oke
+jadi selalu fokus ya
+di poin a sampai c
+itu adalah rasio satu titik satu tiga ya di sini x
+a b c d ya
+di titik a sampai c
+selalu perhatikan ya angkanya
+ini harus satu titik satu tiga
+teman-teman bisa relatif mengabaikan ya rasio yang lain
+tapi a to c
+ya atau a ke c itu harus satu titik
+satu tiga oke selanjutnya
+kita akan membahas ya harmonik impuls
+mana di sini ya ada gulis harmonik impuls ya o x
+a b c ya
+jadi di sini ya titik x ke b ya
+ini satu titik satu 3-1
+titik 6 8
+dan di titik a to c
+atau a ke c ini satu titik 6 satu 8 dan dua
+titik dua 4
+di mana di sini ya
+bullish harmonik impuls ya pada bitcoin ya
+di sini teman-teman lihat ya di titik c
+harga yang mengalami kenaikan ya
+setelah kita lihat ya rasio di titik x
+dan b ya satu titik 5
+4 8
+dan teman-teman bisa lihat ya ketika harga hit
+di titik c ya harga
+ya mengalami kenaikan
+oke
+selanjutnya kita membahas ya baris ya harmonik impuls
+ya di mana o x a b
+c ya
+di mana titik x to B ya ini rasunya satu titik
+satu 3-1 titik 6
+satu 8 ya
+dan juga a to c ya satu 6
+satu 8-2 titik dua 4
+di mana ketika teman-teman lihat ya
+di sini beris harmonik impuls pada bitcoin
+setelah dia di titik c
+harga mengalami penurunan
+oke jadi di sini teman-teman udah paham ya penerapan ya
+basic harmonik pattern
+di dalam
+harmonik trading self testing dari Karim crypto
+sampai berjumpa di video selanjutnya
+Halo guys
+kembali lagi dengan saya alvesting dari akademi crypto
+ya kita memasuki modul ke-8 ya crypto
+harmonik trading
+di mana di sini kita akan melanjutkan ya pembahasan
+mengenai harmonik pattern
+di mana di sini kita akan membahas yang mengenai
+sharp pattern
+jadi apa itu shark pattern
+shark pattern itu merupakan
+harmonic pattern ya yang ditemukan di tahun 2011
+melalui buku patterns
+into profits
+jadi shark patterns ini merupakan
+suatu pola ya yang menunjukkan
+gerakan eksplosif ya dari titik ekstrem
+dan shark pattern sendiri ini ada dua
+yaitu adalah bullish shark pattern dan juga bearish
+shark pattern
+di mana bullish shark pattern
+merupakan ya pola yang mengindikasikan
+pola harga yang bullish ya sehingga
+ada kecenderungan harga mengalami kenaikan
+sementara bearish shark pattern
+ini suatu kecenderungan pattern yang bearish ya
+sehingga menunjukkan ada potensi penurunan harga
+bulis shark pattern ini seperti ini ya teman-teman
+x a b
+c d ya
+di mana rasio ya antara a ke c
+satu titik satu 3-1 titik satu 6 8
+rasio x ke b
+0 titik tiga 8 2-0
+titik 6 satu 8
+dan rasio ya ini b ke d ya satu 6 satu 8-2 titik dua 4
+dan x ke d 0 titik 8 8 6-1 titik satu tiga
+ini contoh ya bully shark pattern ya pada bitcoin ya
+x a b c d ya di mana d
+ini adalah point of reversal zone
+di mana teman-teman harus peka ya dan jeli dalam
+melihat pattern
+selain itu
+teman-teman juga harus memperhatikan ya harmonik
+rasio di sini ya
+jangan sampai ya ada kesalahan ya di sini
+karena ketika ada
+suatu rasio yang tidak sesuai
+maka pattern itu bisa dinyatakan
+tidak valid
+nah selanjutnya baris start pattern oke
+dimana di sini x ya a b c d
+dimana titik x ke d
+0 titik 8 8 6-1 titik satu tiga
+x ke b 0 titik tiga 8 2-0 titik 6 satu 8
+dan b ke d satu titik 6 satu 8-2 titik 4 ya
+di mana titik a ke c
+satu titik satu 3-1 titik 6 satu 8
+nah ini contoh ya barisa pattern pada bitcoin
+di mana teman-teman melihat d
+ini adalah prz-nya ya potential reversal zone
+di mana ketika dia hit
+di titik d harga cenderung turun ke bawah
+di mana d ini
+adalah tempat ya ketika teman-teman mau
+melakukan short selling atau penjualan
+lalu selanjutnya kita membahas ya butterfly pattern
+butterfly pattern
+ini adalah pattern ya yang diciptakan oleh brice
+Gilmore dimana pattern-nya ini mirip ya dengan
+cup pattern dan juga garlic ya
+di mana ada kecenderungan
+yang sedikit berbeda ya di titik entry-nya
+di mana butterfly pattern sendiri itu ada dua
+yaitu adalah bullish butterfly pattern dan juga bearish
+butterfly pattern
+di mana bullish butterfly pattern
+ini adalah kecenderungan harga
+bullish ya yang menunjukkan ada potensi peningkatan
+sementara baris butterfly pattern
+itu adalah pattern yang mengindikasikan ya
+adanya penurunan harga
+ini adalah bullish butterfly pattern ya teman-teman
+b ini adalah potential reversal zone
+dimana titik a ke c 0
+titik tiga 8 2-0
+titik 8 8 6
+ya x ke b 0
+titik 7 8 6
+b ke d satu
+titik 6 satu 8-2
+titik dua 4
+dan x ke d satu
+titik dua 7
+di mana ketika teman-teman lihat ya
+di sini d
+ini adalah point of reversal zone
+di mana
+inilah titik yang ideal untuk teman-teman melakukan
+long sebelum
+harga bergerak naik ke atas
+oke selanjutnya baris butterfly pattern di mana
+di sini ya titik x ke d satu
+titik dua 7
+x ke b 0
+titik 7 8 6
+ya b ke d satu
+6 satu 8-2
+titik dua 4
+dan a ke c 0
+titik tiga 8 2-0
+titik 8 8 6
+di mana di sini ya teman-teman bisa melihat ya di
+baris butterfly pattern
+titik d adalah point of reversal zone
+di mana di sini ketika harga hit ya di titik d
+harga mengalami penurunan ke bawah
+oke dari sini bisa dipahami ya teman-teman
+saya all testing dari akademi crypto
+sampai berjumpa di modul selanjutnya
+teman-teman
+kembali lagi dengan saya alvesting dari akademi crypto
+jadi kita masuk modul ke-9
+kamus pattern crypto atau KPK
+saya harap teman-teman masih kuat ya
+karena ini tinggal dua lagi
+tapi mungkin ya
+series KPK ini akan dilanjutin sampai lebih dari 10
+tapi kita sekarang
+tetap semangat ya di bagian modul ke-9
+jadi di modul ke-9 ini kita akan membahas suatu pattern
+ya yang bernama
+linear regression Channel ya atau lrc
+oke jadi apa sih lrc itu
+jadi lrc itu merupakan suatu pola ya yang didasarkan
+atas dua garis
+linier ya yang mempunyai
+lower side dan juga mempunyai upper side
+jadi dia punya sisi bawah
+dan juga dia punya sisi atas
+jadi lrc ini ya seperti
+suatu Channel ya atau
+suatu terowongan
+yang mana ada sisi bawahnya ya ada juga sisi atasnya
+jadi di sini dijelaskan ya teman-teman kalau lrc ini
+ya ini merupakan pattern yang netral
+dia bisa naik dan juga bisa turun
+tergantung ya price action-nya
+tergantung pola pergerakan harganya
+dan bias kita ya
+point of view kita dalam melihat pattern ini
+oke nih pattern-nya ini cocok untuk
+intraday trading
+jadi trading yang selesai
+dalam waktu satu hari itu cocok ya teman-teman
+masuk ya sekarang
+mungkin keluar negeri sore ini cocok ya
+pattern pattern intraday lrc
+ya bisa teman-teman
+temukan ya di dalam trading view
+ya di bagian Channel
+terus kemudian teman-teman cari paralel Channel
+untuk membuka lrc ini
+nah ini terlihat seperti yang di kanan ini teman-teman
+ada ya dua garis ya yang berbentuk Channel
+ada bagian bawah
+dan juga ada bagian atas
+dan juga di sini ya
+titik-titik garis di tengah ini adalah mediannya
+atau titik tengahnya
+oke
+ini kita langsung lihat ya ini lrc dalam h 4 bitcoin ya
+di mana ketika harga mendekati titik ini
+ya harga bouncing ke atas
+ketika harga
+ada di titik atas ini dia malah
+turun ke bawah
+di bawah ini diangkat lagi ke atas
+di atas ini diturunin lagi ke bawah
+jadi intinya lrc ini pattern yang netral
+cocok buat kalian yang suka take
+lock-an ya suka scalping-an ya
+ini kalau diukur ini selesai satu hari ya teman-teman
+ini juga selesai satu hari
+ini selesai satu hari
+jadi ini pattern yang cocok untuk intrading trader
+cara memainkan lrc yang pertama
+teman-teman
+long atau buy ketika harga ini
+berada ya di titik support
+atau pembelian di bagian bawahnya
+lrc ini kemudian naik nih Pam
+oke teman-teman
+close ya di atas
+garis resistance atau di atas
+titik jualnya ini
+kemudian ya teman-teman bisa melakukan
+sorting ya ketika
+harga ini sudah berada di atas dari titik lrc
+di atas resistance ya dari lrc ini atau bagian
+upper-nya dan kemudian
+targetingnya adalah bagian low-nya yang ada di
+di bawah ilustrasinya ya teman-teman
+teman-teman bisa ya
+long ya kemudian short
+ya kemudian long lagi yang
+mana pattern ini cocok untuk teman-teman yang suka
+tiktok-an ya
+suka keluar masuk di market
+kemudian cara memainkan lrc yang ke-2 yaitu adalah
+melakukan sorting atau longing
+ketika lrc ini breakdown
+dari lrc-nya ya
+jadi ketika ada lrc
+ya kemudian dia breakdown ke bawah
+it means itu adalah suatu
+peluang untuk melakukan sorting
+di mana di sini kita lihat ya di bitcoin ini
+breakdown ke bawah lrc ya
+terus kemudian dari Tes di sini
+teman-teman bisa jadikan
+potensi untuk melakukan sorting
+kemudian harga
+jebol turun ke bawah
+stop loss di mana
+ya di atas ya
+swing h yang ini
+terus kalau misalkan lrc-nya ini pumping ke atas
+ya berarti teman-teman
+biasnya adalah melakukan long
+atau pembelian
+oke jadi udah paham ya
+lrc ini hitungannya pattern yang cukup simpel ya kayak
+sebenarnya kayak support and resistance ya
+cuman dia agak
+nyerong ke atas ya atau agak nyerong ke bawah
+sehingga di sini saya harap
+teman-teman bisa mengaplikasikannya
+karena crypto ini kan pattern-nya banyak ya
+market-nya juga relatif lebih rumit
+sehingga banyak pattern yang mana
+lebih eksotik
+dan juga teman-teman mungkin jarang dengar sebelumnya
+oke saya alvesting dari akademi crypto
+sampai berjumpa di video selanjutnya
+krypto money
+psikologi apa yang akan kita bahas
+di modul ke-4 ini
+kita akan menjelaskan
+mengenai pola perilaku manusia
+terutama di sini para trader
+dan investor di market crypto
+serta kajian dari
+teori-teori perilaku
+yang mana sudah dikaji
+oleh berbagai pakar sebelumnya
+dan kita akan jelaskan ya
+kira-kira apa kaitan
+mengenai teori-teori perilaku tersebut
+dengan para trader
+dan investor crypto pertama ini adalah teori yang
+paling terkenal
+yang mendasari ya berbagai teori
+perilaku yang ada
+itulah teori of recent action atau tra
+tra ini diciptakan oleh Martin fishbein dan ichek asen
+1967 nah
+tra atau teori of reason action
+ini merupakan teori yang menjelaskan bahwa
+pola perilaku tertentu itu
+sangat dipengaruhi oleh niat
+terhadap perilaku tersebut
+yang mana niat ini juga di
+sebabkan oleh berbagai variabel
+variabel independen yang lain
+nah di sini teman-teman bisa lihat ya ini
+source by Wikipedia
+di mana perilaku
+itu sangat dipengaruhi oleh
+niat kita ya terhadap perilaku tersebut
+yang mana niat terhadap perilaku itu
+dipengaruhi oleh dua hal
+pertama sikap kita
+dan ke-2 adalah pandangan
+norma kita ya terhadap perilaku tersebut
+jadi di sini ya behavioral intention atau niat
+perilaku ya terhadap suatu perilaku tertentu
+ini dilihat ya sebagai suatu
+variabel mediasi
+yang mana ya tanpa adanya attitude
+ya tanpa adanya subjektif norm ini tidak mungkin
+ya ada suatu niat
+yang mana niat ini
+berpengaruh ya terhadap
+perilaku kita terhadap sesuatu
+jadi di sini ditekankan ya di tra ini
+bahwa niat itu adalah hal yang paling utama
+ya paling penting
+terhadap perilaku seseorang
+terhadap sesuatu
+tra ini memang juga ada kaitannya dengan dunia trading
+dengan dunia investing
+karena keputusan kita ya untuk melakukan trading
+investing mengeksekusi sesuatu
+yaitu sangat dipengaruhi oleh sikap dan juga norma
+sosial contohnya apa
+misalkan kita sebagai seorang trader
+investor di market crypto ini
+kita memiliki suatu strategi tertentu
+pendekatan tertentu
+yang mana strategi tersebut
+juga didukung
+oleh orang-orang lain yang mengungkapkan bahwa
+strategi tersebut
+ya ini sangat produktif
+menghasilkan
+dan juga menguntungkan
+misalkan ada sekelompok grup ya
+let's say akademi crypto
+nah di akademi crypto ini
+orang-orang yang trading menggunakan smc
+ini dianggap cukup profitable
+atau orang-orang yang trading dengan ict
+dianggap
+profitable ya dengan teman-teman di dalam komunitas
+atau teman-teman yang trading menggunakan
+price action yang sederhana
+ini dianggap menguntungkan
+jadi trader ini memiliki suatu konfirmasi
+atas niat tersebut
+atau ya pengakuan norma sosial
+sehingga terbentuklah suatu niat untuk trading
+yang mana akhirnya
+mendukung perilaku dia untuk akhirnya trading di market
+kripto currency
+nah selanjutnya ada teori of plan
+behavior atau tpb
+yang mana ini diungkapkan oleh ichek azen 1985
+tpb atau teori of plan behavior
+ini adalah teori
+perkembangan dari teori of reason action atau tra
+dimana di sini ditambahkan
+satu variabel
+independen terhadap model penelitiannya ini
+kalau ini ya bagian dari ID tisis
+di mana di sini dijelaskan ya
+suatu perilaku tertentu
+itu sangat dipengaruhi oleh niat
+yang mana kalau tadi di teori of reason action atau tra
+niat itu dipengaruhi ya oleh sikap
+dan juga
+perspektif norma atau norma sosial terhadap sesuatu
+nah ini ditambah lagi
+ya persif behavior control
+atau persepsi kontrol perilaku
+apa maksudnya persepsi kontrol perilaku
+nah persif behavior kontrol
+ya atau persepsi kontrol perilaku
+itu adalah kaitannya ya dengan seberapa yakin
+dan percaya
+kita terhadap
+kemampuan kita ya untuk melakukan sesuatu tersebut
+ya ini terkait dengan self efficacy ya atau seberapa
+ya kita confident
+seberapa kita yakin dengan
+kemampuan dan kekuatan kita
+terhadap suatu perilaku yang akan kita lakukan tersebut
+nah tpb sendiri ini mengkaji ya mengenai sikap
+mengenai subjektif
+norm dan juga terkait dengan kontrol perilaku ya
+terhadap sesuatu yang akan kita lakukan
+ketika kita mau trading
+ketika kita mau investing di market crypto
+nah di sini dijelaskan kalau trader
+ini dengan market ya pandangannya
+sikapnya itu positif ya
+didukung dengan
+ya komunitas ya seperti akademi crypto ini
+misalkan teman-teman yang memiliki satu kesamaan visi
+ya tujuan untuk bisa memperoleh keuntungan di market
+dan ke-3 ya ini
+didukung oleh keyakinan yang kuat ya self efficiency
+yang tinggi
+terhadap dia
+punya suatu sistem
+terhadap dia punya suatu keyakinan
+suatu metode
+untuk bisa memperoleh keuntungan di market ini
+mereka akan cenderung lebih berani ya untuk bersikap
+mereka akan cenderung ya
+lebih take trading ini seriusly
+hingga akhirnya
+mereka bisa memperoleh hasil
+atau memperoleh keuntungan di market
+jadi itu ya adalah kajian tpb atau teori of plan
+behavior ketika kita
+korelasikan ya ini dengan perilaku dan sikap para
+trader nah selanjutnya ada expected utility teori
+ya
+ini adalah teori yang diungkapkan oleh Daniel bernoulli
+ya 1738
+apa itu expected utility teori
+expected utility teori
+itu adalah suatu teori yang mengungkapkan
+bahwasanya seseorang itu selalu
+memaksimalkan
+utilitas yang mungkin dia peroleh
+apa itu maksudnya ya utilitas
+kalau kita lihat dari perspektif trader
+investor dan market
+jadi pada dasarnya
+trader atau investor itu selalu melihat peluang
+dengan tingkat keuntungan yang paling tinggi
+jadi trader itu selalu mengambil opsi
+dengan tingkat keuntungan yang
+paling tinggi
+nah apa sih kaitannya ya expected utility teori ini
+dengan ketika kita trading
+ya ketika kita trading
+itu ada sesuatu yang namanya risk and reward
+di mana di situ kita melihat
+ya berapa jumlah yang kita risikokan
+dengan jumlah atau potensi yang bisa kita dapatkan
+return-nya di situ
+kita harus mencari
+set up trading
+ya set up
+swing trading
+yang mana restu reward-nya itu positif
+tandanya apa
+ketika kita meresikokan satu itu
+kita memperoleh harus lebih dari satu
+misalkan ketika posisi kita gagal
+ya kita kehilangan 10% dari modal
+tapi ketika
+itu berhasil
+kita harusnya mendapatkan
+lebih dari satu
+bisa aja 20%
+bisa aja 30%
+karena kalau kita lihat ya di expected utility teori ya
+trader itu selalu menimbang potensi keuntungan
+dan juga pastinya menimbang potensi kerugian
+jangan sampai potensi kerugian ini jauh lebih tinggi
+daripada keuntungan
+atau dalam tanda kutip ya kita jadi trader yang tidak
+profitable sehingga teori ini yang mengkaji
+memang kita itu harus melihat potensi keuntungannya
+ya kira-kira dari expected utility teori
+ya besaran keuntungan ini
+make sense nggak dengan tingkat risiko yang kita ambil
+dan kita harus paham
+ya bahwa keuntungan ini harus jauh lebih besar
+daripada potensi kerugian yang mungkin kita dapatkan
+oke itu adalah penjelasannya beberapa pakar-pakar
+teori perilaku
+yang mana kita kaitkan
+dengan teori perilaku
+para trader dan juga investor di crypto
+sampai jumpa di modul selanjutnya
+ke-7 ya crypto money psikologi
+di mana di sini kita akan membahas ya salah satu bias
+yang teman-teman sering alami
+yaitu adalah loss
+aversion bias
+balik lagi ya
+bias ini dialami oleh semua orang
+ya karena ini sangat manusiawi ya
+bias yang hampir ya semua orang
+akan mengalami ini
+nah apa itu sebenarnya loss aversion bias
+loss aversion
+bias ini adalah suatu bias di mana manusia
+ini secara Umum
+lebih bereaksi
+terhadap kerugian
+daripada keuntungan
+jadi memang ketika teman-teman ini rugi
+ya rasanya itu jauh lebih nyesek daripada
+happy-nya ketika teman-teman ini memperoleh keuntungan
+di mana ketika kita bawa dari perspektif investasi
+di sini teman-teman ini jauh lebih concern ya
+nggak enak hatinya
+dengan suatu kerugian
+bahkan ketika kerugian ini jumlahnya sama
+ya dibandingkan
+teman-teman juga memperoleh keuntungan
+dalam jumlah yang sama
+jadi misalkan loss aversion ini ya Porto kita naik 10%
+misalkan jadi teman-teman mungkin ya oke ya fine
+naik 10% nggak terlalu happy
+tapi kalau itu drodon ya 10%
+apa yang teman-teman alami ya
+teman-teman akan
+merasa sangat
+bad mood jadi rasa hancurnya
+hampanya yang nggak enaknya kehilangan 10%
+ini mengalahkan ya
+rasa senangnya
+kalau itu cuman 10%
+kenaikannya
+ya itu adalah loss of version
+bias yang mana di sini bisa teman-teman lihat ya
+dari chart ya ini dari economic help
+di mana rasanya
+lusis ya misalkan dalam jumlah yang sama 100
+ini more painful
+ya daripada
+joyment atau enjoyment ya
+ketika kita memperoleh keuntungan yang sama
+ya outcome $100 naik games-nya
+ini nggak akan ya
+menyamai rasanya
+kita kehilangan $100
+dan ini adalah bias loss aversion yang sangat manusiawi
+ya nah di sini teman-teman harus memahami
+ada perbedaan ya antara
+loss aversion dan juga risk aversion
+oke apa itu risk aversion
+risk aversion sendiri itu adalah kecenderungan
+ya seseorang itu
+selalu menghindari risiko
+jadi seseorang ini pengennya sesuatu yang aman
+aman aja ya
+sesuatu yang pasti
+pasti aja oke itu adalah risk aversion
+nah kalau di sini ya dijelaskan
+ini dari invest p
+di mana loss aversion ini secara definisi
+ya kita menghindari ya kerugian
+sehingga pasti
+decision making ini nggak optimal
+kalau risk aversion ya ini jelas ya
+decision making ini nggak optimal
+tapi kecenderungannya ya ini yang dihindari
+itu adalah resiko
+lalu apa yang menyebabkan ya loss aversion ini
+karena memang manusia ini dasarnya
+sukanya ini nggak mau rugi
+selalu pengennya bertahan
+nggak mau kehilangan
+dan ini pun sudah ada ya sejak manusia zaman dulu
+kita memang didesain ya tubuh kita itu untuk bertahan
+untuk mempertahankan diri
+mempertahankan sesuatu yang kita miliki
+sehingga ketika sesuatu yang kita miliki ini
+mengalami penurunan
+atau kita memperoleh
+penurunan atas kekayaan kita miliki
+kita cenderung lebih
+defensif ya
+dan kita akan
+ya cenderung
+lebih panik ya supaya hal tersebut tidak terjadi
+nah kemudian
+ya biasanya loss aversion ini terjadi
+karena kerugian-kerugian ya di masa lalu
+ini membuat kita ya takut
+misalkan kita trading
+ya di instrumen yang sangat berisiko seperti crypto
+tahun lalu saya los besar misalkan
+oke
+tahun ini ya jelas saya akan menghindari los tersebut
+saya udah trauma karena sebelumnya ini pernah los besar
+tahun lalu pernah los besar
+dan ada beberapa cara ya
+supaya bisa lepas ya di bias
+ini ya pertama
+ya kita buat rencana yang terstruktur
+kita buat game plan yang matang
+kita buat metode yang tepat
+kita buat pendekatan yang tepat
+oke game plan-nya sangat matang
+dan kemudian
+ya kita evaluasi kesalahan di masa lalu
+supaya apa kesalahan ini tidak terjadi
+di masa yang akan datang
+dan terakhir
+ya kita bisa buat strategi yang matang
+dan ketika strategi tersebut berhasil
+kita back test terus
+dan kita implementasikan terus
+supaya ya kita memiliki ya the winning way
+the winning method
+untuk bisa mengarungi market ini dengan optimal
+oke ya itu adalah
+beberapa bias ya yang bisa teman-teman hindari
+cryptocurrency
+ini akan ada banyak ya beberapa season-nya
+beberapa modul-modul lain
+tapi untuk sekarang ini enough dituju
+sampai berjumpa di cryptocurrency ya
+bagian selanjutnya
+Halo guys kembali lagi di bagian ke-6
+crypto week of trading
+apa yang akan dipelajari di sini
+sebelumnya telah dijelaskan bahwa dua elemen
+paling penting
+ketika teman-teman
+mau menerapkan pick of strategi itu
+pertama adalah harga
+dan ke-2 ini adalah volume
+di sini akan dijelaskan
+lebih dalam
+lebih jauh mengenai
+bagaimana caranya teman-teman ini menganalisa volume
+yang mana di sini
+hubungan antara harga dan juga volume ini
+bisa dikaji menggunakan volume
+spread nelisis
+apa itu volume spread nelisis atau vsa
+pada dasarnya
+vsa itu adalah suatu konsep yang menerangkan ya
+bahwa penggerak utama di market
+itu adalah volume
+tanpa adanya volume
+maka harga ini tidak bisa bergerak
+sehingga di sini
+kita bisa mengkaji ya
+hubungan antara harga dan juga volume
+untuk mengantisipasi
+pergerakan pasar yang
+bisa terjadi
+jadi vsa ini adalah analisa untuk
+mengantisipasi
+pergerakan harga
+menggunakan
+volume dan juga harga
+karena memang di sini dijelaskan melalui vsa
+bahwa harga itu bergerak
+karena ada volume
+dan karena ada volume
+baru harga suatu aset itu bergerak
+nah itu bergerak naik atau bergerak turun
+nah di sini ada tabel volume spread analisis atau visa
+yang mana di sini kalau volumenya itu tinggi ya
+candle-nya ini besar
+maksudnya apa
+candle-nya ini lebar
+ya candle yang
+memiliki ya volume candle-nya itu sendiri
+relatif ya take space
+ini menunjukkan ya sinyal kelanjutan
+pergerakan harga
+kemudian kalau di sini teman-teman lihat
+volume yang rendah ya atau ada penurunan di volume-nya
+dan juga candle-nya kecil
+itu justru juga tetap ya menunjukkan
+adanya kelanjutan
+dan kemudian
+kalau di sini volume-nya itu rendah
+ya atau volume menurun
+candle-nya itu besar
+itu ada potensi reversal
+dan kalau di sini volumenya itu tinggi
+ya kemudian candle-nya kecil
+ini juga menunjukkan potensi reversal
+ini adalah tabel
+cheat sheet ya dari volume spread
+nelays atau visa
+nah ini selanjutnya
+kita lihat dengan detail ya
+ilustrasinya
+nah pertama potensi uptrend atau continuation
+itu terjadi ketika
+skenario seperti ini ya volume ini mengalami kenaikan
+dan juga kita lihat
+candle-nya ini besar besar ya volume naik
+kemudian ada candle besar tiga seperti ini ya
+di time frame apapun
+ya ini three white soldier seperti ini
+ini menunjukkan apa potensi dari
+ya kenaikan harga
+karena kenaikan volume ya ini di
+juga ya diikuti dengan kenaikan harga yang tinggi
+menunjukkan memang sentimen yang
+positif itu juga direspon dengan harga
+ya yang mengalami kenaikan
+hal yang sama juga possible terjadi
+atau potensi uptrend ini tetap berlanjut
+ketika teman-teman lihat seperti ini
+formasinya ya ada candle kecil
+dan juga volume ini turun
+ya seperti ini
+jadi ini ada
+dua candle yang lebar ya
+kemudian diikuti candle yang kecil
+namun teman-teman juga lihat volumenya ini juga menurun
+nah ini juga ya melalui analisa vsa
+dinyatakan ini adalah potensi kenaikan
+atau tetap berlanjut tren
+harganya yang awalnya naik
+dia akan terus mengalami kenaikan
+jadi seperti ini ya
+harga naik ya kemudian ada candle kecil
+namun di sini volume juga turun
+ini menunjukkan kalau memang
+ada tetap ya potensi uptrend atau continuation
+kebalikannya ya
+potensi reversal atau pembalikan harga yang awalnya
+bullish menjadi bearish
+itu justru terjadi ketika formasinya seperti ini
+candle-nya lebar semuanya ya
+tapi volume justru decreasing
+ini menunjukkan ya kalau next up ini adalah potensi
+penurunan harga
+yang awalnya bullish menjadi bearish
+potensi reversal itu juga terjadi
+kalau seperti ini
+volumenya udah tinggi
+nih ya dia ngangkat secara signifikan
+volume mengalami kenaikan
+tapi kok yang muncul di sini adalah candle kecil
+ini tandanya apa
+ada potensi pembalikan harga
+dan harga ini berbalik dari awalnya bullish
+menjadi bearish
+nah ini pun dari segi downtrend
+kita pelajari potensi downtrend ya
+continuation
+downtrend itu terjadi
+kalau skenarionya seperti ini ya
+ini teman-teman bisa lihat
+candle candle yang besar
+mengalami penurunan seperti ini
+diikuti dengan volume yang mengalami kenaikan
+jadi volumenya naik dengan tinggi
+dengan signifikan
+dan juga kita
+lihat ya candle candle besar
+dropping seperti ini
+ini menunjukkan potensi penurunan yang terus-menerus
+atau besarnya
+selling pressure di market
+dan juga ya
+bisa terjadi skenario seperti ini
+ketika kita lihat ada potensi continuation down trend
+yaitu adalah
+munculnya candle kecil
+dan juga volume yang menurun
+ini juga
+menunjukkan potensi downtrend ini masih berlanjut
+jadi kalau teman-teman melihat seperti ini
+ya ada candle besar
+candle besar
+tapi di sini
+muncul lagi ya candle kecil tapi volumenya juga menurun
+ini hati-hati ya
+downtrend ini masih bisa berlanjut
+menurut vsa
+nah kebalikannya ya potensi reversal
+itu bisa terjadi kalau teman-teman
+lihat munculnya candle kecil
+seperti ini setelah series of ya candle candle besar
+namun teman-teman juga melihat
+volume selling yang meningkat
+tapi di sini lihat ya
+candle kecil ya volume selling meningkat
+ada candle kecil
+ini tandanya ada potensi reverse dan harga ini akan
+visip atau reverse naik ke atas
+dan selanjutnya ya potensi reversal
+ini terjadi apabila teman-teman lihat ya
+dropping series of big candle tapi volumenya menurun
+ini menunjukkan ya memang
+pressure ya dari para seller ini
+terus mengalami penurunan dan harga akan mengalami
+vice atau reverse ke atas
+emang dalam prakteknya akan banyak
+noise dan tidak semulus ya ilustrasi itu
+tapi kalau teman-teman take high consideration
+dan menganalisa dengan benar-benar
+itu bisa dijadikan petunjuk continuation
+atau reversal
+ini masalah jam terbang
+semakin banyak teman-teman gunakan
+ya volume untuk menganalisa
+maka akan semakin
+jeli pula analisa yang teman-teman miliki
+oke kita lanjut ke modul selanjutnya
+Halo guys kembali lagi di
+crypto week of trading bagian ke-7
+di sini kita akan menjelaskan beberapa
+fasad ya atau pattern
+yang mana sering teman-teman lihat ya
+ini adalah price action sederhana ya sebenarnya
+yang mana selalu muncul
+ketika teman-teman mempelajari
+week of strategi ini
+jadi apa aja pattern yang sering
+dan akan selalu teman-teman lihat ketika menerapkan
+week of strategi
+pertama adalah impulse movement
+oke ke-2 adalah the grab ya
+atau yang biasa kita tahu sebagai manipulasi
+ke-3 adalah retracement
+dan yang ke-4 itu adalah absorption
+apa maksud dari berbagai pattern tersebut
+nah pertama adalah impulse movement
+impulse movement ini adalah move yang paling dasar
+dari week off
+bahkan ketika teman-teman tidak menerapkan week off pun
+dalam basic price action yang biasa
+teman-teman juga mengetahui
+impulse movement ini
+yaitu adalah pergerakan naik atau turun
+dalam periode tertentu
+yang mana dia cepat
+dan juga selalu didukung dengan volume
+dan ini impulse movement itu ada dua
+pertama adalah bullish impulse movement atau kenaikan
+dan ke-2 itu adalah
+bearish impuls movement atau penurunan
+sangat cepat
+ya sangat rapid dan didukung dengan volume yang tinggi
+pertama ini adalah contoh bullish
+impuls movement pada dot atau polkadot ini
+time frame h4
+kita bisa lihat very nice price action
+a quick bounce di sini
+ini adalah contoh bullish impuls
+yaitu adalah kenaikan yang signifikan yang sangat cepat
+ya yang sangat
+rapid dan juga masif
+bisa kita lihat di sini
+volume candle yang terus mengalami kenaikan
+dan ke-2
+ini adalah contoh baris impulse movement pada uni swab
+ya atau uni di
+h empatnya ini adalah penurunan yang tajam
+yang signifikan yang rapid
+dalam periode waktu yang ya cukup singkat
+ya penurunan ini
+yang bisa kita lihat di sini
+ini pasti diikuti dengan volume yang tinggi
+dan juga signifikan pula
+nah move ke-2 adalah the grab yaitu adalah stop
+hunt yang menjebak ya para breakdown trader
+ya ini adalah
+manipulasi yang dilakukan oleh para smart money
+nah ini adalah ilustrasi dari the grab
+pertama ini ada baris
+grab yaitu adalah harga mengalami kenaikan
+oke pada area of value tertentu
+kemudian dia mengalami penurunan ya v saving ke bawah
+return to origin dan dia mengalami penurunan
+ke-2 ini adalah bullish grab
+yaitu adalah harga yang breakdown
+ya dari level tertentu
+dan kemudian dia melakukan v saving
+return to origin dan harga mengalami yang namanya
+kenaikan pertama ini adalah contoh
+bearish grab pada rndr atau render
+ini adalah chart h 4
+kita mengetahui
+harga mengalami kenaikan
+impulse move bullish ya kemudian di sini trap ya buyer
+dan kemudian harga return to origin dan mengalami v
+saving atau penurunan
+ini adalah contoh bearish grab pada rndr
+dan kemudian
+ini adalah bullish grab ya dari life bear atau LPT
+di mana di sini kita lihat ini adalah area support
+area of value
+di mana harga harusnya boncing di sini
+harga drop ya dari sini
+nah kemudian di sini dia fisaping
+oke dan kemudian harga mengalami kenaikan
+ke atas ya secara signifikan
+ini adalah bullish grab pada livepeer atau LPT
+nah move selanjutnya ini adalah retracement jadi
+kita udah paham ya
+selalu ada secondary move dari primary move
+yang mana secondary move
+atau retracement ini sifatnya itu sementara
+sebelum harga ini bergerak ya
+atau mengikuti ya pergerakan harga yang asli
+nah ini adalah
+move retracement
+pada market yang bullish ya
+primary move
+kenaikan ya
+secondary move penurunan
+primary move lagi
+sementara di market yang bearish
+primary move-nya itu adalah penurunan
+kemudian retracement-nya bullish
+dan kemudian penurunan lagi
+nah ini contoh ya retracement pada bitcoin
+kita lihat daily chart-nya
+harga mengalami kenaikan ya
+retrace kenaikan retrace
+every single retrace
+ini adalah peluang ya untuk
+melakukan pembelian ya
+kita sebutnya sebagai higher low ya
+kemudian higher high
+higher low dan membuat higher high lagi
+nah kemudian
+move ke-4 atau pattern ke-4 itu adalah absorption
+yaitu adalah keadaan di mana harga ini ditahan
+supaya dia tidak menembus
+area of value tertentu ya
+biasanya di sini
+ketika harga ini mau turun
+kemudian dia ditahan lagi
+dan membuat pattern seperti double bottom ya
+ini adalah contoh bentuk dari absorption
+artinya apa
+para penjual yang melakukan agresif selling di sini
+dia ditahan
+oleh para limit
+buyer di sini ya
+atau pasif demand di sini
+kemudian harga
+mengalami kenaikan
+kemudian absorption di sini ya
+ini possible
+ya double top yang kita lihat oke
+harga mengalami kenaikan ya
+kemudian agresif buyer di sini
+ditahan ya oleh
+pas aktivitas seller
+sehingga harga mengalami penurunan
+jadi 4
+pattern tersebut adalah pattern
+yang akan selalu teman-teman lihat
+ketika menerapkan week off strategi
+selanjutnya kita akan membahas mengenai fase-fase
+dalam week off
+sampai jumpa di modul selanjutnya
+Halo guys
+kembali lagi dengan saya kalimasada dari akademi crypto
+di modul kali ini
+kita akan membahas mengenai dex trading tutorial
+modul yang pertama
+sebelum video ini dimulai
+saya ingin ungkapkan ke teman-teman bahwa nothing
+icis financial advice
+video ini adalah bentuk analisa
+internal yang kami lakukan
+jadi teman-teman harus memahami
+bahwa aset
+cryptocurrency merupakan
+aset dengan risiko yang sangat tinggi
+dan video ini bukan
+acuan atau ajakan untuk berinvestasi apapun
+nah akhir akhir ini memang lagi sangat beken mengenai
+dex trading ya atau onchain trading ya
+decentralized exchange trading
+di mana teman-teman
+yang biasanya ya pakai centralized exchange
+teman-teman ini selalu
+pakai yang di dalam negeri ya seperti indodax
+toko crypto
+pintu ya reku live
+dan lain sebagainya
+tapi belakangan ini
+ngetren nih ya dengan istilah dex trading
+atau orang slank-nya di crypto
+bilangnya transis ya
+atau tempat di mana
+ya kita trade
+di descentrasi exchange
+untuk memperoleh keuntungan yang berkali-kali lipat ya
+yang mana sebelum
+ya biasanya
+central exchange ini melakukan listing berbagai token
+token eksotik
+token token eksotik tersebut
+udah diperdagangkan terlebih dahulu di
+dex atau di desentralized exchange
+nah pada dasarnya teman-teman
+exchange itu seperti pasar
+ketika teman-teman ini mau
+membeli atau mau menjual sesuatu
+teman-teman harus ke pasar
+ya harus ke market
+harus ke marketplace
+sehingga di sini
+kalau kita lihat ya
+komponen dari crypto exchange itu
+saya melihatnya itu hanya ada dua ya
+yaitu adalah buyer
+pembeli dan juga seller atau penjual
+ya nothing more ini
+sangat simpel ya
+sementara crypto exchange itu adalah pihak ke-3
+ya pihak yang menjembatani transaksi
+seperti saya bilang ya
+misalkan di pasar
+tanah abang
+apakah ketika ada orang yang
+jual beli baju di situ
+atau ada baju yang dijual di situ
+apakah itu barang yang diproduksi oleh tanah
+abang sendiri
+jawabannya enggak
+tapi pasar tanah abang hanyalah tempat
+yang menyediakan dan juga memfasilitasi
+jual beli baju tersebut ya
+jadi mungkin ya
+barangnya ini diproduksi di Taiwan
+kemudian dibawa ke Indonesia oleh penjual dari Bandung
+ya yang bukalapak di tanah abang
+kemudian kita yang dari Jakarta ini membeli
+baju tersebut
+ya membeli pakaian tersebut
+jadi itulah proses transaksinya
+nah yang ada di sini ya tanah abangnya ini
+dia butuh yang namanya fee ya
+dia juga butuh sebagian
+biaya ya transaksi
+supaya mereka tetap bisa jalanin operasionalnya
+tetap bisa bayar tukang parkir ya
+bayar karyawan untuk
+kebersihan dan lain sebagainya
+bayar untuk maintenance
+lift dan lain sebagainya
+jadi crypto exchange itu adalah pihak ke-3
+yang menjembatani transaksi ya
+jadi di sini teman-teman harus memahami terminologinya
+metodenya mekanismenya
+kripto exchange sendiri seperti yang udah saya jelasin
+sebelumnya itu dibagi ke dalam dua ya kasarannya
+garis besarnya
+gambaran besarnya
+yaitu adalah centerless exchange atau cek
+dan juga desenterless exchange atau dex
+ya di mana centerless exchange
+itu semuanya terpusat
+kalau di centralized exchange
+itu semuanya serba terpisah pisah
+bahkan dari mekanisme
+transaksi dan berbagai tools atau platform yang kita
+gunakan itu pun juga berbeda-beda
+sementara centralized exchange
+ya ini semuanya serba terpusat
+saya ungkapkan
+ya ke teman-teman
+kalau teman-teman ini masih saya bilang ya pemula
+ini ada kecenderungan ya teman-teman ini
+lebih cocok dengan cek kenapa
+karena semua sistemnya ini benar-benar jadi satu ya
+nanti kita akan
+bahas sesuai dengan praktiknya ya seperti apa wujud cek
+dan seperti apa wujud
+dex atau wujud dari decentralized exchange itu sendiri
+nah kalau di ilustrasikan
+ya ini adalah mekanisme antara cek
+atau centralized exchange dengan ya
+decentralized exchange atau dex
+cek ya ini semua transaksinya dilakukan secara terpusat
+pihak oleh satu entitas
+oleh satu perusahaan
+sementara yang di sekitarnya ini mereka
+hanyalah user yang pakai
+saya pakai cek ya
+kameramen saya pakai cek
+oke bertimothy
+borong bitcoin pakai cek
+dan lain sebagainya
+jadi cek ini semua transaksi
+diproses dalam satu tempat
+oke terpusat satu entitas aja
+sementara dex atau desentralisasi exchange
+ini masing-masing entitas
+ini mereka memiliki fungsi dan juga proses
+masing-masing
+jadi mereka ini
+saling bertukar ya involvement
+di sini ya sehingga terjadi
+satu
+kesinambungan yang mana fungsinya juga untuk transaksi
+tapi untuk desentralisasi
+exchange ini nggak ada satu
+entitas tunggal yang dia mengontrol semuanya
+jadi entitasnya ini dibagi bagi
+ya platformnya dipecah pecah
+platformnya dipilah pilah
+supaya mereka tetap bisa berjalan
+jadi mereka ini tidak berjalan sendiri
+tidak berjalan
+karena satu entitas yang paling dominan atas segalanya
+tapi setiap stakeholder
+setiap platform
+di sini memiliki fungsinya masing-masing
+memiliki utilitasnya masing-masing
+itu untuk dex atau decentralized exchange
+sehingga kalau kita lihat ya perbedaan
+ya antara dex dan juga cek
+ini data
+ya dari next drop kita
+melihat pertama
+dari mekanisme trading
+ya dex itu peer to peer basis
+jadi kita melakukan transaksi langsung ya
+swapping langsung token yang kita inginkan
+sementara cex atau centerless exchange
+ketika kita
+melakukan suatu transaksi
+itu bisa juga ya disebut ofcen transaction
+jadi kita bertransaksi di cex-nya
+baru cex-nya itu mentransaksikannya
+di jaringan blockchain-nya
+jadi ada tahap ya ada pihak ke-3
+yang kita ngomong di sini
+kemudian dex itu
+tidak memerlukan kyc
+apa artinya
+kalau teman-teman menggunakan
+decentralized exchange apapun
+teman-teman nggak disuruh foto
+nggak disuruh store ktp
+tapi kalau cek
+itu 100% wajib kyc
+ini terkait dengan kebijakan anti money laundering
+jadi setiap cek yang teregulasi dengan pemerintah
+dengan government
+itu selalu membutuhkan
+yang namanya data
+dari user
+supaya mereka tahu ini duit alirannya dari mana
+karena
+banyak sekali duit yang alirannya itu tidak jelas
+kemudian dimasukkan ke central exchange
+dan ya ada
+potensi ya tindakan money laundry
+nah kemudian security ya
+dex itu back by blockchain
+dan cek itu lebih fragile ya terhadap serangan
+logikanya seperti ini
+sesuatu yang terpusat
+yang dikerjain sendiri itu resikonya jauh lebih
+gede daripada sesuatu yang dikerjakan secara bersamaan
+meskipun demikian
+untuk dex atau descentless exchange juga nggak 100
+dia bebas dari risiko
+ada juga risiko hack ya
+risiko exploit
+dan lain sebagainya
+karena ada juga ya potensi
+hacker itu bisa menembus smart contract ya
+melakukan hacking secara direct ke smart contract
+nah convenience atau
+kemudahannya ya
+dex itu relatif sulit untuk new comer
+karena apa semua platformnya ya semua toolsnya itu
+harus terpisah
+ya nggak dikerjakan dalam satu tempat aja
+sementara cek
+ini sangat user friendly
+teman-teman yang nggak ngerti
+crypto apapun ya kalau download indodax
+download thrift itu pasti
+tahu gimana caranya transaksi ya
+kemudian private kiss di dex itu harus disimpan
+ya sama user
+it means teman-teman
+kalau misalkan ya kehilangan aksesnya terhadap dexnya
+ya tiba-tiba laptopnya hilang
+sementara teman-teman masih menyimpan seat freshnya itu
+teman-teman
+bisa recover semua aset yang teman-teman miliki
+nanti
+akan saya jelasin ya gimana itu mekanisme dari seat
+fresh dan lain sebagainya
+nah sementara teks ya ini teman-teman
+not your kiss
+not your koin
+artinya apa
+semua private kiss-nya ya seed fresh-nya
+itu semua yang memegang
+caks atau central exchange
+jadi saya nggak punya dong barangnya
+ya jawabannya nggak punya
+memang kamu punya akunnya
+untuk mengendalikan transaksinya
+tapi bukan berarti
+aset itu adalah milik kalian
+itulah mengapa
+kalau teman-teman menggunakan
+decentralized exchange dan menggunakan
+crypto wallet sendiri
+teman-teman itu melakukan yang namanya self custody
+atau teman-teman benar-benar memiliki asetnya
+sangat berbeda dengan cek
+yang mana itu semua ya miliknya cek ya
+itulah mengapa kalau teman-teman jelasin
+ada banyak sekali ya cek
+cek yang akhirnya meledak karena mereka memegang DANA
+nasabah
+dan tidak amanah ya dengan DANA nasabah tersebut
+sehingga akhirnya
+meledak ya exchange-nya dan tokens-nya
+dex itu opsinya tak terbatas ya
+bahkan data terakhir ini udah ada
+sampai puluhan juta ya token yang di list di dex ya
+itulah mengapa
+ada masalah utama di sini yaitu paradox of choices
+di mana ya ada banyak sekali ya
+pilihan yang ada
+sementara cek
+ya ini limited section
+hanya ada ratusan aja ya
+bahkan beberapa cek
+lokal ini hanya puluhan aja
+jadi teman-teman opsinya lebih terbatas oke
+nah apa aja resiko dalam cek trading
+yang pertama adalah resiko sentralisasi ya
+not your kiss
+not your coins
+ketika ada masalah
+finansial di ceknya
+dan ceknya meledak
+kita akan kehilangan aset yang kita miliki
+ke-2 resiko keamanan
+ya kita udah tahu
+exchange lokal
+exchange luar
+itu renta sekali dengan yang namanya hacking
+bahkan salah satu exchange
+lokal baru saja ini juga memperoleh ya serangan cyber
+yang sampai ratusan miliar ya exploit-nya
+dan ke-3 ya risiko privasi kyc
+kadang kita memang
+nggak suka
+ya kalau transaksi kita ini cenderung diawasi
+cenderung dilihat
+karena kalau kita pakai cek
+data kita itu telanjang ya
+cek akan tahu kita itu beli koin apa
+cek akan tahu
+kita transaksi apa aja
+cek juga akan tahu
+ya berapa banyak jumlah yang kita depositkan
+sementara kalau teman-teman pakai
+dex atau decentralized exchange
+they don't know
+hanya
+kita dan Tuhan yang tahu apa yang kita transaksikan
+meskipun demikian
+kalau wallet kita ke docs atau
+orang lain ya tahu alamat wallet kita itu
+segala jenis transaksi yang kita lakukan ini kelihatan
+oke kemudian
+untuk dex ya ini bukan berarti tanpa resiko
+pertama ada slipage and liquidity risk
+karena jumlah perdagangan yang dilakukan di dex
+itu tidak sebanyak yang dilakukan di cek
+sehingga liquidity-nya atau jumlah
+token yang bisa diperdagangkan itu jauh lebih sedikit
+dibandingkan cek
+itulah mengapa kalau barangnya sedikit
+teman-teman mau transaksi
+ada slipage ya ada perbedaan harga yang signifikan
+biasanya di dex itu ya
+ini relatif beda harganya dengan yang ada di cex
+kemudian risiko smart contract
+ya seperti yang saya jelaskan
+ada potensi exploit smart contract ya
+kadang teman-teman yang pakai dex
+dengan jaringan solana
+ini sering banget kena exploit ya
+meskipun solana sangat cepat
+tapi risiko hack-nya juga sangat tinggi ya
+kemudian impermanent loss ya di sini
+karena ya adanya perbedaan tadi
+adanya slippage dari liquidity provider
+yang mana mereka menyediakan liquidity
+ya ini kadang ada perbedaan harga
+yang mana menyebabkan yang namanya impermanent loss
+nah di desentralisasi exchange itu
+ada dua lagi ya mekanismenya
+mekanisme perdagangannya pertama amm
+atau automatic market maker
+dan yang ke-2 itu adalah order book
+teks gimana
+di amm ya cara kerjanya ya ini
+ada satu pihak yang namanya liquidity provider
+jadi liquidity provider ini menyediakan ya liquidity
+ya ke dalam liquidity pool
+untuk para user ini bisa transaksi ya
+sementara dia dapat apa
+ya dia dapat
+fee dari transaksi yang dilakukan
+sementara user
+ya ini membayar fee atas transaksi yang dilakukan
+jadi ini adalah cara kerjanya amm ya atau automatic
+market maker
+di mana ya ada liquidity pool
+liquidity provider alias LP menyediakan liquidity-nya
+kemudian user bisa bertransaksi
+membayar v v-nya diambil oleh para LP ini
+nah
+mekanisme order book dex ini sedikit berbeda dengan amm
+di mana di sini ada dua pihak utam
+yaitu adalah maker dan juga taker
+di mana maker ini pihak yang memberikan liquidity
+oke taker
+ini pihak yang mengambil order
+ya kemudian dua pihak ini
+bertemu di batch potret
+ya yang mana
+kemudian ya
+transaksinya di dalam layer to block ini
+diverifikasi ya oleh para prover
+sebelum diteruskan ya ke ke ethereum mainnet
+atau ke jaringan blockchain utama
+tempat ya terjadi transaksi tersebut
+jadi mekanismenya
+di sini sedikit berbeda dengan IMM
+di mana semuanya kalau IMM ya diproses dalam liquidity
+pool sementara dalam order book
+dex ya ini sedikit berbeda
+nah itu penjelasan ya mengenai cek
+dan juga dex
+oke ini adalah awal
+ini adalah intro
+dan kita nanti akan deep dive ke dalam prakteknya
+oke sampai berjumpa di modul ke-2
+Halo guys
+kembali lagi dengan saya alvesting dari academy crypto
+kali ini kita akan membahas ya modul yang berjudul
+crypto technical
+indicators atau cti
+bagian pertama
+jadi apa sih sebenarnya technical
+indicators itu
+jadi technical indicator tuh merupakan suatu tools
+atau alat yang bisa teman-teman jadikan suatu alat
+untuk menganalisa pasar
+jadi pada dasarnya technical
+indicators ini mengambil data
+history dari market
+untuk kemudian
+teman-teman jadikan suatu alat pengambilan keputusan
+trading nah
+jadi apa aja
+manfaat dari technical
+indicators ya kita ngomongin
+ya jadi segi
+kemurahan dulu ya
+karena ini sebenarnya kalau teman-teman pakai
+technical indicators ya di platform trading view
+itu pada dasarnya itu nggak bayar ya teman-teman
+kecuali teman-teman pengen fungsi yang lebih
+advance lagi itu teman-teman harus bayar
+dan lebih dari 95% ya platform trading itu selalu
+bekerja sama dan menggunakan
+trading view
+jadi teman-teman bisa ya explore
+di manapun ya
+platform trading apapun itu hampir semua
+menggunakan
+si trading view
+ya karena gratis juga ya
+sehingga di poin sini juga ada juga
+kemudahan aksesnya ya
+jadi teman-teman bisa tinggal klik WWW
+trading view
+com karena
+semua yang kita gunakan
+technical indicators-nya ini dari platform trading view
+dan di trading view
+sendiri ya mereka itu juga
+lumayan fleksibel ya
+apa fleksibelnya di sini
+jadi fleksibelnya ini
+tipikal indikatornya di sini semua adalah open soft
+di mana teman-teman bisa
+customisasi sendiri ya
+karena teman-teman bisa nyesuaiin sesuai dengan gaya
+trading teman-teman
+siapa tahu ya nanti
+teman-teman juga bisa ya
+Meng customize indikator buatan teman-teman sendiri
+jadi fungsinya atau manfaatnya technical
+indicators ini yang utama itu adalah
+mengkonfirmasi bias
+jadi misalkan teman-teman punya bias
+long ya atau bias short
+ketika market akan turun
+teman-teman
+pakai technical indicators ini
+untuk mengkonfirmasi bias yang teman-teman miliki
+jadi tahapannya gimana
+teknikal indicator sih
+jadi pada dasarnya teknikal indicator
+tuh sama ya teman-teman kayak research
+jadi teman-teman buat hipotesis dulu nih yang pertama
+jadi teman-teman analisa
+kira-kira market ini misalkan bullish atau bearish
+oh bullish misalkan harganya mau naik
+oh misalkan mas marketnya baris
+ya berarti harganya akan turun
+nah itu kemudian teman-teman kumpulkan data
+lebih banyak
+lihat chartnya
+kemudian buka indikatornya
+terus baru setelah ada chart dan indikator
+teman-teman bisa menganalisa
+oke saya lihat chart pattern-nya
+oke saya lihat
+market strukturnya
+ini bullish ya ini baris baru
+dari situ ya teman-teman nanti bisa cocokkan
+konfirmasi dengan indicators
+oh bener nih
+bullish ya indicators-nya
+berkata begini juga
+oh ini baris indikatornya berkata begini
+nah itu bisa teman-teman lakukan ya
+dalam proses analisa data
+baru kemudian teman-teman membuat simpulan
+oke marketnya bullish ya indikator saing bullish
+saya juga akan mengambil posisi long
+misalkan di situ
+baru yang terakhir ya
+ketika udah ketemu hasilnya
+entah itu berhasil atau gagal
+teman-teman lakukan evaluasi
+evaluasinya gimana ya
+misalkan saya sudah menganalisa
+ya membuat hipotesis market naik
+didukung dengan indikator
+ternyata market-nya ini turun
+ya saya loss ya ke stop loss
+terus ketika teman-teman berhasil
+misalkan ya biasnya sama ya
+kemudian alatnya sama
+dan ternyata hasilnya juga benar
+itu bisa juga teman-teman jadikan alat suatu evaluasi
+kalau memang analisanya ada yang salah
+ya teman-teman lihat lagi
+back test lagi
+letak salahnya di mana
+jadi itulah fungsinya melakukan evaluasi
+setelah menggunakan
+technical indicators
+nah jenis indicators sendiri itu ada tiga teman-teman
+satu adalah trend indicators
+dua oscillator
+indicators dan yang ke-3 adalah volume indicators
+pada dasarnya
+trend
+indicators itu merupakan indikator yang teman-teman
+gunakan ketika teman-teman hendak mengetahui
+pergerakan harga
+apakah itu naik
+turun atau sideway
+kemudian osilator ini ini digunakan
+ketika teman-teman lihat
+momentum di market
+apakah
+market ini jenuh naik atau market ini jenuh turun
+ketika market ini
+jenuh turun
+ya ini dia ada di keadaan yang oversold
+sehingga ada kemungkinan ya market mengalami bounce
+tapi kalau market ini di keadaan yang overbot ya atau
+ada potensi koreksi
+ya ini berarti teman-teman bisa mungkin melakukan
+short sale di sini
+dan yang terakhir di sini adalah volume indicators
+yaitu merupakan alat ya
+yang mengetahui
+tingkat partisipasi
+ya dan juga volume perdagangan dari setiap
+sesi trading
+di sini saya ingin membahas
+ya beberapa kesalahan yang saya bilang
+mungkin dilakukan ketika teman-teman ini menggunakan
+technical indicators
+apa aja kesalahannya
+jadi satu ya
+ini teman-teman
+menggunakan
+dua indikator atau lebih dalam satu kategori yang sama
+jadi ketika teman-teman memilih
+misalkan trend indicators pakai arak
+itu ya udah pakai aja
+jangan ya saya lihat
+misalkan trend indicators saya pakai ime
+ya sama bollinger band misalkan
+nah itu bertentangan ya teman-teman ya bersilangan
+kadang sulit juga ya nemu titik
+ya ketika semua indikator tuh sepakat
+iya gitu
+karena kadang
+satunya iya
+satunya belum
+satunya bully
+satunya beres
+saya banyak yang menemukan kesalahan
+teman-teman ini ya pakai
+moving average ya ditambah Super trend ya ditambah
+bollinger band
+adalah suatu hal yang
+kurang tepat
+karena pasti teman-teman bingung ya
+terus ke-2 ya teman-teman
+menggunakan
+terlalu banyak
+indikator dan kompleks juga
+nah ini menyambung juga ya karena saya tahu banyak
+meme di sini ya teman-teman
+ini yang pernah menganalisa ta ya tapi
+semuanya
+di trading view-nya tuh full ya gambar gambaran
+indikator-indikator itu kurang
+efektif juga ya teman-teman
+karena simplicity is key
+kesederhanaan itu adalah kunci
+ketika teman-teman udah bisa baca
+price action dengan bagus
+punya strategi trading yang
+sudah menguasai apa yang kita sampaikan
+yuk teman-teman sebenarnya
+nggak perlu terlalu banyak ya punya invest
+karena itu juga
+akan menjadi hal yang backfire ke teman-teman
+terus yang ke-3 tidak
+lakukan back test
+jadi apa yang kami sampaikan di akademi crypto
+ini udah kita back test ya
+ya misalkan pakai stochastic ya 5 tiga tiga
+kayak ketinggian twenty one ima
+itu hal yang sudah kita riset
+dan kita gunakan
+memang selama bertahun-tahun
+dengan tingkat
+akurasi yang bisa teman-teman lihat sendiri
+dan yang terakhir
+ya berpikir bahwa indikator
+itu adalah dewa dan segalanya ini
+kadang ya teman-teman mikir
+ya kalau udah pakai indikatornya
+teman-teman udah jago
+apalagi ketika indikatornya ini beli
+karena ada banyak indikator ini yang
+tipenya ini
+bisa ya teman-teman beli 5.000.000 sebulannya
+15.000.000 ya sebulan
+ada ya
+terus teman-teman berpikir saya udah beli Mahal nih
+ini pasti bener
+terus teman-teman all in
+rata kanan aset terlikuidasi
+sehingga ketika teman-teman punya indikator
+teman-teman tetap harus ya menerapkan
+ris dan money
+management yang cukup tepat
+nah
+apakah teman-teman sudah siap ya trading menggunakan
+indikator mari kita bahas
+beberapa indikator yang cukup exotic ya di sini
+kalau yang basic
+teman-teman lihat di modul yang ke-4
+oke saya alvesting dari akademi crypto
+sampai berjumpa di video selanjutnya
+Halo guys
+kembali lagi dengan saya alvesting dari akademi crypto
+kali ini kita sudah memasuki ya modul ke-5
+crypto technical indicators atau cti
+jadi di sini
+kita akan membahas mengenai
+renko chart
+jadi apa sih renko chart itu
+jadi teman-teman
+renko chart itu merupakan suatu chart pattern
+ya yang lahir ya asli
+dari Jepang
+jadi desainnya ini beda ya dengan candle stick yang
+cukup unik ya di sini kita pakai renko chart
+jadi fungsinya apa renko chart ini
+jadi renko chart ini memiliki fungsi untuk memfilter
+market noise
+jadi harapannya ya dengan
+market ini lebih clear
+lihatnya teman-teman tuh bisa
+mengeliminasi ya noise
+noise yang bisa mengganggu
+teman-teman punya decision making
+jadi harapannya decision making tuh benar-benar clear
+ya ketika teman-teman menggunakan
+renko chart
+meskipun demikian juga pasti
+ada disadvantage lain ketika teman-teman
+melihat renko chart
+karena ya pasti informasinya jelas ya difilter
+ya dengan candle stick yang asli
+nah pada dasarnya di dalam renko chart ya
+chart itu disebut dengan
+renga atau rengga ya
+yang mana di sini adalah batu bata
+jadi sama nih seperti teman-teman
+melihat suatu batu bata
+ketika melihat renko chart ini
+jadi belum ada ya data
+yang pasti kapan kira-kira renko chart ini ditemukan ya
+tapi yang jelas ya ini renko chart ini
+digunakan ya masyarakat pedagang di Jepang
+yang mana masyarakat pedagang
+di Jepang yang menggunakan
+ya suatu sistem perdagangan ya untuk melihatnya
+ini sama ya seperti sebuah batu bata
+jadi lihatnya ini seperti batu bata
+yang mana batu batanya ini
+ya anggapannya ya kan batu bata
+gimana sih kotak dan solid gitu ya
+kotak solid
+dan juga dia nggak ada ujungnya
+nggak ada week-nya
+sehingga mengeliminasi ya harga tertinggi
+dan harga terendah di sini
+yang mana ketika di sini muncul
+ya harga tertinggi dan terendah
+atau week
+itu terjadi ya ketika dia gagal
+close di harga yang lebih tinggi atau
+di harga yang lebih rendah
+jadi gimana saya menerapkan ya renko
+chart ketika saya trading ya teman-teman
+ketika pakai platform trading view
+ya mungkin saya kurang paham ya mungkin
+juga ada ya di MT
+four dan MT five
+teman-teman cek ya di bagian candle ya
+terus kemudian teman-teman klik dan juga klik renko
+jadi teman-teman klik di situ
+dan itu secara otomatis semua itu akan terubah menjadi
+renko chart
+nah seperti ini ya teman-teman
+tampilan dari renko chart
+jadi setiap candle ini kayak batu bata ya
+nggak ada harga paling tinggi
+dan paling rendah ya wig-nya itu nggak ada
+kecuali di sini ada wig
+yaitu biasanya mengindikasikan ya ini adalah
+suatu reversal harga
+jadi bener-bener teman-teman
+lihat ini seperti igbit ya seperti
+candle di Mario ya
+jadi kayak kotak
+kotak-kotak
+kotak-kotak
+kotak-kotak
+begitu terus ya teman-teman
+dan di sini
+memiliki banyak fungsi ya
+salah satunya
+teman-teman bisa melihat dengan lebih jelas
+ya pasti ya
+namun ya pada dasarnya yang paling sempurna
+itu adalah candle stick ya
+karena di candle stick tuh informasinya paling lengkap
+informasi harga pembukaan anda
+informasi harga penutupan ada
+informasi harga paling tinggi ada ya
+informasi harga paling rendah juga ada
+sementara di renko chart ini cuman kotak
+kotak-kotak
+kotak-kotak begitu terus ya
+kayak di Super Mario
+seperti itu
+terus gimana
+cara menggunakan
+renko chart ini
+jadi teman-teman satu
+itu mempermudah untuk menganalisa breakout
+jadi misalkan ini ada suatu pattern ya teman-teman
+misalkan harga
+membentuk ke suatu area
+ini ya konsolidasi ya di bawah sini
+setelah cukup signifikan turunnya
+kemudian di sini ada misalkan ada wage ya
+kemudian dia breakout nih dari wage-nya
+berarti kan kita di sini
+bisa ya benar-benar melihat
+oh ini berarti dia
+benar-benar
+break dari sini
+karena biasanya ketika ada
+week di atas dan di bawah
+ya kita takutnya
+kadang kan false breakout dan lain sebagainya
+tapi ini di sini bener-bener full
+body jadi teman-teman bisa jadikan yaitu suatu
+konfirmasi ya break udah full bentuk
+rengganya atau full bentuk batu batanya
+nah ke-2 yang melihat bullish reversal
+jadi bullish reversal ini terjadi apa teman-teman
+ketika di sini harganya turun kan ya batu bata
+batu bata batu bata
+dan ini udah nggak berhasil lagi ya
+close harga di batu bata yang lebih rendah
+jadi dia udah nggak bisa close lagi
+merah di sini
+sementara harganya malah naik
+ini kemudian di gambarkan
+ya dengan ringa berwarna hijau
+yang mana ada wig
+bagian bawahnya seperti ini
+kalau teman-teman melihat
+yang ada wig bagian bawahnya seperti ini
+di ringa yang bullish
+ini adalah tandanya reversal
+harga naik ke atas dari bearish
+menjadi bullish
+jadi salah satu untuk melihat ya
+apakah kita mau reversal ke bullish
+itu adalah dengan melihat rengganya
+ya ini lebih efektif lagi ketika teman-teman gunakan
+di time frame yang gede lagi
+daily misalkan
+itu jauh lebih
+akurat daripada menggunakan
+rengga ini untuk h4 atau h1 misalnya
+nah kemudian di sini ya entry
+exit-nya ketika sudah terbentuk ya candle reversal
+di sini teman-teman
+entry lah ya di sini
+stop loss-nya di mana
+stop loss-nya pasti di bawah swing low
+sini teman-teman
+ya di bawah sini stop loss
+kemudian exit-nya di mana
+x-nya teman-teman bisa milih ya
+psikologikal ya resistance di sini
+ya kemudian misalkan
+harmonik resistance di sini ya
+atau misalkan teman-teman pilih ya
+di sini ada
+area jual
+tertentu ya
+resistance tertentu itu bisa dijadikan
+suatu target untuk menutup
+sisi oh
+nah kemudian ke-3 yang melihat baris reversal
+jadi baris reversal ini terjadi ketika
+harga udah nggak kuat naik nih di sini
+dan kemudian harga ini udah nggak bisa
+membuat harga penutupan yang lebih tinggi
+daripada Rangga yang bullish sebelumnya
+sehingga di sini dia langsung balik
+ya kemudian membuat
+baris reversal
+Rangga di sini ya
+di sisanya ada wig yang ekstrim di atas
+dan juga candle-nya jatuh ke bawah
+ini adalah suatu tanda reversal
+kalian lihat teman-teman apa yang terjadi
+harga terus turun
+ya di sini mungkin ya ada false
+dan mungkin di sini kadang ada
+false signal ya dari rengganya
+tapi itu pasti karena nggak ada indikator yang 100%
+sempurna tapi di sini teman-teman bisa melihat ya
+dengan jelas ya
+baris reversal
+dari rengganya ya yang ada di dalam renko chart ini
+dan kemudian teman-teman bisa ya di sini ya entry ya
+ketika dia udah valid ya
+mungkin ditambahkan dengan analisa lain ya
+mungkin pakai indikator ya pakai support and resistance
+jadi range dia ini otomatis ya bisa dijadikan
+suatu entry trigger ya istilahnya
+karena di sini teman-teman lihat
+itu dengan sangat jelas
+stop loss ya pasti di atas ya
+swing high sini
+dan juga target disesuaikan dengan history
+word dan psychological support ya
+serta harmonic support atau dynamic support yang bisa
+teman-teman gunakan
+nah jadi saya anggap ya teman-teman udah paham
+ya cara menggunakan
+renko chart jangan lupa di backtest dulu
+dan kemudian terapkan risk dan money
+management ketika teman-teman trading ya menggunakan
+renko chart
+saya investing dari akademi crypto
+Halo guys
+kembali lagi dengan saya alvesting dari akademi crypto
+kali ini kita udah memasuki modul
+ke-6 dari crypto technical
+indicators atau cti
+jadi di sini kita akan membahas mengenai no
+sorting atau kst
+jadi apa sih kst itu
+jadi kst merupakan
+suatu momentum indicator
+yang mana indicator ini diciptakan ya oleh Martin pring
+yang menggunakan
+simple moving average atau sma
+dengan memperhatikan ya 4 rate of change
+atau ROC jadi rate of change ini apa
+rate of change ini adalah
+waktu perubahan harga ya
+jadi dasarnya ini adalah sma
+tapi menggunakan
+4 rate of change
+ya atau waktu perubahan harga yang berbeda-beda
+jadi gimana nih cara menghitungnya ya dari kst ini
+jadi kst ini ya
+dihitung ya dengan
+rate of change
+ya smooth moving average satu ya dikali satu
+ya ditambah
+rate of change ya moving average dua dikali dua
+rate of change moving average tiga dikali tiga
+dan ditambah rate of change
+moving average 4 dikali 4
+untuk merumuskan ya perhitungan dari no
+sorting atau kst ini
+nah jadi kst ini bisa teman-teman temukan di trading
+view jadi klik di bagian indicators
+dan kemudian teman-teman klik yang no sorting atau kst
+terus kemudian
+masalah setting ya teman-teman
+biarkan ya keep
+as default karena pasti udah disesuaikan dengan
+algoritma dari trading
+view itu sendiri
+nah ini wujud dari kst atau
+no sorting mirip apa teman-teman
+ya mirip dengan stokastik
+jadi biasanya kita pakai ya stokastik
+5 tiga tiga
+di sini juga ada ya kst ini
+mirip banget ya dengan stokastik ya
+ada cross-nya
+cuman yang membedakan di sini ya ada bagian tengahnya
+ada medianya di sini
+nah titik median ini itu adalah titik 0
+jadi di bawah ini
+itu adalah negatif dan di atas median ini adalah
+positif oke
+teman-teman
+nah ketika harga ini positif itu apa yang terjadi
+ini bias long ini lebih tinggi
+sementara ketika
+harga ini di bawah kst atau di bawah
+median atau di bawah 0
+bias short ini relatif lebih tinggi
+namun
+di sini teman-teman juga bisa ya mengindikasikan ya
+ingat ya yang selalu naik tuh nggak selalu naik terus
+yang selalu turun juga nggak selalu turun terus
+sehingga ada balance di situ
+oke jadi kst
+ini bisa juga dijadikan suatu alat ya untuk mendeteksi
+reversal mungkin ketika dia ada di bawah median
+ya dia mungkin juga mau reverse naik ke atas
+atau ketika di atas
+ya dia mungkin ya bisa dijadikan suatu
+konfirmasi ketika dia itu harganya mau turun
+jadi ingat ya teman-teman
+ketika teman-teman menggunakan
+kst atau no shooting itu selalu
+ingat ya kalau cross itu adalah konfirmasi dari aksi
+jadi jangan mengambil
+posisi sebelum
+valid cross
+begitupun di stokastik ya
+di stokastik juga teman-teman harus nunggu
+valid cross-nya dulu
+jadi di bagian atas ini kan
+teman-teman harus nunggu dulu ya
+cross ini kan berarti
+konfirmasi teman-teman mengambil suatu action
+terus di bawah
+ini ketika dia cross ke atas juga
+konfirmasi mengambil suatu action untuk
+melakukan ya pembelian atau long
+nah ini contoh penerapan kst yang pertama
+jadi teman-teman lihat ya ini di bawah
+area median
+dan kemudian
+harga ini melakukan cross up di atas
+apa yang terjadi ketika teman-teman melakukan bias ya
+untuk melakukan long nggak
+jadi harga ini naik 41%
+ini daily bitcoin oke
+dan kemudian penerapan kst yang ke-2
+ketika dia cross ya di atas bagian median sini
+apa yang terjadi teman-teman short di sini
+dan harga turun 21,85% kst ini
+jarang ya teman-teman yang gunakan
+cuman saya bilang
+ini juga relatif akurat juga ya
+dengan stokastik sama juga akuratnya
+teman-teman backtest lagi ya
+ini kita selalu pakai daily time frame ya gst-nya
+dengan default setting
+ini merupakan salah satu opsi ya
+teman-teman harus tunggu dulu ya di atas
+median atau di bawah median dan nunggu cross up dan
+cross down
+tapi kalau di stokastik kita istilahnya ya karena
+dia ya pakai
+overbot dan over sold
+di sini kst
+ya menggunakan area di bawah atau di atas median
+jadi saya rasa udah paham ya menggunakan
+kst atau no syuting
+karena ini cukup simpel
+sangat simpel
+sangat praktikal
+teman-teman coba ya
+dan juga back test dengan strategi
+trading yang teman-teman miliki
+saya all fasting dari akademi crypto
+sampai berjumpa di video selanjutnya
+Halo guys kembali lagi dengan saya
+all testing dari akademi crypto
+jadi di kesempatan kali ini
+kita akan membahas ya modul yang berjudul
+altcoin scalping
+one world jadi pada
+modul pertama ini
+kita akan membahas ya mengenai pemahaman dasar
+apa itu altcoins
+jadi apa sih altcoins itu
+jadi altcoins
+itu adalah singkatan ya teman-teman dari alternatif
+koin ya
+alternatif koin itu adalah koin-koin lain lain
+bitcoin
+di altcoins ini bisa teman-teman gunakan ya sebagai
+salah satu instrumen
+ya untuk investasi
+atau instrumen untuk melakukan spekulasi
+contohnya
+spekulasi itu bisa teman-teman dengan scalping ini
+jadi scalping ini salah satu
+alternatif yang teman-teman bisa lakukan
+ya dengan aset altcoins
+jadi altcoins itu sejarahnya gimana sih
+pertama kali altcoins itu muncul di 2011
+dan namanya itu adalah namecoin
+jadi ketika teman-teman berpikir ya bahwa
+altcoins pertama itu adalah ethereum
+itu bukan ya
+karena altcoins
+itu pertama kali itu
+adalah namecoin
+dan kemudian
+setelah
+namecoin muncul ya di tahun yang sama itu muncullah
+litecoin LTC
+fungsi dari namecoin itu sendiri
+itu adalah menyediakan suatu domain yang terdesentral
+jadi untuk website ya
+fungsinya namecoin
+itu adalah menghasilkan suatu domain yang terdesentral
+dari situ kita melihat ya
+sudah ada utilitasnya
+padahal ini juga tahun 2018
+alpoin sendiri memiliki banyak fungsi ya teman-teman
+pertama itu fungsinya adalah payment
+payment itu suatu alat pembayaran
+kan teman-teman tahu ya sekarang udah banyak ya
+device atau desentralisasi finance
+yang mana fungsinya itu adalah menggantikan bank
+tapi dia terdesentral
+jadi teman-teman bisa melakukan suatu pembayaran
+misalkan untuk membeli mobil
+kemudian teman-teman ingin membeli kopi
+dan lain sebagainya itu
+rencananya
+itu bisa dijadikan ya alkohol ini suatu alat pembayaran
+namun masih terkendala juga ya di beberapa negara
+yang terkait dengan izin
+ya dan juga terkait dengan
+apakah boleh ya pembayaran menggunakan
+TikTok army
+dan kemudian yang ke-2 ya ini
+fungsi altcoin itu sebagai stablecoin
+jadi kan teman-teman ketika menukarkan fiat ya ke usdt
+ya usdd ya usdc
+itu salah satunya fungsi altcoin juga di situ
+karena stablecoin ini sendiri ya ini adalah
+suatu alat ya yang
+gunanya itu adalah menahan
+fluktuasi dari pasar
+jadi harapannya ini stablecoin ini
+nilainya terus stabil
+karena dia pack
+ya dengan dolar ya dengan komoditas lain
+seperti emas
+dan lain sebagainya
+kemudian fungsi ke-3 ini adalah utility
+banyak altcoin ini dengan adanya
+si smart contract ya bisa dibangun
+sebagai suatu alat finance ya kemudian alat tokenisasi
+ya kemudian
+membangun game ya dalam blockchain dan lain sebagainya
+itu adalah utility lain dari alt coins itu sendiri
+dan yang terakhir ya fungsi alt coins
+itu sebagai governance coin
+jadi governance coin itu adalah suatu koin
+ya yang digunakan untuk alat
+voting dalam dao
+ya dao itu adalah decentralized autonomous organization
+yaitu adalah organisasi yang berbasis desentral
+jadi ketika
+organisasi atau community dalam cryptocurrency ini
+membuat suatu dao
+ya alt coins ini dijadikan suatu alat voting
+atau pengambilan keputusan terhadap
+arah dari suatu project
+ini adalah perbandingan ya market bitcoin dan altcoins
+jadi masih berimbang ya jadi bitcoin dominans itu juga
+sekitar mungkin kayak 5 puluhan
+51% jadi sangat mirip ya dengan altcoins
+ya kadang seluruh altcoins
+ini lebih sedikit naik dari bitcoin ya
+kadang bitcoin
+lebih turun sedikit ya atau bitcoin lebih naik sedikit
+yaitu selalu ada di
+rentang yang kapitalisasinya itu 5050
+1% 52%
+jadi kita jarang ya masih belum ya melihat
+altcoin ini naik yang sampai
+beberapa puluh persen di atas bitcoin
+karena banyak juga ya ith
+maksimalis ya atau mereka yang
+bullish dengan ethereum
+ya yang menganggap kalau fungsinya ini lebih tinggi
+dari bitcoin
+menunggu ya suatu event yang namanya the flipping
+yaitu adalah ketika ethereum ini
+memiliki kapitalisasi pasar
+yang lebih besar daripada
+kemudian apa sih keuntungan trading altcoin ini
+saya akan menjelaskan ya
+pertama ini adalah opsi jenuh ketika trading bitcoin
+ke-2 ya opsi ketika bitcoin ini stuck 6
+tiga alternatif keuntungan yang lebih besar
+kemudian 4 mengasah kemampuan seorang trader
+dan ke-5 menambah jam terbang seorang
+udah dulu ya pertama
+opsi ketika jenuh ya trading bitcoin
+ini hal yang paling utama
+ya karena kan kita juga manusia
+ya teman-teman
+kalau kita setiap hari ya selama 10 tahun
+hanya lihat chart bitcoin
+apa yang teman-teman rasakan ya teman-teman jenuh ya
+karena ketika teman-teman bangun
+ya trading loh lihatnya tickernya
+medisi terus ya kemudian fluktuasinya juga kayak gitu
+terus ya itu kan membuat teman-teman ini merasakan
+ingin ya merasakan sensasi lain seperti trading
+ya tiketnya ETH tiketnya
+kemudian ada ya tiketnya xap
+tiketnya bros
+itu akan memberikan warna
+ya ketika teman-teman
+trading di market crypto currency
+ya karena ketika trading bitcoin only
+ya itu takutnya teman-teman jenuh juga ya
+karena lama-lama yang di trade ya cuman bitcoin
+tapi kan alt coins
+ini melahirkan suatu alternatif
+ya supaya teman-teman nggak jenuh ketika teman-teman
+trading yang
+ke-2 yang ini adalah opsi ketika bitcoin itu stuck Nan
+ini pernah ya bitcoin ini ketika
+dalam fase yang dia jenuh itu sampai
+dua minggu ya teman-teman itu
+volatilitasnya kurang dari 1-2 persen
+nah itu kan menunjukkan ya kalau selama
+kurun waktu yang
+stuck Nan itu
+teman-teman sulit sekali ya untuk melakukan trading
+karena range-nya terlalu kecil
+bahkan pernah ya dua bulan tuh
+range-nya hanya naik ya 5-7 persen
+yang mana itu juga
+gitu juga ya
+ketika teman-teman trading ya
+tapi gerakannya tuh stuckman
+itu yang trading adalah buatnya
+dengan metode high frekuensi trading ya
+jadi mereka
+trade dengan order Google
+kemudian menggunakan data kuantitatif
+dan mereka trade Jalan otomatis
+yaitu sangat sulit teman-teman ikuti
+karena teman-teman manusia ya
+karena lu bukan robot
+yang trading-nya itu adalah price action ya
+smc seperti itu
+yang mana itu juga hampir nggak mungkin
+saya bilang teman-teman mengikuti algoritma dari robot
+jadi ketika bitcoin ini stuck-an ya bahkan dalam
+alt season ya
+bitcoin stagnan ya
+tapi bitcoin dominans
+tetap turun ya
+itu menyebabkan
+altcoin ini harganya naik berkali-kali lipat
+jadi daripada teman-teman nih parkir uangnya
+parkir capitalnya
+pada suatu aset yang jenuh geraknya atau stagnan
+ya uangnya ke dalam sesuatu yang bergerak
+lebih cepat
+bergerak lebih banyak
+nah dari itu teman-teman
+bisa
+ya menggunakan alkohol ini sebagai suatu opsi untuk
+melakukan suatu trade
+perjalanan cryptoan
+ke-3 ini alternatif keuntungan lebih besar
+jadi kalau kita melihat
+bitcoin itu kan kapitalisasi pasarnya
+udah ratusan miliar dolar ya
+jadi untuk naik itu ya atau untuk turun itu
+dibutuhkan likuiditas ya atau volume yang cukup besar
+untuk menaikkan bitcoin itu butuh uang dari luar
+yang diinjak sampai
+miliaran dolar untuk menggerakkan harga bitcoin
+sementara altcoin ini relatif lebih kecil
+kapitalisasi pasar
+sehingga teman-teman nggak perlu uang banyak
+smart money ini nggak perlu
+gerakan banyak uangnya untuk menggerakan alkohol
+jadi hanya dengan beberapa $juta yang alkohol
+udah bisa gerak
+ya itulah
+kenapa ya kok untungnya ini bisa lebih besar
+ya bahkan saya dapat si bayi
+dulu $100 ya menjadi merah
+teman-teman
+karena kan sifatnya ini
+angka ini kapitalisasi pasarnya kecil sehingga
+harga ini bisa bergerak lebih cepat dan lebih mudah
+kemudian mengasah kemampuan trader
+ya ketika teman-teman
+udah jago nih ya cuma trading bitcoin bitcoin bitcoin
+nah ini kan teman-teman
+istilahnya belum teruji sepenuhnya sebagai seorang
+trader karena teman-teman hanya mempelajari satu pola
+tapi ketika teman-teman mempelajari pola pola lain
+ini sama aja
+teman-teman ini
+seorang fighter
+karakter di UFC
+yang nggak cuma jago boxing
+jadi teman-teman bisa juga
+taekwondo ya bisa juga karate
+ya bisa juga jiu jitsu
+dia menunjukkan bahwa teman-teman ini
+sebagai seorang fighter yang
+trader ini punya banyak jurus ya sehingga relatif lebih
+berpengalaman
+ya ketika teman-teman ini juga terjun ke market
+market yang lain ya market eksotik yaitu market altcoin
+dan yang terakhir juga menambah
+karena kan otomatis ketika
+teman-teman nggak hanya trading
+bitcoin tapi juga trading altcoin
+ini kan
+waktu yang teman-teman habiskan di market
+ini juga relatif lebih banyak
+misalkan satu hari biasa
+screening bitcoin satu jam ya kemudian
+teman-teman juga screening
+altcoin
+jadi setiap hari tiga jam ya tambah dua jam lagi
+itu kan secara otomatis ya teman-teman
+itu akan menambah
+jam terbang teman
+karena ingat ya sesuatu itu dikatakan master
+ya kalau minimal tuh udah 10 ribu jam
+jadi dengan menambahkan opsi Al koin ya
+dalam opsi screening dan trading teman-teman
+teman-teman ini pasti
+jumlah debannya itu akan meningkat
+jadi apa teman-teman udah siap untuk trading
+out points kalau udah siap
+yuk kita lihat
+modul selanjutnya
+saya alvesting dari akademi crypto
+sampai berjumpa di modul
+selanjutnya
+Halo
+kembali lagi dengan saya alvesting dari akademi crypto
+kali ini kita akan membahas ya salah satu topik
+yang mungkin teman-teman tanyain
+yaitu mengenai onchain trading
+jadi di kesempatan kali ini
+kita akan pengenalan dulu ya mengenai apa itu
+onchain trading
+sebenarnya apa sih kak on chain trading itu
+jadi
+on chain trading itu merupakan suatu aktivitas trading
+secara langsung ke jaringan blockchain
+jadi di sini
+teman-teman
+tidak menggunakan
+perantara pihak ke-3 ya seperti central less exchange
+jadi di sini teman-teman benar-benar langsung
+berhubungan ya dengan jaringan blockchain itu sendiri
+sehingga transaksi dilakukan
+secara mandiri
+jadi nggak ada kenalnya sama sekali
+itulah yang disebut dengan
+on chain trading
+teman-teman harus memahami ya kalau onchain trading ini
+memiliki perspektif yang berbeda ya dengan
+offchain trading
+ya offchain trading dan onchain trading itu memiliki
+suatu skema ya dan sistem yang berbeda
+maka dari itu mereka mempunyai ya ciri-ciri yang
+berbeda juga
+nah kalau onchain trading ya ini gimana
+jadi onchain trading itu
+transaksinya itu diverifikasi di
+blockchain jadi transaksi ini benar-benar terjadi ya
+insight blockchain
+dan kemudian karena sifatnya dia onchain
+ya semua bisa dilihat
+sehingga transaksinya di sini transparan
+jadi ketika teman-teman
+mau melihat suatu transaksi tertentu
+ya ketika teman-teman lakukan secara onchain
+itu bisa terlihat datanya
+datanya bisa dicek ya secara langsung
+dan ke-3 ya kecepatannya ini
+sangat tergantung dari jaringan
+blockchain yang teman-teman gunakan
+misalkan ethereum ya ini punya kecepatan sendiri ya
+kemudian bnb
+ya mempunyai
+kecepatan sendiri ya
+begitupun network-nya solana ya
+network-nya phantom ya dan lain sebagainya
+mereka memiliki
+kecepatan yang relatif ya relatif berbeda-beda
+antar jaringan blockchain itu sendiri
+kalau off chain trading itu gimana kak
+ya off chain trading itu
+transaksi yang terjadi di luar blockchain
+sehingga ada pihak ke-3
+ya yang menjembatani
+transaksi itu bisa terjadi
+karena ada pihak ke-3
+ini saya tidak menuduh
+tapi option
+trading itu bisa dimanipulasi ya
+karena kan sifatnya nggak transparan ya
+teman-teman
+kalau teman-teman melakukan on chain trading
+ya teman-teman bisa cek ya transaction
+hash-nya itu di blockchain explorer
+bisa langsung kelihatan
+ya ini mengirim uang sekian ke sini
+itu bisa
+atau ini menukarkan koin ini ya sejumlah sekian
+di blockchain ini
+itu bisa tapi kalau off chain trading ini
+benar-benar terjadi ya di belakang
+istilahnya tidak bisa dilihat secara langsung
+oleh Umum
+oke dan
+off chain riding ini punya beberapa keunggulan juga ya
+salah satunya ini bisa
+terjadi secara instan transaksi
+karena kan kalau pakai blockchain
+ya kadang-kadang ya nggak terlalu cepat
+juga ya teman-teman
+tapi kalau off chain ini kan
+sifatnya dia
+memindahkan dengan sangat cepat
+contohnya apa kayak teman-teman gopay
+itu kan cepat banget ya
+teman-teman isi gopay dari bca itu cepat banget
+atau bca transfer ke sesama bca itu
+salah satu bentuk often transaction
+atau ketika teman-teman juga kirim
+ya ke dalam
+exchange yang sama atau exchange yang beda
+sama-sama crypto
+itu biasanya relatif lebih cepat
+daripada teman-teman melakukan
+onchain activity atau onchain kredit
+contohnya onchain activity itu apa kak
+satu ya misalkan teman-teman
+mengirim bitcoin ya
+ke teman
+yang ada di Australia
+misalkan menggunakan jaringan dari bitcoin itu sendiri
+ya relatif lebih lama ya teman-teman
+tapi di sini teman-teman
+benar-benar
+menggunakan ya
+atau tangan pertama yang menggunakan jaringan
+blokchain bitcoin
+jadi bener-bener nggak ada pihak ke-3
+jadi temen-temen ini
+hanya langsung ya
+transaksinya dengan temen yang kamu kirim itu
+blokchain ini hanya dijadikan suatu alat atau
+perantara aja ya
+jadi dia tidak
+yang menjadi
+pihak ke-3 ya untuk transaksi yang terjadi
+tapi transaksi itu bisa kamu lakukan secara langsung
+ke temanmu ya menggunakan
+atau melalui jaringan blockchain itu sendiri
+ke-2 misalkan
+bitcoin ini menambah
+blok baru ya misalkan ada miner nih ya mining bitcoin
+terus kemudian muncul blok baru
+nah ini tercatat sebagai onchain activity
+ya karena pasti ketika muncul
+blok baru juga muncul bitcoin baru
+sehingga ini ter record ya dalam onchain activity
+terus kemudian yang ke-3 misalkan teman-teman
+teman ini ya smart contract dari ethereum
+misalkan teman-teman mau membuat suatu token
+teman-teman menggunakan jaringan arc twenty
+nah ini teman-teman
+directly ya
+ini menggunakan
+jaringan blockchain
+sehingga ini juga tergolong ya dalam
+on chain activity
+kalau contohnya off chain
+apa ini misalkan teman-teman tuh transaksi
+diceks ya seperti binance
+koin base dan lain sebagainya
+itu tergolong dalam option activity
+jadi kan teman-teman misalkan
+uh Aku trade
+nih bitcoin di sini
+hei saya bukan mundur ya
+tapi apakah benar bitcoin-nya ada
+ataukah cuman gambar ya
+ataukah cuman
+hanya buku aja ya
+atau misalkan hanya suatu tampilan foto folio
+tapi ketika teman-teman
+beli bitcoin ya ini onchain
+terus teman-teman pindah ke wallet teman-teman
+nah ini teman-teman melakukan suatu onchain activity
+tapi kalau teman-teman membeli bitcoin ya di exchange
+ini masuknya ke dalam of chain activity
+terus contohnya
+ya ini misalkan lightning network ya yang digunakan
+ya sebagai Channel payment ya
+nomor satu
+bitcoin sekarang itu juga masuk ke dalam of chain
+activity ya
+karena kan dia memiliki kerjasama ya dengan berbagai
+merchant ya untuk bisa menerima pembayaran bitcoin
+sehingga
+koin ini pasti nggak
+dalam bentuk bitcoin asli ya
+ketika payment merchant-nya ini memperolehnya
+itu kan pasti di convert ke us dolar dan juga currency
+currency fiat lain
+sehingga lighting network
+yaitu masuknya itu ke dalam option activity
+dan yang ke-3 ya misalkan teman-teman
+melakukan ya side blockchain ya atau membantu
+main blockchain-nya ini
+sehingga side blockchain ini ini aktif
+aktivitas di luar blockchain ya tapi nanti
+masih diregis lagi ya
+jadi contohnya misalkan di koin base
+yang mengirimkan DANA
+ya misalkan ke Kraken ya itu
+kita bisa mengirim DANA dulu ya tapi baru
+on chain-nya ini setelah beberapa
+saat setelah DANA itu confirm masuk
+ini bisa ketika
+teman-teman ini melakukan ya off chain activity ya
+karena kan nggak ada auditornya di sini ya
+nggak ada jaringan blockchain yang benar-benar
+menghambat ya teman-teman melakukan apapun
+sehingga off chain ini dibilang ya bagi sebagian
+orang ini termasuk salah satu bentuk dari sentralisasi
+yang mana tidak terlalu menjunjung asas
+desentralisasi dari dokumen itu sendiri
+on chain ya teman-teman
+ini memiliki beberapa
+keunggulan ya karena dia kan sifatnya terdesentralisasi
+sehingga nggak ada pihak ke-3 ya sehingga sesuai sekali
+dengan asas dari bitcoin dan cryptocurrency
+di mana adalah self custody
+jadi teman-teman
+benar-benar melakukan transaksi itu ya langsung ke
+jaringan blockchain directly
+tanpa adanya pihak ke-3
+karena dia bisa langsung ya ke jaringan blockchain
+tanpa pihak ke-3
+yaitu otomatis sifatnya ini transparan
+bisa teman-teman cek ya mana transaction case-nya
+sehingga teman-teman pasti nggak bisa bohong
+dan yang ke-3 ya dari segi privasi ya
+ini lebih aman ya karena nggak ada exploit data
+ya ketika teman-teman ini menggunakan
+atau teman-teman mengirimkan lewat wallet
+teman-teman tidak perlu kyc atau New York customer
+nggak perlu tahu nama teman-teman siapa
+npwp teman-teman
+ktp teman-teman tuh nggak perlu ya
+sehingga teman-teman di sini
+datanya itu aman ya
+secara privasi kan data saya terjaga
+kalau kelemahannya oncen ya
+ini jelas ya transaksinya itu kadang lambat ya karena
+mungkin terjadi network congestion
+atau network-nya ini bertabrakan
+karena misalkan network ini kan
+kan
+di dalam oncen ini kan ada keterbatasan ya teman-teman
+misalkan
+setiap detik hanya bisa memproses berapa transaksi aja
+ya jadi itu otomatis ya menjadi salah satu penghambat
+karena mereka hanya bisa ya menggunakan
+transaksi itu beberapa kali aja ya dalam satu detik
+yaitu transaksi bisa menjadi relatif lebih Mahal
+karena ya network-nya sedang dipakai
+ini contohnya
+ethereum ya teman-teman
+ethereum tuh ketika bull market
+yaitu bahkan pernah ya ada yang nge swipe
+token itu sampai
+gsv-nya itu sampai puluhan juta
+sampai ribuan dolar
+yaitu sering terjadi ya ketika kita di fase maniak
+alt season ya
+dan koin yang bertebaran itu sangat sering terjadi ya
+dan yang ke-3 ya network proof of work
+ini relatif mengkonsumsi banyak tenaga
+ya karena ketika teman-teman menggunakan
+jaringan blockchain untuk mengirim DANA
+ya atau men swipe open
+yaitu technological
+energinya itu lebih tinggi
+ya daripada melakukan misalkan off chain activity
+yang mana bisa relatif lebih kecil ya dayanya
+kalau off chain
+ya ini keunggulannya satu tuh cepat ya teman-teman
+karena dia nggak
+directly untuk blok chain
+dia misalkan membuat suatu layer di atas blok chain
+untuk bertransaksi di situ
+sehingga dia otomatis jauh ya jauh lebih cepat
+kemudian dua ya karena dia cepat ya
+dia nggak perlu validator ya
+karena kan nggak terjadi dalam blockchain
+sehingga apa sehingga biayanya ini relatif
+lebih murah ya teman-teman
+relatif lebih rendah
+sehingga teman-teman
+bisa mengirimkan cryptocurrency
+dalam jumlah yang besar
+ketika menggunakan off chain ini
+karena ya di
+on chain itu pun juga sering ya teman-teman ngirim
+jumlah yang gede
+ya itu gagal
+fail itu sangat sering terjadi
+yang ke-3 ini mungkin ya privasi data lebih
+terjamin ya karena kan teman-teman ketika mengirim ya
+uang ke manapun ini kan
+security bisa ya jadi nggak bisa
+dilihat di blockchain explorer ya
+jadi ketika teman-teman mau melakukan
+suatu transaksi tertentu ya ketika menggunakan
+off chain ya ini teman-teman relatif tidak bisa
+di track seperti itu
+nah tapi off
+chain ini memiliki beberapa kelemahan ya teman-teman
+satu ya karena dia
+transaksinya
+tidak via blockchain sehingga tidak transparan
+jadi ketika terjadi
+suatu manipulasi atau penggelapan ya
+ini sangat sulit ya untuk mengetahuinya ya
+terus kemudian ya tidak ada
+suatu proses
+konsensus ya yang memvalidasi transaksi ya
+jadi hanya satu pihak saja ya
+oh saya mau kirim uang ke sana ya udah
+ya ini saya aja yang bisa
+memvalidasi transaksi
+tapi kalau onchain
+ini kan ketika saya mengirim data ke b
+ya misalkan
+itu yang validatornya
+di sekitar jaringan itu ya ini bekerja dengan
+sangat banyak ya daya komputing yang dikeluarkan
+sehingga ya
+offshore
+ini salah satunya itu mudah di hack dan dieksploitasi
+kalau teman-teman tahu ya banyak sekali ya
+binance juga pernah ke hack ya
+kemudian
+hotbit itu ke hack sampai gunung tikar ya dulu kucoin
+juga pernah ke hack
+jadi mereka ini sangat rawan ya dengan
+segala kegiatan hacking
+tapi kalau onchain ini sangat lebih aman
+saya jarang ya tahu yang
+oncen ini ter
+hack dan tereksploitasi dalam jumlah yang besar
+tapi kalau misalkan
+teks ya itu sering sekali terjadi suatu eksploitasi
+oke jadi teman-teman
+tim yang mana nih ya onchain atau offchain
+ya kira-kira
+onchain ini ya ini
+adalah yang langsung ke blokchain
+ya kalau offchain itu di atasnya ya
+blokchain ya di luar dari blokchain
+sehingga ya on chain ini juga ada plus minusnya ya
+salah satunya tadi ya network-nya itu
+lebih lama ya
+lebih Mahal ya
+tapi kalau off chain-nya lebih cepat ya lebih murah
+tapi nggak terdesentralisasi
+jadi pilihan kembali lagi ke tangan teman-teman
+tergantung dari list profile teman-teman
+kebutuhan teman-teman
+dan toleransi teman-teman ya
+dan juga pemahaman ya mengenai omzet dan omzet
+maka dari itu kita memberikan ya beberapa
+arahan ya di sini
+tentang network apa ya
+transaksi apa yang
+bisa teman-teman gunakan
+ketika bertransaksi cryptocurrency
+oke mungkin cukup sekian saya
+all testing dari akademi crypto
+sampai berjumpa di video selanjutnya
+Halo guys
+kembali lagi dengan saya alvesting dari akademi crypto
+jadi kita udah masuk
+di modul ke-2 ya mengenai fundamental research
+jadi di sini saya akan menjelaskan
+mengenai faktor apa saja
+yang berperan dalam fundamental research
+jadi pada dasarnya ya gimana sih caranya
+melakukan fundamental research ya
+modul sebelumnya saya menjelaskan
+kalau
+dasar dari fundamental research itu adalah informasi
+yang diturunkan dari data
+dan di sini ya
+ada beberapa
+informasi itu yang harus teman-teman olah dan kelola
+untuk menjadikan suatu dasar ya
+fundamental research yang solid
+yaitu adalah satu tokenomics
+ke-2 developer
+dan juga ke-3 adalah community
+oke jadi apa itu tokenomics
+tokenomics stand for token ekonomi
+atau run ya langsung
+secara token itu untuk apa ya
+nilai intrinsiknya
+sehingga sangat mempengaruhi dari permintaan
+dan penawaran token tersebut
+karena tokenomics ini adalah copy
+paste atau perwujudan nilai intrinsik dari suatu
+project jadi kalau tokenomics-nya buruk
+ya it means dia intrinsic-nya juga buruk
+berarti value-nya juga buruk
+sehingga nggak pantas untuk dibeli
+secara fundamental
+tapi kalau misalkan tokenomics-nya bagus
+berarti intrinsic value-nya bagus
+dia value punya juga bagus
+sehingga cocok untuk kalian
+hold atau kalian beli
+sesimpel itu
+sama seperti teman-teman lihat ya
+laporan keuangan dari perusahaan
+ketika berinvestasi di saham
+ini mirip ya
+jadi teman-teman lihat
+tokonomiknya seperti apa
+ketika dia bagus
+ya itu berarti dia layak untuk diinvestasikan
+pada dasarnya
+proyek crypto ini kan saya selalu menjelaskannya
+adalah perusahaan
+seperti suatu tech company
+ketika intrinsic
+value-nya ini lebih tinggi daripada market value-nya
+it means itu adalah project yang layak kamu beli
+karena apa karena dia under value
+misalkan harusnya ini nilainya $100
+misalkan cuman di market cuman $10
+berarti dia ada potensi naik 10 kali lipat ya
+berarti kamu 10 kali lipat
+ya memiliki kesempatan untuk menggandakan
+aset kamu di dalam
+token yang ingin kamu beliin
+jadi jangan menyamakan ya harga pasar
+ya dengan progres atau value
+karena itu yang sering terjadi ya
+jadi harga itu kan ilusi ya teman-teman
+jadi teman-teman panik nih ya lihat harganya ethereum
+ya terus turun ya selama bear market
+ya terus turun
+tapi kalau kita lihat
+secara progres
+secara value ya
+etereum itu
+sejajar ya teman-teman dengan top tech company ya
+jadi revenue-nya
+ethereum selama 7 tahun terakhir itu
+sama ya dengan revenue-nya meet
+sama dengan revenue-nya zoom
+sama dengan revenue-nya Microsoft
+sama dengan revenue-nya Adobe
+dan berbagai perusahaan elit lainnya
+jadi ethereum ini secara revenue ini
+bisnis modelnya menghasilkan keuntungan yang tinggi
+ekonominya berarti sangat bagus
+tapi banyak yang misconception
+karena harganya turun ya
+turun 60% ya dari pik
+ya teman-teman menganggap ini adalah fir dari etereum
+padahal itu bukan ya
+jadi jangan teman-teman ya menyalahartikan ya antara
+market value dengan intrinsic value
+eh intrinsic value-nya ini sangat
+bagus ya teman-teman
+ethereum kalau teman-teman lihat
+berapa sih kapitalisasi pasar dari ethereum
+ya kan masih kecil
+sekali apabila
+dibandingkan dengan perusahaan-perusahaan seperti
+Microsoft padahal selama 7 tahun terakhir
+revenue-nya ini sejajar
+berarti kan secara teknologi
+secara perusahaan
+nilainya ethereum ini tinggi
+dan sepadan dengan para raksasa-raksasa ini
+sehingga kalau dari perspektif
+project-project cryptocurrency lain
+di seluruh protokolnya ini
+ethereum itu tetap yang nomor satu ya teman-teman ya
+jadi fee-nya yang diproduksi dari
+itu itu yang gas
+fee-nya tetap paling tinggi
+ke-2 ini adalah Tron
+ini mungkin
+karena banyak ya yang mengirimkan
+usdt ya antar exchange
+menggunakan
+jaringan Tron
+karena yang paling cepat dan juga paling efisien
+kemudian kita ngomongin mengenai developer-nya
+apa sih developer itu
+jadi developer itu adalah
+pihak ya yang membangun project atau token
+jadi mereka buildernya
+istilahnya rumah ini mereka kulinya
+mandornya mereka yang ngearsitekin project ini
+sampai jadi
+bahkan di era modern ini ya
+developer itu bukan hanya membangun rumah
+tapi mereka juga nge marketingin project ini
+jadi ada fungsi marketingnya juga di di sana ya
+sehingga
+teman-teman di dalam crypto space itu ada dua jenis
+developer pertama
+developer yang anonim ke-2
+developer yang docs ya anonim
+ini developer yang nggak tahu siapa yang nge develop
+contohnya yang anonim siapa ya
+si baimun tahunya
+si sitosi ya tapi
+mereka kan nggak tahu ya
+kemudian developer-nya PP
+ya itu kan juga masih anonim
+bahkan developer-nya bitcoin yaitu satoshi nakamoto
+itu kan juga tidak diketahui secara pasti
+identitasnya ya
+tapi yang ke-2 ini
+yang yang docs
+dev ini itu
+developer yang
+secara terang-terangan ya saya adalah
+founder dari project ini
+jadi secara psikologis
+lebih nyaman mana
+sebenarnya lebih nyaman ketika developer ini docs
+namun ya banyak project juga ya yang bagus itu
+developer-nya juga anonim ya
+karena konsensus
+utama di crypto yaitu adalah self custody
+dan juga ke-2 adalah anonymous
+sebenarnya
+anonymous tuh nggak ada yang salah ya di market
+crypto currency
+karena itu adalah hak bagi setiap pelaku di industri
+web three
+oke jadi peran developer ini apa aja ya
+pertama ini bangun projectnya
+jadi dari yang programnya sampai projectnya bisa di
+launch dan dibeli
+ya di decentralized exchange
+dan centralized exchange
+ke-2 ya dia bisa melakukan ya perbaikan dan
+penambahan fitur
+jadi seiring berjalannya waktu
+bisa ditambah ini
+bisa tambah itu ya bisa dibangun
+aplikasi ini
+oh bisa dibangun wallet-nya misalkan
+itu adalah suatu bentuk dari perbaikan yang dilakukan
+daftar secara terus-menerus
+kemudian tiga ya memastikan project ini aman ya dari
+serangan cyber security
+karena sering sekali ya teman-teman project ini kena
+hack karena mereka hacker
+ini bisa exploit
+ya exploit sistem yang mungkin masih bisa ya
+mereka masuki
+sehingga penting sekali
+ya developer ini memastikan project ini
+aman dari serangan cyber
+kemudian ke-4 ya memastikan keberlangsungan komunitas
+networking jadi yang jadi lem ya untuk
+komunitas ini
+stay strong together itu adalah developer ya
+sehingga developer punya peran kunci dalam kegiatan
+marketing kita ngomongin community
+jadi apa itu community
+ya community atau komunitas yaitu merupakan
+mereka
+yang berinvestasi secara langsung maupun nggak langsung
+dan juga terus mendukung
+keberlangsungan project ini
+jadi community itu orang-orang yang
+setiap hari di telegram ya
+nongkrong di telegram terus
+nongkrong di discord terus
+padahal mungkin dia juga nggak banyak belinya
+tapi setiap hari ya Inggris terus ya
+chat terus ya di situ adalah community
+member mereka itu loyal ya
+tipikalnya loyal apa
+jadi ketika ada yang nyerang project mereka di Twitter
+wah habis ya mereka pasti bela mati matian
+itu adalah fungsinya dari community
+kenapa community itu penting
+ya teman-teman
+satu community itu jadi basis alami
+jadi ketika mereka udah beli
+jadi kan mereka ceiling ya
+bex mereka di Twitter
+jadi mereka karena berinvestasi nih
+jadi mereka anonim
+ya di Twitter juga ikut ya
+mempromo project-nya itu setiap hari
+jadi itu adalah buzzer yang gratis
+ya semakin banyak buzzer-nya
+berarti kan marketing gratisnya semakin banyak ya
+semakin banyak yang promosi
+ke-2 ya kemungkinan mereka itu mengajak member baru
+untuk berinvestasi ya
+jadi menggerakkan harga juga secara langsung
+dan ke-3 ya community merupakan
+ya pihak yang terus mengawal
+developer ini punya project
+jadi misalkan lu meleset jadwal
+ya di note pad-nya ini komunitas
+yang teriak teriak ya yang
+selalu bilang oh dev
+gimana kok seperti ini
+oh dev kok ini kurang seperti
+oh dev harusnya kita seperti ini
+itu adalah fungsi dari komunitas
+mengawal developer
+kemudian ada berbagai macam-macam ya
+komunitas di crypto ya
+kalau bitcoin-nya namanya bitcoin er ya
+atau bisa juga namanya komunitas the laser ice
+yaitu di bitcoin
+gunanya xrp
+ini juga ada
+xrp army ini bentuknya seperti the follower ya
+ini juga ada juga kalau ETH itu ETH maxi
+jadi setiap
+komunitas ini punya nama masing-masing
+untuk mendukung ya koin favorit mereka
+jadi ini sama ya seperti cult ya teman-teman nih
+sama seperti kultus
+pada dasarnya
+para community member itu cenderung tidak rasional
+karena mereka
+marry the bike ya mereka menikahi bike-nya mereka
+ini yang saya nggak mau dari teman-teman
+untuk menjadi yang seperti itu
+kenapa
+ya karena pada dasarnya kita di sini mencari keuntungan
+bukan jadi community member ya
+jadi community member itu ada asiknya di awal
+untuk meyakinkan teman-teman beli dan hold
+tapi di poin tertentu
+ketika teman-teman harus jual itu
+teman-teman harus menjual
+ya nggak ada salahnya take profit
+karena di sini kamu tuh cari uang ya
+bukan cari teman
+itulah mengapa ada istilahnya the greatest full teori
+ya jadi
+barang itu selalu bisa naik
+karena ada orang bodoh
+lain yang mau membeli di harga yang lebih atas
+jadi saya inginnya teman-teman ini
+sebagai seorang kontra ria
+melihat komunitas yang besar itu sebagai exit liquidity
+ya saya bukan mengajari teman-teman sebagai kayak kang
+endam ya tapi teman-teman tuh harus masuk lebih
+dulu di setiap project
+baru teman-teman lihat
+wah semakin banyak orang yang masuk
+itu kan berarti bags yang teman-teman punya
+investasi yang teman-teman punya akan semakin tinggi
+semakin meroket ke atas
+karena ada di gratis
+full teori karena teman-teman kan smart
+teman-teman kontra rian beli di bawah
+harga masih 10
+nah ada orang bodoh lagi beli 30
+beli lagi di 50
+ada orang bodoh lagi beli di 100
+udah 100 di situ teman-teman keluar
+ya karena teman-teman smart
+teman-teman kontrarian
+dan teman-teman udah masuk dulu ya
+oke ada yang mau beli
+oke ini barangku
+silakan ambil
+saya ambil profitnya
+itu cukup dari saya
+alvesting academy crypto
+sampai jumpa di video selanjutnya
+Halo guys
+kembali lagi dengan saya alvesting dari akademi crypto
+jadi pada kesempatan kali ini
+saya akan menjelaskan ya di part ke-3 ini
+mengenai bagaimana
+cara mendalami tokenomics dari suatu project
+jadi saya sudah menjelaskan ya di
+modul sebelumnya bahwa tokonomis itu sangat penting
+karena tokonomis adalah wujud dari nilai
+intrinsik suatu project
+yang mana tokonomis ini memiliki 5 komponen
+teman-teman
+yang mana teman-teman harus bisa mendalami
+ke-5 komponen tersebut
+apa aja 5 komponen penting dalam tokenomics
+pertama itu adalah token demand dan rasio token ISU
+ke-2 adalah token distribution
+ke-3 adalah bisnis model
+ke-4 adalah partnership
+dan yang terakhir adalah exchange listing
+pertama token demand dan rasio token ISU
+ya pada dasarnya
+jumlah token yang beredar
+itu memiliki peran yang sangat penting
+untuk memantau pergerakan harga dari suatu token
+logikanya gini
+semakin sedikit ya token
+itu kan berarti
+ya token itu semakin berharga ya kan
+kalau semakin berharga
+permintaan itu kan semakin banyak
+ya hukum supply and demand
+otomatis harga itu cenderung lebih naik ya
+itulah mengapa teman-teman perlu melihat ya kira-kira
+ada rasio token yang sudah ada di pasar
+dengan yang masih disimpan di dalam protokol
+sehingga teman-teman harus tahu nih berapa
+market cap-nya
+dan kapan kira-kira
+token itu mau dikeluarin ke pasar
+itulah kenapa
+ya di sini ada istilah yang namanya market cap
+jadi market cap itu apa
+market cap itu adalah valuasi dari token
+valuasi itu ya
+dihitung
+dengan rumus ya jumlah token yang beredar dikali harga
+oke contohnya ini adalah market cap bitcoin
+gimana ngitung market cap bitcoin
+pertama teman-teman
+mencari dulu
+circulating supply-nya berapa
+oke circulating supply-nya di 19.000.500
+kemudian teman-teman kalikan harga bitcoin
+berapa harga bitcoin 26800
+sehingga perkaliannya dari circulating supply
+jumlah token yang beredar dengan harga
+itu sama dengan market
+ketemu di sini market cap bitcoin
+ya ini adalah ya 500 miliar dolar
+jadi
+clear ya teman-teman gimana cara ngehitung market cap
+jadi market cap dihitung
+dengan mengalikan circulating supply dikalikan dengan
+harga dari kemudian teman-teman
+jangan terpaku dengan besaran market cap
+tapi juga lihat
+persentase token yang beredar
+karena kesalahan
+newbie ya biasanya
+selalu berpikir
+karena itu loh cap ya
+wow market cap-nya masih puluhan juta
+ada kemungkinan 10 x ya
+tapi kamu nggak lihat
+ya tokennya yang sudah di unlock tuh berapa banyak
+karena banyak sekali ya token ini ya
+market cap-nya kecil
+tapi juga dia masih inflationary
+ya masih banyak lagi yang nanti bakal keluar
+jadi contohnya
+di kiri
+token yang punya good tokenomics dan yang di kanan
+adalah yang punya bad tokenomics
+ini kiri ya yang good tokenomics ini
+rap adalah trias
+trias ini adalah suatu layanan computing di blockchain
+ini koin dari Asia
+trias ini market cap-nya lihat berapa teman-teman
+29.000.000 dan jumlah yang beredar itu 9,9 juta
+dari maksimal 10.000.000
+ini kan berarti 99% tokennya udah keluar
+dan market cap-nya kecil
+berarti teman-teman
+nggak takut lagi dong kalau mereka
+keluarin token baru
+tokennya dirilis lagi di market
+karena ya dia market cap-nya kecil
+ya semua udah dilepas
+beda dengan di kanan ini betokenomics ya tenet nih
+meskipun bagus bisnis modelnya
+project-nya bagus
+tapi circulating supply-nya ini masih
+10% ya yang keluar dari total yang bakal mereka unlock
+ya meskipun dia market cap-nya itu 20.000.000 ya tapi
+dengan jumlah
+token yang bakal di unlock
+unlock ini kan ada kemungkinan
+market cap-nya itu semakin tinggi lagi
+dan juga harga juga semakin turun
+itulah mengapa
+banyak koin yang masih di unlock ya
+atau masih ada probabilitas yang untuk dunk
+sehingga teman-teman juga harus memperhatikan
+kira-kira ketika mau berinvestasi ini
+kapan token ini mau di unlock
+yaitu sangat penting
+untuk men timing ya entry kapan teman-teman masuk
+misalkan oh bulan depan di unlock
+ya udah Aku
+nggak usah beli dulu sekarang
+beli setelah bulan depan
+setelah di unlock
+teman-teman juga bisa menggunakan
+ya ini platform yang namanya token unlock
+di mana di sini ini bisa teman-teman tandai buat
+watchlist bahkan notifikasi kalau perlu
+ini di sini dijelasin ya token
+token apa aja ya
+yang bakal dirilis dan
+kapan dirilis
+dan jumlahnya berapa yang dirilis
+jika teman-teman juga
+bisa ya membuka peluang untuk melakukan sell shot
+jadi kitan oh
+misalkan minggu depan mau di unlock nih file-file koin
+ya misalkan
+saya mau shot
+sekarang bangun posisi shotgun
+itu juga bisa
+karena logikanya ketika token ini di unlock
+yaitu harga itu memiliki kecenderungan untuk turun
+kemudian ya keduanya adalah token distribution
+ya ini terkait dengan alokasi dan sebaran token
+jadi token ini
+kira-kira dikasih ke siapa aja sih
+ya yang pasti dikasih ke para stakeholder
+yaitu investor
+developer dan visi
+cuman prosentasenya berapa
+yaitu yang penting
+karena yang ideal
+token itu paling banyak itu dipegang oleh investor
+bukan developer atau visi
+yang mana ketika token ini dipegang oleh investor
+jadi yang menentukan nasib
+token ini itu adalah
+para investor
+bukan para developer atau visi
+karena yang terjadi di crypto ini
+bandarnya itu ya developer sama visinya
+developer visinya pegang banyak
+investornya pegang sedikit
+investor yang naikin harga
+developer sama visi yang jual
+itu yang sering terjadi
+itulah mengapa ya good distribution
+itu menurut saya kalau
+probabilitas yang
+pegang paling banyak itu adalah investor
+visi ya 20%
+developer 10%
+70% investor itu bagus ya
+tapi bad distribution ya ketika 50 persennya dev
+ya visi 30%
+investor cuman 20%
+ini cuman sedikit sekali
+sehingga apa ya
+kalian cuman memperkaya ya para developer dan visi ini
+saya punya pengalaman
+ini token yang bagus
+saya investasi
+dapat 15 x di sini adalah xpr atau proton
+proton ini bagus sekali ya
+tapi saya nge developer ini pegang hampir ya 90% dari
+dia punya circulating supply
+developer yang tinggal jualan
+jadi kamu
+itu cuman jadikan exit liquidity oleh developer ya
+sehingga teman-teman di sini ya
+jangan invest ke koin
+yang mana koin itu terlalu banyak
+dikuasai oleh developer
+begitu juga
+jangan berinvestasi ke koin atau
+token yang terlalu banyak dipegang visi ini
+contohnya solana ini kan dipegang oleh alameda
+bahkan alameda ini punya ya
+643 miliar dolar
+world of solana
+ya ketika di sale semua itu pasti solana itu 0
+0 pasti 0
+dalam waktu 10 menit
+ya itulah mengapa teman-teman harus memahami ya bahwa
+teman-teman
+harus berinvest di project yang teman-teman bisa pegang
+kendali teman-teman adalah investornya
+bukan project yang dikendalikan oleh visi
+dikendalikan oleh developer
+eh teman-teman cuman jadi bulan bulanan di sini
+di sini ya ada bisnis model
+apa itu bisnis model
+jadi bisnis model itu adalah mekanisme
+bagaimana project atau token ini menghasilkan profit
+jadi semakin jago
+perusahaan ini buat bisnis model yang bagus
+menggenerate revenue
+itu berarti bahwa project itu semakin sehat
+tapi project yang sehat
+itu project yang mereka nggak bisa
+ngehasilin laba
+jadi akan semakin lama ya semakin nggak bisa bertahan
+jadi teman-teman harus tahu ya
+project yang bagus itu
+project yang punya bisnis model yang jelas ya
+itulah ya yang membedakan
+project crypto dengan ponzi
+kalau ponzi itu kan nggak ada produknya
+cuman jualan angin
+tapi bisnis modal
+di crypto yang itu dia bisa ngejarin revenue
+itu sama aja teman-teman berinvestasi di di perusahaan
+bisnis modal di crypto itu ada banyak ya
+pertama teman-teman
+misalkan mereka menyediakan
+jaringan untuk pembangunan dex
+ya misalkan mereka menyediakan wallet untuk transaksi
+mereka dapat fee transaksi
+bahkan mereka game file
+menyediakan game di blockchain
+kemudian in app purchase
+kemudian mereka juga bisa
+menyediakan jasa audit
+atau misalkan play to earn
+world to earn
+ada banyak sekali bisnis model
+namun teman-teman juga harus menyadari ya
+kalau memilih bisnis model ini juga harus sesama
+ya jangan tipikal yang
+bisnis model tapi ponzi ya misalkan ini jmt
+ya jmt
+ini bisnis modelnya menurut saya juga agak ponzi ya
+karena dia kan orang cuman Jalan ya terus dapat duit
+ya siapa yang nggak mau
+siapa yang nggak mau Jalan dapat duit
+makanya apakah bisnis modal seperti itu juga sustain
+ya kan nggak ya
+kita lihat aja dengan
+harga dari tokennya jmt ini
+dia lama lamaan juga turun
+kemudian di sini partnership
+jadi partnership itu juga menentukan ya teman-teman
+keberhasilan dari suatu project
+jadi semakin banyak project ini punya partnership ya
+makin tinggi pula
+ya dia memiliki akses terhadap network
+network lain di blockchain
+sehingga exposure-nya juga meningkat
+probabilitasnya untuk meningkat juga semakin besar
+ini contohnya ini produk yang belum rilis ya supra
+Oracle bisa live ya 40 plus network
+teman-teman bayangkan
+semakin dia terbuka terhadap network di luar
+dan berarti dia bisa
+engage dengan segala ekosistem crypto yang lain
+dan berarti project ini
+exposure-nya semakin bagus
+ya paparannya semakin bagus
+dengan berbagai project yang ada di ekosistem crypto
+kemudian terakhir ya ini exchange listing
+entah itu di teks atau dex
+central exchange atau desentral exchange
+ini memiliki peran yang penting juga ya
+karena semakin tinggi
+ya mereka itu sering listing
+ya atau listingannya semakin banyak
+itu kan exposure-nya kepada masyarakat
+ke investor itu juga semakin banyak
+retail gampang belinya
+kalau di bitcoin bisa beli
+di koin bisa beli
+di binance bisa beli
+berarti kan probabilitas ya market-nya itu kan
+semakin tinggi
+orang yang beli dan hold itu semakin tinggi
+nah ini bisa teman-teman lihat ya di koin gico ya
+atau koin market cap ya
+kan di bagian
+oken yang teman-teman pilih ya di kanan
+di bagian tengah ada bagian market ya teman-teman klik
+terus ada pair dan di mana tempat
+teman-teman
+ayo teman-teman jangan malas
+kita reset fundamentalnya
+kita lihat tokonomics-nya
+dan juga kita
+lihat nilai intrinsiknya untuk sebelum
+melakukan keputusan
+pembelian atau investasi
+jadi saya investing dari akademi crypto
+sampai berjumpa di modul-modul selanjutnya

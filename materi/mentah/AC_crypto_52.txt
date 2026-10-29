@@ -1,0 +1,665 @@
+Halo guys kembali lagi dengan saya kalimasada
+dari akademi crypto
+jadi kali ini kita
+akan membahas modul yang
+berjudul crypto investing tools
+jadi teman-teman ketika berinvestasi
+itu pasti membutuhkan alat bantu ya
+sama seperti ketika teman-teman trading
+ketika teman-teman trading
+teman pasti membutuhkan indicators ya untuk membantu
+proses analisa teman-teman nah di sini
+sama ya ketika teman-teman berinvestasi
+ada beberapa
+tools tertentu yang mana teman-teman butuhkan
+ketika teman-teman
+memutuskan ya untuk berinvestasi pada sesuatu
+pada aset crypto tertentu jadi
+di kesempatan pertama ini kita akan membahas
+mengenai tools yaitu adalah basic crypto data
+apa sih sebenarnya basic
+kripto data
+itu ya jadi kripto itu kan
+informasinya itu sangat banyak
+ya sangat bervariasi
+dan juga memiliki volume informasi yang sangat tinggi
+setiap detik setiap menit ya setiap jam
+itu selalu muncul
+informasi baru yang mana
+informasi itu harus
+yang paling relevan dan juga paling up to date
+sehingga dibutuhkan ya suatu platform atau tools basic
+cryptocurrency
+yang mana terbutuhkan ya suatu platform atau tools
+basic crypto data
+yang mana teman-teman pastikan
+informasinya itu nggak hanya banyak ya tapi
+informasi itu juga tetap
+harus bisa dipercaya
+sehingga teman-teman butuh
+real time crypto data
+dari basic crypto tools
+karena memang pada dasarnya
+ya di cryptocurrency itu ada dua ya
+konsensusnya ya yang pertama itu adalah self custody
+ya yang ke-2 itu adalah anonymous
+di mana kita harus menyadari
+ya banyak sekali
+para pelaku crypto ini yang menyembunyikan
+identitas mereka
+sehingga kita harus benar-benar ya double checking
+sebelum
+mempercayai suatu informasi tertentu karena memang
+tidak semua informasi di crypto itu bisa dipercaya
+dan juga dipertanggungjawabkan
+sehingga teman-teman
+harus menjaga privasi
+dan juga menjaga keamanan
+informasi yang teman-teman terima
+karena quotes on quotes ada pihak
+tentu yang mana informasinya itu tidak bisa
+dipertanggungjawabkan nah menu wajib ya
+bagi para investor crypto
+ya ketika teman-teman ngomongin
+fundamental ya ngomongin
+tokenomics ya kita
+ada beberapa elemen dan juga poin
+basic cryptocurrency yang teman-teman butuhin
+yaitu adalah satu
+terkait dengan market cap
+suatu project dua terkait dengan trading volume
+ke-3 terkait dengan total supply
+ke-4 terkait dengan maksimum supply
+ke-5 terkait dengan circulating
+supply dan berbagai informasi informasi
+hal fun lain terkait
+terkait dengan circulating
+dengan total supply
+ke-4 terkait dengan maksimum
+supply ke-5 terkait dengan circulating supply dan
+berbagai informasi informasi
+relevan lain terkait dengan
+tokonomics dan dari basic cryptocurrency
+pertama kita bahas ya mengenai
+informasi yang
+paling relevan atau tools yang paling
+relevan teman-teman gunakan
+yaitu adalah koin market cap
+koin market cap
+ini merupakan
+perusahaan dari salah satu
+crypto exchange terbesar juga ya di dunia
+yaitu adalah binance di mana koin market cap
+ya atau singkatannya cmc
+ini adalah basic crypto data yang paling
+reliable paling bisa dipercaya
+dan ini adalah
+coach on coach ya standar industri crypto
+jadi ketika teman-teman pengen tahu ya berapa
+market cap dari suatu project berapa
+circulating supply yang beredar kemudian website
+resminya mana
+ya kemudian smart contract yang resmi mana
+itu teman-teman
+kunjungi ya laman dari koin market cap
+sekali lagi kita sampaikan di sini
+karena kita ingin teman-teman bisa dapat
+riset yang paling independen
+dan kita juga tidak terafiliasi
+sama sekali
+dengan berbagai tools dan juga perusahaan yang
+akan kita mention jadi pertama teman-teman bisa gunakan
+cmc atau koin market cap
+kenapa sih pentingnya teman-teman ini menggunakan
+banyak sources ya atau sumber informasi karena
+segala sesuatu itu sangat amat mudah
+untuk dimanipulasi
+terutama di crypto ya misalkan mereka
+mengungkapkan ya bahwa circulating supply sekian
+apakah ada data yang benar-benar
+relevan dan juga menjamin sesuai
+dengan keadaan
+yang ada di dalam
+algoritma protokol crypto-nya
+jawabannya tidak ada yang bisa memastikan
+itulah kenapa teman-teman membutuhkan website lain
+ketika teman-teman menggunakan
+basic cryptocurrency karena teman-teman
+butuh yang namanya ya pembanding informasi
+karena sama nih seperti ketika teman-teman ke dokter
+spesialis a ya dokter spesialis a mungkin berpendapat
+tentang a ke penyakit teman-teman
+tapi mungkin di dokter spesialis b
+itu pendapatnya juga b tentang penyakit teman-teman
+jadi jangan
+rely on single source of information
+teman-teman harus do diligent gunakan
+banyak sumber informasi
+sebelum teman-teman memutuskan terhadap
+suatu pengambilan keputusan investasi tertentu
+kalau teman-teman punya alat pembanding
+otomatis conviction
+teman-teman karena melakukan double cross
+cek itu jauh lebih tinggi jadi kan
+sudah kita jelaskan ya pengetahuan dulu ya baru timbul
+kepercayaan
+baru timbul keyakinan
+jadi ketika
+teman-teman udah double cek dengan dua sumber
+informasi yang berbeda harapannya
+conviction teman-teman tuh akan jauh lebih tinggi
+kemudian ke-2 teman-teman bisa gunakan
+koin gecko jadi koin gecko ini adalah platform yang
+sangat mirip dengan cmc
+bisa dibilang ya direct kompetitor dari cmc
+yang mana koin gecko
+ini adalah platform yang
+dikembangkan di tahun 2014 ya oleh tmly
+yang mana misi utamanya
+ini adalah menyediakan ya data crypto paling cepat
+dan juga paling
+independen dan jadi preferable ya saya itu lebih suka
+ya koin gecko daripada koin market cap
+karena basic-nya itu udah gelap ya karena saya suka
+dark mode jadi menurut saya pribadi personally koin
+geco ini adalah platform yang saya suka ya
+interview-nya tapi
+saya juga berani bet
+ya ini sama-sama
+reliable-nya ya ketika teman-teman bandingkan ya dengan
+cmc dengan koin market cap oke yang ke-3 ya
+teman-teman bisa pakai
+crypto slide di mana crypto slide ini platform
+informasi crypto paling komprehensif ya klaimnya
+yang mana sudah berdiri sejak tahun 2017 jadi dia
+fitur yang saya suka itu mengelompokkan
+ya project dari berbagai sektor dan juga
+sangat baik
+ketika teman-teman mau mendeteksi suatu naratif baru
+sebagai sektor dan juga sangat baik
+ketika teman-teman mau mendeteksi suatu naratif baru
+karena ini sektor by sektor naratif by naratif sehingga
+ketika terjadi suatu pergolakan volume tertentu
+dalam harian atau dalam mingguan
+itu teman-teman bisa
+di tag ya pakai kripto slide karena kripto slide ini
+sangat akurat
+informasinya dan dia juga
+akumulatif volume dari berbagai
+exchange yang ada
+jadi ini platform yang bisa teman-teman pertimbangkan
+nomor tiga itu adalah kripto slide
+oke yang ke-4 ini adalah koin
+kodex ya di mana koin kodex ini adalah platform
+agregator
+oke yang ke-4 ini adalah koin
+kodex ya di mana koin kodex ini adalah
+platform agregator ya yang mana
+standar informasinya ini nggak
+sebrilian dan juga seketat
+cmc dan koin
+geko karena kan cmc dan koin geko itu adalah market
+standar tapi sementara
+koin kodeks ya ini relatively ya koin-koin baru list ya
+mungkin saya sih yang buat koin tertentu nih bisa ya
+di list di koin kodex sehingga harus lebih
+diligent lagi ya teman-teman
+di mana di sini dia list 200 lebih
+exchanges dan juga 6000 lebih koin
+jadi secara kuantitas ya jauh jauh
+ya lebih tinggi daripada
+koin market cap
+maupun koin gecko
+selanjutnya ya di list ada live coin watch
+ya untuk basic cryptocurrency ya di mana di sini
+fokus utamanya
+ini adalah pada informasi ya terkait dengan market
+value volume dan juga liquidity ya di live coin watch
+ini lebih cocok kepada kalian yang mau trade
+ya jadi bukan ke invest
+mungkin ke swing trade
+yang mana teman-teman memperhatikan volume
+ya dan juga liquidity dari masing-masing exchange
+jadi mungkin teman-teman yang mau swing
+long bisa menggunakan live coin
+juga liquidity dari masing-masing exchange
+jadi mungkin teman-teman yang mau swing long
+bisa menggunakan
+live coin watch di mana dia formatnya ini
+born ya for trader ya crypto trader
+yang mana teman-teman bisa
+manifest ya berbagai fitur yang ada di sini
+dia juga bisa compare ya berbagai aset crypto tertentu
+oke selanjutnya ada
+koin paprika ya
+di mana koin paprika ini sama ya kalau tadi
+ada yang menyediakan 6000 ya ini menyediakan
+60.000 ya data aset crypto yang sangat independen
+karena slogannya dari koin paprika
+ini mereka adalah database
+paling banyak di crypto
+jadi teman-teman ya cari koin yang
+bener-bener eksotik semuanya
+ini ada di koin
+paprika bisa gunakan koin paprika ya sebagai referensi
+untuk teman-teman yang mau trading koin-koin eksotik
+jadi hampir ya semua platform
+basic crypto data yaitu basically gratis
+ya karena teman-temannya adalah user-nya mereka dapat
+traffic dan mereka bisa
+monetisasi ya dari traffic
+ketika teman-teman kunjungi website-nya
+oke saya kalimasada dari akademi crypto
+sampai berjumpa
+di video selanjutnya
+Halo guys kembali lagi dengan saya kali
+masada dari akademi crypto jadi kali ini kita
+akan membahas
+modul yang berjudul
+crypto investing tools jadi teman-teman
+ketika berinvestasi
+itu pasti membutuhkan alat bantu ya
+sama seperti ketika teman-teman trading
+ketika teman-teman trading
+teman teman pasti membutuhkan indicators
+ya untuk membantu
+proses analisa teman-teman nah di sini
+sama ya ketika teman-teman berinvestasi
+ada beberapa
+tools tertentu yang mana teman-teman butuhkan
+ketika teman-teman
+memutuskan ya untuk berinvestasi pada sesuatu
+pada aset crypto tertentu
+jadi di kesempatan pertama ini
+kita akan membahas
+mengenai tools yaitu adalah basic crypto data
+apa sih sebenarnya
+basic cryptocurrency itu ya jadi
+cryptocurrency itu kan
+informasinya itu sangat banyak
+ya sangat bervariasi
+dan juga memiliki
+volume informasi yang sangat tinggi
+setiap detik setiap menit ya setiap jam
+itu selalu muncul
+informasi baru yang mana
+informasi itu harus
+yang paling relevan dan juga paling up to date
+sehingga dibutuhkan ya suatu platform atau tools basic
+cryptocurrency
+yang mana kita butuhkan ya suatu platform atau tools
+basic crypto data
+yang mana teman-teman pastikan
+informasinya itu nggak hanya banyak ya tapi
+informasi itu juga tetap
+harus bisa dipercaya
+sehingga teman-teman butuh
+real time crypto data
+dari basic crypto tools
+karena memang pada dasarnya
+ya di cryptocurrency itu ada dua ya
+konsensusnya ya yang pertama itu adalah self custody
+ya yang ke-2 itu adalah anonymous
+di mana kita harus menyadari ya banyak sekali
+para pelaku crypto ini yang menyembunyikan
+identitas mereka
+sehingga kita harus benar-benar
+ya double checking sebelum
+mempercayai suatu informasi tertentu karena memang
+tidak semua informasi di crypto itu bisa dipercaya
+dan juga dipertanggungjawabkan
+sehingga teman-teman
+harus menjaga privasi
+dan juga menjaga keamanan
+informasi yang teman-teman terima
+karena quotes on quotes ada pihak tertentu
+yang mana informasinya itu tidak bisa di
+tanggung jawabkan nah menu wajib ya
+bagi para investor crypto
+ya ketika teman-teman ngomongin
+fundamental ya ngomongin tokenomics ya kita
+ada beberapa elemen dan juga poin basic crypto data
+yang teman-teman butuhin yaitu adalah satu
+terkait dengan market cap
+suatu project dua terkait dengan trading volume
+ke-3 terkait dengan total supply
+ke-4 terkait dengan maximum supply
+ke-5 terkait dengan
+circulating supply dan berbagai informasi informasi
+kalau fun lain terkait
+terkait dengan circulating
+ke-4 terkait dengan maksimum supply
+ke-5 terkait dengan circulating supply dan
+berbagai informasi informasi
+relevan lain terkait dengan tokonomics
+dari basic cryptocurrency
+pertama kita bahas ya mengenai
+informasi yang
+paling relevan atau tools yang paling relevan
+teman-teman gunakan
+yaitu adalah koin market cap
+koin market cap
+ini merupakan
+perusahaan dari salah satu crypto exchange terbesar
+juga ya di dunia
+yaitu adalah binance
+di mana koin market cap-nya atau singkatannya cmc
+ini adalah basic cryptocurrency yang paling reliable
+paling bisa dipercaya
+dan ini adalah
+coach on coach ya standar industri crypto
+jadi ketika teman-teman pengen tahu ya berapa
+market cap dari suatu project berapa
+circulating supply yang beredar kemudian website
+resminya mana ya kemudian smart kontrak yang resmi mana
+itu teman-teman kunjungi ya laman dari koin market cap
+sekali lagi kita sampaikan di sini
+karena kita
+ingin teman-teman bisa dapat
+riset yang paling independen dan kita juga
+tidak terafiliasi sama sekali
+dengan berbagai tools dan juga perusahaan yang
+akan kita mention
+jadi pertama teman-teman bisa gunakan
+cmc atau koin market cap
+kenapa sih pentingnya teman-teman ini menggunakan
+banyak sorsis ya atau sumber informasi karena
+segala sesuatu itu sangat amat mudah
+untuk dimanipulasi
+terutama di crypto ya misalkan mereka
+mengungkapkan ya bahwa circulating supply sekian
+apakah ada data yang benar-benar
+relevan dan juga menjamin sesuai
+dengan keadaan
+yang ada di dalam
+algoritma protokol
+crypto-nya jawabannya tidak ada yang bisa memastikan
+itulah kenapa teman-teman membutuhkan website lain
+ketika teman-teman menggunakan
+basic crypto data karena teman-teman
+butuh yang namanya ya pembanding informasi
+karena sama nih seperti ketika teman-teman ke dokter
+spesialis a ya dokter spesialis a mungkin berpendapat
+tentang a ke penyakit teman-teman
+tapi mungkin di dokter spesialis b
+itu pendapatnya juga b tentang penyakit teman-teman
+jadi jangan
+rely on single source of information
+ya teman-teman harus do diligent gunakan
+banyak sumber informasi
+sebelum teman-teman memutuskan terhadap
+suatu pengambilan keputusan investasi tertentu
+kalau teman-teman punya alat pembanding otomatis
+conviction teman-teman
+karena melakukan
+double cross check itu jauh lebih tinggi jadi kan
+sudah kita jelaskan ya pengetahuan dulu
+ya baru timbul kepercayaan
+baru timbul keyakinan
+jadi ketika teman-teman udah double cek dengan dua
+sumber informasi yang berbeda harapannya
+conviction teman-teman tuh akan jauh lebih tinggi
+kemudian ke-2
+teman-teman bisa gunakan
+koin gecko jadi koin gecko ini adalah platform yang
+sangat mirip dengan cmc
+bisa dibilang ya direct kompetitor dari cmc
+yang mana koin gecko ini adalah platform yang di
+kembangkan di 2014 ya oleh tmly yang mana misi utamanya
+adalah menyediakan ya data crypto paling cepat
+dan juga paling independen
+jadi preferable ya saya itu lebih suka
+ya koin gecko daripada koin market cap
+karena basic-nya itu udah gelap
+ya karena saya suka dark mode
+jadi menurut saya pribadi personally koin gko
+ini adalah platform yang saya suka ya
+interview-nya tapi
+saya juga berani bet
+ya ini sama-sama
+reliable-nya ya ketika teman-teman bandingkan ya dengan
+cmc dengan koin market cap
+oke yang ke-3 ya
+teman-teman bisa pakai crypto slide di mana crypto
+slide ini platform informasi
+crypto paling komprehensif ya klaimnya
+yang mana sudah berdiri
+sejak tahun 2017 jadi dia fitur
+yang saya suka
+itu mengelompokkan ya project dari berbagai
+sektor dan juga
+sangat baik
+ketika teman-teman mau mendeteksi suatu naratif baru
+sebagai sektor dan juga sangat baik
+ketika teman-teman mau mendeteksi suatu naratif baru
+karena ini sektor by sektor naratif by naratif sehingga
+ketika terjadi suatu pergolakan volume tertentu
+dalam harian
+atau dalam mingguan
+itu teman-teman bisa di di tag ya pakai crypto
+slide karena crypto slide ini
+sangat akurat
+informasinya dan dia juga
+kumulatif volume dari berbagai
+exchanges yang ada
+jadi ini platform yang bisa teman-teman pertimbangkan
+nomor tiga itu adalah crypto slide
+oke yang ke-4 ini adalah koin
+kodeks ya di mana koin kodeks ini adalah platform
+agregator
+oke yang ke-4 ini adalah koin
+kodex ya di mana koin kodex ini adalah
+platform agregator ya yang mana
+standar informasinya ini nggak
+sebrilian dan juga seketat
+cmc dan koin gecko
+karena kan cmc dan koin gecko itu adalah market standar
+tapi sementara koin
+kodeks ya ini relatively ya koin-koin baru list ya
+mungkin saya sih yang buat koin tertentu
+nih bisa ya di list di koin kodex sehingga harus lebih
+diligent lagi ya teman-teman
+di mana di sini dia list 200 lebih
+exchanges dan juga 6000 lebih koin
+jadi secara kuantitas ya jauh jauh
+ya lebih tinggi daripada
+koin market cap
+maupun koin gecko
+selanjutnya ya di list ada live coin watch
+ya untuk basic crypto data
+ya di mana di sini
+fokus utamanya
+ini adalah pada informasi ya terkait dengan market
+value volume dan juga liquidity ya
+life coin watch ini lebih cocok kepada kalian yang mau
+trade ya jadi bukan ke invest
+mungkin ke swing trade
+yang mana teman-teman memperhatikan volume
+ya dan juga liquidity dari masing-masing exchange
+jadi mungkin teman-teman yang mau swing
+long bisa menggunakan
+life coin watch
+juga liquidity dari masing-masing exchange
+jadi mungkin teman-teman yang mau swing
+long bisa menggunakan
+live coin watch di mana dia formatnya ini
+born ya for trader ya crypto trader
+yang mana teman-teman bisa
+manifest ya berbagai fitur yang ada di sini
+dia juga bisa compare ya berbagai aset crypto tertentu
+oke selanjutnya ada koin
+paprika ya di mana koin paprika ini sama ya kalau tadi
+ada yang menyediakan 6000 ya ini menyediakan
+60.000 ya data
+aset crypto yang sangat independen
+karena slogannya dari koin paprika
+ini mereka adalah database
+paling banyak di crypto
+jadi teman-teman ya cari koin yang
+benar-benar eksotik
+semuanya ini ada di koin paprika
+bisa gunakan koin
+paprika ya sebagai referensi
+untuk teman-teman yang mau trading koin-koin eksotik
+jadi hampir ya semua platform
+basic crypto data
+yaitu basically
+gratis ya karena teman-temannya adalah user-nya
+mereka dapat traffic dan mereka bisa monetisasi
+ya dari traffic
+ketika teman-teman kunjungi website-nya
+oke saya kalimasada dari akademi crypto
+sampai berjumpa
+di video selanjutnya
+Halo guys kembali lagi dengan saya kalimasada
+dari akademi crypto
+kali ini kita akan membahas ya
+crypto investing tools yang ke-5
+yaitu di sini kita akan membahas blockchain
+fundamental tools
+jadi teman-teman banyak ya yang salah
+kaprah ya karena pada dasarnya
+laporan keuangan di project crypto itu bisa dilihat
+jadi yang
+teman-teman bilang ya kalau crypto ini nggak ada
+fundamental yang jelas
+atau teman-teman punya anggapan ya bahwa
+crypto ini benar-benar asal-asalan nggak ada
+underline-nya aset ini teman-teman salah
+karena pada dasarnya
+itu ini memiliki laporan keuangan yang sama persis ya
+seperti dengan
+saham di mana teman-teman bisa melihat pergerakan
+kinerja perusahaan-perusahaan perusahaan
+blockchain perusahaan-perusahaan webthree
+yang sama persis ya seperti saham
+karena kalau kita lihat ya berbagai project out
+coins yang ada ethereum bnb xrp
+itu sama dengan real life company yang ada ya
+sama seperti meta ya sama seperti
+Adobe ya sama seperti Amazon mereka tuh juga memiliki
+infrastruktur fisik
+seperti gedung komputer ya mesin server
+sampai sdm atau manusia
+untuk melancarkan
+kegiatan operasi mereka
+jadi sama seperti kita punya perusahaan di sini
+ada produknya ada masalah yang di
+soft dan juga
+ada mesin dan manusia
+yang mengerjakan produknya
+karena jelas ya karena mereka bisnis
+sehingga ada mesin ada manusia
+sehingga pasti mengeluarkan biaya operasional karena
+sama seperti perusahaan
+sama seperti
+prinsip ekonomi ya dan juga akuntansi setiap ada biaya
+itu selalu ada pendapatan jadi
+mereka butuh ya
+yang namanya
+revenue untuk generating
+mereka punya bisnis modal
+karena biaya tanpa revenue itu
+tidak bisa ya diklasifikasikan
+mereka sebagai suatu perusahaan
+itu namanya charity
+ketika mereka hanya memberi
+ya tanpa mereka menerima sesuatu sehingga fokus
+dari berbagai
+alat koin ini ini adalah melahirkan suatu bisnis model
+yang juga generating revenue
+karena tidak ada
+satupun project di cryptocurrency yang bisa bertahan
+kalau mereka itu hanya mengandalkan
+hancuran DANA
+dari investor
+mereka harus
+memiliki bisnis model
+untuk mereka create their own revenue jadi kita ngomong
+ya bisnis model
+sama seperti perusahaan kita pun juga
+investor sebelum berinvestasi pada project
+crypto tertentu
+oke kita harus melihat
+apakah bisnis modelnya seksi
+apakah bisnis modelnya generate revenue atau
+bisnis modelnya ini hanya coach on coach tipu tipu
+nunggu investor baru masuk
+untuk harganya bisa naik seperti
+meme koin atau community koin yang sorry to say
+itu sama sekali
+tidak ada fundamentalnya
+sama sekali hanya mengandalkan community
+jadi investor
+ada
+fundamentalnya sama sekali hanya mengandalkan community
+jadi investor
+crypto yang coach on coach kelas kakap itu mereka
+sangat memahami fundamental sebelum berinvestasi sama
+sebelumnya ya
+ketika solana diinvestasikan ya oleh alameda research
+itu sbf pasti melihat sangat
+detail ya apa yang dilakukan solana network-nya dan
+word-nya seperti apa di market crypto
+sebelum mereka berinvestasi jutaan bahkan
+ratusan juta us dollar ke protokol tersebut jadi
+ada beberapa hal ya ketika teman-teman
+menganalisa
+fundamental crypto
+itu beberapa elemen yang harus diperhatikan pertama
+tokenomi ke-2 smart contract
+ke-3 adalah insider
+transaction dan ke-4 itu adalah financial statements
+di mana teman-teman bisa menggunakan
+salah satu platform
+yang sering kita gunakan
+yaitu adalah token
+terminal yang mana bisa melihat ya keadaan real
+dari suatu project
+untuk memberikan
+conviction lebih ya sehingga kita bisa
+betting ke masa depan dari project ini
+sebelum kita melakukan investasi
+meskipun demikian
+ya pasti nggak ada kebenaran yang
+absolut tidak ada kebenaran yang 100%
+apalagi kita ngomongin di sini crypto
+jadi selalu ada perbedaan data
+yang aktual dengan yang disampaikan pasti ada ya
+yang diolah olah ya yang tidak sesuai
+jadi kita tetap harus hati-hati dengan segala informasi
+yang dikemukakan di sini
+terus kemudian
+ke-2 teman-teman bisa pakai divipes
+ya WW dot divipes
+dot com di mana ini secara spesifik untuk mengetahui
+tvl atau total
+value lock dari project-project crypto tertentu
+selanjutnya kita
+ya di ke-3 ini ada list yaitu adalah deep radar WWW dot
+deep radar dot com di mana di sini khusus
+ya melihat fundamental dari decentralized applications
+atau deps berbagai jaringan blok chain tertentu
+list ke-4 kita ada di fly
+explorer di mana di sini
+teman-teman bisa akses ya di WW dot di diva
+explore dot com
+di sini platform yang khusus ya tracking-nya berbagai
+diva dan juga ada fitur untuk melihat
+return dari
+masing-masing investasi diva yang kita miliki
+jadi sangat spesifik untuk diva
+selanjutnya teman-teman bisa gunakan crypto compare ya
+WW dot defy explore dot com
+di mana di sini memiliki berbagai fitur
+tambahan ya tidak hanya analisa
+crypto dan juga defy
+teman-teman bisa
+pakai ya mining kalkulator di sini dan juga
+melihat nilai
+intrinsic dari suatu project cryptocurrency tertentu
+itu adalah daftar-daftar yang bisa teman-teman gunakan
+untuk referensi melihat
+fundamental dari suatu
+project crypto saya kalimasada dari akademi crypto
+sampai berjumpa di video selanjutnya

@@ -1,0 +1,404 @@
+Halo guys kembali lagi dengan saya
+kalim masada
+dari akademi crypto kita udah memasuki modul ke-3
+mengenai dex trading tutorial
+di mana sebelum video ini dimulai nothing
+i say is financial advice
+video ini adalah analisa internal
+teman-teman harus memiliki konsiderasi tinggi
+sebelum transaksi ya aset crypto apapun
+sebelumnya udah saya jelasin
+ya ke teman-teman
+apa itu cek
+apa itu dex
+apa saja yang dibutuhkan di trading
+decks dan apa perbedaan ya yang dibutuhkan antara cek
+dan juga decks ini nah
+di sini kita akan
+jelaskan lagi kita akan breakdown lagi lebih dalam
+mengenai eksplorasi ya di jaringan ethereum
+yang mana jaringan ethereum itu merupakan jaringan yang
+juga ya memprakarsai
+ya trading di dalam dex ini atau onchain
+trading ini
+karena ethereum sendiri merupakan suatu aset
+altcoin yang memiliki
+teknologi smart contract ya atau programmable money
+sehingga banyak sekali orang yang membangun token
+di atas jaringan ethereum ini untuk
+ya kita bertransaksi dan nilainya mengalami kenaikan
+atau juga mengalami
+penurunan ya
+nah beberapa
+item ya beberapa tools beberapa platform
+yang teman-teman secara exactly ya butuh ketika
+teman-teman mau berinteraksi dengan jaringan ethereum
+pertama itu adalah metamask
+ya metamask ini adalah wallet yang
+dia kompetibel ya dengan jaringan ethereum
+meskipun bukan hanya
+metamask yang bisa kompetibel dengan jaringan ethereum
+saya pakai yang paling trustworthy ya dipakai
+teman-teman yang trading di jaringan ethereum ini
+ke-2 ada uniswap ya uniswap ini juga dex
+ya yang mana bukan satu-satunya yang
+compatible dengan ethereum
+ada beberapa opsi
+ya tapi kita pakai uniswap yang mana
+dia memiliki liquidity yang paling tinggi
+ya untuk trading di ethereum nah ke-3
+ya ini juga ada yang namanya dex tools dimana ini
+populer being use di
+ethereum network ya itulah mengapa kita pakai
+dextools untuk yang ada di
+ekosistem ethereum dan terakhir juga ada zerion
+ini adalah alat untuk tracking
+teman-teman punya portofolio nah pertama ya akan
+saya ajarkan teman-teman gimana
+caranya download metamask ya ini benar-benar dari
+scratch ya dari zero ya
+di sini teman-teman buka tab baru ya type in di Google
+oke
+nah nah ini bener-bener dimulai
+ya dari baru teman-teman type in di Google
+download metamas
+ya di halaman paling tinggi ya ingat ya kalau ada
+berbagai website website yang
+ya saya bilang
+mau coba ya fishing teman-teman hati-hati ya
+selalu download di
+website resminya ya
+kemudian teman-teman
+ya ini adalah tampilan
+untuk metamas
+teman-teman klik ya install metamas for chrome
+saya selalu saranin teman-teman ini untuk pakai
+ya web browser yang paling cepat ya menurut saya
+chrome ya atau teman-teman bisa pakai
+ya terserah lah ya safari dan lain sebagainya
+tapi saya pakai yang paling cepat ya
+tapi ada juga yang
+paling tinggi
+privasi seperti
+brave dan lain sebagainya
+ya teman-teman bisa eksplorasi sendiri
+oke kemudian
+add to chrome ingat ya
+wallet metamask ini adalah web extension
+ya di mana kalau teman-teman
+add extension
+ya dia akan
+secara otomatis ya
+di download ya
+dan akan masuk di bagian kanan
+ya sini teman-teman
+oke bisa klik di sini dan juga
+pin metamask sehingga teman-teman
+nanti bisa pakai ya metamas
+di sini metamasnya juga bisa dipakai di handphone ya
+tapi untuk contoh ini ya kita pakai yang
+ada di desktop oke klik agree
+kemudian create a new wallet ya sebelumnya
+kita juga tidak terafiliasi
+ya ke berbagai platform apapun yang disebutkan di sini
+ini adalah contoh oke
+create a new wallet ya kemudian klik
+agree nah ini teman-teman create a password di mana
+password
+ini dibutuhkan ketika teman-teman nanti mau buka
+wallet-nya ya
+jadi password ini ini tidak sama dengan seat face
+ya di mana password ini ya
+hanya dibutuhkan ketika teman-teman mau buka
+wallet-nya kalau seat face ya itu
+ketika teman-teman mau memiliki direct akses ke dalam
+aset yang ada di dalamnya
+jadi memang
+ini at a layer of protection untuk password tapi
+kalau orang ya ini sampai tahu
+seed fresh kita ya ini orang bisa ngambil
+ya duit yang kita miliki
+karena dia tinggal bisa ya import
+new wallet dengan
+mereka punya seed fresh kita
+ya yang ada di tangan mereka
+jadi ini adalah layer of protection
+ya password-nya ya kita buat oke
+sekuat mungkin teman-teman oke
+harus sama klik i understand dan create
+metamask wallet nah
+kemudian di sini ya secure my wallet teman-teman
+di mana di sini ketika teman-teman
+laki ini teman-teman akan diberikan yang namanya
+seat face oke
+sheet face ini satu
+jangan sampai orang lain tahu
+hanya kalian dan Tuhan yang tahu
+oke atau ya orang terdekat mungkin
+yang kalian percayai ya untuk menyimpan aset kalian oke
+dua ya kalau teman-teman sampai
+kelupaan ya password untuk membuka metamask-nya
+teman-teman bisa
+simpan ya seed fresh ini kemudian import
+new wallet di metamask-nya kemudian masukin
+seed fresh-nya ini teman-teman akan secara otomatis
+bisa lagi ya recover aset yang dimiliki
+jadi 12 kata ini
+ini jangan sampai hilang ya
+karena 12 kata ini
+udah disesuaikan ya dengan standar bip twenty ya jadi
+hanya ada itu itu aja katanya
+tapi ini jangan sampai hilang
+ya nanti copy di clipboard dan
+ya saya sendiri
+saranin jangan disimpan secara digital
+mending ditulis tangan
+ya terus disimpan di dalam rumah
+atau biasanya ya bisa ada
+billfold yang besi itu teman-teman bisa
+type in di situ
+ya tapi tergantung lagi ya
+preferensi teman-teman menyimpan
+tapi ini jangan sampai hilang oke kemudian
+nih bisa saya screenshot nih sini ya oke nah kalau udah
+oke teman-teman klik next di sini
+nah teman-teman akhirnya disuruh ya tadi ngisi ya
+oke di bagian ke-3 4 dan 8
+k
+nah kalau udah
+teman-teman klik confirm ya dan congratulation all
+done ya teman-teman udah ter
+set up ya wallet metamask-nya oke
+nah klik next done ya ini pun
+bisa teman-teman close
+ya teman-teman kalau mau buka extension-nya di atas
+oke nanti
+ya biasanya kalau mau masuk
+ya ini dikasih
+disuruh buka ya passwordnya oke misalkan
+saya klik log
+metamask oke di sini
+dan kemudian teman-teman ya harus membuka
+metamasknya ingat ya password yang teman-teman
+save tadi kalau lupa passwordnya gimana
+ya teman-teman
+hapus metamasknya kemudian teman-teman set up
+wallet baru lagi dengan
+seed fresh yang teman-teman udah miliki
+tapi jangan sampai lupa ya
+nah di sini ini teman-teman di bagian kiri
+bisa pilih berbagai jaringan yang ada
+ya di mana di sini metamask ini compatible dengan
+berbagai jaringan blockchain
+tapi karena di contoh ini kita akan coba
+interaksi dengan ethereum magnet
+ya ini teman-teman klik ethereum nah
+lalu di sini teman-teman dapat
+yang namanya blank ya
+aset ya blank
+wallet karena ini baru ya ini nggak ada isinya apa-apa
+lalu gimana
+kalau kita mau transaksi
+ya jawabannya kita isi dulu ya bensinnya
+kita isi dulu di sini bensinnya
+di mana teman-teman ya ini klik di bagian kanan
+ya atau receive kalau teman-teman
+mau memperoleh ya bensin
+karena ingat yaitu adalah ada
+ethereum kayak kita bisa mengirimkan ya stable coin
+ke jaringan ini ya
+ethereum atau teman-teman bisa directly
+deposit ethereum
+ke wallet address yang ada di sini ya
+oke ini contohnya gimana
+ya ini kita simpan for letter ya ini adalah account-nya
+oke nah
+ini kita coba oke
+kita coba untuk membeli ethereum
+nah di sini misalkan saya mau membeli
+ETH ya atau membeli ethereum ya ETH
+usdt di sini saya mau market buy sebanyak 500 oke
+meteorium ya ini beli ETH nah ini teman-teman udah
+ya memperoleh
+ETH nya ya di dalam
+teman-teman punya dompet ya di sini
+saya bilang tadi dompet ini adalah tempat
+ya untuk teman-teman menyimpan oke
+selanjutnya
+kalau teman-teman ya mau mengisi
+di sini teman-teman memiliki ya
+metamask wallet di jaringan ethereum
+itu teman-teman klik ya di bagian sini ini adalah
+alamat ya wallet address teman-teman
+nah teman-teman klik di bagian penarikan oke dan
+teman-teman
+type in ya tadi
+ETH nya ya teman-teman kan udah beli ETH
+teman-teman udah beli ethereum
+nah ini di jaringan ya teman-teman jangan sampai lupa
+di sini pilih ethereum ya rrc 20 oke alamat penerima
+ETH nya kita copy paste ya dari sini tadi
+dan jumlahnya
+ya kita klik ya di sini jumlahnya misalkan 0,1
+ethereum nah ini namanya diperlukan ya hvs
+nah ini kalau udah ya teman-teman klik kirim
+ya kemudian masukkan
+kode di sini
+dan kemudian teman-teman nanti klik konfirmasi nah
+di sini udah masuk ya teman-teman untuk ethereum
+yang kita depositkan
+ya kita withdraw dari toko crypto untuk masuk ke
+metamask wallet yang kita miliki
+nah selanjutnya oke
+teman-teman di sini
+nah selanjutnya teman-teman di sini udah siap
+untuk melakukan transaksi
+oke jadi kita langsung ke laman
+uniswap itu adalah salah satu
+decentralized exchange
+yang dia support ya dengan jaringan ethereum
+atau jaringan ETH
+ya kita langsung type in di sini oke uniswap oke trade
+crypto sekra
+nah di bagian kanan
+kita melakukan connect
+wallet yang kita miliki dengan
+uniswap ya di sini kita klik connect
+oke dengan metamask yang udah ter detect oke
+kita klik connect di sini nah
+ini secara otomatis oke
+kita udah terkoneksi ya dengan
+uni swap kita bisa transaksi nih ya kita mau swap apa
+ya di sini kita cari
+ya koin apa yang di build ya token
+apa yang di build di atas jaringan ethereum
+kayak misalkan ini adalah PP ya
+kita di bagian koin
+gecko ini kita bisa type in ya untuk cari
+ca-nya ya atau kontrak address-nya
+di bagian bawah sini
+nah ada bagian info
+ada bagian kontrak di sini nah ini kita
+copy ya kontraknya kemudian kita akan
+ya select tokennya ya dan di sini kita paste
+nah di sini ada PP
+nah di sini
+biaya transaksinya itu relatif tinggi
+ya teman-teman ini untuk contoh 0,01
+oke kita mau swab $27
+ya kita dapatkan 26,87
+ya ingat yang saya ungkapkan tadi ada yang nama slipage
+ya kita klik review
+kemudian kita
+swipe ya network cost-nya $5
+ya bayangkan untuk satu transaksi
+teman-teman harus bayar hampir 100.000
+itulah mengapa kalau diceks
+ya biayanya itu lebih murah
+ya biasanya nggak ya hanya puluhan ribu aja oke
+kemudian klik confirm di sini dan ya ini sedang
+berproses ya transaksinya tadi ya
+nanti kalau udah selesai ya ini network
+cost-nya ini naik terus ya di jaringan ethereum
+itulah mengapa
+ethereum orang bilang nggak scalable
+ya jaringannya sangat Mahal
+agak berat ya untuk transaksi detail-detail
+ya lumayan Mahal nah ini
+transaction is komplit nah
+close extension
+nah di bagian activity
+ini kita bisa melihat
+ya bahwa kita udah melakukan
+swab ya untuk memperoleh koin PP biasanya ini pasti
+banyak yang bertanya nih ya di mana nih kalau
+saya udah swab
+saya transaksi kok di wallet saya nggak ada ya
+ini teman-teman bisa
+di bagian sini ya
+udah ada nih satu new token
+ya font in this account
+ya klik import
+token nah ini PP yang tadi teman-teman inginkan
+klik import ya
+nah ini udah secara otomatis ya
+masuk di sini
+tapi kalau misalkan di sini nggak ada opsi ada new
+token
+teman-teman bisa klik di bagian kanan sini ya import
+new token kemudian
+copy paste ya kontrak address-nya ya kalau udah ada
+teman-teman bisa klik next
+ya dan ini udah otomatis ya udah masuk kita udah
+bisa ya bertransaksi
+ya di jaringan ethereum nah
+selanjutnya
+kalau teman-teman ini mau lihat nih kira-kira
+PP saya ini progresnya gimana setelah saya beli
+ya kita bisa menggunakan
+ya platform yang namanya dextos
+ya ini biasanya sangat populer ya digunakan
+di jaringan ethereum ya
+kita bisa nih ya kita
+type in di sini dextools
+ya kemudian kita copy PP nya ya
+dan di bagian
+home-nya ini kita bisa lihat ya koin
+apapun di sini
+koin baru pun juga ada
+ya di sini dan ini pun juga support
+bukan hanya di jaringan
+ethereum tapi hampir di semua jaringan di sini all
+chain dia bisa semua
+tapi ini yang paling populer ya digunakan
+anak-anak yang
+trading di jaringan ethereum nah kita paste
+kontrak address PP
+di sini ya dan klik yang bagian paling atas ya
+di sini ya kita bisa lihat ya
+twelve hour oke
+chart-nya ini bisa
+kita rubah-rubah sendiri ya
+untuk kita bisa melihat nih kira-kira naik atau turun
+PP wah ini 12 jam terakhir
+nah ini dari chart 12 jam kita tahu ya
+PP sedang mengalami
+penurunan ya ini kita bisa identifikasi
+area support-nya
+untuk kita nggak hanya masuk sekali
+jadi swab beberapa kali ya
+itulah mengapa ini relatif Mahal
+ya teman-teman harus swab beberapa kali
+nah selanjutnya saya kalau mau
+lihat progres
+portofolio saya gimana saya kan tadi udah transaksi
+udah lihat progresnya
+PP secara chart tapi di sini saya pengen lihat
+ya secara keseluruhan
+portofolio saya ini gimana
+teman-teman bisa pakai ya platform yang namanya zerion
+ya di sini oke bisa teman-teman type in juga ya zerion
+nah teman-teman bisa login ya secara otomatis
+ya atau bisa track portofolio aja ya
+ini bisa connect to
+zerion atau enggak teman-teman bisa connect kan
+wallet-nya di sini tapi kalau enggak teman-teman
+di bagian account
+address-nya di sini copy to clipboard ya
+kemudian type in di sini ya aset wallet or domain
+ntt nah di sini udah ada nih wallet teman-teman nah
+di sini kelihatan nih ya performanya gimana ya karena
+baru satu jam yang lalu kita bikin kan ya
+Holland nya jadi dia mengalami kenaikan nah
+ini bisa nanti teman-teman track ya hari ke hari gimana
+progresnya ini bisa juga di hp
+jadi teman-teman bisa nanti ya
+connect in di hp dan lihat
+performanya
+seperti apa ya untuk portofolio
+trading teman-teman setelah eksplorasi di jaringan
+ethereum ini nah
+jadi itu ya cara berinteraksi dengan jaringan ethereum
+selanjutnya kita akan coba
+interaksi di jaringan solana di modul ke-4
+jadi sampai ketemu di modul ke-4

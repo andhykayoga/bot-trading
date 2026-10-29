@@ -1,0 +1,106 @@
+Halo guys
+kembali lagi dengan saya alvesting dari akademi crypto
+kali ini ya kita akan membahas ya modul ke-3
+ya dari crypto
+order flow
+jadi di sini ya kita akan
+secara spesifik
+membedah ya mengenai
+apa itu footprint
+jadi pada dasarnya ketika teman-teman membaca order
+flow teman-teman itu kan mengetahui ya sisi
+Beat ya dan juga sisi as
+di mana teman-teman melihat ya mana
+market participant yang agresif ya mana market
+participant yang pasif
+lalu muncul pertanyaan ya
+gimana cara kita membedakan sisinya
+jadi seperti ini ya teman-teman
+ilustrasinya ya di sisi kiri ya
+Beat yang dilambangkan dengan warna merah
+dan di sisi kanan ya as
+dilambangkan dengan warna hijau
+ketika ada ya pasif buyer dan agresif seller ya
+itu masuknya di sisi kiri
+di sisi bit
+namun ketika ada pasif seller dan agresif buyer
+itu ada di sisi kanan
+dilambangkan dengan warna hijau atau as
+jadi ya tidak ada ya secara teknis
+gimana ya teman-teman
+untuk mengetahui ya
+mana nih ya pembeli yang
+aktif ya mana nih pembeli yang pasif
+atau mana nih penjual yang aktif ya
+mana nih penjual yang pasif
+tapi teman-teman bisa menggunakan
+suatu tools tertentu
+yang mana tools itu bisa mempermudah ya teman-teman
+mengetahui ya kira-kira kecenderungan
+ya dari para market
+participant yang aktif dan juga pasif
+jadi tools-nya itu ya ini adalah volume profile
+fix range ya atau vpfr
+jadi vpfr itu adalah indikator volume
+yang mana menunjukkan data yang mana
+harian likuiditas dan volume dalam kurun waktu tertentu
+jadi seperti ini ya teman-teman
+di sisi kiri ya di sisi
+Beat yaitu adalah pasif seller dan agresif buyer
+sementara di sisi kanan yaitu adalah as
+itu adalah pasif buyer dan juga agresif seller
+di sini secara detail ya kita nggak bisa
+membedakan ya antara dua sisi ini
+tapi dengan vpfr
+ya kita bisa mengetahui ya teman-teman di sini
+oke area kecenderungan ya
+di mana pasif seller dan agresif buyer ya atau pasif
+buyer dan agresif seller
+itu berkumpul ya dalam satuan waktu tertentu
+sehingga di dalam indikator vpfr
+hal yang paling penting
+untuk kita lihat ini adalah
+poc atau point of control ya
+apa itu point of control
+oke akan kita bahas ya selanjutnya
+jadi point of control ya atau poc
+itu adalah titik ya di mana
+tempat perdagangan paling tinggi
+jadi ketika kita menggunakan poc ya
+dalam berbagai time frame
+kita mengetahui suatu area
+of value atau area kecenderungan
+terjadi suatu perdagangan dalam time
+frame yang berbeda-beda
+nah ini misalkan ya
+poc dalam hal satu bitcoin
+ini bisa bertindak sebagai suatu support area ya
+karena apa
+ya karena kita di sini mengetahui
+ya para pembeli yang pasif
+para pembeli yang agresif
+ya para penjual
+yang agresif
+para penjual yang pasif
+ini berkumpulnya dagangnya di mana
+di sini kita tahu ya poc-nya ada di tiga 6
+4 dua
+7 sehingga di sini
+dapat dijadikan sebagai
+suatu area kecenderungan untuk melakukan long
+namun poc ini ya ketika teman-teman lihat
+di dalam time frame yang lebih kecil
+dia bisa memiliki suatu point of view yang berbeda
+tadi kan di time frame yang besar
+itu jadi suatu
+area kecenderungan untuk pembelian ya
+tapi kalau di sini
+time frame yang lebih kecil
+ini bisa menjadi suatu resistance atau area jual
+sehingga teman-teman
+harus menggunakan
+time frame yang lebih besar ya karena itu lebih relevan
+oke dari sini
+bisa dipahami ya teman-teman
+oke saya alvesting dari akademi crypto
+sampai berjumpa di video selanjutnya

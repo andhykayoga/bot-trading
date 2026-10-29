@@ -1,0 +1,365 @@
+Halo guys kembali lagi dengan saya kalimasada
+dari akademi crypto di modul kali ini kita
+akan membahas mengenai dex trading tutorial
+modul yang pertama
+sebelum video ini dimulai
+saya ingin ungkapkan ke teman-teman bahwa nothing
+IC is financial advice
+video ini adalah bentuk
+analisa internal yang kami lakukan
+jadi teman-teman harus memahami bahwa aset
+cryptocurrency
+merupakan aset dengan risiko yang sangat tinggi
+dan video ini bukan
+acuan atau ajakan untuk berinvestasi apapun
+nah akhir akhir ini memang lagi sangat beken mengenai
+dex trading ya atau
+onchain trading ya decentralized exchange trading
+di mana teman-teman
+yang biasanya
+ya pakai centralized exchange teman-teman ini selalu
+pakai yang di dalam negeri ya
+seperti indodax toko crypto pintu ya reku
+thrift dan lain sebagainya
+tapi belakangan ini ngetren nih ya dengan istilah
+dex trading
+atau orang slank-nya di crypto
+bilangnya transis ya
+atau tempat di mana
+ya kita trade di
+desentralisasi exchange
+untuk memperoleh keuntungan yang berkali-kali lipat ya
+yang mana sebelum
+ya biasanya centralized exchange ini melakukan listing
+berbagai token token eksotik
+token token eksotik tersebut
+udah diperdagangkan terlebih dahulu di
+dex atau di decentralized exchange
+nah pada dasarnya
+teman-teman
+exchange itu seperti pasar
+ketika teman-teman ini mau
+membeli atau mau menjual sesuatu
+teman-teman harus ke pasar
+ya harus ke market
+harus ke marketplace
+sehingga di sini
+kalau kita lihat ya komponen
+dari crypto
+exchange itu saya melihatnya itu hanya ada dua
+ya yaitu adalah buyer pembeli
+dan juga seller atau penjual ya nothing more ini
+sangat simpel ya sementara crypto exchange itu
+adalah pihak ke-3
+ya pihak yang menjembatani transaksi
+seperti saya bilang ya misalkan di pasar
+tanah abang
+apakah ketika ada orang yang
+jual beli baju di situ
+atau ada baju yang dijual di situ
+apakah itu barang yang diproduksi oleh tanah
+abang sendiri
+jawabannya enggak tapi pasar
+tanah abang
+hanyalah tempat
+yang menyediakan dan juga memfasilitasi
+jual beli baju tersebut ya jadi mungkin ya
+barangnya ini diproduksi di Taiwan
+kemudian dibawa ke Indonesia oleh penjual
+dari Bandung
+ya yang bukalapak di tanah abang
+kemudian kita yang dari Jakarta ini membeli
+baju tersebut ya membeli pakaian tersebut
+jadi itulah proses transaksinya nah
+yang ada di sini ya tanah abangnya ini
+dia butuh yang namanya
+fee ya dia juga butuh sebagian biaya
+ya transaksi
+supaya mereka tetap bisa jalanin operasionalnya
+tetap bisa bayar tukang parkir ya bayar karyawan untuk
+kebersihan dan lain sebagainya bayar
+untuk maintenance lift
+dan lain sebagainya
+jadi crypto exchange itu adalah pihak ke-3
+yang menjembatani
+transaksi ya jadi di sini teman-teman harus memahami
+terminologinya metodenya
+mekanismenya
+nah crypto exchange sendiri
+seperti yang udah saya jelasin
+sebelumnya itu dibagi
+ke dalam dua ya
+kasarannya garis besarnya gambaran besarnya
+yaitu adalah centralized exchange atau cek
+dan juga decentralized exchange atau
+dex ya di mana centralized exchange itu semuanya
+terpusat kalau the centerless exchange
+itu semuanya serba terpisah pisah
+bahkan dari mekanisme
+transaksi dan berbagai tools atau platform yang kita
+gunakan itu pun juga berbeda-beda sementara
+centerless exchange ya ini semuanya serba terpusat saya
+ungkapkan ya ke teman-teman kalau teman-teman ini masih
+saya bilang ya pemula
+ini ada kecenderungan ya teman-teman ini
+lebih cocok dengan cek kenapa
+karena semua sistemnya ini benar-benar jadi satu ya
+nanti kita akan
+bahas sesuai dengan praktiknya
+ya seperti apa wujud cek
+dan seperti apa wujud
+dex atau wujud dari decentralized exchange
+itu sendiri
+nah kalau diilustrasikan
+ya ini adalah mekanisme antara cek
+atau centralized exchange
+dengan ya decentralized exchange atau dex cek ya ini
+semua transaksinya dilakukan secara terpusat sepihak
+oleh satu entitas oleh satu perusahaan
+sementara yang di sekitarnya ini mereka
+hanyalah user yang pakai saya pakai cek
+ya kameramen saya pakai cek
+oke bertimothy borong bitcoin pakai cek
+dan lain sebagainya jadi cek ini semua transaksi
+diproses dalam satu tempat
+oke terpusat satu entitas aja sementara
+dex atau decentralized exchange
+ini masing-masing entitas
+ini mereka memiliki
+fungsi dan juga proses masing-masing
+jadi mereka ini
+saling bertukar ya
+involvement di sini
+ya sehingga terjadi satu
+kesinambungan yang mana fungsinya juga untuk transaksi
+tapi untuk desentralisasi exchange
+ini nggak ada satu entitas tunggal yang
+dia mengontrol semuanya jadi entitasnya
+ini dibagi bagi ya platformnya dipecah pecah
+platformnya dipilah pilah supaya
+mereka tetap bisa berjalan
+jadi mereka ini tidak berjalan sendiri
+tidak berjalan
+karena satu
+entitas yang kuat paling dominan atas segalanya tapi
+setiap stakeholder setiap platform di sini memiliki
+fungsinya masing-masing memiliki utilitasnya
+masing-masing
+itu untuk dex atau decentralized exchange sehingga
+kalau kita lihat ya perbedaan
+ya antara dex dan juga cek ini data
+ya dari next stroke kita melihat pertama
+dari mekanisme trading ya dex itu peer to peer basis
+jadi kita melakukan transaksi langsung
+ya swapping langsung token yang kita inginkan sementara
+cex atau centralized exchange ketika kita
+melakukan suatu transaksi
+itu bisa juga ya disebut of chain transaction
+jadi kita bertransaksi di cex-nya
+baru cex-nya itu mentransaksikannya
+di jaringan blok c-nya jadi ada tahap ya ada pihak ke-3
+yang kita ngomong di sini kemudian dex itu
+tidak memerlukan kyc
+apa artinya
+kalau teman-teman menggunakan
+decentralized exchange apapun
+teman-teman nggak disuruh foto
+nggak disuruh store ktp
+tapi kalau cek itu 100% wajib kyc
+ini terkait dengan kebijakan anti money
+laundering jadi setiap cek
+yang teregulasi dengan pemerintah dengan government
+itu selalu membutuhkan
+yang namanya data dari user
+supaya mereka tahu ini duit alirannya dari mana karena
+banyak sekali duit yang alirannya itu tidak jelas
+kemudian dimasukkan
+ke central exchange dan ya ada
+potensi ya tindakan money laundry
+nah kemudian
+security ya dex itu back by blockchain dan cek
+itu lebih fragile ya terhadap serangan logikanya
+seperti ini sesuatu yang terpusat
+yang dikerjain sendiri itu resikonya jauh lebih
+d daripada sesuatu yang
+dikerjakan secara bersamaan
+meskipun demikian untuk dex atau decentralized exchange
+juga nggak 100%
+dia bebas dari risiko
+ada juga risiko
+hack ya risiko exploit dan lain sebagainya karena
+ada juga ya potensi
+hacker itu bisa menembus smart contract ya
+melakukan hacking secara direct ke smart contract
+nah convenience atau
+kemudahannya ya
+dex itu relatif sulit untuk new comer
+karena apa semua
+platformnya ya semua
+toolsnya itu
+harus terpisah ya nggak
+dikerjakan dalam satu tempat aja sementara cex ini
+sangat user friendly
+teman-teman yang nggak ngerti
+crypto apapun ya kalau download
+indodax download thrift itu pasti
+tahu gimana caranya transaksi
+ya kemudian private kiss di dex itu harus disimpan
+ya sama user
+it means teman-teman
+kalau misalkan ya kehilangan aksesnya terhadap
+decks-nya ya
+tiba-tiba laptopnya hilang
+sementara teman-teman masih menyimpan seed fresh-nya
+itu teman-teman bisa
+recover semua aset yang teman-teman miliki nanti
+akan saya jelasin ya gimana itu
+mekanisme dari seed fresh dan lain sebagainya
+nah sementara
+teks ya ini teman-teman
+not your kiss not your koin artinya apa
+semua private kiss-nya ya
+seed fresh-nya itu semua yang memegang
+caks atau centralized exchange jadi
+saya nggak punya dong barangnya
+ya jawabannya nggak punya
+memang kamu punya akunnya untuk
+mengendalikan transaksinya
+tapi bukan berarti
+aset itu adalah milik kalian itulah mengapa
+kalau teman-teman menggunakan
+decentralized exchange dan menggunakan
+crypto wallet sendiri
+teman-teman itu melakukan yang namanya self custody
+atau teman-teman benar-benar memiliki asetnya
+sangat berbeda dengan cek
+yang mana itu semua ya miliknya cek
+ya itulah mengapa kalau teman-teman jelasin
+ada banyak sekali ya cek cek
+yang akhirnya meledak karena mereka memegang DANA
+nasabah dan
+tidak aman ya dengan DANA nasabah tersebut
+sehingga akhirnya
+meledak ya exchange-nya
+dan tokens-nya
+dex itu opsinya tak terbatas ya bahkan data
+terakhir ini udah ada
+sampai puluhan juta ya token yang di list di dex
+ya itulah mengapa
+ada masalah utama
+di sini yaitu paradox of choices di mana
+ya ada banyak sekali ya pilihan yang ada
+sementara cek ya ini
+limited section hanya ada ratusan aja
+ya bahkan beberapa cek
+lokal ini hanya puluhan aja
+jadi teman-teman opsinya lebih terbatas oke nah
+apa aja resiko dalam cek trading
+yang pertama adalah resiko sentralisasi ya not your
+kiss not your coins
+ketika ada masalah
+finansial di ceknya dan ceknya meledak
+kita akan kehilangan aset yang kita miliki
+ke-2 resiko keamanan
+ya kita udah tahu
+exchange lokal exchange luar
+itu renta sekali dengan yang namanya hacking bahkan
+salah satu exchange lokal
+baru saja ini juga memperoleh ya serangan cyber yang
+sampai ratusan miliar ya exploit-nya
+dan ke-3 ya risiko privasi kyc
+kadang kita memang
+nggak suka ya kalau transaksi kita ini
+cenderung diawasi cenderung dilihat
+karena kalau kita pakai cek
+data kita itu telanjang ya cek akan tahu
+kita itu beli koin apa cek akan tahu
+kita transaksi apa aja cek
+juga akan tahu
+ya berapa banyak jumlah yang kita depositkan
+sementara kalau teman-teman pakai
+dex atau desentralisasi exchange
+they don't know
+hanya kita dan Tuhan yang tahu apa yang kita
+transaksikan meskipun demikian kalau
+wallet kita ke docs atau
+orang lain ya tahu alamat wallet kita
+itu segala jenis
+transaksi yang kita lakukan ini kelihatan oke kemudian
+untuk dex ya ini bukan berarti tanpa resiko
+pertama ada slippage and liquidity
+risk karena jumlah perdagangan yang dilakukan di dex
+itu tidak sebanyak yang dilakukan di cek sehingga
+liquidity-nya atau jumlah
+token yang bisa diperdagangkan itu jauh lebih sedikit
+dibandingkan cek
+itulah mengapa kalau barangnya sedikit
+teman-teman mau transaksi
+ada slipage ya ada perbedaan harga yang signifikan
+biasanya di dex itu ya
+ini relatif beda harganya dengan yang ada di cex
+kemudian
+risiko smart contract ya seperti yang saya jelaskan
+ada potensi exploit smart contract
+ya kadang teman-teman yang pakai dex
+dengan jaringan solana
+ini sering banget kena
+exploit ya meskipun solana sangat cepat tapi
+resiko hack-nya juga sangat tinggi ya kemudian
+impermanent
+loss ya di sini karena ya adanya perbedaan tadi
+adanya slippage
+dari liquidity provider
+yang mana mereka menyediakan liquidity
+ya ini kadang ada perbedaan harga
+yang mana menyebabkan yang namanya
+impermanent loss
+nah di desentralisasi exchange itu
+ada dua lagi ya mekanismenya
+mekanisme perdagangannya pertama
+amm ya atau automatic market maker
+dan yang ke-2 itu adalah order book text
+di mana di amm ya cara
+kerjanya ya ini
+ada satu pihak yang namanya
+liquidity provider jadi liquidity provider ini
+menyediakan ya liquidity
+ya ke dalam
+liquidity pool untuk
+para user ini bisa transaksi ya
+sementara dia dapat apa ya dia dapat
+fee dari transaksi yang dilakukan
+sementara user
+ya ini membayar fee atas transaksi yang dilakukan
+jadi ini adalah cara kerjanya
+amm ya atau automatic market maker
+di mana ya ada liquidity pool
+liquidity provider alias LP menyediakan liquidity-nya
+kemudian user bisa bertransaksi membayar v
+v-nya diambil oleh para LP ini
+nah mekanisme order
+book dex ini sedikit berbeda dengan amm
+di mana di sini ada dua pihak utam yaitu adalah maker
+dan juga taker
+di mana maker ini pihak yang memberikan liquidity oke
+taker ini pihak yang mengambil order
+ya kemudian dua pihak ini
+bertemu di batch potret
+ya yang mana
+kemudian ya
+transaksinya di dalam layer to block ini
+diverifikasi ya oleh para prover sebelum
+diteruskan ya ke ethereum mainnet
+atau ke jaringan blockchain utama
+tempat ya terjadi
+transaksi tersebut jadi mekanismenya di sini
+sedikit berbeda dengan IMM
+di mana semuanya kalau mm ya diproses
+dalam liquidity pool sementara dalam order
+book dex ya ini sedikit berbeda nah
+itu penjelasan ya mengenai cek
+dan juga dex oke
+ini adalah awal ini adalah intro
+dan kita nanti akan deep dive ke dalam prakteknya oke
+sampai berjumpa
+di modul ke-2

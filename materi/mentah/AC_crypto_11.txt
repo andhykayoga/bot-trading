@@ -1,0 +1,196 @@
+kembali lagi dengan saya kali masada
+dari akademi crypto kita udah memasuki modul ke-5
+mengenai dex trading tutorial ya nothing
+i say in this video is financial advice
+ini adalah analisa internal yang kita lakukan
+kita juga nggak terafiliasi
+dan bekerja sama dengan berbagai
+platform yang kita sebutkan ya
+tadi udah saya jelaskan ya tentang apa itu
+dex apa itu
+cex apa aja yang dibutuhkan untuk trading di dex ya
+cara trading
+ya di jaringan solana
+cara trading di jaringan ethereum nah ini
+akan saya jelaskan ya beberapa
+tools yang menarik ya teman-teman untuk cari kira-kira
+token apa yang bisa saya
+perdagangkan
+atau token mana yang bisa saya trading kan ya pertama
+teman-teman juga harus melihat ya dominansi dari wallet
+nanti akan saya jelaskan ya caranya dan juga alatnya
+jadi teman-teman harus menghindari
+potensi yang namanya
+rakul rakul itu adalah suatu keadaan di mana
+developer atau mereka
+yang membuat tokennya yang mana bekerja sama
+ya juga dengan beberapa
+kol atau key opinion leader
+untuk mereka ini menjebak ritel
+membeli tokennya jadi biasanya mereka ini
+memegang banyak sekali ya porsi
+tokennya di dalam wallet mereka
+itulah mengapa ya kita nggak bisa ya beli 1% 2% tapi
+yang pegang ya devnya itu
+pegang puluhan persen ya bahkan ada yang sampai 70 50%
+ya jadi kita harus melihat kira-kira
+ini didominasi
+wallet tertentu aja nggak aset yang akan kita beli nah
+kita bisa pakai alat yang namanya bubble map
+ya di mana di sini
+ini contoh ya distribusi wallet dari fart coin
+ya di mana di sini dia hanya kecil kecil ya
+wallet-nya kecil kecil
+dan tidak bergerom
+prombol ya menunjukkan
+nggak ada transaksi ya antar wallet di sini nah ini
+adalah contoh ya wallet
+distribution yang harus teman-teman hindari ya
+ini kurang sehat karena apa
+ya ini banyak ya dipegang oleh satu
+dua tiga 4 5 wallet yang mana dia
+bergerumbul
+artinya apa dia melakukan transaksi secara bersamaan
+jadi ini sangat tersentral
+ya teman-teman
+jadi kalau mau lihat
+teman-teman bisa lihat di bubble Maps ya
+dan teman-teman lihat nih beberapa
+koin-koin ya misalkan contohnya ini AI sixteen z ya
+nah teman-teman bisa lihat oke
+kemudian copy wallet ya sent
+nah copy ya kontrak address-nya nah untuk AI sixteen z
+dan kemudian teman-teman type in di bagian search
+ya nah ini keluar nih AI sixteen g
+nah di sini kelihatan nih ya bagaimana
+centralisasi wallet-nya karena dia udah di sini ya
+di listing di berbagai teks yang besar
+ya kita bisa tahu lihat
+beberapa wallet wallet yang besar ini ya karena
+ya ini koin yang udah lama ya udah ada ya ini
+winter mute juga salah satu grup yang terkenal juga
+ya ini baru ini adalah individual
+wallet yang lebih-lebih kecil
+ya jadi teman bisa eksplorasi lagi misalkan
+tadi mau misalkan god
+Zeus maximus ya
+type in god Zeus maximus kemudian ya
+teman-teman lihat di sini
+ya distribusi
+wallet dari god
+Zeus maximus ya dan
+ini ya yang paling gede biasanya cek
+yang udah listing ya biasanya koin-koin yang gede itu
+ada juga grup ya winter mute
+dan ini adalah individual wallet-nya jadi ini
+secara langsung ya melihat
+bagaimana ya koneksi antar wallet dan
+ya seberapa banyak holding
+dari big big player di sini bisa kita lihat
+nah selanjutnya
+tools yang teman-teman bisa melihat flow
+kira-kira hot
+kontrak yang diperdagangkan ini apa
+ini teman-teman bisa pakai nenson
+ya nenson ini ada fitur free-nya
+ya ada fitur
+premiumnya kita subscribe juga yang premiumnya
+nah ini bisa ya teman-teman
+di sini type in
+nenson oke
+kemudian klik nenson di sini launch app
+nah di sini kelihatan nih ya bahkan tanpa
+bayar ya teman-teman bisa melihat misalkan di sini
+token info key
+untuk melihat ya
+ini bisa teman-teman rubah juga
+nah di sini teman-teman bisa lihat ya misalkan
+24 jam terakhir
+ya kira-kira
+infonya ini ke mana aja ya
+ini bisa kelihatan ya
+di sini untuk teman-teman ya menentukan
+nah selanjutnya ya ini di mention
+teman-teman bisa pakai ya fitur token screener live
+di mana di sini bisa teman-teman atur ya ini 10 menit
+ya 1 jam 6 jam
+di mana kalau di sini 1 jam
+kita kelihatan nih
+kira-kira info yang gede ke mana oh
+ya ada info yang gede ke
+token jelly-jelly dan juga fly ya ada satu
+ya tiga transaksi
+ya ini bisa kita kelihatan
+nih jumlahnya 10.000 USD 14.000 USD
+ya kalau kita misalkan lihat ya di sini
+copy address jelly-jelly
+ya ke dex screener ya
+jadi kita bisa nanti paste ya address-nya di sini
+nah ini akan kelihatan ya gimana
+performanya satu jam terakhir karena di
+mention tadi ada info ya
+dia info yang di sini nih yang kecil ini ya
+terus ini juga contoh
+nih ya misalkan
+three hundred b a u d ya
+di sini kan juga ada
+info nih ya kalau kita lihat sejam terakhir
+ada pembelas
+11 sorry ada 14 pembeli
+ya ini juga kelihatan nih sejam terakhir
+dia mengalami kenaikan nah ini
+bisa teman-teman jadikan ya alat untuk melihat
+info yang masuk ke dalam smart
+contract tertentu ya dalam kontrak address tertentu
+nah selanjutnya ya kita akan bahas mengenai money
+management
+karena apa karena ini adalah yang paling penting
+teman-teman harus memahami bahwa
+berbagai token token di sini ya di
+dex ini bisa turun 70 80
+90 dalam waktu beberapa jam aja
+jadi teman-teman harus memiliki
+konsiderasi yang tinggi 80
+portofolio itu tetap harus di bitcoin
+ya 10 harus memiliki
+cadangan liquid aset
+baru 10 persennya kalau mau buat dua 3% main di
+dex itu nggak masalah
+tapi teman-teman harus paham
+ya misalkan teman-teman punya uang
+100.000.000
+ya 10.000.000 aja
+ya yang teman-teman risikokan untuk dex
+trading dan dari 10.000.000 ini nggak bisa semuanya
+ya untuk oke saya masuk part
+koin ya koin a b c ya di dex yang baru live
+nggak bisa langsung semuanya
+100% 10.000.000
+tapi ya teman-teman bisa pakai satu persennya dari
+10.000.000 yang mana itu adalah 100.000 ya
+itulah mengapa lebih
+preferable trading di jaringan solana
+karena lebih murah
+ya 80% 80 jutanya di bitcoin
+10.000.000 ya di trade di jaringan solana
+satu persennya 100.000
+untuk beberapa koin yang baru live
+karena ya lumayan
+ya kalau 100.000 koinnya naik 1020 kali
+ya teman-teman bisa gain
+dua puluhan juta ya jadi
+lebih make sense ya one rules untuk semua dex trading
+dan ya multiple entry juga bisa dimanfaatkan ya
+setelah mengapa multiple exit juga bisa
+dimaksimalkan juga karena apa
+meme coins adalah aset yang sangat berisiko tinggi
+dan menurut saya pribadi ya meme coins
+trading is for entertainment
+purpose only
+jadi itu ya video
+mengenai modul ya dex trading
+semoga teman-teman bisa mengaplikasikannya
+dan salam cuan
+ya kalimasada
+dari akademi crypto
+sampai berjumpa di modul-modul selanjutnya

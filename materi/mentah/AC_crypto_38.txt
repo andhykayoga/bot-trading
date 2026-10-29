@@ -1,0 +1,609 @@
+Halo guys kembali lagi dengan saya kalimasada
+dari akademi crypto di modul kali ini kita
+akan membahas mengenai dex trading tutorial
+modul yang pertama
+sebelum video ini dimulai
+saya ingin ungkapkan ke teman-teman bahwa nothing
+IC is financial advice
+video ini adalah bentuk analisa
+internal yang kami lakukan
+jadi teman-teman harus memahami bahwa aset
+cryptocurrency merupakan
+aset dengan risiko yang sangat tinggi
+dan video ini bukan
+acuan atau ajakan untuk berinvestasi apapun
+nah akhir akhir ini memang lagi sangat beken mengenai
+dex trading ya atau
+onchain trading ya decentralized exchange trading
+di mana teman-teman
+yang biasanya
+ya pakai centralized exchange teman-teman ini selalu
+pakai yang di dalam negeri ya
+seperti indodax toko crypto pintu ya reku
+thrift dan lain sebagainya
+tapi belakangan ini ngetren nih ya dengan istilah
+dex trading
+atau orang slank-nya di crypto
+bilangnya transis ya
+atau tempat di mana
+ya kita trade di
+desentralisasi exchange
+untuk memperoleh keuntungan yang berkali-kali lipat ya
+yang mana sebelum
+ya biasanya centralized exchange ini melakukan listing
+berbagai token token eksotik
+token token eksotik tersebut
+udah diperdagangkan terlebih dahulu di
+dex atau di decentralized exchange
+nah pada dasarnya
+teman-teman
+exchange itu seperti pasar
+ketika teman-teman ini mau
+membeli atau mau menjual sesuatu
+teman-teman harus ke pasar
+ya harus ke market
+harus ke marketplace
+sehingga di sini
+kalau kita lihat ya komponen
+dari crypto exchange
+itu saya melihatnya itu hanya ada dua
+ya yaitu adalah buyer pembeli
+dan juga seller atau penjual ya nothing more ini
+sangat simpel ya sementara crypto exchange itu
+adalah pihak ke-3
+ya pihak yang menjembatani transaksi
+seperti saya bilang ya misalkan di pasar
+tanah abang
+apakah ketika ada orang yang
+jual beli baju di situ
+atau ada baju yang dijual di situ
+apakah itu barang yang diproduksi oleh tanah
+abang sendiri
+jawabannya enggak tapi pasar
+tanah abang
+hanyalah tempat
+yang menyediakan dan juga memfasilitasi
+jual beli baju tersebut ya jadi mungkin ya
+barangnya ini diproduksi di Taiwan
+kemudian dibawa ke Indonesia oleh penjual
+dari Bandung
+ya yang bukalapak di tanah abang
+kemudian kita yang dari Jakarta ini membeli
+baju tersebut ya membeli pakaian tersebut
+jadi itulah proses transaksinya nah
+yang ada di sini ya tanah abangnya ini
+dia butuh yang namanya
+fee ya dia juga butuh sebagian
+biaya ya transaksi supaya mereka tetap bisa jalanin
+operasionalnya tetap bisa
+bayar tukang parkir ya bayar karyawan untuk
+kebersihan dan lain sebagainya bayar
+untuk maintenance
+lift dan lain sebagainya
+jadi crypto exchange itu adalah pihak ke-3
+yang menjembatani
+transaksi ya jadi di sini teman-teman harus memahami
+terminologinya metodenya
+mekanismenya
+nah crypto exchange sendiri
+seperti yang udah saya jelasin
+sebelumnya itu dibagi
+ke dalam dua
+ya kasarannya garis besarnya gambaran besarnya
+yaitu adalah centralized exchange atau cek
+dan juga decentralized exchange atau
+dex ya di mana centralized exchange itu semuanya
+terpusat kalau the centerless exchange
+itu semuanya serba terpisah pisah
+bahkan dari mekanisme
+transaksi dan berbagai tools atau platform yang kita
+gunakan itu pun juga berbeda-beda sementara
+centerless exchange ya ini semuanya serba terpusat saya
+ungkapkan ya ke teman-teman kalau teman-teman ini masih
+saya bilang ya pemula
+ini ada kecenderungan ya teman-teman ini
+lebih cocok dengan cek kenapa
+karena semua sistemnya ini benar-benar jadi satu ya
+nanti kita akan
+bahas sesuai dengan praktiknya
+ya seperti apa wujud cek
+dan seperti apa wujud
+dex atau wujud dari decentralized exchange
+itu sendiri
+nah kalau diilustrasikan
+ya ini adalah mekanisme antara cek
+atau centralized exchange
+dengan ya decentralized exchange atau dex
+teks ya ini
+semua transaksinya
+dilakukan secara terpusat sepihak
+oleh satu entitas oleh satu perusahaan
+sementara yang di sekitarnya ini mereka
+hanyalah user yang pakai saya pakai cek
+ya kameramen saya pakai cek
+oke bertimothy borong bitcoin pakai cek
+dan lain sebagainya jadi cek ini semua transaksi
+diproses dalam satu tempat
+oke terpusat satu entitas aja sementara
+dex atau decentralized exchange
+ini masing-masing entitas
+ini mereka memiliki
+fungsi dan juga proses masing-masing
+jadi mereka ini
+saling bertukar ya
+involvement di sini
+ya sehingga terjadi satu
+kesinambungan yang mana fungsinya juga untuk transaksi
+tapi untuk desentralisasi exchange ini nggak ada satu
+entitas tunggal yang
+dia mengontrol semuanya jadi
+entitasnya ini dibagi bagi
+ya platformnya dipecah pecah
+platformnya dipilah pilah supaya
+mereka tetap bisa berjalan
+jadi mereka ini tidak berjalan sendiri
+tidak berjalan
+karena satu entitas yang
+paling dominan atas segalanya tapi setiap
+stakeholder setiap platform di sini memiliki
+fungsinya masing-masing memiliki utilitasnya
+masing-masing
+itu untuk dex atau decentralized exchange sehingga
+kalau kita lihat ya perbedaan
+ya antara dex dan juga cek ini data dari next
+drop kita melihat pertama
+dari mekanisme trading ya dex itu peer to peer basis
+jadi kita melakukan transaksi langsung
+ya swapping langsung token yang kita inginkan
+sementara cex atau centerless exchange ketika kita
+melakukan suatu transaksi
+itu bisa juga ya disebut option transaction
+jadi kita bertransaksi di cex-nya
+baru cex-nya itu mentransaksikannya
+di jaringan blok c-nya jadi ada tahap ya ada pihak ke-3
+yang kita ngomong di sini kemudian dex itu
+tidak memerlukan kyc
+apa artinya
+kalau teman-teman menggunakan
+decentralized exchange apapun
+teman-teman nggak disuruh foto
+nggak disuruh store ktp
+tapi kalau cek
+itu 100% wajib kyc
+ini terkait dengan kebijakan anti money
+laundering jadi setiap cek
+yang teregulasi dengan pemerintah dengan government
+itu selalu membutuhkan
+yang namanya data dari user
+supaya mereka tahu ini duit alirannya dari mana karena
+banyak sekali duit yang alirannya itu tidak jelas
+kemudian dimasukkan
+ke central exchange dan ya ada
+potensi ya tindakan money laundry
+nah kemudian security ya dex itu back by blockchain
+dan cek itu lebih
+fragile ya terhadap serangan
+logikanya seperti ini sesuatu yang terpusat
+yang dikerjain sendiri itu resikonya jauh lebih
+gede daripada sesuatu yang
+dikerjakan secara bersamaan
+meskipun demikian untuk dex atau decentralized exchange
+juga nggak 100%
+dia bebas dari risiko
+ada juga risiko
+hack ya risiko exploit dan lain sebagainya karena
+ada juga ya potensi
+hacker itu bisa menembus smart contract ya
+melakukan hacking secara direct ke smart contract
+nah convenience atau
+kemudahannya ya
+dex itu relatif sulit untuk new comer
+karena apa semua
+platformnya ya semua
+toolsnya itu
+harus terpisah ya nggak
+dikerjakan dalam satu tempat aja sementara cek ini
+sangat user friendly
+teman-teman yang nggak ngerti
+crypto apapun ya kalau download
+indodax download thrift itu pasti
+tahu gimana caranya transaksi
+ya kemudian private kiss di dex itu harus disimpan
+ya sama user
+ya it means teman-teman
+kalau misalkan ya kehilangan aksesnya terhadap
+dexnya ya tiba-tiba laptopnya hilang
+sementara teman-teman masih menyimpan seed fresh-nya
+itu teman-teman
+bisa recover semua aset yang teman-teman miliki nanti
+akan saya jelasin ya gimana
+itu mekanisme dari seed fresh dan lain sebagainya
+nah sementara
+teks ya ini teman-teman
+not your kiss not your koin artinya apa
+semua private
+kiss-nya ya seed fresh-nya itu semua yang memegang
+caks atau central exchange jadi
+saya nggak punya dong barangnya
+ya jawabannya nggak punya
+memang kamu punya akunnya untuk
+mengendalikan transaksinya
+tapi bukan berarti
+aset itu adalah milik kalian itulah mengapa
+kalau teman-teman menggunakan
+decentralized exchange dan menggunakan
+crypto wallet sendiri
+teman-teman itu melakukan yang namanya self custody
+atau teman-teman benar-benar memiliki asetnya
+sangat berbeda dengan cek
+yang mana itu semua ya miliknya cek
+ya itulah mengapa kalau teman-teman jelasin
+ada banyak sekali ya cek cek
+yang akhirnya meledak karena mereka memegang DANA
+nasabah dan
+tidak aman ya dengan DANA nasabah
+tersebut sehingga akhirnya
+meledak ya exchange-nya
+dan tokens-nya
+dex itu opsinya tak terbatas ya bahkan data
+terakhir ini udah ada
+sampai puluhan juta ya token yang di list di dex
+ya itulah mengapa
+ada masalah utama
+di sini yaitu paradox of choices di mana
+ya ada banyak sekali ya pilihan yang ada
+sementara cek ya ini limited
+section hanya ada ratusan aja ya bahkan beberapa cek
+lokal ini hanya puluhan aja
+jadi teman-teman opsinya lebih terbatas oke nah
+apa aja resiko dalam cek trading
+yang pertama adalah resiko sentralisasi ya not your
+kiss not your coins
+ketika ada masalah
+finansial di ceknya dan ceknya meledak
+kita akan kehilangan aset yang kita miliki
+ke-2 resiko keamanan
+ya kita udah tahu exchange
+lokal exchange luar
+itu renta sekali dengan yang namanya hacking bahkan
+salah satu exchange lokal
+baru saja ini juga memperoleh ya serangan cyber yang
+sampai ratusan miliar ya exploit-nya
+dan ke-3 ya risiko privasi kyc
+kadang kita memang
+nggak suka ya kalau transaksi kita ini
+cenderung diawasi cenderung dilihat
+karena kalau kita pakai cek
+data kita itu telanjang ya cek akan tahu
+kita itu beli koin apa cek akan tahu
+kita transaksi apa aja cek
+juga akan tahu
+ya berapa banyak jumlah yang kita depositkan
+sementara kalau teman-teman pakai
+dex atau desentralisasi exchange
+they don't know
+hanya kita dan Tuhan yang tahu apa yang kita
+transaksikan meskipun demikian kalau
+wallet kita ke docs atau
+orang lain ya tahu alamat wallet kita
+itu segala jenis
+transaksi yang kita lakukan ini kelihatan oke kemudian
+untuk dex
+ya ini bukan berarti tanpa risiko
+pertama ada
+slippage and liquidity
+risk karena jumlah perdagangan yang dilakukan di dex
+itu tidak sebanyak yang dilakukan di cek sehingga
+liquidity-nya atau jumlah
+token yang bisa diperdagangkan itu jauh lebih sedikit
+dibandingkan cek
+itulah mengapa kalau barangnya sedikit
+teman-teman mau transaksi
+ada slipage ya ada perbedaan harga yang signifikan
+biasanya di dex itu ya
+ini relatif beda harganya dengan yang ada di cex
+kemudian
+risiko smart contract ya seperti yang saya jelaskan
+ada potensi
+exploit smart contract
+ya kadang teman-teman yang pakai dex
+dengan jaringan solana
+ini sering banget kena
+exploit ya meskipun solana sangat cepat tapi
+resiko hack-nya juga sangat tinggi ya kemudian
+impermanent loss ya
+di sini karena ya adanya perbedaan tadi
+adanya slippage
+dari liquidity provider
+yang mana mereka menyediakan liquidity
+ya ini kadang ada perbedaan harga
+yang mana menyebabkan yang namanya
+impermanent loss
+nah di desentralisasi exchange itu
+ada dua lagi ya mekanismenya
+mekanisme perdagangannya pertama
+amm ya atau automatic market maker
+dan yang ke-2 itu adalah order book teks
+gimana di amm ya cara
+kerjanya ya ini
+ada satu pihak yang namanya
+liquidity provider jadi liquidity provider ini
+menyediakan ya liquidity
+ya ke dalam
+liquidity pool untuk
+para user ini bisa transaksi ya
+sementara dia dapat apa ya dia dapat fee
+dari transaksi yang dilakukan
+sementara user
+ya ini membayar fee atas transaksi yang dilakukan
+jadi ini adalah cara kerjanya amm ya atau automatic
+market maker
+di mana ya ada liquidity pool
+liquidity provider alias LP menyediakan liquidity-nya
+kemudian user bisa bertransaksi membayar v
+v-nya diambil oleh para LP ini
+nah mekanisme order book dex ini sedikit berbeda
+dengan amm
+di mana di sini ada dua pihak utama yaitu adalah maker
+dan juga taker
+di mana maker ini pihak yang memberikan liquidity oke
+taker ini pihak yang mengambil order
+ya kemudian dua pihak ini
+bertemu di batch potret
+ya yang mana
+kemudian ya transaksinya di dalam layer to block ini
+diverifikasi ya oleh para prover sebelum
+diteruskan ya ke ethereum mainnet
+atau ke jaringan blockchain utama
+tempat ya terjadi transaksi tersebut jadi mekanismenya
+di sini sedikit berbeda dengan IMM
+di mana semuanya kalau amm ya diproses
+dalam liquidity pool sementara dalam order
+book dex ya ini sedikit berbeda nah
+itu penjelasan ya mengenai cek
+dan juga dex oke
+ini adalah awal ini adalah intro
+dan kita nanti akan deep dive ke dalam prakteknya oke
+sampai berjumpa
+di modul ke-2
+Halo guys kembali lagi dengan saya kali
+masada dari akademi crypto kita masuk bagian ke-4
+dex trading ya tutorial
+di mana sebelum kita mulai
+videonya saya ingin ungkapin ke teman-teman nothing
+i say is financial advice
+video ini adalah analisa internal yang kita lakukan
+nah teman-teman sebelumnya udah saya ajarin gimana
+caranya mengeksplorasi jaringan ethereum
+sekarang kita akan coba eksplorasi jaringan solana
+nah untuk teman-teman yang mau eksplorasi di jaringan
+solana ini ada beberapa tools ya beberapa alat
+yang bisa teman-teman gunakan nih ya
+jadi kita nggak terafiliasi
+kita juga nggak bekerja sama
+dengan berbagai tools
+tools yang kita sajikan ini murni
+tools yang beneran kita pakai
+ya kalau teman-teman mau trading di di soalan
+ekosistem ini teman-teman pertama butuh yang namanya
+phantom wallet ya sebelumnya itu ada metamas wallet
+tapi metamas wallet
+apakah bisa dipakai di sini jawabannya enggak
+karena metamas wallet tidak support dengan jaringan
+solana ya yang support
+dengan jaringan
+netifnya solana itu adalah phantom wallet yang
+yang mana ya ini gambarnya hantu ya hantu warna ungu
+kemudian ke-2 Jupiter exchange
+ya Jupiter exchange
+ini adalah alat swap ya descentralized exchange
+dex yang dia compatible dengan jaringan solana
+tadi kita pakai
+uniswap ya uniswap itu nggak bisa
+dipakai di jaringan solana dan ke-3
+inilah dex cleaner
+ini alat yang biasanya dipakai anak-anak solana transes
+ya atau mereka yang trading di solana
+untuk bisa melihat
+ya performa dari kontrak address mereka seperti apa
+dan terakhir
+kalau sebelumnya ya
+kita pakai zerion
+di sini kita pakai gmgn ini adalah
+yang biasanya ya dipakai
+anak-anak yang trading di solana ekosistem
+nah pertama-tama
+sama seperti
+metamas tadi ya teman-teman harus melakukan
+download ya phantom wallet ya oke kita
+coba nih ya nah
+di bagian sini
+oke kita type in ya download
+phantom
+nah
+oke kita klik download phantom wallet ya kita klik
+download ya di sini
+nah ya kita bisa download ya phantom wallet
+di sini teman-teman bisa type in
+ya di chrome ya web store klik
+at chrome kemudian x extension nah
+di sini akan secara otomatis
+ya ter download dan
+kita bisa klik kanan di sini terus kita pin
+ya tadi kita udah pin
+metamask-nya sekarang kita juga pin ya
+phantom wallet-nya nah di sini
+teman-teman bisa
+create a new wallet kalau teman-teman belum
+pernah punya phantom wallet sebelumnya
+tapi kalau teman-teman udah pernah punya
+phantom wallet sebelumnya
+dan teman-teman simpan
+tadi yang saya bilang namanya seed fresh 12 kata
+teman-teman bisa klik di sini
+ya i already have a wallet oke
+kemudian di sini teman-teman import recovery face
+ya terus teman-teman type in ya 12 katanya
+ini secara otomatis teman-teman
+bisa memperoleh kembali
+akses ya aset yang teman-teman miliki oke
+tapi kalau di sini teman-teman belum memiliki
+ya teman-teman bisa klik create a new wallet
+oke kemudian
+create a seat face
+ya dan ini adalah password
+ya untuk nanti membuka wallet teman-teman ya ingat ya
+untuk membuka
+wallet teman-teman
+jadi jangan
+sampai ininya lupa ya
+tapi kalau lupa ada seat face-nya aman
+nah ini teman-teman bisa
+ya lihat ya recovery fresh-nya
+jangan dikasih tahu ke orang lain
+kecuali orang yang teman-teman percaya
+ya saya pun masih simpan seat fresh saya sendiri
+dan ini
+harus teman-teman type in ya jangan di screenshot
+ya tapi kalau ini untuk kebutuhan konten
+ya kita screenshot aja
+oke kemudian klik i save my recovery face
+continue ya you're all done dan kemudian get started
+ya teman-teman udah bisa memperoleh akses
+wallet di jaringan
+solana ya phantom wallet-nya teman-teman udah dapat
+tapi balik lagi
+it's a blank space ya di sini teman-teman
+harus ya deposit uang
+untuk transaksi
+ya caranya gimana
+karena ini di jaringan solana
+ya di toko crypto-nya sini ya saya bisa
+beli ya untuk solana sol usdt oke
+saya misalkan di sini juga beli ya market
+$500
+oke
+ya saya klik beli sol
+dan saya udah memiliki sol
+di dompet saya oke
+saya bisa klik di sini tarik
+tarik solana
+ya kemudian
+alamat penerimanya ya solana yang akan saya kirim
+ya di sini oke
+teman-teman
+bisa ya klik receive di sini dan receive ya solana oke
+meskipun ya phantom
+ini khusus ya secara otomatis
+ya orang pakai di jaringan
+solana tapi jaringan lain juga support
+ya bahkan dia support
+jaringan ethereum dan juga jaringan bitcoin
+ya teman-teman di sini bisa copy address-nya solana
+ya paste di sini ya jumlahnya bisa teman-teman
+ya Max di sini ya
+ini harus ada namanya
+dan teman-teman klik kirim oke
+untuk mengirimkan ya teman-teman
+masuk ke dalam
+wallet phantom-nya nah di sini
+udah masuk ya untuk
+solana-nya ya teman-teman bisa lihat di sini 500
+us dollar ya untuk solana
+di sini nah
+selanjutnya oke
+nah selanjutnya kalau teman-teman mau transaksi
+ya teman-teman bisa
+menggunakan ya Jupiter
+exchange ya untuk
+teman-teman
+swapping ya berbagai token token ya di jaringan solana
+ya keistimewaan solana ya ini adalah memang mereka
+sangat cepat
+ya jauh lebih cepat dari ethereum
+mereka sangat murah oke
+tapi memang dari segi keamanan ya ini
+harus dikit
+diperhatikan ya
+teman-teman klik ya Jupiter
+atau job dot ag di Google ini
+dan kemudian teman-teman di bagian kanan klik connect
+wallet oke teman-teman
+bisa ya connect phantom wallet yang teman-teman miliki
+ya klik connect
+nah ini udah secara otomatis ya teman-teman
+udah terkoneksi dengan jaringan solana ya di sini nah
+selanjutnya
+ya kalau teman-teman mau transaksi
+ya di jaringan solana
+teman-teman bisa cari
+token token yang ada dan juga dibangun
+di atas jaringan solana
+ya ini contohnya adalah misalkan ini adalah
+fart coin ya
+teman-teman cari addressnya di sini di bagian
+sini ya info
+kontrak address
+terus kemudian teman-teman copy ya di sini
+dan kemudian
+teman-teman rubah ya di sini untuk solana buying
+kartu teman-teman paste ya klik kartu-nya
+dan ya teman-teman bisa sesuaiin ya mau berapa misalkan
+Max itu semuanya atau misalkan nih half
+ya setengah oke
+di sini klik swab
+konfirmasi
+dan
+udah ya secepat itu ya tadi kalau di ethereum itu times
+ya tapi kalau di jaringan
+solana ya ini sangat cepat
+ya ini teman-teman udah
+punya ya part
+koin 351 koin oke
+terus kalau teman-teman ya ini mau lihat ya kira-kira
+part coinnya ini gimana ya performa
+harganya ya teman-teman bisa ya pakai dex screener
+di sini ya
+dan kemudian untuk page
+di bagian search-nya sini ya ya
+untuk melihat
+ya gimana perkembangan ya
+part coin yang teman-teman miliki
+ya misalkan ini oke dia
+daily chart ya cenderung downtrend ya
+dia di sini bisa teman melihat ya ada potensi support
+ya untuk dia mengalami bounce
+jadi misalkan bisa melakukan pembelian berkala di sini
+nah selanjutnya
+kalau teman-teman
+di sini mau lihat ya performa
+portofolionya
+teman-teman bisa ke laman ya jmjn dot com ya
+jadi jmgn tuh stand for good morning
+good night ya dan bisa type in jmgn
+ya untuk melihat bagaimana performa dari
+wall teman-teman
+teman-teman bisa copy ya di sini
+ya address solananya
+kemudian teman-teman klik ya di bagian sini nah
+nah ini bisa teman-teman lihat nih ya
+di sini kelihatan nih
+token apa aja yang teman-teman miliki
+ya di sini adalah udah masuk fart coin-nya ya nanti
+windred dan pnl-nya akan kelihatan di sini ya
+bahkan jumlah
+solana yang kita holding
+pun juga bisa kelihatan ya di sini nah ini reason pnl
+ini solana kita ini
+card coin kita jadi ini adalah alat yang teman-teman
+gunakan untuk tracking portofolio
+tracking progres
+trading teman-teman di jaringan solana jadi itu ya
+yang udah saya ajarkan di jaringan ethereum
+udah di jaringan solana udah
+selanjutnya
+kita akan bahas ya tips yang lebih advance
+buat teman-teman yang mau trading
+di jaringan dex
+sampai berjumpa
+di modul ke-5

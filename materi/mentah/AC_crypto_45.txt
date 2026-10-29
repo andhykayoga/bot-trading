@@ -1,0 +1,214 @@
+of testing dari akademi crypto
+di modul ke-2 kali ini ya kita akan membahas ya
+mengenai decentralized exchange atau dex
+jadi apa sih dex itu ya jadi
+dex itu merupakan ya
+istilah lain dari decentralized exchange jadi
+dex merupakan tempat
+teman-teman
+melakukan suatu transaksi cryptocurrency
+yang mana terdesentral
+sehingga teman-teman tidak membutuhkan pihak ke-3
+jadi ketika teman-teman ini
+transaksinya ini menggunakan
+misalkan ya koin base
+ya kemudian binance
+bybit ya indodax toko crypto
+dan lain sebagainya teman-teman itu tidak menggunakan
+dex tapi teman-teman
+menggunakan cek
+atau centralist exchange
+yang mana ya indodax toko crypto binance
+bybit itu adalah pihak ke-3
+yang menjadi penembatan
+transaksi teman-teman
+kepada blockchain
+tapi kalau di dex teman-teman benar-benar
+langsung ya bertransaksi di onchain ya atau dari
+jaringan blockchain sehingga
+dex ini merupakan suatu alat yang teman-teman gunakan
+yang mana dex ini teman-teman ini tidak membutuhkan
+bank ya tidak membutuhkan
+broker dan juga
+tidak membutuhkan pihak payment yang lain
+maka dari itu ya
+onchain ini kaitannya dengan
+dex ini sangat erat ya karena ketika
+teman-teman mau bertransaksi onchain
+teman-teman tuh harus menggunakan
+decentralized exchange
+yang mana ya beberapa network
+tertentu ya atau beberapa jaringan onchain
+tertentu ini bahkan
+secara spesifik
+mengharuskan ya menggunakan
+desentralis exchange yang spesifik juga atau tertentu
+misalkan nih ya koin a ya project a ini
+membuat suatu jaringan blockchain a
+ini untuk mengakses jaringan blockchain a ini kadang
+harus menggunakan
+desentralize exchange yang a
+khusus sekali
+jadi desentralize exchange atau dex itu ada tiga
+tipe teman-teman ya satu automatic market maker
+ke-2 adalah order book
+dan ke-3 adalah dex aggregator yang mana order
+book ini nanti
+dibagi ke dalam dua ya satu
+on chain order book ya
+yang mana di sini ya order book-nya ini
+transaksi terjadi di atas
+jaringan blok chain ya tapi dananya
+user-nya ini tetap ada di
+wallet ya sehingga lebih aman
+tapi kalau yang off chain
+order book ya jadi ketika transaksi terjadi ya di luar
+jaringan block chain ya sehingga
+teman-teman uangnya ini udah dibuat antri order duluan
+ini yang membedakan
+automatic market maker ya atau amm
+yaitu suatu sistem dex yang mana
+menggunakan
+atau menyelesaikan masalah likuiditas
+untuk transaksi itu menggunakan
+liquidity pool atau DANA yang
+sudah ada ya dari proses pendanaan
+sehingga ketika teman-teman menggunakan amm ya ini
+secara otomatis ya protokolnya itu menggunakan
+liquidity
+pool ya untuk dijamin suatu likuiditas transaksi
+jadi contohnya
+amm ini adalah
+uniswap curve dan juga balance jadi
+amm ini merupakan
+salah satu ya dex yang paling favorit digunakan
+ya yang paling banyak di dunia ini adalah
+amm atau automatic market maker
+yang ke-2 ya tipe dex yang menggunakan order
+book ya jadi sistemnya ini mirip dengan cek cuman dia
+di atas jaringan blockchain
+sehingga order book
+ini memperlihatkan ya suatu transaksi
+penjualan dan juga pembelian dari para
+trader ya atau user
+yang mana contohnya ini adalah
+uvidex ya kemudian revenue dan juga jam device
+yang mana order book dex ini juga masih
+relatif sedikit
+ya teman-teman
+karena yang paling banyak itu tetap yang
+amn yaitu automatic market maker
+nah yang ke-3 ya dex yang tipenya adalah agregator
+atau agregator dex jadi
+agregator dex itu merupakan suatu dex ya
+yang mana dia sistemnya ini mengumpulkan
+likuiditas dari berbagai
+dex yang ada ya jadi istilahnya
+aggregator dex ini dex-nya yang broker aja ya
+dia mungkin nggak punya likuiditas
+ya mungkin dia juga nggak ada order book-nya tapi
+dia mengumpulkan ya berbagai order
+book order book ya atau likuiditas lain
+yang dimiliki oleh
+dex lain sehingga ketika transaksi menggunakan
+agregator dex yang mungkin aja
+ngambil dari dex a ya ngambil dari dex b
+ngambil dari dex c
+masalah likuiditasnya jadi
+contohnya agregator dex ya ini adalah agregator
+one inch dan juga altvins
+apa sih keuntungannya menggunakan
+dex ya jadi teman-teman satu
+dex itu sifatnya sangat anonim
+sehingga tidak memerlukan kyc kalau teman-teman
+mau binance pakai binance ya pakai bybit
+ya pakai indodex itu kan teman-teman harus store ktp
+atau store sim
+dan juga store wajah tapi
+ya di sini dex ini ya
+ini teman-teman nggak perlu melakukan itu semua
+ya tapi jangan dijadikan suatu
+alat ya untuk melakukan
+tindakan kejahatan ya misalkan nge scam
+atau menggelapkan DANA
+ya atau melakukan pencucian uang
+menggunakan dex ya itu nggak boleh ya jadi
+banyak sekali ya memang digunakan
+dex itu untuk berbagai aktivitas
+yang tidak baik tersebut ya tapi teman-teman harus
+tetap membatasi dan tahu batasan moral ya menggunakan
+dex ini terus kemudian dua
+dex itu pilihan tokennya lebih banyak daripada cex
+ya karena apa karena ketika
+teman-teman mau buat koin nih baru listing
+ini pasti di dex ada
+tapi di cex itu
+pasti nggak ada ya karena belum launching di central
+exchange karena dex itu sifatnya datang
+pertama kali ya
+semua pun bisa di swab ya di dalam dex
+sehingga dex itu ya menggunakan
+berbagai pilihan yang ada yaitu bisa membeli
+koin-koin tertentu yang belum rilis di pasaran
+sehingga teman-teman punya time advantage
+misalkan nih ya project ini terbang tinggi misalkan
+kalau teman-teman belinya di cek
+yaitu biasanya 10
+naik 10 kali lipat tapi kalau teman-teman belinya di
+dex ketika awal awal launching itu mungkin
+teman-teman bisa dapat yang 100 kali lipat
+yang ke-3 ya transaksi ini dilakukan
+di dalam smart contract guys
+sehingga relatif lebih kecil ya kesalahan
+yang bisa teman-teman minimalisir
+desk sendiri memiliki beberapa kelemahan teman-teman
+salah satunya ya
+ini desk ini relatif lebih sulit daripada
+cek ya kalau cek
+kan teman-teman tinggal wah
+submit email ya oh saya mau beli koin ini market buy
+ya tapi kalau desk ini kan
+prosesnya agak banyak nih teman-teman
+sehingga teman-teman harus benar-benar
+ngulik sendiri
+cari tahu sendiri ya sebelum bertransaksi di dex
+kemudian
+ke-2 ya ini kemungkinan kesalahan relatif tinggi
+ya karena kan kadang teman-teman harus ngatur ya
+slipage-nya berapa
+ya kemudian cara ngeksekusi nge swap kontrak gimana
+ya kemudian
+kontraknya mana yang benar ya ini kan sering
+menyebabkan suatu kesalahan
+ya kesalahan teknis lah
+dan yang ke-3
+banyak sekali ya teman-teman tindakan
+scam atau penipuan ini yang dilakukan
+menggunakan
+desentralisasi exchange
+jadi teman-teman harus berhati-hati
+jadi ketika teman-teman hendak ya men
+swap suatu kontrak tertentu atau membeli suatu token
+alangkah lebih baiknya teman-teman
+double cek triple cek ya bahkan cek
+10 kali kalau bisa ya ini udah bener atau belum
+kontraknya sebelum teman-teman
+bertransaksi nah dalam dek
+sendiri ya ini
+fiturnya juga sama ya seperti cek
+atau central exchange
+jadi teman-teman ini bisa spot trading bisa ya
+derivatif trading bisa
+ya contohnya
+spot trading ini ya
+pancake swap ya uni swap dan sushi swap sementara
+derivatif trading ya ini contohnya adalah
+dydx atau gmx ya
+jadi teman-teman ini bisa ya bertransaksi menggunakan
+leverage menggunakan
+decentralized exchange
+jadi apakah teman-teman
+sudah siap ya melakukan trading
+on chat dengan menggunakan desentralisasi exchange
+oke saya alvesti dari akademi crypto
+sampai berjumpa di video selanjutnya

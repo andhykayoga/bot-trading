@@ -1,0 +1,267 @@
+Halo guys kembali lagi dengan saya
+kali masada dari akademi crypto
+kita masuk bagian ke-4
+dex trading
+ya tutorial
+di mana sebelum kita mulai videonya
+saya ingin ungkapin ke teman-teman
+nothing i say is financial advice
+video ini adalah analisa internal yang kita lakukan
+nah teman-teman
+sebelumnya udah saya ajarin gimana
+caranya mengeksplorasi jaringan etereum
+sekarang kita akan coba eksplorasi jaringan solana
+nah untuk teman-teman yang mau
+eksplorasi di jaringan solana
+ini ada beberapa tools ya
+beberapa alat
+yang bisa teman-teman gunakan nih ya
+jadi kita nggak terafiliasi
+kita juga nggak bekerja sama
+dengan berbagai tools
+tools yang kita sajikan
+ini murni tools yang beneran kita pakai ya
+kalau teman-teman mau trading di di soalan
+ekosistem ini
+teman-teman pertama butuh yang namanya phantom wallet
+ya sebelumnya
+itu ada metamas wallet
+tapi metamas wallet apakah bisa dipakai di sini
+jawabannya enggak
+karena metamas wallet tidak support dengan jaringan
+solana ya
+yang support
+dengan jaringan
+netifnya solana itu adalah phantom wallet
+yang yang mana ya
+ini gambarnya hantu ya
+hantu warna ungu
+kemudian ke-2
+Jupiter exchange
+ya Jupiter exchange ini adalah alat swap ya
+descentralized exchange
+dex yang dia compatible dengan jaringan solana
+tadi kita pakai uniswap ya
+uniswap itu nggak bisa dipakai di jaringan solana
+dan ke-3 inilah dex cleaner
+ini alat yang biasanya dipakai anak-anak solana transes
+ya atau mereka yang trading di solana
+untuk bisa melihat
+ya performa dari kontrak address mereka seperti apa
+dan terakhir
+kalau sebelumnya ya
+kita pakai zerion
+di sini kita pakai gmgn
+ini adalah yang biasanya ya dipakai
+anak-anak yang trading di solana ekosistem
+nah pertama-tama
+sama seperti
+metamas tadi ya teman-teman harus melakukan
+download ya phantom wallet ya
+oke kita
+coba nih ya nah
+di bagian sini
+oke kita type in ya download
+phantom
+nah
+oke kita klik download phantom wallet ya kita klik
+download ya di sini
+nah ya kita bisa download ya phantom wallet di sini
+teman-teman bisa type in
+ya di chrome ya web store
+klik at chrome
+kemudian x extension
+nah di sini akan secara otomatis
+ya ter download
+dan kita bisa klik kanan di sini
+terus kita pin ya tadi kita udah pin metamask-nya
+sekarang kita juga pin ya phantom wallet-nya
+nah di sini teman-teman bisa create a new wallet
+kalau teman-teman belum
+pernah punya phantom wallet sebelumnya
+tapi kalau teman-teman udah pernah punya phantom wallet
+sebelumnya dan teman-teman simpan
+tadi yang saya bilang namanya seat face 12 kata
+teman-teman bisa klik di sini ya
+i already have a wallet
+oke kemudian
+di sini teman-teman import recovery face
+ya terus teman-teman type in ya 12 katanya
+ini secara otomatis
+teman-teman
+bisa memperoleh kembali akses
+ya aset yang teman-teman miliki
+oke tapi kalau di sini teman-teman belum memiliki
+ya teman-teman bisa klik create a new wallet
+oke kemudian
+create a seat fresh ya
+dan ini adalah password
+ya untuk nanti membuka wallet teman-teman ya ingat ya
+untuk membuka
+wallet teman-teman
+jadi jangan
+sampai ininya lupa ya
+tapi kalau lupa ada seat face-nya aman
+nah ini teman-teman bisa ya lihat
+ya recovery fresh-nya
+jangan dikasih tahu ke orang lain
+kecuali orang yang teman-teman percaya ya
+saya pun masih simpan seat fresh saya sendiri
+dan ini harus teman-teman type in ya
+jangan di screenshot ya
+tapi kalau ini untuk kebutuhan konten
+ya kita screenshot aja
+oke kemudian klik i save my recovery face
+continue ya
+you're all done
+dan kemudian get started ya
+teman-teman udah bisa memperoleh akses
+wallet di jaringan solana
+ya phantom wallet-nya teman-teman udah dapat
+tapi balik lagi
+it's a blank space ya
+di sini teman-teman
+harus ya deposit uang
+untuk transaksi ya
+caranya gimana
+karena ini di jaringan solana ya
+di toko crypto-nya sini ya saya bisa
+beli ya untuk solana
+sol usdt
+oke saya misalkan di sini juga beli ya
+market
+$500
+oke
+ya saya klik beli sol
+dan saya udah memiliki sol
+di dompet saya
+oke saya bisa klik di sini tarik tarik solana ya
+kemudian
+alamat penerimanya ya solana yang akan saya kirim
+ya di sini oke
+teman-teman
+bisa ya klik receive di sini dan receive ya solana
+oke
+meskipun ya
+phantom ini khusus ya
+secara otomatis ya orang pakai di jaringan solana
+tapi jaringan lain juga support ya
+bahkan dia support
+jaringan ethereum dan juga jaringan bitcoin ya
+teman-teman di sini bisa copy address-nya solana ya
+paste di sini ya
+jumlahnya bisa teman-teman ya
+Max di sini ya
+ini harus ada namanya
+dan teman-teman klik kirim
+oke untuk mengirimkan ya teman-teman
+masuk ke dalam
+wallet phantom-nya
+nah di sini
+udah masuk ya untuk
+solana-nya ya teman-teman bisa lihat di sini 500
+us dollar ya untuk
+solana di sini
+nah selanjutnya
+oke nah selanjutnya kalau teman-teman mau transaksi
+ya teman-teman bisa
+menggunakan ya Jupiter exchange ya
+untuk teman-teman
+swapping ya berbagai token token ya di jaringan solana
+ya keistimewaan solana ya ini adalah memang mereka
+sangat cepat
+ya jauh lebih cepat dari ethereum
+mereka sangat murah
+oke tapi memang dari segi keamanan ya ini
+harus dikit
+diperhatikan ya
+teman-teman klik ya Jupiter
+atau job dot ag di Google ini
+dan kemudian teman-teman di bagian kanan klik connect
+wallet oke
+teman-teman
+bisa ya connect phantom wallet yang teman-teman miliki
+ya klik connect
+nah ini udah secara otomatis ya teman-teman
+udah terkoneksi dengan jaringan solana ya di sini
+nah selanjutnya
+ya kalau teman-teman mau transaksi
+ya di jaringan solana
+teman-teman bisa cari
+token token yang ada dan juga dibangun
+di atas jaringan solana ya
+ini contohnya adalah misalkan ini adalah fart coin ya
+teman-teman cari address-nya di sini
+di bagian sini ya info kontrak address
+terus kemudian teman-teman copy ya di sini
+dan kemudian
+teman-teman rubah ya di sini
+untuk solana buying
+kartu teman-teman paste ya klik kartu-nya
+dan ya teman-teman bisa sesuaiin ya mau berapa misalkan
+Max itu semuanya
+atau misalkan nih half
+ya setengah
+oke
+di sini klik swab
+konfirmasi
+dan
+udah ya secepat itu ya tadi kalau di ethereum
+itu times
+ya tapi kalau di jaringan
+solana ya ini sangat cepat
+ya ini teman-teman udah punya ya
+fart coin 351 koin
+oke terus
+kalau teman-teman ya ini mau lihat ya kira-kira
+part coinnya ini gimana ya performa
+harganya ya teman-teman bisa ya pakai dex screener
+di sini ya
+dan kemudian untuk paste
+di bagian search-nya sini ya
+ya untuk melihat ya gimana perkembangan ya
+part coin yang teman-teman miliki ya
+misalkan ini oke dia
+daily chart ya cenderung downtrend ya dia
+di sini bisa teman melihat ya ada potensi support
+ya untuk dia mengalami bounce
+jadi misalkan bisa melakukan pembelian berkala di sini
+nah selanjutnya
+kalau teman-teman
+di sini mau lihat ya performa
+portofolionya
+teman-teman bisa ke laman ya jmjn dot com ya
+jadi jmgn tuh stand for good morning
+good night ya
+dan bisa type in jmgn ya
+untuk melihat
+bagaimana performa
+dari wall teman-teman
+teman-teman bisa
+copy ya di sini
+ya address solananya
+kemudian teman-teman klik ya di bagian sini
+nah
+nah ini bisa teman-teman lihat nih ya
+di sini kelihatan nih
+token apa aja yang teman-teman miliki
+ya di sini adalah
+udah masuk fart coin-nya ya
+nanti win rate dan pnl-nya akan kelihatan di sini ya
+bahkan jumlah
+solana yang kita holding
+pun juga bisa kelihatan ya di sini
+nah ini reason pnl
+ini solana kita
+ini card coin kita
+jadi ini adalah alat yang teman-teman gunakan
+untuk tracking portofolio
+tracking progres trading teman-teman di jaringan solana
+jadi itu ya
+yang udah saya ajarkan di jaringan ethereum udah
+di jaringan solana udah
+selanjutnya
+kita akan bahas ya tips yang lebih advance
+buat teman-teman yang mau trading
+di jaringan dex sampai
+berjumpa di modul ke-5

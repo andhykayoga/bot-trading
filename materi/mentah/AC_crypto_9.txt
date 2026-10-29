@@ -1,0 +1,190 @@
+Halo guys kembali lagi dengan saya kali masada
+dari akademi crypto kita masuk modul ke-2 mengenai
+dex trading tutorial sebelum
+saya mulai saya ingin ungkapkan ke teman-teman notting
+IC is financial advice
+ini adalah video analisa
+internal teman-teman harus memiliki konsiderasi tinggi
+sebelum transaksi aset crypto apapun
+nah sebelumnya saya udah menjelaskan ke teman-teman
+apa itu cek
+ya apa itu dex
+nah ini kita akan
+melanjutkan
+mengenai sistem yang bisa kita eksplorasi dari cek
+dan juga dari
+dex ya perbedaannya apa ya secara struktural
+nah pertama saya udah jelasin ke teman-teman
+bahwa segala transaksi di dalam
+central exchange atau cek itu diproses
+oleh satu entitas
+itu artinya apa satu entitas ini menyediakan
+semua platformnya
+menyediakan semua fasilitasnya untuk teman-teman
+bukan hanya transaksi
+tapi melihat info yang lain seperti info grafis
+info data atau
+info Update
+bahkan tentang market
+di mana kalau kita lihat ya di sini cek
+yang ini semua disediakan wallet-nya tempat
+teman-teman menyimpan aset crypto-nya dua
+chart-nya ya
+ini udah ada
+ke-3 ya sistem perdagangannya oke teman-teman
+bisa langsung pakai sistem perdagangan di
+ceknya itu sendiri
+kemudian ke-4 ya tentang
+additional info dan juga
+perkembangan ya portofol yang teman-teman miliki
+itu kalau di cek
+itu disediakan di satu tempat
+sementara kalau teman-teman
+menggunakan
+decentralized exchange
+seperti yang saya jelaskan sebelumnya
+ya ini ada banyak
+entitas yang mendukung
+dia bisa melakukan transaksi perdagangan ya
+wallet-nya ini teman-teman harus set up wallet sendiri
+yang mana wallet-nya juga harus compatible dengan
+alat perdagangannya ya atau swab-nya atau
+ya kita bilang
+dex-nya desentralisasi exchange-nya
+ke-2 teman-teman kalau mau lihat
+chart-nya ya kira-kira kontrak address ini
+token ini naik atau turun itu teman-teman juga
+membutuhkan ya alat tersendiri ya
+kemudian untuk swapping-nya
+ya untuk transaksinya ini butuh alat sendiri dan
+untuk menyediakan info
+yang lain-lain juga teman-teman juga cari sendiri ya
+token mana yang mau naik
+kira-kira oke nah ini adalah contohnya ya
+kita pakai toko crypto salah satu exchange di Indonesia
+dia relatif memiliki ya sistem
+all in one ya kalau teman-teman bisa lihat ya
+mana di sini
+ya semua ini disediakan ya oleh toko crypto
+ya ini ekosistemnya
+di sini ya semua relatif lengkap
+kita juga nggak terafiliasi
+nggak bekerja sama juga ya dengan
+tokoh crypto tapi kita akan cover ini untuk membantu
+teman-teman ya di mana dia
+ini adalah dompetnya ya yang saya bilang tadi ya butuh
+ada dompet ya ini estimasi saldo 16.000.000
+atau sekitar $1.000
+ingat ya dompet itu tempat
+teman-teman menyimpan aset crypto-nya
+jadi crypto wallet itu adalah alat ya untuk menyimpan
+aset crypto teman-teman kemudian
+untuk melihat
+chart-nya ya ini teman-teman bisa pilih
+pair pair-nya ya idr atau USD di mana
+teman-teman lihat USD di sini nah ini kelihatan
+ya teman-teman di mana
+teman-teman bisa melihat bitcoin dari manly
+chart ya kemudian daily chart
+teman-teman bisa lihat ya aset aset USD yang lain
+ya ini one cat oke sets
+one ins dan lain sebagainya
+jadi di sini teman-teman melihat ya semuanya
+disajikan di dalam satu tempat
+yang sama ya
+nah ini sangat berbeda kalau teman-teman nanti pakai
+decks di mana semua ini nggak di kasih
+ya ke teman-teman
+jadi teman-teman bisa langsung transaksi di sini
+dan nanti juga bisa ya misalkan
+di sini teman-teman lihat ya infografis perkembangan
+aset yang teman-teman miliki
+ya itu yang membedakan dengan dex
+di mana nanti kalau dex ini ini semua nggak dikasih ya
+ya ini semua nggak dikasih
+itulah kenapa saya bilang interface-nya sangat mudah
+ya kalau teman-teman ini pakai
+cex bukan pakai dex
+teman-teman pun
+juga bisa ya melakukan top up ya atau merubah
+idr kalian menjadi crypto
+di mana di bagian setoran
+di sini teman-teman bisa melakukan
+pembelian crypto
+langsung menggunakan
+rupiah ya di sini pun teman-teman bisa langsung top up
+ya dengan Bri dengan
+OVO wallet ya dengan curious dan lain sebagainya
+jadi mekanismenya seperti ini ya teman-teman menukarkan
+fiat atau uang
+giro ya yang ada di rekening saldo teman-teman
+untuk itu kemudian jadi crypto
+ya di desentralisasi exchange
+dan nanti teman-teman perdagangkan
+kalau teman-teman mau
+perdagangkan di
+dex ya berarti teman-teman kirim koin crypto dari
+cex atau centralized exchange
+dompet centralized exchange ini ke
+decentralized exchange ya nanti kita juga akan
+ya sediakan caranya
+supaya teman-teman ini bisa lebih mengerti lagi
+nah seperti yang saya udah jelasin
+ya sebelumnya chart-nya bisa dilihat secara langsung
+oke informasi dan lain sebagainya
+semuanya serba terpusat ya bahkan di platform seperti
+toko crypto ini teman-teman bisa ya melakukan pembelian
+berkala ya atau dca
+secara langsung ya di sini
+melakukan pembelian oke untuk dex
+semua harus dikerjakan
+serba mandiri ya atau dikerjakan sendiri
+pertama teman-teman
+harus download yang namanya
+crypto wallet ya untuk transaksi di
+dex ya ada banyak sekali crypto wallet tapi
+crypto wallet tersebut biasanya
+ada yang support dengan jaringan tertentu dan tidak
+ya itulah mengapa teman-teman
+harus memiliki beberapa
+ya crypto wallet ya contohnya metamas oke coin base
+wallet kemudian trust wallet
+dan lain sebagainya
+di sini ya teman-teman kalau mau melihat ya
+chart-nya itu pun juga harus menggunakan
+platform tersendiri ya namanya dex screener
+atau dex tools
+nanti akan kita praktekkan juga
+gimana caranya menggunakan
+ya berbagai platform platform ini
+ya ini akan saya kasih tahu
+ya tadi kalau udah dicek semuanya bisa
+jadi satu ya di toko crypto aja
+tapi kalau teman-teman mainnya di
+dex ya ini dompetnya aja butuh install sendiri kemudian
+butuh lihat chart di platform berbeda
+dan tracking
+portofolionya juga di tempat yang berbeda ya
+di mana nanti kalau swap
+ya ini ada banyak sekali ya
+descentralized exchange ya ada pancake swap ada
+uni swap ya
+kemudian ada sushi swap
+ya ada Jupiter dan lain sebagainya
+ya nanti akan kita ajarin nih gimana caranya swaping
+token tertentu nah
+dan untuk melihat ya infografisnya teman-teman juga
+harus pakai ya kira-kira grow nggak portofolio saya
+kira-kira hari ini saya udah loss duit berapa banyak
+hari ini saya grow duit berapa banyak
+itu teman-teman ya harus
+menggunakan
+platform yang berbeda pula
+ya kalau teman-teman
+di sini menggunakan
+decentralized exchange ya
+jadi kita akan lanjutkan ke modul ke-3
+ya mengenai
+caranya ya eksplorasi di jaringan ethereum
+nanti juga di jaringan
+solana sampai berjumpa di modul ke-3

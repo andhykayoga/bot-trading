@@ -1,0 +1,714 @@
+kali ini kita
+masuk di bagian dua
+crypto technical indicators atau cti
+jadi di bagian ke-2
+kita akan membahas indikator yang bernama
+pivot points
+jadi sebenarnya apa sih pivot point
+itu jadi pivot point itu merupakan suatu titik tinggi
+ya dan titik rendah yang ekstrem
+dalam suatu harga jadi
+teman-teman
+bisa juga ya menggunakan
+pivot point ini untuk menggambar
+support dan resistance ya
+karena kadang
+mungkin ya teman-teman masih belum terlalu jago atau
+mahir ketika menggambar horizontal line
+ketika teman-teman menentukan support dan resistance
+fungsinya pivot point
+ini untuk membantu ya
+teman-teman mengidentifikasi mana yang support
+ya kan mana yang resisten
+secara otomatis teman-teman
+jadi tinggal klik indikator nanti
+udah dijabarkan ya mana titik
+rendah ekstrimnya mana titik tinggi ekstrimnya
+nah di sini saya akan mengajarkan cara menghitung
+pivot point
+jadi gimana sih cara menghitung pivot point
+dan apa pentingnya jadi sebenarnya
+di sini nggak ada yang
+nanya ya nanti oh cara menghitung pivot point karena
+ketika teman-teman apply
+indicators ini udah secara otomatis
+bisa teman-teman gunakan
+jadi ini hanya sekedar trivia aja jadi untuk menghitung
+rata-rata harga hari ini ya
+menggunakan
+ya rumus a yaitu average yaitu
+sama dengan ya
+h harga paling tinggi high ditambah l low
+harga yang paling rendah ditambah
+close harga penutupan
+dibagi tiga
+kemudian untuk melihat ya proyeksi harga tertinggi
+selanjutnya itu adalah
+dua kali ya harga rata-rata dikurangi low
+harga paling rendah hari ini kemudian untuk
+memproyeksikan
+ya harga terendah selanjutnya itu adalah dua kali
+harga rata-rata ya
+dikurangi dengan harga yang paling tinggi
+dan yang ke-4 ya untuk
+mengetahui ya proyeksi titik tinggi
+dan kemudian yang ke-4 untuk mengetahui titik tinggi
+ekstrem harga
+ya ini adalah harga
+average atau rata-rata ya ditambah dengan
+harga tertinggi
+ya dikurangi harga paling rendah
+kemudian untuk memproyeksikan titik ekstrem
+rendah selanjutnya itu adalah
+average atau rata-rata dikurangi harga paling tinggi
+dikurangi harga paling rendah
+ini di sini
+nah di sini saya akan menjelaskan
+ya cara memilih setting
+pivot points di trading view
+jadi teman-teman klik yang bagian indicators
+kemudian teman-teman typing di situ
+pivot point standar
+jadi yang kita gunakan
+di sini adalah
+pivot point standar
+karena yang paling standar di trading view
+dan kemudian di sini teman-teman bisa ya memilih
+tipenya apa ya entah tradisional
+fibonacci Yahudi classic DM atau camarila tapi untuk
+mempermudah teman-teman
+teman-teman klik yang tradisional aja
+karena algoritmanya ini udah disesuaikan dengan
+kebutuhan market secara Umum
+jadi teman-teman nggak usah setting
+setting lagi ya settingnya
+default aja tapi pilih ya default points standar
+selanjutnya
+tapi teman-teman bisa Meng customize
+ya pola warna ya untuk titik titiknya kenapa kok pola
+warnanya itu harus berbeda ya ini untuk mempermudah
+ya teman-teman mengidentifikasi ya mana
+pivot point-nya ya mana titik r-nya ya mana titik s-nya
+ya ini karena ketika
+default ini warnanya semua sama teman-teman
+jadi kalau saya saranin
+ya teman-teman
+ini dirubahlah warnanya kenapa ya karena
+supaya lebih mudah aja
+mengidentifikasi support
+resistance dan pivot nah
+jadi kita akan menjelaskan ya di sini bagian dari
+pivot point
+tuh ada apa aja
+jadi di pivot point tuh ada tiga teman-teman
+satu itu adalah pivot point
+atau titik sumbu utamanya
+jadi kita akan
+selalu membahas masalah p ya pivot point
+karena pivot point ini adalah semacam
+episentrumnya saya bilang episentrum ya dalam
+private point trading strategi
+dan yang ke-2 ya itu adalah support point
+ya atau titik support titik area beli
+dan yang ke-3 ya resistance point
+atau titik resistance saya selalu
+saya selalu
+menyarankan ya teman-teman untuk hanya menggunakan
+atau centang tiga titik support aja
+dan centang tiga titik resistance
+aja kenapa karena
+bisa ya 4 5 tapi itu bener-bener out of rich dan itu
+butuh waktu yang cukup lama untuk swing
+mencapai ke sana
+sehingga teman-teman yang suka intraday trading
+suka scalping
+ini selalu fokus ke tiga support dan tiga resistance
+oke teman-teman
+bentuk pivot point
+itu seperti ini ya jadi saya kasih warna ya yang biru
+ya yang di sini
+itu adalah titik support
+bumbunya kemudian di sini resistensi
+ya kalau teman-teman
+long ini target profitnya itu warnanya hijau
+dan yang di bawah di sini adalah s1 s2 s3
+apa ini ini adalah support 1 ya support 2 support 3
+jadi pivot point
+ini membuat suatu
+algoritma ya algoritma yang otomatis ya menggambar
+garis horizontal yang otomatis
+dari matematik equation tadi
+jadi teman-teman nggak usah gambar-gambar horizontal
+saya bingung ya menentukan support dan resisten
+tinggal klik pivot point terus
+identifikasi di situ ya mana support-nya
+ya mana resistance-nya
+di mana teman-teman harus masuk di mana teman-teman
+harus keluar
+jadi fokus pada
+tiga titik support dan tiga titik resistance aja
+di luar itu udah out of
+rich dan teman-teman akan kehilangan fokus
+ya ketika mengaplikasikan ya
+trading menggunakan pivot strategi jadi saya selalu
+suka ya kata-kata kiss ya
+k i s s ya keep it simpel stupid ya selalu
+teman-teman
+simplicity is king ya simplicity itu adalah segalanya
+cara menggunakan
+pivot point itu dua
+ya teman-teman satu untuk
+mengidentifikasi area entry
+dan ke-2 adalah mengidentifikasi support dan resistance
+nah ini contohnya ya ketika titik
+pivot ya dijadikan suatu area entry long
+jadi ketika teman-teman hendak melakukan
+suatu entry long
+ini biasanya teman-teman harga itu
+sedang berkonsolidasi di titik hijau atau harga
+ini sedang ada di titik resistensi ya ya harga
+nih ya misalkan naik
+kemudian dia di sini misalkan sedang berkonsolidasi
+ya di titik resistance
+itu teman-teman jangan asal long ingat ya
+long nggak boleh di resistance
+long di mana di di support
+di resistance itu ketika teman-teman ngeluarin long-nya
+oke nah kemudian di sini dalam
+skenario ini ya yang ideal itu adalah ketika harga
+itu turun ya
+turunnya itu ke titik pivot
+karena ingat ya teman-teman ini
+mirip dengan konsep
+0,5 dan 0,618 dari golden area fibonacci di mana harga
+itu ya selalu tertarik ke sana seperti sebuah money
+magnet di pivot pun
+ini juga sama teman-teman
+di mana anda
+suatu algoritma ya atau kecenderungan harga ini selalu
+bergerak ke area
+pivot jadi ketika harga berkonsolidasi di resistance
+ini area hijau ini
+teman-teman jadikan pivot ini sebagai suatu area
+entry ya yang teman-teman
+anggap ideal sebelum melakukan suatu long
+jadi teman-teman masuk di sini ya
+kemudian teman-teman di sini pasang posisi long
+entry long di area pivot yang mana biru ini
+terus kemudian stop
+loss-nya mana yaitu
+stop loss di antara ya teman-teman di bawah
+bisa ya teman-teman taruh di bawah pivot sini
+tapi kalau teman-teman mau
+konservatif lagi saya takut ke
+stop-an saya mau
+aman teman-teman bisa taruh
+di bawah garis
+support terus kemudian targetnya adalah resisten satu
+resisten dua dan resisten tiga
+jadi ini adalah suatu skenario menggunakan
+pivot ketika
+teman-teman hendak melakukan entry
+pembelian atau long
+kalau mau entry
+short gimana berarti skenario
+seperti ini ya teman-teman harga ya
+ini ada di bawah titik pivot
+jelas dan juga harga di sini ya
+mangkring mangkring di dalam sini
+support-nya terus ya entry
+short-nya di mana yaitu ketika dia membuat suatu
+retrace pump ya
+terus dia kembali ke area pivot
+stop loss di mana ya stop loss
+di atas area pivot sini bisa
+atau ketika teman-teman benar-benar konservatif
+ini adalah di atas resisten satu
+targetnya mana ya targetnya adalah support
+karena teman-teman lagi shorting
+tapi ingat ya teman-teman ketika teman-teman
+konservatif
+harus memperhatikan
+history reward rasionya
+karena semakin lebar stop
+loss yang teman-teman pasang ya
+entry-nya di sini
+stop loss-nya di sini tuh lebar banget
+pasti 1-2 persen kalau bitcoin itu
+candle a1 yang saya bisa mengestimasi 1-2 persen
+tapi ketika
+teman-teman pasang ya
+benar-benar right di atas sini
+di atas pivot point
+tuh saya estimasi 0,3% mungkin jadi
+selalu perhatikan ya
+teman-teman mau mana ya
+win rate yang tinggi atau risk to reward yang deep
+ini contoh long
+menggunakan
+pivot jadi ini tahu ya teman-teman harga berada di area
+atas pivot
+kemudian dia berkonsolidasi di mana di
+resistance di area hijau
+jadi jangan teman-teman long di sini
+apa yang terjadi
+ya teman-teman
+kena bantai dulu diturunin dulu panik ya
+stop loss rungkat rungkat dan ini naik
+jadi teman-teman ya ketika melihat harga
+berkonsolidasi di sini
+berarti adalah setting ketika teman-teman
+hendak melakukan pembelian atau long
+harga turun nih ya
+lihat ya ke area
+pivot sini ya teman-teman buka long
+di sini stop loss di mana di bawah support
+kemudian teman-teman
+targetkan ya profit target satu di sini
+di r1 ya profit target 2 di r2 dan profit target 3 di
+r3 ini adalah contoh
+menggunakan
+pivot untuk melakukan lo
+kemudian ke-2 ini contoh menggunakan
+short ya dengan pivot jadi ini
+harga ada di di bawah pivot oke ya teman-teman harganya
+di sini break di bawah support
+oke ya teman-teman di sini harga break di bawah pivot
+nah kemudian dia naik ke mana ke titik pivot
+sehingga memberikan apa
+kesempatan teman-teman untuk melakukan sorting
+entry short di sini ya kemudian
+stop loss di mana ya stop loss di atas
+ini ya atau di antara ya garis yang resistensinya ini
+target satu adalah support satu ya ini ke hit
+terus kemudian support dua juga target ke hit
+ini adalah penerapan ya short menggunakan
+pivot saya selalu menyarankan teman-teman
+untuk menunggu
+set up pivot jadi jangan ini ya asal buka
+oh saya mau nerapin pivot
+ya tapi set up-nya nggak ready asal disikat
+saya selalu saranin lihat dulu
+pivotnya cari dulu pivotnya dan fokus ke time frame ini
+h1 m15 atau m5
+ketika teman-teman
+hendak yang menerapkan
+trading strategi menggunakan
+pivot point
+saya all testing dari akademi crypto sampai berjumpa
+di video selanjutnya
+kripto kali ini kita memasuki
+modul ke-3 ya kripto technical
+indicators atau cti
+jadi di modul ke-3 kali ini kita akan membahas
+yang namanya kelner Channel oke jadi
+apa sih kelner
+Channel itu jadi
+kelner Channel itu merupakan suatu garis
+volatilitas ya
+yang dapat dijadikan alat ya untuk melihat
+tren pergerakan harga di market
+jadi ya biasanya kalau moving average
+itu di situ fokusnya adalah dengan apa teman-teman
+pergerakan rata-rata harga
+tapi kalau kelner
+Channel ini garis ya
+pergerakan untuk melihat trennya itu dilihat dari
+volatilitas ya jadi
+melihat tren berdasarkan
+volatilitas di market
+nah jadi kelner Channel ini ya ditemukan oleh
+master caltner di 1960
+jadi beliau ini yang merumuskan
+dan menciptakan
+caltner Channel ini
+jadi beliau ini memadukan
+ya dua indikator teman-teman satu adalah simple
+moving average atau sma
+dan average true range atau etr
+jadi etr dan sma ini dikawinkan ini jadinya adalah
+kelner Channel
+jadi sama aja nih misalkan teman-teman mengkawinkan
+moving
+average dengan stochastic misalkan itu sama di sini
+jadi ada rata-rata pergerakan harganya ada
+volatilitasnya di sini jadi menarik sekali
+jadi biasanya teman-teman hanya melihat
+moving average kan hanya melihat harga
+tapi tidak melihat
+volatilitas jadi di sini ya menggunakan
+caltner Channel ini teman-teman melihat
+rata-rata pergerakan harga dan juga volatilitas
+jadi di sini saya akan menjelaskan ya cara menghitung
+caltner Channel jadi caltner Channel ya bagian
+middle line-nya itu adalah pure
+sma atau simple
+moving average
+kemudian untuk bagian upper band-nya itu adalah simple
+moving average ya ditambah dua kali etr
+dan untuk bagian lower band itu adalah
+simple moving average dikurangi dua kali etr
+pada dasarnya memang kelter Channel itu adalah
+simple moving average dikawinkan dengan
+etr atau average
+true range jadi kalau teman-teman lihat ya di
+trading view ya ini teman-teman search
+indicators dan juga
+teman-teman klik ya counter
+channels ya jadi
+jangan yang strategi ya tapi cari
+counter channels aja
+dan di sini setting yang kita gunakan
+itu adalah default-nya ya ini panjangnya yang 20 ya
+terus kemudian panjang
+etr-nya ini adalah 10 ini setting yang ideal
+dengan multiplayer 2 nah jadi
+nah jadi ilustrasi caltner
+Channel seperti ini ya teman-teman jadi
+ingat ya ini terlihat mirip seperti apa
+ya ini mirip seperti bollinger band
+karena emang ya begitu
+begitu aja ya teman-teman
+trading dan juga indikatornya itu
+tapi yang beda di sini adalah teori
+terus kemudian kalkulasi data
+dan rumus rumusnya yang digunakan
+ini fungsinya juga lumayan beda
+kalau di bagian tengah ini bener-bener pure ya
+simple moving average
+jadi kalau di bagian tengah ini bener-bener
+pure simpel moving
+average sementara kalau di bagian atas dan di bawah
+ini adalah kebanyakan etr yang
+dikombinasikan dengan simpel moving average
+nah gimana sih cara menggunakan
+kelner Channel jadi untuk menggunakan
+kelner Channel ini ada dua cara teman-teman
+ini teman-teman bisa gunakan
+untuk melihat tren dan yang ke-2 adalah untuk melihat
+momentum jadi gimana
+cara melihat tren bullish ya menggunakan calpner
+Channel jadi di sini teman-teman lihat ya ketika
+harga itu berada di atas simple
+moving average
+di atas garis medianya ini yang mana kan dia adalah
+twenty ya hampir mirip dengan twenty movie average
+biasnya itu adalah long atau
+pembelian jadi ya sama ya dengan
+ketika kita menggunakan
+moving average
+jadi ketika dia ada
+di atas garis median
+teman-teman harus melakukan pembelian atau long
+yang mana di sini teman-teman lihat ya harganya terus
+melakukan continuation retest di
+twenty simple moving average dan dia
+terus melanjutkan kenaikannya
+dan ini ya contohnya ya entry-nya di mana ya
+misalkan teman-teman bisa
+entry di sini ya ketika dia breakout dari sini
+di konfirmasi volume misalkan
+teman-teman bisa hajar di sini untuk entry long
+teman-teman manifest kenaikan atau pump di sini
+oke terus kalau misalkan ketinggalan kak
+ya jangan masuk di sini
+risk to reward-nya itu kurang ideal
+teman-teman tunggu di mana
+tunggu ya ketika harga turun
+ya berkonsolidasi ya mencium
+ya bagian medianya baru di sini
+pritest ini bisa teman-teman jadikan suatu
+entry stop loss di mana di bawah garis
+median dan targetnya ya memastikan ya 1:2 atau 1:3
+targetnya mana
+outer-nya sini bagian upper line dari
+counter Channel ini nah
+ke-2 di sini melihat tren
+baris jadi ingat ya tadi trennya
+bullish ya kalau ada di atas median
+kalau ada di bawah
+median apa yang harus teman-teman lakukan
+ya teman-teman
+harus melakukan short
+atau kalau teman-teman udah punya posisi ya mungkin di
+close aja posisinya take profit ketika teman-teman
+long atau membeli di spot terus
+kemudian apa ini yang terjadi ketika dia turun
+ya teman-teman
+bisa memperoleh keuntungan dari sorting
+nah ini ya contohnya ya teman-teman
+ini jadi harga ini jebol ya dari medianya
+ya kemudian di sini dia
+berkonsolidasi ya melakukan retest ini retest di garis
+median ya di sini teman-teman
+udah lihat entry trigger-nya ya mulai melemah
+bisa teman-teman masuk
+short di sini targetnya mana ya sal 1:2 sal 1:3 ya
+mentargetkan ya bagian bawah atau
+lower-nya sini yang bisa akting ya asa
+support di sini
+ini turun harga
+terus habis itu jatuh
+dan di sini teman-teman bisa
+put ya stop loss di atas ya garis medianya
+kemudian ke-2
+teman-teman bisa melihat ketika
+akan terjadi bullish reversal
+jadi pada dasarnya bagian bawah ya
+atau bagian lower dari
+counter Channel ini yang ini
+bisa juga disebut ya dalam tanda kutipnya
+area overshot di mana di sini
+ya ada potensi harga itu bouncing naik
+di sini teman-teman bisa nih ya pasang posisi long
+terus stop
+loss-nya di mana ya di bawah swing
+loss di sini ya atau di bawah
+garis yang lower ini
+dan ketika kemudian dia naik
+ya teman-teman bisa gunakan
+ini sebagai target profit satu ya bagian medianya
+dan target profit dua ada di upper channelnya ini
+yang penting 1:2 dan juga 1:3
+at least ya teman-teman
+ingat jangan trading 1:1 karena
+restore word-nya itu kurang ideal
+karena teman-teman harus bayar v dan lain sebagainya
+dan kemudian melihat
+baris reversal
+jadi ketika ini harga ini udah mucuk ya teman-teman
+ini dia tuh pasti koreksi
+teman-teman bisa short di bagian upper-nya sini ya
+kemudian targetnya mana target profit satu di median
+dan kemudian target profit dua di bagian lower Channel
+nah jadi udah paham ya cara menggunakan kelner Channel
+coba teman-teman backtest dulu ya pelajari dulu
+dan juga teman-teman terapkan di strategi trading
+teman-teman
+self testing dari akad crypto
+sampai berjumpa di video selanjutnya
+Halo guys kembali lagi dengan saya
+alvesting dari akademi crypto
+di bagian 9 ini ya
+di crypto technical indicators
+kita akan membahas ya suatu indicators
+yang bernama
+ichimoku cloud atau awan ichimoku
+jadi apa sih
+ichimoku cloud jadi ichimoku cloud itu merupakan suatu
+technical indicators ya yang berwujud ya garis yang
+saling timpang tindih yang mana
+tujuannya ini adalah untuk membaca
+pergerakan harga jadi ichimoku
+cloud ini terdiri
+dari beberapa
+ya teman-teman saya bilang beberapa garis
+yang dijadikan suatu alat ya untuk melihat
+pola dan juga arah pergerakan harga nah
+ichi moku cloud sendiri ini ditemukan ya oleh goichi
+kosoda ya pada 1968
+jadi teman-teman tahu ya
+ichimoku ini ditemukan di Jepang
+jadi memang
+Jepang ini pusatnya
+atau surganya dari para indicators ya
+yang mana banyak sekali ya indicators
+dan juga candle stick itu yang lahir
+dari Jepang
+karena orang Jepang ini
+sering berdagang ya dulu dan juga
+candle stick ini dijadikan suatu
+alat ya untuk
+melihat dan juga membaca
+pola perdagangan
+barang-barang di Jepang pada saat itu
+nah pada dasarnya ichimoku
+cloud ini terdapat 4 komponen yang utama
+jadi komponen pertama
+ya yang paling utama itu adalah
+kumo yaitu cloud atau awan
+dan yang ke-2 ini adalah tenkan sen
+yang ke-3 adalah kinjunsen
+dan ke-4 ini adalah chiko span
+jadi apa itu
+kumo atau cloud
+jadi kumo atau cloud ini merupakan
+komponen yang paling penting ya di sini
+dan juga merupakan bagian dasar dari ichimoku cloud
+jadi kumo ini merupakan gabungan
+dari dua garis ya teman-teman yaitu
+senko span a dan juga senko span b
+yang mana senko span a ini
+selalu diwarnakan hijau atau kecenderungan bullish
+sementara senko pan b
+ini adalah warnanya merah
+yang mana yang hijau ini ya ini memiliki ya rentang
+panjang ya rentang harga itu dua 6
+sementara yang senko
+spanbi ya atau merah
+ini rentang panjangnya ini adalah 5 dua
+sehingga dia lebih panjang
+tentang harganya dan yang ke-2 di sini adalah tenkan
+sen jadi tenkan sen
+ini merupakan
+garis ya yang menghitung rata-rata harga tertinggi
+dan harga terendah
+jadi secara Umum ya tenkan
+sen ini periode yang digunakan
+itu adalah 9
+dan warna garisnya itu adalah biru
+dan yang ke-3 ya komponen ke-3 ini adalah kijun sen
+yang mana merupakan ya
+garis harga yang berwarna merah
+yang menggunakan
+periode harga
+26 jadi dia sama ya rata-rata tertinggi
+dan terendah namun ya ini jangka waktunya relatif
+lebih panjang
+dan yang ke-4 ini adalah chiko
+span jadi chiko
+span itu adalah garis yang mewakili ya ini harga yang
+paling ekstrem ya
+dalam tren yang sangat panjang
+ya jadi chiko span ini menggunakan
+periode harga 26 dan memiliki
+warna hijau
+jadi ketika
+ichimoku cloud digabungkan ini
+akan menjadi gambar
+ya atau visual
+seperti ini jadi teman-teman jangan kaget ya
+tadi saya breakdown dulu yang kecil kecil
+nih ya beberapa part ya pieces by pieces
+tapi kalau ini udah kompleks ya kayak mobil
+ya jadi tadi bannya dikenalin dulu ya
+setirnya dikenalin
+dulu sasisnya kalian dulu ini
+ichimoku cloud ini
+wujudnya ya semua itu adalah seperti ini
+terus gimana
+cara menggunakan
+ichimoku cloud jadi
+cara yang paling simpel
+ya untuk menggunakan
+ichimoku cloud
+itu adalah long
+maksimal atau kita mungkin ya masuk ke dalam fase bull
+yang cukup panjang
+yaitu ketika harga itu berada
+di atas semua garis yang saya sebutkan
+jadi ketika teman-teman ada di environment
+trading di mana harga
+itu berada ya di atas
+ya semua garis di
+cemuku ini ini menunjukkan kalau akan ada suatu
+pola pergerakan harga yang naik ya dengan
+probabilitas yang sangat lama ya
+mengapa sangat lama
+karena di sini kan
+tren jangka pendeknya tertembus
+ya tren jangka menangannya tertembus ya awan
+jangka panjang dan ekstrimnya juga tertembus ke atas
+yang mana ada chance
+ya ini harganya akan
+terus naik ya dalam periode waktu yang cukup lama
+contohnya seperti ini ini di
+chart harian bitcoin
+jadi ini diketahui ya harga ini breakout ya ini dengan
+volume yang cukup tinggi yang
+contohnya di kemarin ya beberapa saat lalu
+terkait dengan berita dari TF
+harga bitcoin naik nih di sini
+dan kemudian kalau kita lihat ya
+chartnya ini berada di mana
+close ya di atas kumo ya
+terus kemudian di atas tenkan sen
+terus kemudian di atas kijun sen
+dan juga ya ini juga
+di bagian atasnya atau
+chiko spanya ini ya
+ada di atasnya sini ini menunjukkan apa
+momentum bullish ya yang mana
+garisnya itu berada di atas semua garis ichimoku
+sehingga apa yang terjadi ini naik
+ya sampai tiga puluhan persen di daily teman-teman
+sehingga di sini teman-teman bisa ya mengetahui
+ya kalau semua garis itu line ya
+line in the sky ya
+ini sudah ditandai kan
+harga itu akan naik dengan signifikan ke atas
+terus di mana ya saya taruh entry dan exit-nya
+jadi pada dasarnya area kumo yaitu awan
+yang mana di sini
+ada dua area
+yaitu merah dan hijau
+ini bisa juga ya dijadikan dynamic sumpek sama
+seperti saya menjelaskan ya tertata tinggi ya money
+magnet thirteen
+and twenty one yme
+di mana thirteen and twenty one yme itu menjadi area
+yang selalu dikunjungi harga
+dan harga selalu
+bouncing di sana teman-teman
+ya jadi stop loss-nya di mana ya di bawah dua area itu
+yang mana di sini ya naik harga di sini
+ya ini stop loss-nya adalah di bawah area kumo
+terus target profitnya di mana ya teman-teman bisa set
+multiple target profit ya
+di bagian garis ini ya
+dan kemudian
+teman-teman juga bisa target di bagian
+chikospannya yang mana ini adalah tren
+bullish jangka panjang
+sehingga teman-teman bisa ya
+target satu di sini target dua di sini
+dan target tiga di sini ini adalah
+dynamic target atau dynamic resistance
+ketika kita menggunakan sistem ichimoku
+lalu cara ke-2 ya untuk memaksimalkan penggunaan
+ichimoku cloud ini adalah teman-teman sel
+sort maksimal
+ketika harga ini berada di bawah semua garis jadi
+di ilustrasi ini ya teman-teman lihat ya
+chart harian bitcoin ini breakdown ke bawah
+dan juga close
+di semua garis ichimoku yaitu kumo ya tenkan
+sen kijun sen dan chikouspan
+jadi setelah
+harga ini close ya di bawah semua
+indikator dari garis
+ichimoku ini ini bitcoin ya mengalami
+bear rally yang cukup lama
+selama berbulan-bulan dan turun sampai 50% sehingga
+ketika harga ini retes ya di area kumo ini
+ini adalah retes ke resistance
+yang bisa teman-teman jadikan suatu entry
+trigger untuk masuk dan
+stop loss ya di atas dari kumo itu
+sehingga ini adalah peluang untuk melakukan
+short sell atau penjualan
+nah jadi area kumo
+ini bisa teman-teman jadikan ya suatu
+dynamic resistance
+jadi ketika harga
+retes di sini teman-teman bisa ya put
+stop loss-nya ya
+di atas area pumo
+dan target profitnya
+ya bisa di antara ya garis psikospanya
+karena adalah long term baris trend jadi
+udah paham ya penggunaan simpel dari ichimoku
+club jadi intinya mirip ya dengan money
+magnet dari thirteen and twenty one yma
+cuman di sini juga dijelaskan ya long term
+bear trend dan juga long term
+bullish trend-nya sehingga bisa dijadikan
+suatu acuan ya
+sebagaimana kita
+agresif ya terhadap melihat market
+dan kira-kira di mana
+kita akan mengeluarkan posisi kita entah itu long
+atau entah itu short
+cukup sekian video yang dapat saya sampaikan
+saya allvesting dari akad crypto
+sampai berjumpa di video selanjutnya

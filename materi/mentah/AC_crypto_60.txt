@@ -1,0 +1,4070 @@
+Halo guys
+kembali lagi dengan saya alvesting dari akademi crypto
+kali ini kita masuk modul ke-5 ya mengenai crypto
+fibonacci secret
+jadi kali ini ya kita akan secara khusus
+dan secara spesifik ya membahas ya mengenai
+fibonacci retracement atau retracement dari
+angka fibonacci
+yang mana gimana menerapkannya untuk trading
+ya dan juga untuk investing
+sebenarnya kita sudah
+menjelaskan ya mengenai
+apa itu fibonacci ya
+keajaiban fibonacci
+bagaimana mencari golden ratio
+bagaimana sistem fibonacci bekerja
+nah ini kita akan membahas
+pengaplikasian angka-angka itu ya terhadap fibonacci
+terutama dalam trading dan investing itu seperti apa
+ini akan kita bahas
+jadi apa sih retracement itu ya teman-teman
+retracement itu merupakan titik koreksi
+ya di mana harga
+itu berhenti koreksi ya ketika uptrend atau downtrend
+sebelum melanjutkan ya pergerakannya
+jadi kalau kita membahas ya mengenai
+trennya bullish atau kenaikan
+menurut teori
+market yang efisien
+itu nggak mungkin naik
+dengan parabolik
+itulah kenapa kadang
+crypto itu disebut sebagai market yang tidak efisien
+karena at some point ya karena hype
+karena pom-pom ini harganya kan naik dengan parabolik
+tapi sebenarnya secara structure ya
+market itu sebenarnya selalu efisien
+harga yang naik itu selalu turun
+nah kalau kita
+ingin mengetahui
+gimana penerapan retracement
+kita harus mempelajari mengenai tren dulu ya
+kita masuk ke do teori lah ya
+tren yang mana ada dua yaitu kenaikan dan penurunan
+di sini kita akan membahas dulu mengenai kenaikan
+bahwa strukturnya itu selalu
+bermula pada low harga di sini
+kemudian harga ini naik
+first impulse move itu adalah bullish
+harga mengalami kenaikan
+dan kemudian
+harga ini turun ya
+setelah harga turun ini
+ya harga itu ada potensi
+melanjutkan kenaikannya
+atau ya selesai koreksi
+nah titik di mana harga ini
+selesai koreksi
+dan berubah ya dari
+yang awalnya
+koreksian baris
+ya second impulse move-nya ini adalah baris
+dan dia akan melanjutkan first impulsif move-nya
+yang di sini adalah pulis
+nah titik ini nih ya
+titik berhentinya koreksi ini
+di mana harga itu siap ya membentuk atau print
+higher low baru untuk melanjutkan kenaikannya
+ini disebut sebagai
+retracement point ya
+atau titik berhentinya koreksi
+jadi di sini teman-teman
+memiliki kesempatan ya untuk
+ya memasuki posisi long
+buy atau perdagangan atau pembelian
+yang mana ya kita akan mengetahui ya di mana
+retracement point-nya dan menggunakan
+fibonacci itu seperti apa
+tapi teman-teman paham ya di sini
+retracement point itu adalah titik berhenti koreksi
+di mana
+harga siap melanjutkan first impulse move yang bullish
+dan dia sudah print ya another
+ya higher low
+selanjutnya tren
+nah selanjutnya down tren ya atau bearish ya
+atau tren penurunan
+di mana harga itu yang efisien juga nggak turun
+langsung ke bawah
+tapi kalau
+kalau di crypto ini kan
+kadang rakut ya harganya itu langsung turun ke bawah
+nah tapi market yang efisien ya ini
+ketika harga turun
+ya selalu membuat sesuatu yang namanya relief pump ya
+atau dia bouncing dulu
+sebelum nanti di sini melanjutkan penurunnya lagi ya
+jadi nggak mungkin langsung turun semua
+di mana di sini ya first impulse-nya itu adalah beris
+ya second impulse-nya itu adalah
+tulis dan ya kemudian
+im dan kemudian melanjutkan ya move baris ke bawah
+nah retsment point
+ya atau titik koreksi ini itu
+terjadi ya ketika dia udah printed yang other
+lower high yang mana di sini adalah kesempatan
+teman-teman melakukan
+short sell atau teman-teman
+take profit ya ketika teman-teman ini
+sudah pada fase pembelian
+karena ketika dia printed lower high
+ya it means ya dia sudah siap turun lagi
+dan retracement point
+ya itu adalah titik balik
+koreksi ya dari bearish
+bullish ini dia mau bearish lagi
+kita melihat retracement poinnya
+di sini kita akan menggunakan ya bilangan fibonacci
+sebelumnya kita belajar ya
+gimana caranya membuka ya fibonacci retracement
+tools ya pada trading view
+karena saya berani jamin
+95% ya platform trading di dunia
+itu selalu menggunakan
+trading view
+teman-teman bisa ya di bagian kiri
+di bagian tools
+di mana bagian fibonaci
+ya ini bisa teman-teman temukan ya tiga
+dari atas ya
+teman-teman lihat satu dua
+tiga ya di bawah garis trend line ini
+ya
+ini kan ada ya tools khusus ya yang namanya itu adalah
+fibonacci nah ini ada banyak sekali ya tools-nya
+nanti kita jelasin juga
+yang mana
+di sini ya teman-teman pilih ya yang paling atas
+yaitu VIP retracement
+atau fibonacci retracement
+teman-teman klik
+dan itu teman-teman
+sudah secara otomatis terasign untuk bisa menggunakan
+tools dari fibonacci
+selanjutnya kita akan membahas ya mengenai bagaimana
+cara
+menarik fibonacci yang bullish
+di mana di sini saya menjelaskan ketika teman-teman
+mau menarik ya fibonacci retracement
+ya untuk keadaan yang bullish ini
+bisa menggunakan dua cara
+pertama
+ketika teman-teman hanya pengen cari retracement-nya
+cari titik berhenti koreksinya
+itu teman-teman bisa tarik ya
+yang ini satu dan dua
+yang satu ini adalah tarik pertamanya
+dua ini adalah
+di mana teman-teman melepaskan titiknya
+jadi ketika teman-teman ya
+ingin mencari retracement-nya aja ini
+teman-teman menarik ya dari low-nya ini ya
+ke titik high-nya ini
+ini
+ketika teman-teman murni hanya ingin mengetahui titik
+retracement
+tapi kalau di sini teman-teman juga ingin cari
+retracement
+sama cari target profit
+menggunakan ya
+harmonik dari fibonacci
+saya take profit
+di mana harmonik
+resistance-nya
+di mana teman-teman tuh tariknya
+garisnya itu pertama itu dari titik yang tingginya
+atau high-nya
+ke titik paling bawahnya atau low-nya
+jadi tarik di sini ya
+kemudian berhenti tarik di sini
+ini otomatis ya teman-teman tidak hanya mencari
+titik retracement-nya ini dalam fibonacci tools-nya
+tapi juga teman-teman
+akan mengetahui di mana
+target untuk
+take profit-nya
+satu 6 satu 8
+ya dua 6
+satu 8 itu akan ditunjukkan
+nah seperti apa
+kita lihat ya
+namun sebelumnya teman-teman harus mengingat ya
+retracement besar ya
+itu selalu
+chance-nya itu besar terjadi di golden pocket area
+atau area 0,5-0,618
+ini adalah area ya di mana
+kemungkinan
+retracement paling besar itu bisa terjadi
+ini adalah bullish retracement ya
+teman-teman lihat ya di sini
+ini adalah low-nya ya
+harga membuat
+titik tinggi ya
+kemudian dia di sini berhenti
+untuk melanjutkan kenaikannya
+nah di mana kita tahuin dia valid berhenti ya
+itu adalah ketika di sini
+ya dari tren line
+yang ini ya second
+move yang ini beris
+ini ketika dia sudah break ya
+atau trennya di sini belok
+sampai kurang lebih ya 3-5 persen
+ya itu kita bisa valid bilang itu adalah
+terbentuk suatu ya
+hair low
+di sini nah kalau kita menggunakan
+fibonacci ya teman-teman
+di sini teman-teman tarik ya dari titik
+paling bawahnya ini
+ya atau low-nya
+ke titik paling tingginya atau titik atasnya
+area ini ya 0,5-0,618
+ini adalah golden pocket
+fibonacinya
+di sini teman-teman sudah mengetahui
+bahwa harga itu punya kecenderungan sampai 80%
+ini akan mengunjungi ya area ini
+teman-teman
+untuk kemudian dia lanjut
+mengalami kenaikan
+selanjutnya ke-2
+ketika teman-teman ya melihat bullish
+retracement with profit target
+jadi teman-teman
+nggak tarik dari ya
+bawah ke atas ya
+tapi atas ke bawah
+jadi mulai dari high-nya dulu ya
+terus kemudian teman-teman berhenti di bagian low-nya
+di mana di sini ya
+teman-teman tidak hanya ya
+disajikan informasi di mana retirement-nya ya
+karena ini otomatis ya sudah diketahui ya di sini
+pasti ya retirement-nya
+tapi teman-teman juga diberi informasi ya mengenai
+rasio untuk
+taking profit di satu 6 satu 8 ya
+dua 6 satu 8 ya
+tiga 6 satu 8 dan 4 dua tiga 6
+jadi di mana take profit-nya
+apakah take profit satu di satu 6 satu 8 itu nggak ya
+tapi di bagian satunya sini
+kadang kan udah jadi selling area
+ya udah jadi resistance
+udah jadi previous high
+yang mana
+seller tuh juga ngantri di sini ya untuk take profit
+take profit beberapa di sini ya
+beberapa di sini
+beberapa di sini
+beberapa di sini
+dan sampai extension yang terakhir
+nah selanjutnya cara tarik garis fibonacci yang beres
+jadi first ya move-nya ini adalah beres ya
+second move-nya ini bullish
+dan kemudian ya
+move-nya beres lagi ini cari retracement-nya gimana
+kalau teman-teman cuman cari retracement ya
+ini teman-teman tarik ya dari atas
+ke bawah ya
+atau dari titik high-nya ini ke titik low-nya sini
+ini teman-teman hanya akan memperoleh retrement-nya
+tapi kalau teman-teman pengen cari
+retrement ya dan juga target profit
+ini dimulai ya dari titik low-nya ini ya ke titik
+high-nya ini
+ya dari bawah
+ke atas sehingga teman-teman bukan hanya ya
+diperoleh informasi di mana retrement-nya
+tapi ini retrement
+dan juga target profitnya
+dan selalu ingat ya retracement
+ketika harga turun pun
+itu dia selalu mencari
+area golden pocket yang 0,5-0,618
+untuk selanjutnya
+ya mau turun
+lagi ke bawah
+selanjutnya di sini adalah baris retracement ya
+jadi visualnya seperti ini ya
+first move-nya itu adalah baris ya
+kemudian second move-nya ini adalah bullish ya
+dan kemudian third-nya ini adalah baris lagi
+ini adalah primary
+secondary dan juga primary lagi
+di mana dia selalu relief pump itu juga di area 0,5-0
+6 satu
+8 ini adalah golden areanya ya
+jadi teman-teman bisa play store
+di sini ya sebelum harga ini melanjutkan ya penurunan
+ini
+kalau kita hanya mencari ya baris retracement-nya ini
+kita tariknya dari ya bagian atas ini
+ke bagian bawah sini
+selanjutnya ketika teman-teman ingin mencari ya
+baris retracement ya
+profit target
+di sini teman-teman nariknya
+ya bukan dari atas ke bawah
+tapi bawah ke atas
+di mana di sini teman-teman akan tersaji
+ya informasi mengenai
+golden area
+ya atau retracement point
+ketika harga ini mendekati titik 0
+titik 5-0 titik 6 satu 8
+ini adalah keadaan ya di mana teman-teman bisa ya
+sell ya the strength di sini
+untuk kemudian
+harga melanjutkan ya second
+impulsive move-nya ya ke bawah ya atau bearish
+ini adalah titik di mana teman-teman bisa masuk posisi
+short nih ya
+yang mana di sini
+bukan hanya teman-teman dapat retrement
+areanya ya tapi teman-teman juga dapat profit targetnya
+jadi teman-teman bisa take profit short itu di satu 6
+satu 8 dua 6
+satu 8 tiga 6
+satu 8 dan terakhir
+di 4 dua tiga 6
+yang mana adalah
+les extension dari fibonacci target
+jadi teman-teman udah paham ya mengenai
+retracement pada fibonacci
+jadi retracement ini bisa teman-teman jadikan suatu
+poin ya di mana titik koreksi ini akan berhenti
+selanjutnya
+teman-teman juga bisa mencari ya targetnya
+harmonik support dan juga harmonik resistance
+di mana teman-teman bisa
+close posisi long atau close posisi short
+saya allvesting dari akademi crypto
+sampai berjumpa di video selanjutnya
+dari akademi crypto
+jadi kali ini kita lanjut di modul ke-4
+yaitu KPK lagi
+kamus pattern crypto
+kali ini kita akan membahas mengenai garply pattern
+sebenarnya mirip dengan pola
+bcd ya sebelumnya
+tapi ini lebih spesifik
+lagi ya teman-teman
+karena di sini titik validasinya itu ada 5
+dan pattern ini ya secara sejarah
+ya ini ditemukan oleh hm
+garply di
+tahun 19 tiga dua
+jadi bentuknya ini
+seperti layang-layang ya
+tapi bukan kait pattern ya
+bukan pattern layang-layang tapi garply pattern
+di mana kalau teman-teman lihat ya ini
+ada kan layang-layang
+ini yang punya 5 sisi
+jadi mirip ya
+dengan garply
+pattern itu sendiri
+jadi paling works ya garply
+pattern ini
+secara teori ya
+beliau ini mengungkapkan kalau pattern
+ini tuh paling works
+di time frame yang rendah
+teman-teman
+h satu ya kemudian m 15
+di mana pattern
+pattern itu
+sering ditemukan ya
+ini beliau mengungkapkan ini
+pattern yang cocok ya untuk teman-teman yang para
+scalper ya
+scalper mania ya scalper only
+ya istilahnya
+kan surganya teman-teman yang suka scalping di sini
+jadi kita langsung masuk aja ya karena pasti ada
+bullish dan juga ada bearish di sini
+bullish garply
+ya sama ya seperti bad pattern
+teman-teman selalu harus tarik dulu lah ya garis
+fibonacinya ya atau fibonaci retrementnya
+karena ini adalah tools yang paling utama
+teman-teman
+buat ya ketika teman-teman
+mau menggambar pola
+pola harmonik
+ini juga termasuk juga ya dalam pola pola yang harmonik
+jadi garply ini ya sebenarnya mirip juga ya
+dengan pola
+bad pattern sebelumnya
+tapi di sini
+lebih condong lagi ya
+lebih serong lagi ya lebih segi 5 lagi
+di mana di sini ya dijelaskan yang yang paling penting
+ya di sini ketika bullish garply terbentuk ya
+ini teman-teman nggak boleh ya loss dari area
+0,5 dan 0,618
+di mana di sini ya idah ini terlihat seperti
+layang-layang ketika
+diterapkan ya dalam m15 bitcoin ya
+di mana di sini
+pola gertly ya yang bullish
+teman-teman bisa membuka
+posisi pembelian ya
+buy or long
+ketika harga ini berada di titik mana
+teman-teman di titik d
+jadi ketika harga ini ada di titik d
+teman-teman bisa
+membuka suatu
+perdagangan yang mana
+stop loss-nya itu pasti ya di bawah swing low-nya sini
+targetnya ini bisa jadi target pertama ya
+kemudian target psychological resistance
+kemudian target
+harmonic resistance ya
+jadi ini terlihat ya teman-teman seperti layang-layang
+memang terlihat sangat mirip ya dengan layang-layang
+di mana dimulai dari titik x ya
+kemudian di titik a
+kemudian ya
+di sini membentuk ya yang di tengah ini
+titik b sini
+kemudian titik c dan titik d
+ketika teman-teman amati ya teman-teman
+impulsnya di titik b
+ini ketika ditarik dari x ke a
+ini adalah area
+golden pocket-nya yang 0,5
+dan 0,618
+di mana di sini
+ketika teman-teman melihat pola ini
+layang-layang ya ingat ya
+bullish ya
+layang-layang yang serong ke atas itu bullish
+di mana di sini
+biasnya adalah long atau baik
+nah terus di mana ya
+entry dan stop loss-nya ya
+teman-teman bisa entry di sini oke
+atau di sini pun nggak apa-apa ya ketika
+trigger-nya itu lebih bagus ya
+entah itu bullish engulfing ya
+entah itu doji
+entah itu inverted hammer
+ya selalu lihat ya
+mana yang probabilitasnya itu paling bagus
+untuk teman-teman masuk
+karena kalau misalkan hammer
+ya itu kan stop loss-nya relatif lebih kecil ya karena
+body-nya itu kan
+lebih ramping ya daripada bully yang golfing
+kalau bully
+yang golfing ini kan tebal ya
+jadi stop loss-nya lebar
+itu otomatis stop loss-nya
+di mana stop loss-nya pasti
+di bawah swing low
+terus kemudian
+teman-teman tentuin
+TP nya di psikologikal resistance ya
+di horizontal resistance
+kemudian bisa juga di harmonic resistance
+yang mana ingat ya harus selalu 1:2 atau 1:3
+jangan sampai boncos 1:1
+1:0,8 karena teman-teman nggak bisa
+profitable in the long run ketika teman-teman
+trading dengan set up yang buruk
+tadi udah jelasin ya
+entry dan exit-nya
+kemudian kita sekarang
+bahas ya mengenai
+baris garply
+baris garply ini adalah lawan dari bullish garply
+di mana di sini
+ingat ya menarik
+garisnya itu berbeda ya dari
+atas ke bawah
+dan juga di sini
+ya ini pola layang-layang
+tapi layang layangnya serongnya ke bawah
+teman-teman ingat ya
+di sini contoh ya ini baris garlic pada m 15 bitcoin
+yang mana di sini terlihat ya seperti layang-layang ya
+pulanya dari x
+ya kemudian ke a ya ke b
+ke c dan ke d
+dan di d ini adalah potensi teman-teman
+melakukan penjualan
+atau short selling
+teman-teman bisa lihat ya setelah harga ini membentuk
+baris Garland ya di titik yang d ini
+harga ini turun ya dengan
+cukup signifikan
+ingat ya rasio yang selalu dipertimbangkan
+itu adalah rasio
+yang di titik b ya
+yaitu adalah
+titik
+di mana teman-teman melihat ya dari retracement-nya
+jadi ketika teman-teman
+tarik fibonacci ya dari titik x ini ke swing low
+yang di sini
+ini pasti 0,5
+0,61 delapannya
+ini selalu ada di titik yang b
+sini jadi di sini nggak boleh nih ke atas nih
+teman-teman ya harus reject
+baru ketika dia reject ya sampai di titik c
+ya ini
+ketika dia balik ke titik d
+ini adalah potensi
+melakukan short selling
+entry action-nya di mana nih ya entry action-nya
+berarti pasti ya perfect
+entry-nya itu di titik d
+ini saya juga tahu ya banyak teman-teman juga
+teman-teman rekan trader juga ini yang bener-bener
+presisi banget dengan ngentry
+bahkan mereka ya
+sangat yakin ya dengan rasionya
+ini udah gambar-gambar layang-layang ya
+gambar-gambar segitiga ya yang ada rasio fibonacci-nya
+kalau udah sampai di titik ini
+saya nggak nunggu
+ada shooting star ya
+saya nggak nunggu ada hanging man
+saya langsung eksekusi di titik itu
+ya jelas history word-nya itu lebih bagus
+cuman keyakinannya ini turun atau enggak
+itu mungkin
+saya selalu nunggu
+ya nunggu kepastian
+ingat ya selalu nunggu kepastian
+jangan nunggu yang nggak pasti
+tapi nunggu yang udah pasti aja
+nunggu kepastiannya dulu
+baru di sini ya
+stop loss-nya di atas swing high-nya sini
+kemudian teman-teman
+TP di sini ya mungkin
+multiple TP juga juga bisa
+udah tahu kan pasti
+penerapan garlic pattern di pasar crypto
+tapi pada dasarnya
+garlic itu juga mirip ya dengan ambcd
+cuman
+di sini ada 5 titiknya
+penemunya sama
+penemunya adalah itsm gardley
+dan di sini juga
+teman-teman
+mirip juga ya dengan bad pattern ya
+cuman di sini dia beda ya
+di sini dia bentuknya layang-layang
+jadi teman-teman back test dulu ya
+cari cari dulu yang banyak ya
+pattern garlic
+ini di berbagai time frame
+ketika itu teman-teman udah nemu ya
+udah tahu dan bisa nerapin dengan baik
+terutama dengan money
+dan risk management yang baik
+teman-teman bisa trading dengan menggunakan
+garlic pattern
+oke saya fasting dari akademi crypto
+sampai berjumpa di video selanjutnya
+akademi crypto
+jadi kita masuk modul ke-7 ya mengenai
+kembali lagi dengan saya alvesting dari akademi crypto
+jadi kita masuk
+modul ke-7 ya mengenai KPK atau kamus pattern crypto
+jadi nggak kerasa ya udah ke-7 aja ya
+jadi udah sekitar 5 pattern yang saya jelaskan
+tapi teman-teman masih semangat ya
+saya harap karena ini
+makin lama makin daging ya teman-teman pattern-nya
+jadi kali ini kita akan membahas
+mengenai brodening pattern
+jadi apa sih brodening pattern
+jadi sesuai namanya
+brodening pattern
+atau brodening waves itu adalah pattern yang berbentuk
+seperti megaphone ya
+sehingga ada bagian
+bawah dan juga ada bagian atasnya
+jadi teman-teman ketika
+dengar kata brodenings itu ingat toa masjid
+ya teman-teman ya
+ingat speaker yang digunakan
+di masjid ya
+karena itu adalah
+dasar dari bentuk
+brodening pattern ya
+sehingga ya strukturnya brodening witch pattern
+itu ada dua
+ya terdiri dari
+bagian bawah
+dan juga bagian atas
+yang mana bagian bawahnya ini ya teman-teman
+bisa akting ya SL support area
+sebagai area beli
+sebagai area di mana
+para pembeli ini berkumpul
+jadi ketika
+membentuknya ya
+pattern yang brodenings
+ini ya trend line
+di bawahnya ini bisa SL support
+di mana teman-teman juga bisa
+membuka posisi pembelian ya
+ketika harga itu mendekati ya bagian bawah
+atau lower
+area dari brodening witch ini oke
+dan kemudian
+bagian atas
+yaitu bisa akting ya
+resistance atau area jual
+jadi ketika harganya ini
+sampai di bagian
+upper watch-nya
+terus dia berkonsolidasi di sana
+penjual itu
+udah kumpul ya
+pembelian dari bawah itu udah take profit di situ
+dan kemudian harga ya
+bisa cenderung turun
+kelihatan ya
+seperti pola
+megafon yang berkonsolidasi di dalam megafonnya
+jadi ini
+kita lihat ya bullish continuation ya pada brodening
+witch di mana ada bagian bawah
+dan juga ada
+bagian atas
+ini adalah pola bullish continuation
+pada brodening witch
+yang kita kalau lihat ya teman-teman
+first impulsif yang ini adalah bullish
+kemudian harga berkonsolidasi ya di sini
+di dalam pola megafon ini
+terus kemudian dia naik ke atas
+saya selalu menyarankan ya
+anticipating the breakout ya jangan cheese the breakout
+teman-teman yang masuk di sini ini bisa kena
+false breakout
+yang mana harganya malah bisa turun
+entry on breakout tuh juga cukup ngeri ya teman-teman
+maka dari itu saya selalu bilang
+itu masuknya di sini lah ya
+masuknya ketika harga ini berkonsolidasi ya di dalam
+lower wage-nya ini ya
+di lower wage ini teman-teman bisa masuk ya
+terus harganya naik ke atas
+ini contoh ya teman-teman
+bullish continuation ya brooding witch pada h4 bitcoin
+jadi first impulse move-nya adalah bullish ya
+kemudian di sini harga
+berkonsolidasi ya di dalam megaphone ini
+teman-teman bisa entry ya di bagian lower witch-nya ini
+ya entry di sini ya
+stop loss ya pasti di bawahnya sini
+terus kemudian dia terbang naik
+ke atas teman-teman
+nah ke-2 kita akan membahas ya bullish reversal
+brodening witch
+di mana ini adalah suatu
+pola ya reversal
+first impulse move-nya itu adalah bullish
+kemudian
+dia di sini berkonsolidasi ya seakan-akan mau breakout
+terus kemudian dia jatuh ya di sini
+saya selalu ini ya membuat
+saran atau menyarankan ketika teman-teman mau
+entry short ya melihat
+ada potensi ya
+burning witch yang reverse dari bullish ke bearish
+ini selalu masuk di sini ya teman-teman
+jangan cash the breakdown juga saya selalu
+suruh teman-teman antisipasi breakout-nya
+antisipasi breakdown-nya
+jangan masuk ketika breakout
+jangan masuk ketika breakdown
+history reward mu tuh pasti jelek ya
+dan juga ada potensi ini
+harga ini cuman ngeliquidityhannya balik lagi
+balik lagi gitu terus
+sehingga teman-teman
+pahami ya bahwa
+cari ya restu reward-nya yang paling baik
+nah ini contoh ya bullish reversal
+ya brooding witch pada
+deni bitcoin ini harganya
+first impulsifnya apa naik
+oke di sini dia ber
+konsolidasi ya di dalam megaphone pattern
+kemudian di sini dia jebol
+terus dia langsung
+turun ke atas
+tropik ke bawah
+ya saya selalu menyarankan
+restriward-nya enak di mana ya enak masuk di sini ya
+sorting di antara three
+tab tren lain ini satu dua
+tiga dan bisa masuk di sini
+sehingga resturivernya itu juga lebih bagus
+daripada teman-teman di sini
+ya ini harganya udah turun mungkin 30% ya teman-teman
+baru teman-teman setelah 30%
+sorting ini terlambat ya
+teman-teman
+harusnya bisa kalau harga turun ke sini tuh dapat 60%
+sementara teman-teman hanya dapat 30%
+sehingga restudiword matters
+oke nah
+kemudian yang
+di sini kita akan bahas
+dari bullish tadi ya kita bahas baris ini ya
+baris continuation
+brodening witch
+di mana first
+impulse move di sini adalah baris
+terus kemudian harga berkonsolidasi
+kemudian dia harganya turun ke bawah
+di mana di sini teman-teman
+saya sarankan
+untuk selalu open
+short sell ketika harga ini
+berada di bagian
+upper-nya sini
+oke ketika upper-nya di sini
+restriwet-nya lebih bagus daripada charge the breakdown
+ketika impulse ke-2
+beresnya ini udah jadi
+ya jangan dicas
+jangan dikejar
+nunggu aja posibility yang lain
+kecuali kalau
+teman-teman masih berani ngejar ya
+pre story world-nya masih masuk akal dan
+teman-teman aplikasiin
+mm dan RM yang bagus
+money management
+risk management yang bagus
+it's oke ya
+tapi kalau temen-temen
+rata kanan ngejar breakout
+ngejar breakdown kebakar
+ini contoh ya
+baris continuation
+breading with ini daily bitcoin juga ya
+first impulse move-nya apa
+baris harga berkonsolidasi di sini ya
+teman-teman
+short sell-nya nih enak di sini ya
+short sell di sini apa yang teman-teman dapetin ya
+teman-teman dapat restore word yang lebih bagus
+daripada teman-teman masuk ketika breakdown
+ke sini ya breakdown di sini ya teman-teman
+udah ini ada advantage ya sih
+sekitar 5 belasan persen ya ini namanya terlambat
+oke selalu
+antisipasi sebelum itu terjadi
+ini selanjutnya yang terakhir ya kita ngomongin
+baris reversal
+boring witch
+first impulse baris
+kemudian ada pola megafone ya
+di sini dia berkonsolidasi
+tektokan nih ya di bagian
+atas dan juga bagian bawah ya
+tektok tektok ya
+kemudian di sini dia
+harganya bouncing
+saya selalu menyarankan teman-teman masuk di sini
+masuk di bagian lower wage
+ketika dia melakukan three tab
+formatnya gini teman-teman
+semakin sering
+sentuhan itu terjadi
+itu ada potensi
+breakout dan juga breakdown yang terlalu tinggi
+saya selalu bilang
+idealnya itu selalu ada tiga sentuhan ya
+maka dia itu adanya
+istilahnya hanya triple bottom dan triple top
+nggak ada istilah ya quadruple bottom
+quadruple top
+ya 4 sentuhan tuh jarak
+sehingga tiga sentuhan tuh paling manis
+ya sebelum dia bergerak ke atas
+untuk melakukan reversal
+nah ini contoh ya
+baris reversal brooding witch pada h 4 bitcoin
+jadi bitcoin
+first impulse wolf-nya adalah baris
+kemudian dia berkonsolidasi ya dalam pattern megafone
+terus oh ternyata dia malah breakout ke atas
+ya dari bearish ke bullish
+berarti ini adalah pattern reversal
+jadi brodening witch itu selalu kita lihat ya
+kira-kira dia ini arahnya ke mana dulu
+apakah ke atas kah
+atau ke bawah
+karena ini juga relatif
+pattern yang saya bilang netral juga
+banyak pakar ya yang
+mengungkapkan kalau brodening witch ini
+pattern-nya
+ini cenderung nggak cocok untuk swing trading daily
+h 4
+weekly ini cocok
+jadi ini kurang optimal
+saya bilang kalau teman-teman sekup ya pakai brodin gue
+sekarang banyak istilahnya noise
+banyak hal yang
+istilahnya di luar analisa ya yang masuk di sini
+sehingga itu juga beresiko ya untuk
+menimbulkan false breakout
+jadi gimana ya
+teman-teman udah tahu ya cara
+menguasai ya brodening pattern
+dalam market crypto
+latihan terus
+pelajari terus ya
+dan saya fasting dari akademi crypto sampai
+berjumpa di modul selanjutnya
+Halo guys
+kembali lagi dengan saya of fasting dari akademi crypto
+kali ini kita akan membahas ya crypto order flow
+modul ke-2 di sini ya kita akan
+lebih ya menggali mengenai dasar dari order
+flow itu sendiri
+pada dasarnya teman-teman
+ada dua jenis
+order flow ya
+pertama itu adalah centralized order flow
+dan ke-2 adalah decentralized order flow
+apa itu centralized order flow
+jadi centralized order flow yaitu merupakan
+sistem ya order flow
+yang mana memperlihatkan bit
+dan juga as ya
+jadi bit price dan juga as price itu ditunjukkan dalam
+centralized order flow
+sementara ya
+decentralized order flow ini adalah suatu sistem ya
+order flow yang mana
+Beat price ya dan juga as price itu
+tidak ditunjukkan
+melainkan hanya akumulasi dari volume
+oke pasti teman-teman bertanya kak
+apa itu Beat price ya
+apa itu as price
+jadi akan kita jelaskan ya di slide selanjutnya
+oke jadi ini adalah ya
+wujud dari centralized order flow
+jadi kan saya udah menjelaskan ya
+order book
+yaitu pada dasarnya
+itu seperti suatu buku
+kalau kita ngomongin
+order flow ya
+ini dia seperti
+kolom-kolom dalam excel ya teman-teman
+jadi di sini ya di bagian kiri
+ini adalah volume bit
+ya dan di sebelah kanan ini adalah volume as
+apa itu bit
+apa itu as ya nanti akan kita jelaskan ya
+tapi ini adalah contoh dari centralized or flow
+di mana volume dari bit dan juga volume dari as
+itu di sini
+ditunjukkan ya secara jelas
+sementara ini adalah
+decentralized order
+flow jadi apa itu decentralized order flow
+jadi kalau yang centralized order flow ya
+itu kan teman-teman tadi kelihatan ya
+bit-nya berapa ya
+as-nya berapa
+tapi kalau decentralized order flow
+ya ini hanya akumulasi ya
+atau total volume dari penjumlahan bit dan juga as
+oke di sini jadi terlihat ya teman-teman
+dari masing-masing sel
+ya atau kolom ini berapa
+total volume-nya
+oke tapi kalau centralized order flow
+itu dijelaskan ya dari
+bit-nya berapa dan juga as-nya berapa
+ini pertanyaan yang kalian tunggu tunggu
+lalu apa itu bit ya
+apa itu as
+oke jadi pada dasarnya ya
+bit price dan juga as
+price itu adalah dua komponen
+yang sangat dasar dan juga fundamental
+karena dua komponen ini adalah komponen dasar
+pendukung atau penyokong dari order flow itu sendiri
+jadi apa itu bit price
+jadi bit price itu merupakan
+harga tertinggi
+yang dikehendaki ya oleh para pembeli ya atau bayar
+jadi di sini market participant
+ya ingin membeli suatu aset
+ya mereka itu melakukan bidding
+jadi kalau teman-teman istilahnya
+mereka lagi nge Beat ya buyer lagi bidding
+itu berarti buyer ya ingin
+membeli ya suatu aset
+namun apa itu as price
+jadi as price itu
+atau bisa juga
+disebut dengan over price
+itu adalah harga minimum ya di mana penjual
+ingin mendapatkan
+ketika mereka ya menjual suatu aset
+jadi ketika penjual
+ya ingin Meng cash out ya investasi yang mereka miliki
+atau aset crypto yang mereka miliki
+ini mereka melakukan proses
+dalam tanda kutip ya coach on coach
+asking di market jadi
+mereka asking
+mereka minta sekian
+ya ketika mereka mau cash out ya aset mereka
+tapi kalau mereka mau beli ya ini Beat ya
+mereka bidding
+kalau mereka mau menjual ya mereka asking ya
+mereka menanyakan harganya
+nah selanjutnya
+teman-teman udah paham ya dua jenis ya dari order
+flow ya yaitu adalah centralized dan juga decentralized
+kemudian teman-teman juga
+udah memahami ya dua komponen yaitu adalah bit
+dan juga as
+selanjutnya kita akan
+mempelajari ya mengenai dua tipe dari market participan
+ya atau para pelaku pasar
+jadi para pelaku pasar ini mengacu pada
+penjual ya maupun pembeli
+ada dua jenis ya atau dua karakter market
+participant teman-teman
+satu itu adalah pasif market participants
+dan ke-2 adalah aktif market participants
+nah apa itu pasif market participants
+jadi pasif market participants
+itu adalah mereka yang menunggu ya dalam tanda kutip
+harga itu jemput posisi mereka
+atau mereka ini melakukan limit atau pending order
+jadi trader
+trader yang pasif ya dalam tanda kutip
+ini mereka tunggu harga itu sampai di dalam
+harga yang mereka kehendaki
+jadi market participant ya
+yang tipenya pasif ya ini mereka cenderung menunggu
+karena mereka
+tidak ingin masuk
+saat ini juga
+ketika kita melihat ya
+di dalam terminologi ya order flow ya
+pasif buyer
+atau mereka yang membeli ya dengan pasif
+itu ada di sisi kiri
+ya atau mereka itu disebut dengan bidder
+oke tapi kalau pasif seller yaitu adalah asker
+ya di bagian
+sebelah kanan
+kalau bagian Beat ya ini
+ilustrasinya
+ini merah ya teman-teman
+kalau bagian
+as ya
+ini ilustrasinya adalah hijau
+oke dari sini bisa dipahami ya
+jadi pada partisipasi market yang pasif
+ya pembeli ini menjadi leader oke
+yang melakukan bidding
+sementara penjual
+menjadi asker yang melakukan asking
+jadi ketika saya menjelaskan ya di slide sebelumnya
+ya ketika mereka ini mau membeli ya mereka bidding
+tapi kalau mereka mau menjual
+ini mereka asking
+menanyakan harganya
+ini adalah terminologi ya
+dalam suatu keadaan market yang pasif
+nah selanjutnya kita akan membahas yang mana
+aktif market
+participant
+oke jadi
+apa itu aktif market participant
+jadi aktif market participant ya merupakan mereka ya
+para pelaku pasar
+yang dalam tanda kutip ini mereka nggak mau nunggu
+jadi mereka ini nggak mau melakukan limit atau
+pending order
+jadi mereka ini pengennya masuk sekarang
+pengennya masuk
+detik ini juga
+sehingga
+ya mereka melakukan yang market buy dan market sell
+yang mana dalam tanda kutip ya posisi mereka ini
+secara otomatis terisi
+jadi kan kalau misalkan
+teman-teman ini bidding ya bitcoin
+saya mau beli bitcoin di harga 40.000
+misalkan ini kamu menunggu ya bitcoin
+ke-40 ribu kalau misalkan nggak ke-40 ribu
+apa yang terjadi
+ya berarti saya nggak dapat barang oke
+tapi kalau kamu aktif market participation
+kamu lihat
+price-nya bitcoin sekarang misalkan di 40.300
+saya mau masuk sekarang
+saya nggak nunggu 40.000
+oke berarti ya kamu melakukan market buy or market sale
+jadi di sini kamu
+ya ini adalah merupakan seorang
+aktif market participant
+jadi istilahnya
+mereka yang nggak sabaran
+yang nggak mau nunggu
+ya hajar kanan terus HK
+ya ini adalah
+aktif market participant
+nah jadi ketika teman-teman ini menjadi seorang
+aktif ya market participant ini
+teman-teman
+ada resiko yaitu adalah slippage
+apa itu slippage
+jadi slippage itu merupakan perbedaan harga ya
+di mana teman-teman mengharapkan ini harga ini
+dalam suatu titik tertentu ya
+tapi ketika teman-teman
+selesai melakukan market ya market
+buy or market sale
+ini justru teman-teman memperoleh harga yang berbeda
+ya dengan apa yang teman-teman kehendaki
+ini sering terjadi ya
+misalkan kamu lagi lihat ya bitcoin di 4300
+terus kamu mau melakukan
+market sale atau HK
+hajar kanan
+oke kamu lihat nih ya
+price-nya di 40
+300 di chart-nya
+terus kemudian kamu klik market buy
+kamu dapatnya malah 40.350
+let's say
+ya kan harganya lebih tinggi dari yang kamu hendaki
+karena apa karena ada slippage di situ
+apa itu slippage
+oke mari kita jelasin
+slippage ini seperti ini ya
+ini misalkan ada candle satu menit ya
+teman-teman misalkan melihat ini mau market sell
+ini di sini
+terus kemudian kamu klik
+market sell
+kamu justru order
+execution-nya
+entry price-nya di sini
+ini ada suatu slippage ya atau perbedaan ya
+di mana harga yang kamu lihat
+ketika kamu entry dengan yang kamu dapatkan
+setelah kamu melakukan market sell itu
+kenapa terjadi
+itu terjadi
+karena ya orang-orang yang ordernya di sini
+ini mereka melakukan limit ya atau pending
+mungkin dalam waktu yang lebih lama
+mungkin dia udah limit di sini 4 jam yang lalu
+mungkin bahkan sehari yang lalu bisa
+sementara kamu mau masuknya ini di sini
+oke kamu berharap dapat
+harga di sini itu kadang tidak diberi
+oke kamu diberinya harganya di sini
+karena yang di sini apa
+candle ini udah antri udah lama
+oke sementara kamu pengen masuknya langsung
+sehingga kamu
+dapatnya harganya di sini
+itulah yang disebut dengan slippage
+nah dalam suatu keadaan
+di mana partisipan di market itu agresif
+ya penjual yang agresif ya atau agresif seller
+itu ada di sisi kiri
+ya di sisi bit
+sementara di sisi kanan
+sisi as
+itu adalah agresif buyer
+sehingga di sini
+dilambangkan hijau di kanan ya
+merah di kiri
+jadi mereka yang jual agresif
+ya ini ada di sisi bit ya
+sementara
+mereka yang beli agresif itu ada di sisi kanan
+jadi kebalikan dengan
+pasif market participant
+nah jadi pada partisipasi ya market yang aktif ya
+penjual ini jadi leader ya yang melakukan bidding
+sementara pembeli ini jadi asker ya yang melakukan
+asking oke
+dari sini bisa dipahami ya saya
+allvesting dari akademi crypto
+sampai berjumpa di modul selanjutnya
+tuh jadi di kesempatan kali ini
+kita akan membahas ya suatu modul yang sangat menarik
+judulnya adalah crypto
+do teori
+jadi kita akan mengenalkan ya do teori terhadap
+market crypto
+jadi timbul ya pertanyaannya
+apa sih do teori ini
+jadi sebelum kita
+bahas ya mengenai apa itu do teori
+kita mengupas dulu ya sejarah dari do teori itu
+di do teori itu merupakan
+gagasan ya yang diungkapkan oleh Charles do
+di tahun 18 9 6
+jadi di tahun 18 9 6 ya
+Charles h do ini mengeluarkan suatu gagasan tentang
+analisa suatu pasar
+yang mana ya sampai detik ini ya
+banyak sekali ya ilmu teknikal analisis
+dan juga teknikal research ini yang mengacu dari do
+teori jadi
+do teori ini merupakan teori dasar yang akhirnya
+berkembang dengan sangat luas
+dengan berbagai cabang ilmu trading yang ada saat ini
+ya jadi
+do teori ini dalam perkembangannya
+luas banget ya
+jadi bahkan saya bilang ini hampir ya semua teori
+trading ya ini technical
+license itu mengacunya pada do teori ya
+karena teori ini
+terbukti sangat ampuh ya
+dan juga menjadi suatu
+landasan dari bermunculnya teori-teori baru
+seperti smart money
+harmoni trading
+kemudian price action ya
+order flow
+dan lain sebagainya
+pondasi dasar dari do teori itu ada dua
+teman-teman
+satu pasar efisien
+dan ke-2 pasar
+selalu mengalami koreksi
+kita ke pasar
+efisien dulu ya
+jadi
+Charles isdo ini menjelaskan ya bahwa pada dasarnya
+pasar itu selalu efisien
+yang mana informasi yang ada di dalamnya
+yaitu mewakili sesuatu yang
+memang beneran terjadi
+jadi reaksi pasar
+ini ya bagi Taurus xdo ini merupakan
+sesuatu yang sangat akurat
+melambangkan apa yang sebenarnya terjadi
+dan ke-2 ya
+pasar ini selalu mengalami koreksi
+jadi harga yang naik
+itu selalu turun
+itu asumsi utama dari do teori
+yang nyatanya juga benar ya
+harga itu kan pasti juga naik dan juga turun
+sehingga menimbulkan suatu siklus tertentu
+ketika teman-teman
+memperhatikan ya pergerakan harga ya selalu ada season
+bull dan juga season bear
+bull itu season ketika harga naik
+dan bear itu adalah season ketika
+harga turun terus
+flow teori ini apa bisa diterapkan di crypto
+ya kalau teman-teman
+dengar ya flow teori ini kebanyakan
+digodok di saham
+kenapa ya karena saham ini kan aset sudah
+ratusan tahun ya 500 tahun lebih
+sementara crypto ini baru belasan tahun
+sehingga di sini
+tesis kita kita adalah
+membawa atau mengaplikasikan ya
+dot teori ini ke dalam market cryptocurrency
+karena jelas bisa ya karena
+ke-2 ini sama-sama ya
+market yang bisa dibilang ya relatif juga efisien ya
+kemudian ke-2
+ini pasti terjadi koreksi
+ya dalam setiap naik
+dan turunnya itu selalu
+ada koreksi
+begitupun juga di market crypto
+fungsi do teori ini apa ya
+pada dasarnya do teori ini memiliki fungsi
+untuk mengetahui tren
+sehingga kita ini nggak ada dalam tren yang salah
+karena trader yang berada dalam tren yang salah
+ya ketika misalkan
+harganya ini naik nggak karu karuan terus nge short
+ya ini kan dia udah satu terliquidasi yang negatif
+ke-2 yang harusnya dia
+dapat profit
+ya ketika nge long dia malah rugi ya karena
+itulah pentingnya
+memahami mengenai do teori
+jadi do
+teori ini selalu ya teman-teman berfokus kepada tren
+kalau kita technical research kan banyak ya tren
+kemudian kita ngomongin
+masalah area
+ya kita ngomongin pattern
+kita ngomongin trigger
+tapi kalau di do teori ini pure tren
+jadi hanya dengan menggunakan
+tren di duo teori ini kamu bisa untung di pasar ya
+jadi tergantung time frame apa yang kamu lihat ini kamu
+selalu bisa membaca ya arah pergerakan dari harga
+yang mana tren ini dalam dua teori dibagi ke
+dalam tiga satu tren primer
+dua tren sekunder
+dan ke-3 adalah tren minimal
+kemudian dalam do teori ini ya ketika teman-teman ingin
+melatih diri
+untuk engage dengan do teori
+untuk mengaplikasikan
+do teori dalam trading teman-teman
+atau ketika teman-teman punya
+ya suatu konsep
+ya terus kemudian pengen aplikasiin do teori
+di situ
+teman-teman pada dasarnya harus melatih 4 hal ini satu
+pilih satu instrumen aja ya
+ini kan yang harus ini ya di garis bawah
+ya teman-teman
+jadi di dalam bukunya itu ya dijelaskan kalau lebih
+preferable hanya ke satu aset
+oke let's say kita fokus aja di bitcoin ya berarti
+karena bitcoin adalah
+yang paling
+besar ya di dalam sini
+bahkan di dalam dua teori ini
+latihannya hanya menggunakan
+SNP five hundred
+terus ya latihannya hanya menggunakan
+NP five hundred
+jadi di sini kita bisa
+pure ya ngomongin bitcoin
+ya anggap aja bitcoin kan indeksnya cryptocurrency
+ke-2 ya fokus pada primer
+dan sekunder
+jadi mohon maaf nih ya para scalper
+ya para pemain di minor trend
+yang suka ya berspekulasi ya dalam hitungan menit
+ya ini mungkin kamu minggir dulu ya karena
+do teori ini fokusnya ke primer
+dan secondary trend
+sehingga time frame-nya ini monthly ya weekly
+daily karena memang di sini
+fokusnya ini melihat ya gambaran yang agak jauh
+terus ke-3 di sini
+ada suatu hal yang namanya linimasa
+untuk mengamati pergerakan tren primer
+atau sekunder
+jadi do ini menjelaskan bahwa pada dasarnya
+ketika harga
+ini membentuk suatu pola
+berarti ada pola waktu di situ
+contohnya gimana
+misalkan setiap bulan
+tanggal satu
+harga akan bergerak seperti ini
+setiap hari minggu
+harga bergerak seperti ini
+setiap 7 hari kemudian
+setiap satu tahun kemudian
+nah ini do ini menjelaskan
+bahwa ada suatu pola kecenderungan dari suatu
+linimasa tertentu
+dan kemudian ke-4
+ya ini harus solid ya
+analisa keputusan jual beli
+saya bilang
+nggak hanya asal gambar-gambar garis ya
+kalau kamu menerapkan no teori
+kamu harus tahu banget ya
+fundamentalnya ya
+kamu harus bener-bener oke
+alasan saya membeli adalah
+ini alasan yang sangat komplit
+prinsip do teori teman-teman tuh ada 6
+satu trennya itu harus signifikan
+jadi naik ya naik
+turun ya turun
+oke di sini nggak dibahas sideway-nya ya
+sideway itu nggak masuk ya ke dalam hitungan do teori
+jadi naik atau turun
+itu aja ya di sini
+kemudian di sini tren itu fasenya ada tiga
+yaitu adalah
+sekunder dan juga minor
+tapi minor nggak terlalu dibahas di sini terus ke-3
+teori ini selalu terjadi
+jadi yang naik itu pasti
+turun itu pasti
+nggak usah
+do teori pun jelaskan yang naik itu pasti turun
+itu adalah hukumnya ya
+kemudian di sini
+do ini sangat
+memperhatikan konfirmasi dari volume
+jadi ketika breakout ini nggak diikuti
+volume atau harga naik
+volume turun
+ini do teori juga menyarankan ya ini
+bukan sesuai dengan prinsipnya sehingga harus dihindari
+kemudian kita juga mengkonfirmasi indeks ya indeks
+indeks lain
+misalkan ya misalkan indeks cpi
+dan lain sebagainya
+itu kalau di saham ya
+kalau di crypto mungkin kita indeksnya adalah di x
+y ya kemudian
+index grafik total market cap
+dan
+terus kemudian terakhir
+ya tren ini akan terus berlanjut
+sampai adanya perubahan klub
+jadi misalkan
+kita menggambar
+suatu tren line nih ya dia ada kecenderungan naik
+berarti biasnya itu naik terus
+sampai mungkin
+ada informasi yang berubah
+seperti trennya yang switching seperti itu
+jadi ketika tetap
+ya informasinya
+bias kita tetap
+dan itu adalah 6 prinsip dari do teori
+oke saya all testing dari akademi crypto
+sampai berjumpa di video selanjutnya
+kembali lagi dengan saya alvesting dari akademi crypto
+jadi pada kesempatan kali ini
+kita akan membahas ya mengenai naratif research
+di modul yang pertama
+jadi intro to
+naratif research
+apa sih sebenarnya naratif research itu
+jadi teman-teman ketika udah ngikutin
+webinar saya kemarin
+pasti tahu ya
+jadi naratif research itu merupakan suatu
+riset yang dilakukan untuk mengetahui
+ke mana arah tren kripto karnasi selanjutnya
+jadi kita menerka-nerka ya kira-kira
+smart money ini mau ngucurin DANA ke mana
+jadi smart money itu adalah visi ya
+fund manager atau bankir-bankir yang memiliki DANA
+yang sangat besar
+yang mana selalu mencari sektor yang hot
+sektor yang dicari oleh para investor dan pasti
+mempunyai real
+case economic value
+jadi di sini ya
+mengapa naratif itu penting
+ya karena pada dasarnya
+market crypto ini sangat sentimen base sekali
+kemudian ke-2
+segala hal yang
+ada di dalam naratif research
+ini sangat berpengaruh dengan tag kamu ini
+dan yang ke-3
+hard dari sosial media
+itu sangat mudah sekali
+disebarkan di market cryptocurrency
+pertama kita ngomongin masalah
+sentimen base market
+jadi kalau kita ngomong ya sebenarnya jujur
+market crypto ini masih
+sangat baik
+kenapa sangat baik
+karena seluruh ekosistemnya aja itu total
+valuasinya itu kurang lebih ya satu triliun dolar
+itu sangat kecil ya teman-teman
+apabila teman-teman bandingkan dengan saham apple
+yang mana saham apple saja
+satu perusahaan tunggal itu tiga triliun dolar
+kalau dibandingkan dengan seluruh
+valuasi saham di Amerika itu 1:4
+6 artinya apa artinya
+life changing money
+ketika teman-teman masuk di industri
+ini masih sangat besar
+jadi masih kurang dari 3% ya teman-teman
+penduduk dunia ini yang
+sudah aware dan memiliki
+aset cryptocurrency
+jadi teman-teman
+ini ketika membeli cryptocurrency sekarang itu
+sama aja ketika teman-teman
+membeli saham ya di 1950 atau 1960
+jadi
+you are so early di sini ya dan life changing money
+menunggu kalian
+ini ada cerita ya ada beberapa
+anekdot ya dan juga beberapa story
+yang kita pelajari ya
+pertama itu adalah love
+saga ya antara Tesla dan juga bitcoin
+jadi di februari ya 2002 satu ini
+Tesla mengumumkan kalau mereka membeli bitcoin
+dan akan menjadikan bitcoin ya
+pertimbangan untuk payment pembayaran Tesla
+dan teman-teman lihat ya di sini ya
+harga langsung meroket
+ratusan persen untuk bitcoin
+dan Tesla sendiri berhasil ya membawa
+miliaran dolar ya masuk ke dalam ekosistem crypto
+kalau kita lihat ini
+bener-bener gila ya karena ini cuman satu perusahaan
+ini membawa kita ke salah satu bulran
+yang paling besar
+ya dalam sejarah cryptocurrency itu sendiri
+ke-2 ada losaga ya antara xrp dan
+scc jadi scc ini menuntut xrp
+dan menyatakan kalau ripple
+ini adalah sekuritas
+jadi selama bertahun-tahun
+xrp ini melawan ya gugatan dari triple
+dan kemarin ya juli 2002 tiga
+xrp mengumumkan kalau mereka
+sudah menang
+sebagian gugatan dari ACC
+dan apa yang terjadi teman-teman
+harganya itu langsung
+pump teman-teman ya 30% dalam 15 menit
+ya saya lihat langsung yaitu candle-nya dan juga
+1x24 jam ini pump sampai 100%
+ini kan luar biasa sekali
+teman-teman
+sangat full
+jadi ketika teman-teman ya memasukkan
+posisi 10.000.000
+besoknya satu kali
+24 jam itu jadi 20.000.000
+ketika teman-teman memasukkan
+100.000.000 itu jadi 200.000.000
+dan seterusnya
+ini menunjukkan bahwa
+kesempatan mencari uang
+teman-teman di pasar
+crypto currency itu sangat besar
+kemudian kemarin juga sempat ya ada
+naratif ya Chinese coin
+di mana februari 2023
+yaitu ada desas-desus ya kalau misalkan seluruh
+koin-koin ya terbitan dari negara
+paman Sam dari Amerika itu akan dihapus
+semua akan di delisting sehingga
+ya para investor ini mencari
+ya kontradiksinya dari koin Amerika itu apa
+yaitu adalah koin Cina ya
+kemudian
+investor nih berbondong-bondong ya mau beli koin Cina
+dan apa yang terjadi
+bahkan salah satu koin dinosaurus yaitu adalah neo
+ya koin yang udah lama banget
+ini naik teman-teman sampai 144%
+dalam waktu
+1-2 bulan
+dan juga koin-koin naratif Chinese lain juga langsung
+pump semua teman-teman
+ini akan menunjukkan bahwa market ini ya masih
+sangat mudah
+ya untuk digerakkan dengan adanya suatu
+sentimen tertentu
+kemudian
+naratif research itu sangat erat dengan tech company
+jadi ketika teman-teman melihat alcoins
+pada dasarnya teman-teman itu melihat
+real life tech company
+jadi apa yang
+dikerjakan oleh alcoins
+itu sebenarnya juga mirip dengan
+real life tech company
+cuman bedanya ya
+kita base on blockchain
+menggunakan web three
+sementara real life take company itu masih menggunakan
+web two kalau kita lihat misalkan
+game fight
+apa bedanya ya project crypto game fight
+dengan Konami atau rockstar itu sama ya cuman bedanya
+game fight ini dia berjalan di atas jaringan blockchain
+begitu juga dengan metaverse ya
+metaverse apa bedanya
+meta ya perusahaan meta dengan misalkan
+sandbox atau descentraland itu sama aja
+cuman bedanya ya sandbox dan descentraland itu
+berjalan ya di atas jaringan web three ya
+kemudian project-project AI ya cgpt ya base on
+web two ya sementara misalkan
+project-project seperti ocean
+ya kemudian fpt
+mereka berjalan di atas jaringan blockchain di web
+kalau teman-teman lihat ya
+kaitan langsung ya secara erat
+ini contohnya adalah
+Facebook ya yang merubah nama menjadi meta
+ini di oktober 2021
+dan apa yang terjadi teman-teman ya seluruh
+koin di ekosistem metaverse itu naik gila-gilaan
+hanya dalam waktu satu bulan
+kalau teman-teman lihat ya ini sandbox naik 992%
+kemudian mana
+ini naik 700% ya kemudian gala ini naik 1090
+8% ini pun koin-koin dengan market cap besar
+ya teman-teman
+sampai miliaran dolar
+itu naik ya
+10 kali lipat ya kurang lebih dalam waktu satu bulan
+dengan menyusul beritanya Facebook
+ya mem branding mereka sebagai perusahaan metaverse
+lalu pertanyaannya ya yang
+cap besar aja 10 kali lipat kak
+terus yang low caps gimana ya
+low caps naiknya ya 100-1.000 kali lipat
+bahkan saya pengalaman
+saya membeli salah satu project kecil
+metaverse itu
+blockchain itu naik ratusan kali lipat
+jadi ketika teman-teman
+berinvestasi 10.000.000 saja
+itu bukan jadi ratusan juta ya tapi jadi miliar
+begitu naratif ya sangat membuka
+kita ya kepada peluang untuk pensiun dini ya untuk
+financial freedom
+kemudian ada kegilaan chat jpt ya
+kalau teman-teman lihat di januari ya
+2023 kemarin
+dunia dihebohkan ya dengan kemunculan chat gpt
+sebuah AI yang sangat praktis
+yang mana AI
+ini sangat mendukung ya
+daily use bisa teman-teman
+tanya apapun ya
+membuat script ya
+kemudian membuat konten dan lain sebagainya
+bahkan image dan juga video
+ini menunjukkan bahwa adopsi AI
+membawa efisiensi ya pada perusahaan-perusahaan
+nah kemudian
+di q1 2023 ya setelah
+AI ini menjulang tinggi ya
+banyak sekali juga ya perusahaan-perusahaan
+di cryptoverse yang naik juga seperti egix ya
+singularity
+kemudian ocean dan lain sebagainya
+jadi dalam satu dua bulan itu
+seluruh ekosistem ya koin EA
+itu naik berkali-kali lipat ya teman-teman
+kemudian ke-3 ya
+kita ngomongin masalah naratif research
+karena heart dari sosial media
+di dalam crypto ini sangat berpengaruh sekali
+contohnya di mana ini contohnya
+kepanikan
+ya yang ditimbulkan oleh salah satu influencer besar
+yaitu kobi ya personality di Twitter
+jadi kobi ini
+mentwit ya encrypted message
+yang ketika dibuka
+encrypted message-nya itu menyatakan kalau cizi ya
+CEO dari binance itu sedang diburu interpol
+kemudian akhirnya ya
+tweet tersebut menimbulkan kepanikan
+dan membuat bitcoin tuh turun
+hampir ya teman-teman
+hampir 5% dalam waktu 3-4 jam ya
+saya melihat langsung ya
+dan kemudian langsung
+visip ke atas ya
+bayangkan ini bitcoin ya teman-teman
+jadi tweet dari koki itu berhasil
+ya itu melikuidasi puluhan bahkan ratusan miliar
+posisi long
+ya teman-teman
+bayangkan sendiri
+betapa mudahnya ya market ini digerakkan oleh
+sentimen yang terbentuk dari
+earth sosial media
+nah ini kemudian ada euforia ya brc twenty tokens ya
+jadi di pertengahan 2002 tiga kemarin ya
+Casey odenmore
+ya atau yang
+bisa juga disebut dengan domo
+ya merupakan inventor dari brc twenty
+jadi brc twenty ini suatu protokol ya teman-teman
+yang memungkinkan
+para developer untuk membangun token atau nft
+di atas jaringan bitcoin ya
+kemudian ini juga menimbulkan banyak pro dan kontra ya
+pro-nya ini dianggap sebagai sesuatu yang positif ya
+karena inovatif
+tapi kontranya ini dianggap sampah karena
+secara otomatis ya itu
+ini merusak ya jaringannya bitcoin
+sehingga transaksi menjadi relatif lebih lama
+jadi setelah prc
+twenty kemarin yang diunggulkan di berbagai Twitter ya
+red ya dan lain sebagainya ini
+naik sampai sekian ya sampai berkali-kali lipat
+namun kalau sekarang mungkin
+sudah sangat reda
+karena kita ini tipikalnya bam
+and bass ya cepat naiknya
+dan juga cepat turun
+nah kemudian
+ada kemunculan friend
+tag ya teman-teman ya
+siapa sih yang nggak punya fanpage ya
+jadi fanpage ini sosial
+platform ya di web three
+yang mana memungkinkan ya para personality
+ini berinteraksi
+teman-teman secara langsung
+dengan para user atau para followers-nya
+yang mana nanti para followers itu membeli key
+yang mana key itu juga ada harga pasarnya sendiri
+ya teman-teman
+dan friend
+tag ini protokol yang menghasilkan
+revenue yang cukup besar
+jadi kalau di
+dibandingkan dengan ethereum ya yang paling profitable
+sejauh ini ini menduduki peringkat tiga
+jadi 24 jam itu
+ethereum menghasilkan ya revenue $1.000.000
+kalau friend
+tag ini $700.000
+ya ini sangat tipis ya dengan ethereum
+ini menunjukkan ya bahwa adanya ya heart
+dari sosial media
+terutama para influencer
+ini bisa ya menggerakkan atau memulai
+suatu naratif tertentu
+kalian lihat nggak polanya di sini
+ya kalau saya aja lihat ya jadi
+anda bisa menang di sini
+ketika anda itu masuk paling awal
+anda harus yang paling early dalam
+tiap naratif untuk mendapatkan
+keuntungan dari naratif tersebut
+jadi ini mohon maaf gambarnya kurang appropriate ya
+jadi ketika teman-teman ini dapat
+seal dari Twitter
+itu sudah ya
+lewat DM udah lewat telegram
+udah lewat discord
+yang mana ketika teman-teman baca di Twitter ini
+teman-teman bukan yang pertama
+tapi udah ada 100 orang lain
+teman-teman yang masuk di dalamnya
+jadi teman-teman
+harus aware dengan informasi ini
+maka dari itu kenapa
+saya menekankan ya pentingnya
+komunitas ya teman-teman di sini
+sehingga ketika teman-teman tergabung dalam komunitas
+salah satunya di akademi crypto ini ya
+teman-teman akan mendapatkan informasi
+alvas yang paling Update
+ya yang paling pertama
+jadi jangan lihat di Twitter
+karena teman-teman
+besar kemungkinan jadi exit liquidy
+terus keuntungan jadi yang pertama apa
+jadi saya menjelaskan ya keuntungan jadi yang pertama
+tuh ada tiga
+ya kamu bisa dapat potential begin
+terus kamu juga bisa risking relatively small dan kamu
+bisa dapat sosial kredit
+potential the kids
+ya jadi ketika
+teman-teman
+memahami ya dari perspektif risk to reward rasio ini
+contohnya adalah
+naratif metaverse dengan koin di central land atoman
+jadi ketika teman-teman masuk
+di saat itu juga ya di mana itu
+teman-teman bisa capture
+ya keuntungan kurang lebih 700
+tapi ketika teman-teman masuknya itu telat
+ya satu minggu
+teman-teman itu
+hanya mendapatkan 100 atau double
+tapi ketika teman-teman telat ya satu bulan
+apa yang terjadi
+negatif 95% ya
+jadi ketika
+waktu ini sangat sensitif
+teman-teman
+harus di detik itu juga ya mengeksekusi sesuatu
+ini saya buat meme ya jadi
+anaknya ini bilang ke bapaknya
+saya invest ya naratif ke
+metaforce
+CNN bilang ya meta freeze ini masa depan
+terus bapaknya tanya terus hasilnya gimana
+negatif 95%
+jadi mereka yang masuk telat ya itu pasti
+pasti ya saya bilang pasti menjadi exit liquid
+kemudian dari perspektif freeze
+ya ketika teman-teman masuk di awal itu
+stop loss-nya relatif small
+ya 20-30 persen
+karena apa ya karena swing low
+teman-teman dapat di swing low-nya
+ya di low-nya yang paling bawah
+tapi ketika teman-teman udah
+satu minggu masuk
+ya teman-teman
+ces depan ini di mana
+put the stop loss pasti di swing low paling bawah
+dan swing low paling bawah tuh nilainya berapa
+70-80 persen
+yang artinya apa guys
+teman-teman hampir meresikokan seluruh
+aset teman-teman
+seluruh position size
+dari teman-teman
+ini juga sangat beresiko
+kemudian sosial kredit
+jadi ketika teman-teman berhasil Meng
+capture ya naratif tertentu
+teman-teman akan punya kredibilitas ya di crypto
+Twitter yang mana kredibilitas tuh dijunjung tinggi
+ya next time
+teman-teman
+bisa take the kredit
+dan juga semua pasti mendengarkan ya ketika teman-teman
+tweet tentang sesuatu
+karena teman-teman dianggap relia
+lalu gimana ya caranya
+jadi yang pertama
+di setiap naratif ya
+itu jawabannya akan kita bahas di modul selanjutnya
+guys
+kembali lagi dengan Aku alvesting dari akademi crypto
+jadi kita udah ada di modul ke-3
+ya mengenai naratif research
+jadi kali ini
+Aku akan membahas ya mengenai portofolio allocation
+jadi sebelum kita ngomongin ya masalah portofolio
+location
+kita bicara dulu nih apa sih sebenarnya portofolio ya
+jadi secara definisi
+portofolio itu merupakan
+daftar
+kumpulan aset aset ya yang disusun secara sistematis
+untuk mencapai tujuan investasi
+jadi ingat ya teman-teman
+ada kata kuncinya aset aset
+berarti asetnya di sini
+lebih dari satu ya
+jadi portofolio ini adalah kumpulan dari aset aset
+mengapa ya portofolio ini kok harus di manage
+ya pada dasarnya
+satu untuk mengetahui ya identitas diri kita
+ke-2 untuk menentukan tujuan
+dan yang ke-3 untuk melakukan progres ya
+pertama mengetahui identitas diri
+saya bilang
+kunci kesuksesan itu adalah jujur
+yang paling penting itu adalah jujur
+dengan diri sendiri
+jadi
+ketika kamu sudah jujur ya dengan diri kamu sendiri itu
+kesuksesan itu akan menghampiri kamu
+ketika kamu tuh masih nggak jujur
+ya dengan dirimu sendiri
+jangan harap kamu bisa melakukan apapun
+begitu juga di market cryptocurrency
+pertama ini kamu harus ke kaca dulu ya
+lihat dulu ya siapa kamu ya
+lihat rekening
+di hp mu ya
+kemudian lihat
+portofolio di exchange mu
+kamu tuh di mana posisinya
+ketika kamu udah
+jujur udah tahu
+baru kita nentuin ya nanti
+tujuannya ini saya membuat tabel
+namanya tabel kenali diri
+pertama ya matrixnya itu
+adalah siapa diri saya ini
+tanya ya teman-teman
+ini kaitannya dengan usia ya
+kemudian pekerjaan
+dan sumber penghasilan
+apakah saya ini masih
+ditanggung orang tua
+ataukah saya ini sudah bisa kerja sendiri
+yaitu di sumber penghasilan
+ini kamu tanya ke diri kamu sendiri
+karena itu akan menentukan
+level keuangan kalian ya
+ini kaitannya dengan jumlah tabungan ya
+kemudian apakah kamu punya agensi keuangan tertentu
+apakah ada sesuatu yang harus dibayar
+karena pada dasarnya berinvestasi itu harus menggunakan
+uang yang dingin
+uang yang udah siap hilang
+jadi ketika kamu
+menyamaratakan ya portofoliomu dengan uang kamu harian
+kamu jangan harap bisa menang di game
+saya jamin 99% ya kamu itu tidak akan bisa berhasil
+di game ini
+karena game ini adalah game psikologis
+dan psikologis dengan uang ini
+memegang peran yang sangat penting
+bahkan yang paling penting dalam mencapai
+kesuksesan berinvestasi
+kemudian teman-teman juga harus tahu ya di mana
+level pengetahuan kalian
+ini terkait dengan finansial
+literasi dan juga
+pengetahuan dasar mengenai cryptocurrency
+sudahkah saya tahu mengenai technical research
+sudahkah saya tahu gimana
+mengalokasikan portofolio
+sudahkah saya tahu ya untuk
+naratif trading tuh seperti apa
+sudahkah saya tahu gimana melihat dari wallpaper
+suatu aset crypto
+dan lain sebagainya
+itu sangat penting
+karena ketika teman-teman nggak
+treat ya market sebagai bisnis
+ya jangan harap teman-teman bisa untung
+sama aja analoginya teman-teman mau buka restoran
+tapi teman-teman nggak bisa masak
+apakah teman-teman akan
+berhasil enggak
+sama juga ketika teman-teman mau trading
+mau investing
+tapi nggak tahu gimana caranya trading
+apakah akan berhasil
+itu jawabannya enggak
+baru di terakhir
+ya teman-teman bisa menentukan tujuan keuangan kalian
+karena pada dasarnya manusia
+itu ada dua tipe ya risk taker dan juga risk lovers
+risk taker itu mereka yang berani mengambil resiko
+misalkan ya ambang batas resiko tuh 50
+risk taker ini bisa ambil di 7080
+sementara risk avers ketika
+batas resiko 50
+mereka mungkin di 30
+di 40 tuh udah maksimal
+dan itu kita nggak bisa menyalahkan
+ya karena karakteristik orang berbeda-beda
+sehingga kita harus tahu siapa kita
+ya dan tujuan kita
+gimana
+kedepannya terhadap portofolio crypto yang kita miliki
+saya bisa menjelaskan
+jadi 99% yang ingin
+living from trading itu saya anggap selalu gagal
+ya berarti ada satu persennya yang berhasil ya ada
+kayak satu persennya ini
+adalah mereka yang minimal ya
+portofolionya itu miliaran
+atau puluhan miliar
+ya ini juga ada banyak ya riset yang menunjukkan
+minimal kamu tuh punya tiga miliar
+liquid ketika kamu ingin
+trading for living
+ada juga ya yang menyebutkan kalau kamu tuh harus punya
+20 kali ya biaya hidup tahunan
+jadi ketika biaya hidupmu satu tahun
+let's say ya 100.000.000
+yaitu kamu minimal punya dua miliar
+ini secara rumus ya
+karena ketika teman-teman mengabaikan ini ya
+teman-teman nggak bisa ya trading dengan santai
+karena teman-teman akan berpikir ya
+wah kalau saya kalah
+ya saya mungkin besok nggak bisa makan
+itu akan membuat teman-teman gagal ya
+dalam trading
+maka dari itu ya saya selalu menyarankan ya
+kalian harus punya income sources ya
+entah itu teman-teman bekerja ya atau punya part
+time job atau misalkan teman-teman
+ngerjain ya project-project tertentu
+untuk men support
+untuk mendukung ya teman-teman punya trading portofolio
+sehingga ini ya ada cheat sheet ya
+for portofolio guys
+ini adalah cheat cheat yang
+yang menunjukkan ya jumlah portofolio
+strategi yang ideal dan
+jumlah naratif yang teman-teman bisa ya
+pegang dan handle
+dalam satu waktu bersamaan
+oke let's say portofolio teman-teman
+kurang dari 100.000.000
+itu saya sarankan strateginya adalah
+sangat agresif
+mengapa sangat agresif
+karena anggap saja
+ketika kehilangan 100 juta ini
+ya dunia itu nggak akan berhenti
+oke
+tapi kalau 100 juta ini bisa naik berkali-kali lipat
+dunia ini akan
+berputar di sekitar teman-teman
+ada saja yang mengalaminya ya
+sehingga jumlah naratif maksimal yang teman-teman bisa
+trade dalam satu waktu itu
+hanya satu
+berarti teman-teman harus bisa ya one shoot one kill
+kamu tebak suatu naratif satu bulan kemudian naik
+kamu tebak suatu naratif dua minggu kemudian naik
+karena kamu room for error-nya ini nggak ada
+uangmu kecil
+kamu nggak bisa diversifikasi
+kamu harus one shoot
+one kill oke
+kemudian di sini jumlah portofolio 100-500.000.000
+ini lebih modrate strateginya
+karena apa karena dia bisa memainkan ya 2-3 naratif
+dalam waktu yang bersamaan
+misalkan oke saya investasi di naratif main koin
+saya investasi di naratif LSD
+saya bisa investasi di naratif rwa
+tiga naratif dalam
+satu waktu yang bersamaan
+tapi kalau kamu cuma 100.000.000
+ya kamu harus fokus satu naratif
+oke saya meme coin ya make it or break it
+beda lagi ya
+ketika teman-teman yang portofolionya
+udah di atas satu miliar
+teman-teman bisa lebih slow lagi ya
+memainkan 5 naratif yang berbeda
+ya 200.000.000 misalkan
+masing-masing
+naratif itu sangat bisa
+karena di sini teman-teman sudah punya
+room for error ya ketika satu naratif tidak terjadi
+ya mungkin akan di cover oleh naratif yang lainnya
+sehingga teman-teman di sini
+bisa menentukan tujuan
+setelah mengetahui siapa saya
+dan harusnya saya gimana
+ini saya membuat ya tiga skenario ya teman-teman
+bahwa saya suka ya menjelaskannya
+dalam skenario pertama
+mungkin teman-teman yang masih
+under twenty ya umurnya
+mungkin portofolionya di bawah satu miliar
+tujuanmu hanya satu
+mencari kekayaan
+sebanyak-banyaknya
+oke di tahap ini ketika kamu kehilangan segalanya itu
+kamu masih punya waktu
+untuk mencari lagi
+kamu belum menikah
+kamu belum punya anak
+kamu belum punya tanggungan
+mungkin kamu juga masih hidup di tempat orang tuamu
+ya tabungan ini gimana kamu kelola
+supaya kamu jadi kaya
+jadi
+berpikir defensif kalau uangmu tuh di bawah satu miliar
+itu nonsense
+kenapa ya karena
+jujur ya teman-teman
+bukan saya meremehkan ya nilai satu miliar
+tapi nilai satu miliar itu hanya besar di angka
+besar di nominal
+coba teman-teman cek
+berapa harga rumah
+berapa harga tanah
+berapa biaya menikah
+baru teman-teman kerasa
+satu miliar itu nggak ada apa-apanya
+di dunia sekarang
+sehingga ketika teman-teman
+Porto masih di bawah satu miliar
+fokusnya mencari kekayaan
+sebanyak banyak
+terus kemudian di fase ke-2
+mungkin teman-teman
+30 awal atau 20 akhir di
+sini teman-teman punya mungkin
+portofolio satu miliar lebih ya sampai 10 miliar
+10 miliar ini teman-teman belum financial freedom oke
+tapi teman-teman
+sudah bisa nyaman ya mendiversifikasi aset teman-teman
+entah itu dalam cryptocurrency
+atau mungkin teman-teman juga berinvestasi di saham
+di properti
+itu udah bisa
+tapi ketika teman-teman fokus di cryptocurrency aja
+ya ini teman-teman bisa
+lebih longgar ya misalkan 50 ya buat bitcoin ya 30 buat
+ETH 20 untuk koin-koin yang lain
+itu bisa terus yang di tahap ke-3 ini
+ini ya lebih dari 10 miliar ya
+ini misalkan kayak brutimoti ya
+jadi beliau ini sudah ada di tahap merdeka finansial
+jadi tujuannya ini hanya menjaga kekayaan
+bukan lagi mencari kekayaan
+karena tools-nya untuk mencari kekayaan
+dengan menjaga kekayaan tuh beda
+kendaraannya juga beda
+kemudian saya selalu menjelaskan ya teman-teman masalah
+portofolio allocation
+saya selalu menyarankan 70 itu di spot
+dan 30% di future
+ya let's say teman-teman punya 100.000.000
+ya 70.000.000 itu masuk di spot
+dan 30.000.000 masuk di future
+itupun ya maksimal cut loss ketika teman-teman salah
+itu adalah 1%
+jadi ketika teman-teman salah
+teman-teman hanya meresikokan 300.000
+maksimal 2% 600.000
+dan dari portofolio spot ini ya misalkan 70.000.000
+ya itu ketika teman-teman masuk ke dalam suatu koin
+yaitu saya bilang ya minimal dan maksimalnya 10%
+jadi kurang lebih 7.000.000-10.000.000
+dalam satu call
+kemudian ketika teman-teman udah
+tahu ya dua tahap awal sebelumnya
+menentukan siapa diri teman-teman dan menentukan tujuan
+teman-teman
+bisa melakukan track progress
+ya sebenarnya saya
+tidak terlalu suka ya dengan market ya
+atau misalkan
+teman-teman cek progres ya
+misalkan satu tahun dapat uang berapa
+dua tahun dapat uang berapa
+karena ini rezeki
+teman-teman itu kan sifatnya sangat nggak ya
+sangat misteri
+sangat misterical ya
+sehingga teman-teman nggak bisa ya timing the market
+tapi mungkin teman-teman cuman bisa ya
+mengestimasi
+dari jumlah yang teman-teman miliki
+dengan strategi tertentu itu
+seberapa cepat
+atau lama progresnya
+ini misalkan ya yang paling agresif ya 1-2 tahun
+itu bisa ketika teman-teman
+di sini strateginya sangat agresif
+yaitu resikonya teman-teman juga bisa kehilangan
+segalanya tapi yang moderate ya 5-10 tahun
+ini mungkin ya bisa ya dicapai dalam 2-3 cycle
+sehingga ya
+yang infinity ini ya ini
+sudah nggak ada ya pikiran kapan ya
+karena mereka mungkin bisa
+hold ya bitcoin tuh selamanya
+karena dia udah nggak ada batasan waktu
+ya teman-teman
+udah nggak ada ya saya harus kapan ya cash out
+ini karena ada inflasi
+ada time value of money
+sehingga lama-kelamaan ya ini pasti akan terkikis
+yuk teman-teman kita arrange portofolio kita
+sehingga kita bisa mencapai tujuan keuangan kita
+saya alvesting dari akademi crypto
+sampai berjumpa di video selanjutnya
+dari akademi crypto
+jadi kita udah masuk ya
+di video terakhir
+atau video ke-5 dari series
+onchain trading
+jadi di kesempatan kali ini ya kita akan membahas ya
+kesalahan
+apa yang harus teman-teman hindari ya sebelum melakukan
+suatu onchain trading
+jadi kenapa sih onchain ini beresiko
+ya karena kan teman-teman ini
+melakukan transaksi secara mandiri
+dan manusia
+ini kan tempatnya salah ya teman-teman
+manusia ini adalah tempatnya error
+sehingga kalau
+ini transaksinya ini adalah berkaitan dengan keuangan
+ya saya bilang teman-teman harus
+lebih hati-hati
+sebelum teman-teman terjebak ke dalam masalah
+keuangan tertentu
+karena ternyata
+faktanya ya yang kesulitan dengan on chain trading
+atau mengalami kendala ya ketika melakukan online
+trading ini bukan hanya teman-teman
+ya tapi bahkan ya platform platform besar ya levelnya
+institusi gede
+teman-teman
+yang duitnya ini udah triliunan
+ini juga masih
+kadang ya kadang ini melakukan kesalahan oncen ya
+sampai ini contohnya adalah crypto dot com
+ini pernah salah kirim ethereum
+sebanyak berapa teman-teman
+6 triliun ke seorang wanita di Australia
+bayangkan ya teman-teman
+kamu bangun pagi lihat loh
+seharusnya 6 triliun ini ternyata
+ada salah kirim ya dari suatu
+institusi besar tertentu
+sehingga teman-teman harus ya teman-teman
+benar-benar memperhatikan
+sebelum melakukan
+on chain transaction
+jadi apa aja sih ya
+yang harus teman-teman perhatikan ya biar nggak salah
+biar transaksinya bener
+satu periksa
+wallet address ya
+ini saya selalu bilang ya wallet address ini
+bisa teman-teman cek ya di bagian atas dari
+suatu wallet
+biasanya di bawah bagian
+card ya teman-teman
+di situ ada ya kode-kode encrypted
+ya besar kecil besar kecil
+perpaduan dari huruf ya dan angka
+yang mana
+saya sarankan ya copy paste langsung ya jangan ditulis
+manual ya karena kesalahan itu jauh lebih besar
+jadi jangan teman-teman ini
+wah saya takut
+ya takut salah copy paste ya terus kamu tulis manual
+itu malah kamu yang kemungkinan masalahnya besar
+copy paste tapi selalu double cek lagi
+triple cek lagi ya 4 angka di belakang nah
+ini wallet saya kan 4 angka di belakangnya dua tiga
+tiga dua ini bisa teman-teman ini ya cek ya sebelum
+mengirim sesuatu
+lihat udah bener belum ke wallet saya
+dan dari cek nih yang ngirim ya terus kemudian
+satu angka terakhir salah
+yaitu uang kalian
+saya jamin 100% tuh hilang
+ya nggak bisa dikembalikan
+terbakar aja di dalam jaringan blockchain
+sehingga teman-teman harus
+berhati-hati ketika hendak ya mengirimkan suatu
+DANA tertentu ya menggunakan wallet ini ya
+terus kemudian teman-teman
+bisa ya periksa
+network-nya
+nah ini yang sering juga ya
+kadang ya teman-teman ini ya karena mirip ya kodenya
+ya ini harusnya ya ini wallet-nya
+ethereum ya teman-teman kirimnya ke binance
+ini sering juga
+apakah hilang
+ya hilang teman-teman
+tapi ya banyak sekarang exchange
+exchange ini juga udah mendeteksi secara otomatis
+ya kalau kodenya ini
+ini adalah network a
+kalau kodenya ini
+ini network b
+tapi ya ada beberapa
+juga ya yang mereka ini tidak ya teman-teman
+memberikan ya atau
+ini adalah network-nya ini ini
+itu kadang juga nggak
+dan itu si gede teman-teman
+yang duitnya ini udah triliunan
+ini juga masih
+kadang ya kadang ini melakukan kesalahan
+oncen ya sampai ini contohnya adalah crypto dot com
+ini pernah salah kirim ethereum
+sebanyak berapa teman-teman
+6 triliun ke seorang wanita di Australia
+bayangkan ya teman-teman
+kamu bangun pagi
+lihat loh kok saldo saya 6 triliun
+ini ternyata
+ada salah kirim ya dari
+suatu institusi besar tertentu
+sehingga teman-teman harus ya teman-teman
+benar-benar memperhatikan
+sebelum melakukan
+on chain transaction
+jadi apa aja
+sih ya
+yang harus teman-teman perhatikan ya biar nggak salah
+biar transaksinya benar
+satu periksa
+wallet address
+ya ini saya selalu bilang ya wallet address ini
+bisa teman-teman cek ya di bagian atas dari
+suatu wallet
+biasanya di bawah bagian kam
+ya teman-teman di situ ada ya kode-kode encrypted
+ya besar kecil
+besar kecil
+perpaduan dari huruf ya dan angka
+yang mana
+saya sarankan ya copy paste langsung ya jangan ditulis
+manual ya karena kesalahan itu jauh lebih besar
+jadi jangan teman-teman ini
+wah saya takut ya
+takut salah copy paste ya terus kamu tulis manual
+itu malah kamu yang kemungkinan masalahnya besar
+copy paste tapi selalu double cek lagi
+triple cek lagi ya 4 angka di belakang
+ini wallet saya kan 4 angka di belakangnya dua tiga
+tiga dua ini bisa teman-teman ini ya cek ya sebelum
+mengirim sesuatu
+lihat udah bener belum ke wallet saya
+dan dari cek nih yang ngirim ya terus kemudian
+satu angka terakhir salah
+yaitu uang kalian
+saya jamin 100% tuh hilang
+ya nggak bisa dikembalikan
+terbakar aja di dalam jaringan blockchain
+sehingga teman-teman harus berhati-hati ketika hendak
+ya mengirimkan
+suatu DANA
+tertentu ya menggunakan
+wallet ini ya
+terus kemudian teman-teman
+bisa ya periksa
+network-nya
+nah ini yang sering juga ya
+kadang ya
+teman-teman ini ya karena mirip ya kodenya ya ini
+harusnya ya ini wallet-nya
+ethereum ya teman-teman kirimnya ke binance
+ini sering juga apakah hilang
+ya hilang teman-teman
+tapi ya banyak sekarang exchange
+exchange
+ini juga udah mendeteksi secara otomatis ya kalau
+kodenya ini
+ini adalah network a
+kalau kodenya ini
+ini network b
+tapi ya ada beberapa
+juga ya yang mereka ini tidak ya teman-teman
+memberikan ya
+atau ini adalah network-nya ini ini
+itu kadang juga nggak
+sehingga teman-teman harus do diligent
+cek lagi apakah saya kirim ke network yang benar
+karena kalau nggak ya teman-teman
+pasti otomatis kehilangan
+jadi pastikan ya di wallet kalian itu network-nya apa
+itu ketika kalian
+hendak mengirimkan itu juga dicek juga
+network-nya benar atau enggak ya
+kemudian ke-3 ya kesalahan ya ini
+Meng copy paste kontrak
+ini sering juga ya terjadi ya teman-teman misalkan
+udah lihat di laman yang bener nih ya koin deko ya
+koin market cap
+yang mana udah standarnya industri ya
+terus teman-teman
+salah copy paste ya atau kurang
+katanya kurang angkanya
+ini juga menimbulkan ya resiko
+duit itu juga bisa hilang ya
+jadi teman-teman pastikan ya kontraknya ini bener ya
+tapi juga hati-hati
+scam-nya juga ya jangan
+dapat kontrak itu dari mana
+dari Twitter
+oh saya dapat kontrak dari mana
+dari telegram
+itu ada chance ya
+teman-teman
+itu dibohongin ya
+jadi ada pihak tertentu ya oh ini token ini ya
+kok pipis dong ini
+nah terus kemudian teman-teman
+kok pipis dan duitnya hilang semua
+jadi teman-teman harus memahami ya
+ada resiko ya teman-teman
+ketika teman-teman ini salah ya
+ketika menswap suatu kontrak
+yang mana bukan kontrak dari aset yang semestinya
+terus kemudian ke-4
+ya teman-teman harus memeriksa gaspinya
+jadi kan ya yang paling besar itu gasnya kan ethereum
+ya jangan sampai
+teman-teman ini
+jadi ini ya
+duitnya hilang semua karena membayar gas
+karena pernah nih
+teman saya ya
+ini membeli suatu koin meme
+ya koin meme-nya itu kan cuman $100 ya
+teman saya ini belinya $100 tapi nggak ngecek gas
+v-nya lagi pas tinggi banget 150
+jadi dia beli koinnya 100
+ya gas v-nya ini 150
+jadi kan ya ini nggak masuk akal
+sehingga teman-teman
+harus bisa mensiasatinya ya kapan mau bertransaksi ini
+ya mungkin jangan di jam-jam yang tinggi ya
+kongesinya tinggi
+jangan yang lagi rame-rame banget network-nya
+ya mungkin teman-teman beli di waktu Asia
+ya mungkin atau waktu Eropa
+ya jangan ketika waktu gasnya itu sangat tinggi dan
+digunakan transaksi oleh semua orang itu
+karena sangat beresiko ya
+melahirkan ya gaswi yang sangat Mahal
+yang mana teman-teman nanti tekor ya bayar gaswi
+jadi itu ya beberapa hal yang harus teman-teman
+siapkan dan perhatikan sebelum teman-teman melakukan
+onchain trading
+saya ucapkan selamat mencoba ya
+saya investing dari akademi crypto
+sampai berjumpa di video selanjutnya
+saya off testing dari akademi crypto
+jadi di video ke-4 kali ini ya kita akan membahas
+tools apa saja
+yang bisa teman-teman gunakan
+ketika teman-teman melakukan
+content trading
+jadi di video sebelumnya ya saya menjelaskan
+tools yang utama
+yaitu adalah
+dex ya atau decentralized exchange
+namun nyatanya ada berbagai tools tools lain
+yang bisa ya dijadikan alat
+menunjang teman-teman melakukan aktivitas
+onchain trading
+karena kan bedanya
+dex ya sama cex ya
+kalau cex itu kan teman-teman offchain trading itu
+semuanya ya ini saya bilang semuanya ini
+disediakan oleh central exchange
+tapi kalau teman-teman ini transaksi onchain
+yang menggunakan
+teman-teman harus mandiri
+yang mana segala tools yang teman-teman pakai di sini
+ya ini harus yang benar-benar
+teman-teman gunakan
+ya ini dengan fungsinya tertentu ya
+kalau cek-an
+gampang ya semua udah disediakan ya
+kalau di sini teman-teman harus menggunakan
+tools yang berbeda-beda
+apakah tools itu ya saya akan menjelaskan
+pertama adalah decentralized exchange
+ya udah saya jelaskan ya itu sebelumnya
+jadi dex ini merupakan
+tempat ya untuk melakukan kontrak swap ya
+cari network-nya yang paling murah
+ya yang paling cepat ya
+kemudian apakah itu
+compatible ya dengan decentralized exchange tertentu
+ini merupakan suatu
+alat utama ya yang harus teman-teman
+perhatikan ya ketika hendak melakukan on screen trading
+yang ke-2 adalah
+deck screener
+nah ini ketika teman-teman bertransaksi koin di cek
+ya misalkan saya mau beli solana
+di cek ini berarti kan
+chart-nya solanin udah ditampilkan secara otomatis di
+cek
+tapi kalau di sini ya teman-teman bertransaksi di dex
+ya ini nggak ada ya ditampilkan seperti itu ya
+kalau teman-teman lihat
+pancake swipe ya atau uni swipe
+itu kan nggak ada chart-nya sama sekali ya
+itu kan cuman tempat untuk swipe kontrak aja
+sehingga teman-teman membutuhkan ya suatu platform
+yang namanya adalah deck screener
+jadi deck screener ini merupakan platform yang untuk
+memantau pergerakan harga ya dari
+suatu aset ya
+jadi teman-teman tinggal masukin kontraknya
+ini dia secara otomatis ya
+menunjukkan ya gambar chart-nya ini seperti gimana
+jadi caranya gimana ya caranya teman-teman
+copy dulu ya kontraknya dari koin
+geco atau koin market cap
+atau teman-teman tadi udah swab ya dari
+di swipe atau pancake swipe
+kontraknya itu teman-teman copy
+kemudian kontraknya itu kalian paste di mana
+di bagian search di deck screener
+jadi langsung paste aja kontrol c
+kontrol v langsung ke bagian deck screener
+dan itu otomatis
+akan ditunjukkan
+ini contohnya adalah koin yang namanya atol ya
+jadi teman-teman copy ya
+kontraknya ya dari koin gecko atau koin market cap
+kemudian klik paste di dex cleaner
+dan ini menunjukkan ya langsung gambarnya
+ini terdeteksi ya
+bahkan ya ini aktivitas jual belinya ya ini
+terdeteksi juga ya
+ini kan platform yang memudahkan ya teman-teman
+ketika melakukan trading ya secara online
+kemudian selanjutnya ini adalah
+aplikasi yang namanya
+bos track ya atau platform yang namanya bos track ya
+jadi kan teman-teman tadi udah swipe udah ya
+kemudian lihat chart-nya udah
+nah sekarang
+lihat portofolionya gimana ya
+karena kan kalau diceks
+kan otomatis ya portofolio udah jadi satu ya di situ ya
+tapi ketika teman-teman melakukan on chain trading
+ya menggunakan dex
+teman-teman membutuhkan ya platform
+portofolio tracker ya
+salah satunya adalah bos tracker
+ini bisa juga ya teman-teman download di hp
+jadi caranya gimana ya
+teman-teman tinggal ya connect in ke wallet
+dan itu udah otomatis
+jadi nggak perlu
+add satu satu ya
+jadi kan banyak sekali ya platform lainnya
+itu harus add satu satu ya
+kalau di sini tinggal klik ya connect wallet
+dan itu udah otomatis ya
+teman-teman
+bisa ya melihat
+pergerakan harga dari portofolio yang teman-teman
+misalkan contohnya ya ini
+teman-teman juga bisa ya connect secara manual ya
+tinggal di control c ya wallet-nya
+teman-teman klik
+di bagian connect wallet
+manually ya di bawah strike ini
+kemudian klik wallet address dan juga go ya
+ini otomatis dia
+Meng arrange ya apa aja yang
+portofolio yang teman-teman punya saat ini
+itu ketika teman-teman connect-nya ya secara
+ke-4 ya ini adalah
+Devi lama ya
+jadi Devi lama ini apa
+Devi lama ini protokol ya yang mana
+menunjukkan nilai dari tpl ya atau total value lock ya
+tpl ini merupakan ya likuiditas ya yang di store user
+ya untuk keberlanjutan
+ya suatu protokol
+jadi semakin tinggi ya teman-teman nilai
+tvl-nya ini akan semakin
+bagus pula ya protokolnya itu
+tapi ya semakin rendah ini
+semakin buruk juga ya likuiditas yang dimiliki
+suatu protokol untuk berjalan ya
+menjalankan fungsi yang telah dijanjikan
+jadi tvl-nya ini dicek ya di Devi
+lama ya semakin tinggi ya nilai tvl-nya ini dia
+otomatis ya ini semakin
+selanjutnya ya platform ke-5 ini adalah Devi pulse ya
+Devi pulse ini apa
+ini alat ya untuk meranking suatu platform diva
+jadi diva ini kan pasti ada yang
+paling banyak digunakan
+ya paling sedikit digunakan ya ini kan
+bisa di yang menggunakan divi post ya
+jadi divi post ini meranking ya
+protokol apa yang paling banyak digunakan
+yang mana ketika
+paling banyak digunakan
+ya otomatis ya dia
+memiliki nilai yang lebih bagus daripada
+protokol yang lain
+dan di sini terakhir ya protokol yang baru
+hot ya ini adalah arkam
+protokol jadi arkam protokol ini merupakan
+suatu tempat
+ya teman-teman yang mana bisa melacak ya
+wallet individu ya
+atau institusi besar ya seperti
+binance dan lain sebagainya
+jadi ketika
+teman-teman melacak ya wallet-nya binance
+ya misalkan ada koin baru nih mau masuk
+wah ini kan belum di listing ya di binance
+jangan-jangan binance membeli koin ini
+ini mau mereka listing untuk persediaan likuiditas
+ini bisa atau misalkan
+ada suatu personality tertentu ya yang
+wallet-nya ini publik
+ya teman-teman bisa copy paste ya wallet-nya
+dan kemudian teman-teman cek ya
+ini kira-kira mau dia melakukan pembelian apapun
+ya teman-teman bisa copy pembeliannya
+dan juga bisa
+ya teman-teman beli juga ya koin yang sama
+ya ini istilahnya teman-teman
+spionase ya spionase
+wallet dari personaliti tertentu
+yang biasanya mungkin hidratnya bagus juga
+ini bisa teman-teman lakukan
+yang menggunakan
+arka itu adalah tools
+tools yang mana berguna ya
+jadi tools-nya itu ada banyak teman-teman
+ada puluhan
+tapi saya saring cuma 6 aja
+yang kiranya itu pasti teman-teman butuhkan dan gunakan
+ketika teman-teman
+melakukan onchain trading
+saya offesting dari akademi crypto
+sampai berjumpa di video selanjutnya
+Halo guys
+kembali lagi dengan saya alvesting dari akademi crypto
+kali ini kita masuk ya di modul ke-2 mengenai crypto
+harmonik trading
+kali ini ya kita akan membahas ya mengenai tahapan
+menerapkan harmonik trading
+jadi sama dengan pendekatan trading lain
+ketika teman-teman trading menggunakan
+Teknik ya harmonik trading
+teman-teman harus memiliki
+pertimbangan dan juga tahapan
+tahapan khusus
+yang harus teman-teman lakukan
+jadi
+apa aja ya tahapan tahapan sebelum menerapkan harmonik
+trading pertama teman-teman melakukan analisa pattern
+ke-2 teman-teman melakukan ya
+penentuan area invalidasi
+dan yang ke-3 teman-teman harus mengatur money
+dan juga risk management
+pertama kita ngomongin ya analisa pattern dulu
+jadi pada dasarnya ya harmonik
+it's all about
+harmonik pattern
+jadi teman-teman
+harus ya menganalisa ya dan juga mencari
+harmonik pattern
+baru teman-teman
+memvalidasi ya menggunakan analisa lain
+seperti menggunakan
+fibonacci atau Elliot wave
+jadi pertama kita nggak lihat trennya dulu ya
+pertama kita nggak lihat
+entry trigger-nya ya
+nggak lihat indikator ya
+nggak lihat
+candle stick ya
+pattern ya dan lain sebagainya
+tapi di sini pertama kali kita melihat
+pattern-nya
+yang mana pattern-nya ini bukan seperti pattern
+pattern konvensional lain
+tapi kita melihat ya yang namanya harmonik pattern
+yang mana akan kita jelaskan ya
+di modul-modul selanjutnya
+baru setelah kita ketemu ya
+pattern-nya apa ya
+pattern harmoniknya apa
+baru kita menggunakan
+fibonacci dan Elliot wave ya untuk melakukan
+validasi dari pattern tersebut
+ngomong-ngomong ya masalah validasi ya di bagian ke-2
+kita harus tetap ya menentukan
+area invalidasi
+karena tidak ada strategi yang 100% hitred ya
+jadi tidak ada strategi yang memiliki ya 100% hitred
+jadi harmonic trading pun
+itu tidak jaminan benar oke
+karena pasti ya ada
+analisa yang gagal ya
+analisa yang salah ya meskipun teman-teman menggunakan
+harmonic trading
+karena nggak ada ya
+suatu
+Teknik trading yang memberikan 100% ya teman-teman
+tingkat ya keuntungan dengan tingkat akurasi
+karena pasti ada gagal ya
+dan teman-teman harus
+melimitasi ya kerugian
+dan menentukan di mana area stop loss dan juga
+area entry targetnya
+ketika trade
+itu berhasil
+nah selanjutnya teman-teman harus mengatur money
+management ya karena kan nggak ada yang selalu benar
+nggak ada yang 100%
+ya di trading
+begitupun ketika teman-teman menerapkan ya harmonik
+trading jadi yang paling bijak ya
+teman-teman tetap meresikokan ya 0,5% ya sampai 1%
+dalam setiap
+ya kesempatan trading yang teman-teman peroleh
+jadi ketika teman-teman punya ya
+set up ya untuk futures
+trading ya jangan langsung hajar 10%
+15% ya dalam
+satu kali trade
+ya batasi 1% sampai setengah persen
+ketika teman-teman trading ya menggunakan
+Teknik harmonik
+nah karena teman-teman udah ya memahami
+langkah-langkah apa ya
+selanjutnya
+elemen apa ya yang harus teman-teman perhatikan
+jadi ketika teman-teman ya trading menggunakan
+Teknik harmonik
+ya elemen yang harus teman-teman perhatikan
+itu adalah prc
+atau potensial reversal zone
+jadi prc itu merupakan suatu titik ya dimana harga
+memiliki ya kecenderungan
+untuk melakukan ya pembalikan arah
+jadi ketika teman-teman sudah menentukan ya harmonic
+pattern selanjutnya teman-teman melihat ya di mana
+potential reversal zone untuk teman-teman
+melakukan suatu
+entry ya baik posisi long
+ataupun posisi short
+di sini adalah contoh dari
+prc-nya ya atau potensial reversal zone
+dimana potensial reversal zone itu ada di titik d
+di mana dari titik d ini kita bisa melihat ya harga
+yang awalnya cenderung naik
+ya karena di sini ada pola harmonik
+di titik d ya dia akan mengalami penurunan
+atau koreksi ya atau pembalikan arah harga
+yang mana awalnya ini adalah bullish
+setelah kita tahu ya
+elemen apa ya yang teman-teman harus perhatikan
+selanjutnya kita bahas ya kira-kira
+harmonic ini punya kelemahan atau enggak ya
+karena ini harmonic juga Teknik baru
+sehingga kita juga harus
+ngomongin ya kelemahan apa aja ya dari harmonic
+trading ini
+oke
+satu kelemahan dari harmonik itu adalah terlalu banyak
+pattern jadi
+kelemahan utama ya
+ketika teman-teman
+menerapkan ya harmonik trading yaitu adalah
+genre trading ini ya memiliki
+banyak sekali ya pattern
+yang relatif sulit ya dihafalkan ya oleh satu satu
+trader karena ada kecenderungan ya manusia
+ini yang memiliki ya
+fotogenik memori yang baik
+yang mana dia
+ketika melihat suatu pattern ya melihat suatu puzzle
+mereka cenderung cepat ya untuk soft
+the problem
+tapi ada kecenderungan juga ya beberapa orang ya
+yang mana mereka ini sulit ya atau memiliki fotogenik
+memori yang rendah
+sehingga dia sangat sulit ya atau kesulitan ya
+spotting the pattern
+oke jadi ini bisa menjadi salah satu kelemahan ya
+dari teman-teman menerapkan ya harmoni trading
+apalagi di harmoni trading
+ini banyak sekali ya teman-teman
+pattern-nya
+pattern-nya ini beda beda dan juga
+ada banyak dan ke-2 ya
+subjektivitas ya dari masing-masing
+pattern sangat tinggi
+ya karena pattern-nya ini kan ada banyak
+dan juga ya ada titiknya tuh rata-rata
+hanya di 4 ya 5 dan juga 6 titik
+sehingga subjektivitasnya ini sangat tinggi
+jadi kadang ya pattern itu terlihat
+serupa tapi tak sama ya
+kadang wah ini mirip pattern a
+wah ini juga mirip pattern b ya
+mirip pattern c juga ya mirip pattern d
+sehingga teman-teman harus punya kejelian ya karena
+subjektivitas pattern itu sangat
+tinggi karena kalau kita ngomongin pattern sendiri
+ya di dalam trading itu sangat subjektif
+kadang kita mungkin lihat gunung ya
+tapi mungkin orang lain tuh lihatnya lembah
+ya atau orang lain tuh lihatnya sungai
+nah ini yang harus ya teman-teman
+perhatikan ya ketika teman-teman trading
+yang menggunakan
+Teknik harmonik
+selanjutnya ya
+jadi harmonik trading ini relatively
+hanya bekerja di higher time frame
+yang mana ketika teman-teman
+terapkan harmonik ya di lower time frame
+ini akan banyak sekali noise ya yang mana ya
+sangat sulit ya teman-teman filter
+sehingga teman-teman perlu
+ya untuk menerapkan harmonik ini di time
+frame yang besar
+oke jadi di sini teman-teman udah paham ya
+mengenai dasar dasar ya dari harmonik trading
+yuk kita lanjut di modul selanjutnya untuk penerapan
+harmonik trading di market crypto
+saya fasting dari akademi crypto
+sampai berjumpa di modul selanjutnya
+Halo guys
+kembali lagi dengan saya alvesting dari akademi crypto
+ya kita sudah memasuki ya modul ke 10
+crypto harmonic trading ya
+jadi kita di sini akan
+membahas ya rangkuman dan juga fakta
+dari harmonic trading
+oke jadi ada beberapa
+key point
+yang harus teman-teman perhatikan di sini
+bahwa di dalam harmonik trading
+pattern means everything
+di mana pattern
+lebih dominan ya daripada tren
+di mana ketika teman-teman
+mau menerapkan harmoni trading
+ya pattern
+adalah lebih dulu ya yang dianalisa daripada tren
+karena di sini kita nggak memperhatikan ya market
+structure
+tapi rasio ya yang ada dalam setiap pattern-nya
+cek jadi pattern means everything
+ya di dalam harmonik trading
+jadi di sini
+contohnya ya ini dalam price action bitcoin
+ya yang di mana di sini ada reversal dan harga turun
+di sini teman-teman nggak peduli ya trennya apa
+apakah leading trennya bullish atau bearish
+tapi di sini teman-teman melihat
+pattern ya dan juga apakah
+pattern tersebut tervalidasi ya dengan rasio fibonacci
+kemudian ya teman-teman harus fokus masuk
+ya pada potensial reversal zone atau prz ya
+jadi jangan ngejar breakout ya
+jangan ngejar breakdown
+tapi tunggu dulu ya harga ada di prz ya
+sebelum teman-teman
+melakukan suatu trading ya
+karena ketika teman-teman wait
+ya di prz-nya
+itu akan memberi
+suatu restore reward yang paling baik
+ya ketika teman-teman trading
+jadi ketika teman-teman di sini
+masuk ya di point of reversal sun
+teman-teman memperoleh suatu restore
+reward yang sangat baik ya
+di mana di sini
+potensi keuntungan teman-teman peroleh sangat besar ya
+hal tersebut sangat berbeda ya ketika teman-teman
+casing the breakout ya
+misalkan di sini harganya udah
+hit ya potensi reversal zone
+terus kemudian di sini udah running
+baru teman-teman long ya di sini
+jadi harus presisi di potensial reversal
+zone ya untuk memperoleh history word yang paling baik
+nah lalu ada pertanyaan ya
+kira-kira gimana ya
+saya bisa mengkonfirmasi ya suatu
+prz ya atau potential reversal zone
+di mana di sini teman-teman bisa mengkombinasikan ya
+do teori ya
+untuk menentukan ya berapa persen ya harga itu
+hit dari prz
+sebelum teman-teman mengambil suatu entry
+jadi pada dasarnya ya
+3% gerak
+itu udah cukup ya dari potensial
+reversal zone untuk dikatakan
+valid entry
+ketika teman-teman mau swing di sini ya karena 3% itu
+sesuai ya dengan instruksi dan arahan dari do
+teori ya mana di sini ketika teman-teman ya udah
+bitcoin ada di titik d ya di potential reversal zone
+dan harga di sini bouncing 3%
+it means ini adalah
+tempat yang valid untuk melakukan entry
+pembelian atau long
+dan selanjutnya ya teman-teman
+harus banyak menerapkan ini ya karena konsistensi
+adalah kunci ya
+dan juga harmonik
+trading style
+ini merupakan Teknik yang relatif cukup sulit
+sehingga memerlukan kejelian dan akurasi
+ketika teman-teman
+menerapkan Teknik ini
+oke dari sini sudah paham ya
+jangan lupa teman-teman
+Halo guys selamat datang di modul ke-3
+crypto week of trading
+nah sebelumnya udah dijelasin mengenai sejarah week off
+kemudian mengenai hukum dan prinsip tentang week off
+dan ke-3 ini kita akan
+mempelajari membedah
+menganalisa
+merangkum lebih dalam
+mengenai siklus di market secara Umum
+jadi ada dua ya nanti
+pertama itu adalah siklus di market secara Umum
+dan nanti ya itu adalah siklus atau fase di week
+off itu sendiri
+tapi kalau teman-teman di sini
+nggak paham ya terminologi di market secara Umum ya
+fasenya ini apa aja
+jangankan menerapkan week off
+teman-teman nggak akan bisa ya berhasil
+menerapkan strategi apapun
+karena dengan mengetahui
+fase secara Umum di market
+teman-teman ini akan jauh lebih well known
+untuk mengambil langkah apa ya di luar menerapkan
+week off strategi atau tidak
+oke mari kita bahas
+mengenai berbagai fase yang ada di market
+dan fungsinya apa sih mengetahui fase di market ini
+ya fungsinya yaitu adalah untuk mengetahui kira-kira
+kita harus mengambil
+action apa dan kapan
+karena kalau kita nggak tahu ya action apa dan kapan
+kita akan selalu terjebak di dalam tren yang salah
+nah pada dasarnya
+fase di dalam market itu ada 4
+fase-fase pertama adalah akumulasi
+fase ke-2 adalah Mark up
+fase ke-3 adalah distribution atau distribusi
+dan fase ke-4
+adalah markdown
+apa maksud dari berbagai fase-fase ini
+yuk kita bahas lebih dalam
+pertama adalah
+fase akumulasi
+apa maksud dari fase akumulasi ini
+fase ini terjadi
+biasanya setelah
+fase penurunan yang cukup signifikan
+jadi dari suatu tren yang awalnya ini baris
+ya market ini udah jenuh turun
+kemudian dia mengalami konsolidasi yang lama
+di situ market udah kehilangan interest
+oke dan di saat yang sama para smart money
+para pemain besar
+mereka ini melakukan pembelian yang signifikan
+jadi mereka borong ya ketika semua orang diam-diam
+ketika semua orang nggak interes sama sekali di market
+oke ini adalah fase mereka membeli ya
+sebanyak-banyaknya
+semua aset yang mereka miliki
+nah ciri-ciri fase akumulasi
+ya ini dengan sedikit ya
+pendekatan dan bumbu-bumbu dari week off ini
+ada tiga ya karakteristiknya
+pertama itu adalah pola range bound
+apa ini maksudnya
+range bound
+jadi harga itu
+bergerak atau berkonsolidasi dalam range yang sempit
+jadi range-nya ini pendek
+dan juga volumenya di situ sangat kecil
+jadi karena kehilangan interest
+ya market ini secara keseluruhan
+nggak ada orang yang berdagang di situ ya
+paling cuman scalper atau bot trading yang tiktok-an
+dan kita bilang ya tight
+range-nya ini kalau bitcoin ini 10-20 persen
+ini disebut ya sebagai
+range bound
+yaitu adalah harga
+hanya bergerak atau
+konsolidasi di dalam range yang sangat sempit
+dan kemudian
+ya ke-2 itu volume naik di support
+jadi setiap kali harga ini mendekati
+ya support kuat tertentu
+volume ini mengalami
+peningkatan
+tandanya apa
+tandanya mereka para smart money
+ini mulai membeli di low ya
+jadi ketika harga ini mendekati lows
+mereka melakukan yang namanya
+pembelian ya approaching lows
+smart money
+gunakan ya semua uang yang dimiliki untuk beli
+sehingga volume-nya mengalami kenaikan
+dan ke-3 ada yang namanya spring
+kalau di dalam
+week of strategi
+spring atau shake out
+ini adalah keadaan ketika
+harga ini menembus low-nya
+namun kemudian dia melakukan v saving naik
+ya istilah lain yang kita tahu adalah the grab
+yaitu adalah suatu jebakan
+yang mana menjebak para ritel
+untuk short on breakdown
+atau mereka kapitulasi ya ketika harganya turun
+namun kemudian harga ini v saving ya naik
+balik lagi ke dalam range-nya
+nah ke-2 itu adalah fase
+Mark up apa itu fase Mark up
+yaitu adalah fase yang terjadi setelah fase akumulasi
+ya jadi
+akumulasi selesai
+timbullah fase Mark up
+di sini udah lebih confident ya para
+pembeli ya atau para bulls
+dan di sini sentimennya udah dari
+fear ya udah berubah ke sedikit grid ya
+karena mereka udah lihat hijau hijau di market
+dan harga udah keluar dari range bound-nya
+atau harga ini udah breakout di atas harga
+akumulasinya
+jadi fase konsolidasi ya
+yang bergerak dalam fase yang
+sideway itu udah breakout ke atas
+dan berubah menjadi bullish
+di fase Mark up ini
+nah ada tiga
+karakteristik atau tiga ciri-ciri
+dari fase Mark up ini
+pertama itu adalah breakout dari range
+apa ini maksudnya
+seperti yang saya ungkapkan tadi ya
+awalnya ini harga hanya berkonsolidasi di dalam range
+bawahnya atau dalam tight range consolidation
+kemudian ya
+resistance atas
+atau bagian atas
+ya ini mengalami penembusan
+menunjukkan apa
+ya menunjukkan harga ini berpotensi
+ya mengalami kenaikan
+karena dia udah tembus resistance atasnya
+menandakan udah selesai
+fase akumulasi
+nah ke-2 ini maksudnya apa
+higher high dan higher low
+ini maksudnya adalah ketika harga ini
+berhasil menembus ya area
+akumulasi atau breakout dari range-nya
+harga ini akan
+membentuk suatu struktur pasar
+yang sehat yang membuat higher high
+membuat higher low
+dan mereka mengalami kenaikan yang
+ya makin lama makin tinggi
+ya struktur pasar
+yang sehat menunjukkan
+adanya ya struktur market yang bullish
+karena dia printing higher high dan higher low
+dan ke-3 ya ini volume meningkat
+nah volume yang meningkat ini
+menunjukkan kalau memang orang-orang ini mulai homo ya
+partisipasi market ini mulai tinggi
+wah ini udah breakout nih chart-nya
+oke saya beli
+trader yang lain lihat juga
+oke saya juga beli
+institusi besar yang ketinggalan
+oke saya juga beli ya
+sehingga volumenya meningkat
+dan harga di sini mengalami yang namanya kenaikan
+ke-3 itu adalah fase distribusi
+apa itu fase distribusi
+nah fase ini terjadi
+ketika para smart money ini mulai
+mendistribusikan
+aset mereka
+atau mereka ingin
+take profit dari fase
+akumulasinya
+mereka udah akumulasi
+udah beli barang
+harga naik ya Mark up
+partisipasi publik terjadi
+selanjutnya mereka ini menjual
+ya berbagai aset yang mereka miliki
+ini disebut sebagai fase distribusi
+nah fase distribusi ini memiliki tiga karakteristik
+memiliki tiga ciri-ciri
+apa aja ciri-ciri tersebut
+pertama ada pola range bond
+ini persis dengan fase akumulasi
+dimana harga ini hanya melakukan konsolidasi ya kocokan
+ya atas bawah
+di range yang sangat sempit
+itulah kenapa disebut ya mirip dengan fase akumulasi
+cuman bedanya pola range bond di dalam distribusi
+ini di atas ya
+ketika harga ini udah naik 200 300%
+dan ke-2 tingginya volume ketika mendekati resistance
+apa ini maksudnya
+jadi kan kalau di fase akumulasi
+ketika mendekati
+range bawah
+di fase akumulasi
+itu terjadi peningkatan volume yang signifikan
+smart money buying
+tapi yang terjadi di sini
+ketika mendekati area resistance ini adanya
+peningkatan
+yang sangat-sangat
+signifikan ya dari selling pressure-nya itu
+dan kemudian ke-3
+itu adalah fase upthrust
+atau false breakout
+atau kita sebutnya sebagai the grab
+biasanya dibuat harga ini seolah-olah
+break dari resistance
+seakan-akan ini mau mengalami
+ya yang namanya kenaikan dengan signifikan
+namun yang terjadi setelah itu
+harga justru
+mengalami penurunan kembali ke dalam range
+dan kemudian
+harga terus melanjutkan ya penurunan
+menjebak mereka
+breakout longers
+ya atau mereka yang membeli
+ketika break di atas resistance
+nah fase ke-4 ini adalah fase markdown
+apa itu fase markdown
+fase ini adalah fase yang terjadi setelah fase
+distribusi ini selesai
+biasanya ini terjadi ya
+karena memang lebih banyak
+penawaran daripada permintaan
+dan kemudian harga
+lanjut mengalami penurunan secara signifikan
+di fase markdown ini
+apa aja ciri-ciri dari fase ini
+pertama adalah breakdown dari range
+yaitu adalah kita tahu ya ada suatu range harga
+dan ketika
+harga ini break support-nya di fase distribusinya
+itu menunjukkan ya bahwa terjadinya fase markdown ini
+atau memang support-nya udah jebol
+dan kemudian ya di sini
+market strukturnya berubah menjadi
+lower high dan lower low
+apa ini maksudnya
+ya ini adalah struktur pasar
+yang beris
+yaitu membentuk lower high dan juga membentuk
+lower low yang mana menunjukkan harga ini akan turun
+secara signifikan
+dan ini adalah fase perubahan ya antara tren bullish
+ya menjadi bearish ya
+atau change
+of karakter yang terjadi
+diikuti dengan struktur pasar
+dan penurunan harga yang signifikan
+dan ke-3 ya ini volume meningkat
+terutama volume penjualan
+karena kan mereka
+wah ini turun nih
+saya nggak mau lebih turun lagi
+saya jual ya
+kemudian market partisipan yang lain
+oke saya juga nggak mau lebih turun
+oke saya jual
+oke saya nggak mau lebih turun
+saya jual saya nggak mau lebih turun
+saya jual ya
+dan efek tersebut
+menimbulkan efek bola salju
+sehingga harga ini mengalami penurunan yang sangat
+signifikan oke jadi itulah fase-fase di dalam market
+sampai jumpa di modul selanjutnya
+Halo guys
+kembali lagi dengan saya kalimasada dari akademi crypto
+di modul kali ini
+kita akan membahas mengenai crypto
+week of trading
+bagian yang pertama
+dari berbagai modul yang udah teman-teman lihat
+saya yakin teman-teman menemukan
+banyak sekali pendekatan
+banyak sekali metode banyak
+sekali sistem
+dan juga teori-teori
+mengenai trading ini harus
+pakai strategi apa sih
+yang paling jitu
+yang paling berhasil
+kok banyak sekali yang dipaparkan
+nah pada dasarnya
+tidak ada strategi yang terbaik
+semua itu memiliki
+relevansi yang berbeda-beda
+ada strategi yang cocok
+diterapkan di keadaan market yang seperti ini
+dan cocok di market yang seperti itu
+ada pula pendekatan yang memang
+kita secara personal tidak cocok
+tapi mungkin orang lain
+sangat cocok dengan pendekatan tersebut
+jadi pada dasarnya nggak ada salahnya
+untuk terus menggali
+terus belajar
+sesuatu yang baru
+karena pada dasarnya
+intinya kita tidak bisa
+memprediksi apa yang mungkin terjadi
+tapi kita mengantisipasi apa yang kiranya akan terjadi
+dan ketika terjadi sesuatu
+kita harus mengambil langkah seperti apa
+karena memang
+semakin banyak knowledge
+dan juga kita banyak praktek
+itu meningkatkan praktikal ability yang kita miliki
+jadi semakin lama ya
+kita ini juga akan semakin terbiasa
+melihat market dengan berbagai pendekatan yang ada
+hari ini kita akan spesial bahas
+modul mengenai
+week of trading strategi
+week of trading strategi
+itu adalah suatu pendekatan trading tertentu
+yang beken pada abad ke-19
+jadi ini memang
+udah memiliki usia yang
+cukup tua ya teman-teman
+namun masih memiliki relevansi
+sampai saat ini
+bahkan ketika kita terapkan di market cryptocurrency
+lalu sebenarnya apa itu
+week off strategi
+siapa pencipta week off
+dan kira-kira week off ini dulu dipakai di mana
+dan seperti apa ya penerapannya
+pendekatan week off sendiri
+ini ditemukan oleh Richard the week off
+jadi memang
+penemunya ini menamai
+sesuatu yang dia temukan
+ini mirip dengan nama dirinya ya
+ini juga persis
+dengan John bollinger
+pencipta bollinger band
+dan juga pencipta-pencipta teori trading yang lain
+jadi mereka selalu menggunakan
+nama mereka sendiri
+untuk dijadikan
+ya nama teori
+nama strategi
+nama metode
+nama pendekatan yang
+mereka ciptakan sendiri
+nah ini week off strategi
+ini memang diciptakan langsung oleh Richard
+the week off
+memang Richard the week off ini siapa sih
+kok dia bisa
+meluncurkan ya suatu metode trading sendiri
+jadi Richard the week off ini
+sebelum mengungkapkan ya week of strategi ini
+beliau ini memiliki perusahaan pialang ya
+jadi dia ini sudah berkecimpung di dunia pasar keuangan
+dan bahkan pada usia 25 tahun
+membuat perusahaan pialang ini
+jadi kalau teman-teman
+tanya ya kira-kira apa expertisnya ini
+kira-kira dia expert di bidang apa
+dia ini memang sudah sejak kecil ya
+memperhatikan pergerakan harga saham
+dan membuat perusahaan pialang
+di usia ke 25 tahun
+jadi memang dia sudah
+sangat melek dengan pasar keuangan ya
+sehingga memperhatikan
+pergerakan para investor besar
+dan juga para investor kecil
+lalu dia mengungkapkan strategi week off ini
+nah karena dia memang memiliki perusahaan pialang
+dia juga bersinggungan
+dengan banyak sekali majalah keuangan ya
+dulu ada majalah Wall Street
+di mana pertama kali ya dia menuangkan IDE
+mengenai week off ini di majalah Wall Street
+yang mana kemudian
+IDE tersebut berkembang
+dan juga ditiru
+diminati diimplementasi oleh
+banyak pelaku pasar
+setelah diterbitkan di majalah Wall Street ini
+jadi persis ya kayak sekarang kan
+mungkin kayak kita ya sekarang
+oh ada platform akademi
+crypto kita pakai Instagram oke
+kita pakai discord
+kita pakai website
+untuk menuangkan berbagai IDE IDE yang kita miliki
+tentang market
+nah ini Richard the week off ini mengungkapkan strategi
+week off ini
+pertama kali
+di majalah Wall Street
+nah karena memang pada abad
+ke-19 ini yang paling ngetren
+yang paling diminati
+yang paling banyak diinvestasikan oleh masyarakat
+pada saat itu
+terutama setelah lahirnya Wall Street
+yaitu adalah saham
+jadi week of ini
+in the origin
+ini adalah suatu pendekatan
+suatu strategi yang pertama kali diimplementasikan
+itu di pasar saham
+namun seiring berjalannya waktu
+ini juga diimplementasikan di berbagai aset lain
+ya yang ada pergerakan smart money-nya di situ
+dan sekarang
+save to say
+bahwa pergerakan market cryptocurrency
+yang ada saat ini
+ini juga relevan
+diterapkan week of strategi ini
+karena memang
+ada involvement dari smart money atau investor besar
+dan kita para ritel
+karena memang
+ini adalah suatu strategi
+ya yang tidak
+melihat di mana penerapannya
+asalkan ada pelaku
+ya dari pemain kecil dan pemain besar
+kita bisa memperhatikan
+week of trading strategi ini
+sekarang kita akan membahas lebih detail
+penerapan week of trading strategi di market
+yang paling baru
+ya baru belasan tahun
+yaitu adalah
+market cryptocurrency
+ada dua elemen yang paling penting
+yang wajib diperhatikan
+harus ada dalam penerapan week of strategi ini
+yaitu adalah harga dan juga volume
+jadi kita hanya memperhatikan
+harga dan juga volume
+nanti juga ada beberapa fase
+namun fase-fase tersebut baru bisa dinyatakan valid
+ketika dua elemen ini diperhatikan
+yaitu adalah harga
+dan juga volume
+sama seperti di platform platform trading yang ada ini
+teman-teman
+bisa lihat ya pergerakan harga itu dengan chart garis
+dengan chart
+candle stick
+dan juga dengan chart chart jenis yang lain
+tapi kadang memang
+price action trader
+ya atau mereka yang menerapkan price action
+trading strategi
+ini jarang ya kadang yang memperhatikan volume
+namun di sini ketika teman-teman menerapkan
+week of strategi
+teman-teman harus memperhatikan volume
+karena banyak sekali manipulasi dari para smart money
+ini bisa terlihat atau nampak
+ketika teman-teman memperhatikan volume perdagangan
+sehingga harga dan juga volume
+itu adalah dua elemen yang paling penting
+untuk teman-teman perhatikan
+ketika teman-teman menerapkan
+week of trading strategi
+karena memang ya
+yang bisa menggerakkan harga
+membuat suatu interest tertentu
+dalam volume yang cukup besar
+itu adalah para smart money ini
+sehingga kalau kita menerapkan week off
+tanpa volume sama sekali
+itu tidak akan bisa terjadi
+nanti akan dibahas lebih detail ya cara penerapan
+week off ini dengan memperhatikan
+volume yang ada di market
+sebenarnya apa sih fungsinya kita mempelajari week off
+strategi ini
+ya persis seperti teman-teman
+mempelajari technical analysis
+tahu kapan harus beli
+dan juga tahu kapan harus jual
+tahu kapan memaksimalkan profit
+tahu kapan ya teman-teman harus stay away dulu dan do
+nothing atau with NC
+dan juga approach lain yang teman-teman bisa lakukan
+ketika teman-teman ini berkecimpung di market finansial
+terutama di sini di market cryptocurrency
+oke cukup sekian modul pertama mengenai crypto
+week of trading
+sampai jumpa di modul bagian ke-2
+Halo guys kembali lagi
+di bagian ke-9 yaitu crypto week of trading
+di mana di sini
+kita akan melanjutkan ya fase c
+fase d dan juga fase e
+oke pertama kita akan membahas fase c
+fase c ini adalah fase penentuan
+dimana biasanya di sini
+banyak ya orang yang mengambil posisi di sini
+karena fase c ini adalah
+fase terjadinya manipulasi atau the grab di market
+di mana harga ini dimainkan oleh market maker
+untuk menjebak para market
+participant
+dan ini adalah fase para trader pemula
+ya ini biasanya terjebak
+dan mengalami kerugian
+fase ini adalah fase dimana para market
+maker yakni mengambil liquidity
+dari para pelaku pasar
+untuk kemudian menggerakkan market
+ke arah yang mereka inginkan
+dan fase ini hanya memiliki satu elemen ya dalam
+big of akumulasi yaitu adalah spring
+dan memiliki
+satu elemen juga ya dalam fase distribusi
+yaitu adalah UT
+ed atau upras
+after distribution
+oke ini adalah fase c dalam week off
+yaitu adalah fase yang namanya stop Han
+ya liquidity grab
+fase menjebak para ritel ya
+di mana setelah terjadi fase a
+ya dengan preliminary support plus
+selling impulse
+ultimate reaction
+secondary test
+ya fase b terjadi upthrust action
+kemudian stsso
+w dan kemudian
+terakhir ya di sini adalah fase
+spring atau fase jebakan
+di mana di sini para pemberani ya di market
+ya biasanya adalah
+take action ketika ada breakdown ini
+atau ketika terjadi the grab
+di mana di dalam week of akumulasi ini disebut sebagai
+spring yang mana di dalam fase c di dalam week of
+distribusi ini disebut sebagai uti
+atau uta d atau atres
+after distribution
+ini adalah fase di mana
+teman-teman ya melakukan penjualan
+karena berekspektasi harga ini akan
+mengalami yang namanya penurunan
+selanjutnya bagian ke-4 ini adalah fase d
+ini adalah fase
+the final blow atau fase di mana harga
+itu akan bergerak ke arah yang teridentifikasi ya
+harga akan mengalami breakout atau breakdown di sini
+yang mana fase d ini dalam akumulasi itu ada dua
+pertama adalah jump across the creek atau JAC
+ke-2 last point
+of support atau lps
+dan kemudian fase d
+dalam distribusi ini memiliki dua elemen
+false through the ice
+atau fti dan kemudian last point of supply atau lpsw
+nah ini adalah fase d dalam week of akumulasi ya
+jam across the creek
+dan juga last point of support
+ini maksudnya apa
+ini kan kita melihat dari fase c
+spring atau the grab atau manipulation area
+harga mengalami kenaikan ya
+kemudian akhirnya
+break range di sini
+jump across the creek ya
+dia berhasil meloncat
+dari range yang di sini
+dan kemudian dia melakukan yang namanya
+retes ya atau last point
+of support karena di sini oke
+teman-teman
+harus pahami ya
+harga itu selalu mengalami retes
+kalau di dalam skema week off
+dan di dalam week off
+yang distribusi oke
+setelah uta d atau uta d
+uti d di sini
+harga false through the ice atau harga turun ya
+seperti
+harga yang di dalam bungkaan es yang jatuh ke bawah
+kemudian di sini dia melakukan retest ya
+last point of supply
+lpsy kemudian baru dia mengalami penurunan
+ingat ya teman-teman di dalam week of distribusi
+harga itu selalu ya selalu
+melakukan retest sebelum dia mengalami penurunan
+nah selanjutnya bagian ke-5 atau fase e
+dimana di sini ya adalah
+fase ketika kereta
+sudah bergerak ya meninggalkan stasiun atau
+bergerak keluar ya dari zona sebelumnya
+dan di sini fase e dalam akumulasi
+itu terdiri dari dua elemen
+pertama sign of strength atau SOS
+dan yang ke-2 adalah last point of support atau lps
+dan kemudian fase e distribusi ini memiliki dua elemen
+pertama adalah sign of weakness atau sow
+dan ke-2 adalah last point of supply
+atau lpsy di sini kita lihat ya
+ini adalah fase e
+dalam week of akumulasi
+setelah harga ya lolos ya dari fase d
+jump across the creek dan juga lps
+di sini dia membentuk SOS dan lps ya
+di mana ya ini sebenarnya ya
+higher high
+higher low ya
+higher high
+higher low lagi
+yang mana kalau kita lihat secara struktur
+di dalam week off
+setelah terjadi fase e
+ini akan membentuk struktur market yang sehat
+yang mana dalam technical analysis
+yang biasa kita ketahui
+ini dia developing
+higher high dan juga
+higher low dan sementara
+di dalam fase week of distribusi
+dia membentuk sign of witness
+dan kemudian last point of supply
+sign of witness
+last point of supply
+dan seterusnya
+atau lower high dan juga lower low
+nah memang week off ini memang sedikit lebih sulit ya
+sehingga dalam penerapannya terutama
+di market crypto
+teman-teman harus
+melakukan banyak latihan
+sebelum bisa mengidentifikasi fase-fase dari week off
+oke sampai ketemu di modul yang terakhir
+di modul ke-6
+crypto money psychology
+di modul ke-6
+kita akan membahas mengenai
+bias yang hampir
+semua orang
+pernah alami
+dan mungkin alami sehari-hari
+yaitu adalah
+herding behavior
+saya tidak merasa ya yang paling bebas dari bias
+karena apa karena saya juga manusia
+saya pun juga mengalami ya yang namanya
+herding behavior ini
+jadi saya tekankan di sini
+semua orang
+bisa mengalami yang namanya
+harding behavior
+tak terkecuali juga adalah saya
+jadi apa itu sebenarnya
+harding behavior
+nah harding behavior adalah suatu kondisi atau keadaan
+di mana seseorang
+ini memiliki
+kecenderungan untuk mengikuti
+apa yang mayoritas
+orang lakukan
+tanpa mereka
+melakukan suatu analisa mandiri
+jadi hal ini sangat sering terjadi
+karena kita adalah makhluk sosial
+kadang kita mengikuti
+memang sosial
+ya orang ini
+trennya lagi apa
+orang melakukan
+sesuatu apa
+ya kita ikuti
+biasanya juga
+dibilang sebagai fear of missing out atau fomo
+nah kalau di bidang investasi atau trading ini
+kalau di bidang investasi
+biasanya ketika orang ini ngomongin suatu aset tertentu
+ya di sosial media
+lalu teman-teman tanpa melakukan analisa
+ya tanpa menggunakan
+strategi tertentu
+tanpa mengetahui aset ini apa
+teman-teman ikut langsung main beli
+nah kalau di trading
+biasanya ketika teman-teman lihat
+chart dan lihat chart-nya ini parabolic
+kemudian teman-teman design untuk ikut masuk
+atau ketika oh chart-nya turun
+teman-teman design buat jual
+nah ini adalah
+salah satu ya jenis
+herding behavior yang teman-teman dapat
+ketika teman-teman ini sedang trading
+kira-kira apa yang menyebabkan
+bias ini bisa terjadi
+nah pertama
+tak lain dan tak bukan karena adanya sosial media
+dan juga influencer pasti
+di mana kalau kita lihat
+peningkatan sosial media
+itu juga peningkatan jumlah informasi yang masuk
+ya ke semua individu
+terutama informasi terkait dengan crypto
+ini ada storage dari finance online
+di mana di sini ya kalau di
+seluruh dunia ya
+ini hal yang sering membuat
+homo ini justru Facebook
+ya baru kemudian Instagram
+dan sosmed lain
+yang mana hal yang paling
+ya membuat homo itu adalah travel
+event dan juga makanan
+dan kita juga bisa lihat
+ya kalau memang fomo
+ini kebanyakan memang menyebabkan NV kenapa
+karena kadang
+orang ini juga nggak bisa mengikuti hal yang sama
+jadi kalau kita lihat NV ya di sosial media
+yaitu memang hal yang sangat biasa
+kalau di crypto ya
+mungkin nggak envy ya tapi fomo
+ya ada orang ngomongin koin ini
+wah saya juga harus beli koin ini
+oh ada ini melakukan project ini
+ya saya juga harus melakukan project tersebut
+berinvestasi di project tersebut
+hal ini memang tidak bisa dibendung dengan adanya
+gelora of information
+di sosial media
+yang mana memang terjadi
+ya sampai detik ini kita bisa melihat
+fenomena tersebut
+dan ke-2 ya biasanya
+homo itu disebabkan karena kurangnya info
+kurang info
+jadinya homo
+dia nggak tahu ya
+tapi orang lain
+ada yang merasa tahu
+jadi dia mengikuti orang lain yang merasa tahu
+padahal yang merasa tahu ini belum tentu
+memiliki info juga
+ya orang yang merasa tahu ini homo
+karena orang lain
+orang yang nggak tahu
+ini homo dengan orang
+yang merasa tahu
+yaitu adalah
+hal yang terjadi
+ya di dunia modern sekarang
+oke karena kalau knowledge kita itu semakin tinggi
+saya gambar kurvanya ya the more knowledge you know
+the more you will
+not have this
+behavior ya atau harding behavior
+semakin kamu tinggi
+knowledge yang kamu miliki
+semakin tinggi pula
+rational decision yang akan kamu ambil
+selanjutnya
+adanya feedback club
+apa itu feedback club
+suatu tren itu akan dikonfirmasi kuat ya ketika
+banyak orang yang melakukan
+ya orang melakukan tren tertentu
+kemudian tren tersebut
+ya semakin lama
+semakin kuat
+dan kita yang melihat tren itu kuat
+kita pun akhirnya juga ikut-ikutan
+ya tren yang dibilang kuat ini
+sehingga
+itu menjadi suatu feedback loop dan membuat efek
+ya saya bilang seperti bola salju yang semakin besar
+lalu gimana
+ya caranya supaya kita terhindar dari bias ini
+nah pertama adalah perbanyak pengetahuan
+karena orang-orang yang merasa tahu
+ya ini sebenarnya mereka yang tidak tahu sama sekali
+dan ke-2 ya biasalah untuk jadi independen
+jangan kita ikut analisa orang
+tapi kita buat analisa sendiri
+jangan ikutin apa yang saya lakuin
+tapi pelajarin mengapa saya
+melakukan hal tersebut
+oke baru teman-teman kalau paham tot
+prosesnya kenapa saya mengambil
+decision tertentu di market
+ya
+teman-teman bisa lakukan hal yang sama untuk mengambil
+decision tertentu juga ya
+nah selanjutnya
+jangan menggantungkan diri ke sosok idola
+jangan gantungkan
+idola ini ke siapapun
+influencer ya
+edukator atau ke
+saya ke siapapun
+karena itu adalah uang
+teman-teman sendiri
+ya itu portofolio
+teman-teman sendiri
+capital teman-teman sendiri
+jadi harus independen
+jangan gantungkan ke orang lain
+karena nggak ada superman di market
+semua orang di sini bisa dan berhak
+untuk melakukan kesalahan
+jadi the only
+person you can trust is yourself
+oke sampai berjumpa di modul selanjutnya
+Halo guys kembali lagi di bagian ke-5
+crypto money psikologi
+apa yang akan kita bahas
+di sini kita akan membahas bias kognitif
+yang saya bilang
+paling populer
+paling sering teman-teman temukan
+dan alami saya juga mengalaminya
+ya kita semua mengalaminya
+tapi ini sangat sering dialami oleh para pemula
+yaitu adalah bias over confidence
+atau over confidence
+bias ya mau nggak mau memang
+kita harus ungkapkan ya
+bias ini sangat sering terjadi
+di kalian para pemula ya
+biasanya baru kenal
+market beberapa bulan
+baru involve di sini
+ya dalam waktu
+kurang dari satu tahun
+tapi kalian
+selalu ya
+memiliki ya bias kepercayaan diri yang terlalu tinggi
+atau over confident ini
+nah di sini diungkapkan ya dari swaps aset manajemen
+di sini kita bisa baca ya
+teman-teman
+yang paling sering ya terkena bias
+over confident
+sehingga mereka take action
+ya dengan sangat berani
+itu adalah mereka yang
+berada di usia
+under thirty five atau di bawah 35 tahun
+di mana di sini ya mereka yang di bawah 35 tahun ini
+ter lalu ya kadang
+Meng overestimasi
+apa yang mereka miliki
+atau kemampuan yang mereka miliki
+jadi mereka ini
+cenderung ya lebih merasa ya
+terlalu pintar
+terlalu ini
+terlalu itu
+itulah bias ya over confident
+kenapa sih bias ini
+sering ya dialami oleh para pemula ya
+teman-teman harus paham
+biasanya ya mereka itu
+masuk ketika
+market lagi enak
+atau mereka masuk tepat
+right ya before bulran
+sehingga apa yang terjadi ya
+mereka ini berada di fase yang mana semuanya
+ini sangat mudah
+sehingga mereka Meng underestimate ya potensi kerugian
+potensi down fall
+potensi down set
+potensi koreksi
+potensi retracement yang mungkin terjadi
+sehingga mereka itu
+terlalu percaya diri
+dan kita bisa lihat ya
+kadang yang merasa terlalu percaya diri ya karena
+series of winning ya
+series of luck ya
+itu pada akhirnya ya akan dihumble oleh market
+atau market will humble them
+market akan membuat
+ya mereka ini
+merasa lebih ya
+di humble
+supaya mereka ini tidak
+merasa memiliki kepercayaan diri yang terlalu tinggi
+kira-kira apa aja
+yang menyebabkan yang namanya
+over confident
+bias ini nah pertama adalah
+masih sedikit yang dipelajari
+jadi mereka ini yang memiliki kecenderungan ya
+ilmunya ini masih sedikit
+belum banyak yang dipelajari ya
+jam terbangnya belum tinggi ini
+mereka cenderung
+merasa over confident
+jadi ada istilah ya
+tong kosong
+nyaring bunyinya ya
+semakin tong
+tersebut berisi dengan air ya
+ini bunyinya semakin tidak nyaring
+kalau itu tong full
+ya dengan air ya
+ini dia tidak mengeluarkan Suara sama sekali
+tapi kalau kosong
+ya bunyinya ini
+selalu berisik
+nah ke-2 ya karena mereka nggak belajar apapun ya
+they study nothing
+itulah mengapa ya mereka ini
+cenderung sangat optimis ya
+optimisme-nya ini terlalu tinggi
+karena apa
+karena mereka hanya lihat sunshine and rainbow ya
+mereka masuk di keadaan market yang tepat ya
+mereka
+menganggap ya bahwa ini akan selamanya seperti ini ya
+kalau ya uang saya bisa berganda
+ya dari sini ke sini
+ini seberapa kali lipat ya ini
+bayangkan kalau
+beberapa tahun ke depan ya
+mereka nggak mikir ya
+adanya siklus market yang berubah
+ada koreksi yang membuat
+portofolio mereka ini juga mengalami yang namanya
+drawdown atau kadang
+kalau mereka trading
+ya tiba-tiba market ini berubah ya karakternya
+menjadi sangat choppy ya
+sulit mencari
+entry dan invalidasi
+sulit menentukan bias
+sehingga mereka mengalami yang namanya kerugian
+nah selanjutnya ada
+danning Kruger effect
+atau efek danning Kruger
+apa ini maksudnya
+jadi mereka yang pertama
+ya memiliki knowledge yang paling sedikit
+ya ini merasa
+paling confident
+over confident-nya ini di all time high
+kemudian mereka ini
+menyadari ya bahwa mereka ini tahu sedikit ya itu
+semakin bertambahnya knowledge mereka
+confident mereka malah semakin turun
+dan semakin mereka mempelajari sesuatu
+knowledge-nya makin banyak ya
+confident-nya makin turun
+selanjutnya
+ya ini mereka mempelajari sesuatu yang baru
+dan merasa ya bahwa
+semakin ya banyak
+nulisnya lagi
+ya ini confidentnya akhirnya juga semakin naik lagi
+telah mereka merasa ya paling jago terhadap sesuatu
+sehingga akhirnya
+di humble ya suatu keadaan tertentu
+lalu kita
+sebagai trader
+sebagai investor di crypto
+apa sih yang harus dilakukan ya supaya tidak
+terjebak dalam bias ini
+pertama adalah memahami bahwa bias ini ada ya
+sama seperti penyakit-penyakit tertentu ya
+terlalu percaya diri ya
+saya bilang ya
+kepedean lah ya
+itu ada biasnya
+dan kita semua bisa mengalaminya ya
+tak terkecuali adalah saya
+itulah mengapa
+kalau kita look at the mirror ya
+lihat di cermin
+kita harus paham
+ya bahwa hal ini mungkin terjadi
+hal ini sangat possible ya
+untuk happen ke kita semua
+itulah mengapa ya
+pahami ini ada dan
+jangan sampai kita terkena bias ini
+nah dua batasi ekspektasi yang dimiliki ya
+jadi jangan
+memiliki ya target yang terlalu berlebihan
+kita lebih baik
+ya punya target slow and steady rice ya daripada
+parabolic rice
+tapi juga parabolic down ya
+jangan sampai
+jadi kita harus me manage
+ekspektasi kita
+karena satu-satunya yang bisa membuat kita kecewa
+ya itu adalah ekspektasi kita
+yang terlalu berlebihan
+dan ke-3 ya jangan hanya lihat potensi keuntungan
+what if portofolio saya bisa naik
+puluhan kali lipat
+ratusan kali lipat
+dan juga dilihat ya what if
+ketika saya kehilangan setengah uang yang saya miliki
+apakah saya akan tenang atau
+saya akan tidak tenang
+kita harus teman-teman pahami ya
+ketika teman-teman
+invest di market cryptocurrency
+jadi itu adalah over confident bias
+dan cara melawan
+over confident bias
+sampai berjumpa di modul selanjutnya
+Halo guys kembali lagi di bagian ke-3
+crypto money psikologi
+apa yang akan dibahas di bagian ke-3 ini
+ya di sini akan dijelaskan mengenai
+mekanisme dalam otak
+yang menyebabkan ya terjadinya berbagai bias
+kita udah bilang sebelumnya
+bias itu adalah salah satu bentuk dari
+ketidaksempurnaan
+ketika kita berpikir
+namun sebenarnya
+apa yang menyebabkan bias ya
+yang kita alami
+ketika kita lagi trading
+ketika kita lagi investing
+itu kira-kira apa yang menyebabkan
+pertama kita harus memahami
+bahwa otak kita itu
+terbagi ke dalam dua sistem
+nah sistem pertama
+itu adalah bagian otak yang cenderung lebih cepat
+dan intuitif
+di mana di sini adalah bagian
+ya otak yang mempengaruhi emosi yang kita miliki
+bagian pertama
+di otak atau sistem satu
+ini yang cenderung cepat
+ya terkait dengan respon-respon emosional
+dan yang ke-2
+ini adalah bagian
+sistem di otak yang cenderung lambat
+sehingga karena lambat
+ya ini terkait dengan
+pengambilan ya keputusan
+yang berkaitan dengan analitis
+dan memerlukan usaha mental tertentu
+yang mana ya biasanya
+ketika kita menggunakan
+sistem dua di otak ini kita mengambil
+keputusan yang jauh lebih rasional
+daripada ketika kita menggunakan
+sistem yang pertama
+nah yang terjadi
+ketika teman-teman mengalami yang namanya
+ketidaksempurnaan berpikir atau bias ya ketika
+mengambil keputusan sehingga tidak jernih
+ini adalah ketika ya
+sistem pertama ini jauh lebih mendominasi
+dibandingkan dengan sistem yang ke-2
+dan di sini saya akan jelaskan
+berbagai bias bias
+yang terjadi
+ketika sistem pertama
+atau sistem ke-1 ini lebih dominan
+daripada sistem yang ke-2
+nah teman-teman harus pahami
+bahwa bias
+dari sistem pertama
+itu terbagi lagi menjadi dua jenis
+bias pertama
+itu adalah bias kognitif
+yang ke-2 adalah bias
+neurobiologi
+apa itu bias kognitif
+bias kognitif itu adalah suatu kesalahan berpikir
+yang terjadi
+ketika otak kita ini cenderung
+sangat emosional
+sehingga apa
+sehingga kita tidak mengambil
+keputusan itu
+secara objektif
+ketika kita memiliki bias kognitif ini
+kita memiliki kecenderungan untuk mengabaikan data
+dan fakta yang ada
+karena apa otak kita udah emosional
+ya kita udah marah dulu ya
+misalkan kita udah senang dulu
+sehingga semua faktor-faktor yang ada
+ini kita cenderung tidak lihat
+atau tidak kita perhatikan
+sama sekali
+oke itu adalah bias kognitif
+nah pertama
+contoh dari
+bias kognitif itu adalah confirmation
+bias atau bias konfirmasi
+di mana seseorang
+ini memiliki kecenderungan untuk hanya mengkonfirmasi
+apa yang sudah ada di pikiran dia
+jadi ketika dia sudah
+fanatik ya terhadap suatu IDE
+tertentu atau berinvestasi pada
+suatu aset tertentu
+saham tertentu
+crypto tertentu
+mereka cenderung hanya mau
+mendengarkan berita positif tentang
+aset yang mereka investasikan
+mereka nggak mau nih dengerin feedback
+feedback negatif ya
+point of view
+ketika tesis kita salah
+karena kita hanya melihat hal-hal yang positif
+dari tesis yang kita miliki tersebut
+nah ke-2 itu adalah over confidence bias
+di mana ini adalah bias yang cenderung didapatkan
+ya mereka yang masih baru
+atau pemula di market
+dapat beginner slug
+merasa jago
+dan over confident-nya naik
+atau dia cenderung lebih dan sangat
+over confident
+nah selanjutnya ada heart behavior
+di mana di sini kita cenderung lebih mengikuti
+apa yang dilakukan oleh orang lain
+daripada analisa kita sendiri
+ya itulah mengapa
+banyak yang rugi ya karena
+cenderung mengikuti
+ya orang lain dan tidak memiliki analisa sendiri
+nanti berbagai bias
+kognitif ini akan dibahas lebih lanjut
+ya pada modul-modul selanjutnya
+nah selanjutnya ada loss aversion
+dimana orang ini cenderung ya kalau
+harga aset yang dimiliki turun
+ya ini dia jauh lebih stres ya daripada
+harga aset tersebut naik
+atau apa ya
+desperation yang kita dapatkan
+ketika kita mengalami kerugian itu jauh lebih tinggi
+daripada ketika kita
+mengalami keuntungan ya kesenangannya
+nah bias ini ya dicontohkan ya dengan
+orang-orang yang cenderung ya nggak mau melakukan
+cut loss ya
+atau melakukan invalidasi ya posisinya
+ketika mereka ini terbukti salah sehingga
+apa ya kerugian yang mereka alami
+ini jauh lebih besar
+nah kalau bias neurologi
+ini kaitannya langsung ya dengan
+kesalahan sistem dalam otak
+karena ini sifatnya lebih ilmiah ya lebih biologis ya
+lebih anatomis
+yang mana bias
+bias neurobiologi ya contohnya nanti akan saya jelaskan
+itu terjadi karena memang
+ada bagian di otak
+ya yang ini salah cara biologis
+nah berikut
+adalah beberapa contoh dari bias neurobiologi
+pertama ada yang namanya bias emosional
+di mana kita ini cenderung mengedepankan
+emosi yang kita miliki
+emosional yang kita miliki
+daripada rasionalnya
+itulah mengapa ya kadang kita marah-marah sendiri
+dengan market
+ya ketika lagi turun
+tapi kita nggak menganalisa
+mengapa market turun
+atau bisa aja ya kita terlalu over
+euforic dengan market
+padahal kita nggak tahu market-nya itu naik kenapa
+tapi udah euforic duluan
+sehingga kita nggak awas
+nggak mawas diri
+dengan potensi pergerakan market selanjutnya
+ini sangat sering terjadi ya
+bias emosional
+selanjutnya ada bias memori
+yang mana keadaan di masa lalu ini sangat memiliki
+ya pengaruh
+terhadap pengambilan keputusan kita sekarang
+misalkan dulu oke
+saya jackpot dari meme koin
+berpikir terus-menerus
+dia bisa jackpot dari meme koin
+atau dulu oke
+saya dulu pernah rugi
+kripto saya beli topnya 2021
+misalkan akhirnya sekarang saya nggak berani
+ya masuk kripto
+saya dulu pernah rugi
+saya trauma
+ini adalah bias memori
+yang mana harus teman-teman singkirkan
+nah selanjutnya ada bias proses hadiah
+yang mana
+kadang ya otak kita ini memiliki kecenderungan
+untuk lebih suka
+dengan yang namanya
+instan gratification
+ini artinya apa kita membeli
+suatu aset baru naik 10%
+ya kita okelah kita jual
+semuanya dijual
+padahal ya kita proyeksikan
+aset tersebut itu bisa naik sampai 100% ya
+tapi kita jual ketika 10
+karena otak kita
+ini punya kecenderungan ya untuk puas ya dengan sesuatu
+yang mana harusnya ya kita ikutin trade plan
+dan kita ready
+ya dengan resiko terbaik atau resiko terburuk
+oke ya
+itu adalah pemaparan mengenai berbagai jenis-jenis bias
+serta kenapa sih ya bisa terjadi bias
+di pikiran para trader
+kita bertemu di modul selanjutnya
