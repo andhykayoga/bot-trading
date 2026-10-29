@@ -11,7 +11,7 @@ Isinya berasal dari dua sumber: **kata mentor** (dengan tautan ke transkrip) dan
 | [G-01](#g-01--risiko-per-transaksi-maksimal-1) – [G-06](#g-06--dilarang-revenge-trading) | Risiko 1% (scalping 0,5%), SL wajib, RR minimum, tanpa average down, tanpa hedging, tanpa revenge trading |
 | [G-07](#g-07--rencana-tidak-diubah-di-tengah-jalan) – [G-13](#g-13--berita-besar) | Set and forget, batas frekuensi & posisi, instrumen, timeframe, indikator, exit, berita |
 | [G-14](#g-14--backtest-dulu-dan-nilai-hasilnya-dengan-data) – [G-17](#g-17--parameter-uji-dan-pemilihan-varian) | Backtest, rem darurat, jenis akun & leverage, cara menguji parameter & memilih varian |
-| [Definisi bersama (D-01 – D-11)](#definisi-bersama) | Swing, struktur, ATR, zona, retest, candle, volume, osilator, angka persen di forex, konvensi eksekusi, label scalping |
+| [Definisi bersama (D-01 – D-12)](#definisi-bersama) | Swing, struktur, ATR, zona, retest, candle, volume, osilator, angka persen di forex, konvensi eksekusi, label scalping, batas hari & candle |
 | [Perbedaan pendapat antar-mentor](#perbedaan-pendapat-antar-mentor) | Daftar perbedaan dan keputusan Anda |
 
 ---
@@ -152,7 +152,7 @@ Alvesting juga memakai CHoCH berlawanan arah untuk mengamankan sebagian profit (
 3. **Total risiko terbuka** (jumlah kerugian kalau semua posisi kena SL) maksimal **3%**.
 4. Kalau dua setup memberi sinyal di instrumen yang sama, yang **lebih dulu** terpicu yang dipakai. Sinyal lain diabaikan selama posisi itu masih terbuka. *(Usulan saya, konsekuensi dari butir 2.)*
 
-Kapan "hari" dimulai → [Q-44](09-pertanyaan-untuk-anda.md#q-44--hari-dan-rugi-dihitung-bagaimana).
+"Hari" mengikuti batas di [D-12](#d-12--batas-hari-minggu-dan-candle) (Q-44). Apakah batas ini dihitung gabungan untuk akun forex dan akun kripto, atau terpisah per akun → [Q-49](09-pertanyaan-untuk-anda.md#q-49--forex-dan-kripto-batas-digabung-atau-terpisah).
 
 Yang dikatakan mentor:
 
@@ -248,8 +248,8 @@ Kebutuhan data: jadwal kalender ekonomi historis (untuk backtest) dan terkini (u
 **Aturan:**
 
 1. Setiap setup **wajib di-backtest** sebelum memakai uang sungguhan. Semua mentor mengulang pesan ini (contoh: [AC_crypto_59 L410–L420](../materi/mentah/AC_crypto_59.txt#L410-L420), [AC_crypto_56 L141–L150](../materi/mentah/AC_crypto_56.txt#L141-L150)). Setelah backtest, uji di **akun demo** dulu (Q-03).
-2. Panjang data minimum menurut mentor forex_2: **H1 minimal 2 tahun**; D1 bisa 15–20 tahun ([forex_2 L1110–L1139](../materi/mentah/forex_2.txt#L1110-L1139), [forex_2 L1400–L1409](../materi/mentah/forex_2.txt#L1400-L1409)). Panjang ini untuk **data penyusunan**; data pemilihan ([G-17](#g-17--parameter-uji-dan-pemilihan-varian)) ditambahkan di luar itu.
-3. Catat minimal: jumlah transaksi, persentase menang, rugi beruntun terpanjang, untung beruntun terpanjang, pip/persen per bulan ([forex_2 L1410–L1449](../materi/mentah/forex_2.txt#L1410-L1449)), dan drawdown terburuk (dipakai [G-15](#g-15--rem-darurat)).
+2. **Panjang data:** sepanjang yang tersedia dan rapi, idealnya **sejak 2010** (±16 tahun), dibagi tiga seperti di [G-17](#g-17--parameter-uji-dan-pemilihan-varian) (Q-42). Ini sesuai saran mentor forex_2 untuk D1, yaitu 15–20 tahun; batas minimalnya H1 2 tahun ([forex_2 L1110–L1139](../materi/mentah/forex_2.txt#L1110-L1139), [forex_2 L1400–L1405](../materi/mentah/forex_2.txt#L1400-L1405)). Dengan data sepanjang itu, bagian penyusunan saja sudah jauh di atas batas minimal.
+3. Catat minimal: jumlah transaksi, persentase menang, rugi beruntun terpanjang, untung beruntun terpanjang, pip/persen per bulan ([forex_2 L1410–L1449](../materi/mentah/forex_2.txt#L1410-L1449)), **drawdown terburuk dari equity** (dipakai [G-15](#g-15--rem-darurat)), **Recovery Factor** (G-17), dan **jumlah varian yang dicoba** untuk setup itu.
 4. Kripto di-backtest **long dan short**, walaupun akun sungguhan versi pertama hanya spot (Q-03).
 
 **Patokan harapan** dari mentor, supaya hasil backtest tidak dinilai salah:
@@ -263,18 +263,31 @@ Kebutuhan data: jadwal kalender ekonomi historis (untuk backtest) dan terkini (u
 
 ## G-15 · Rem darurat
 
-Tidak ada mentor yang menyebut batas ini. Angkanya dari Anda (Q-05).
+Tidak ada mentor yang menyebut batas ini. Angkanya dari Anda (Q-05, Q-44).
+
+**Cara menghitung rugi (Q-44):** dari **equity**, yaitu saldo ditambah untung/rugi posisi yang masih terbuka. FTMO juga menghitung batas rugi hariannya dengan cara ini ([FTMO](https://ftmo.oanda.com/blog/watch-out-for-open-losses/)).
+
+- Rugi hari ini = saldo **awal hari** − equity sekarang.
+- Rugi minggu ini = saldo **awal minggu** − equity sekarang.
+- Drawdown = penurunan equity dari titik tertingginya. Drawdown terburuk di backtest juga dihitung dari equity, supaya angka 1,5× di bawah sebanding.
+- Batas hari dan minggu: [D-12](#d-12--batas-hari-minggu-dan-candle).
 
 | Kejadian | Tindakan |
 |---|---|
-| Rugi **hari ini** mencapai **3%** | Tidak membuka posisi baru sampai besok. |
-| Rugi **minggu ini** mencapai **6%** | Tidak membuka posisi baru sampai minggu depan. |
-| Saldo turun dari titik tertingginya melewati **batas drawdown** | **Berhenti total** sampai Anda memeriksa. |
-| Kejadian teknis aneh: posisi **tanpa SL**, **order dobel**, atau **koneksi putus lama** | **Berhenti total** sampai Anda memeriksa. |
+| Rugi **hari ini** mencapai **3%** | Tidak membuka posisi baru sampai hari berikutnya. |
+| Rugi **minggu ini** mencapai **6%** | Tidak membuka posisi baru sampai minggu berikutnya. |
+| Drawdown melewati **batas drawdown** | **Berhenti total** sampai Anda memeriksa. |
+| Ada posisi **tanpa SL** | Posisi itu **langsung ditutup**, lalu **berhenti total**. |
+| Ada **order dobel** | Yang **lebih baru** ditutup, lalu **berhenti total**. |
+| **Koneksi putus lebih dari 15 menit**, dihitung hanya saat pasar buka (akhir pekan, hari libur, dan jeda harian broker tidak dihitung) | Setelah tersambung lagi, bot: (1) memastikan semua posisi punya SL/TP; (2) menutup posisi scalping yang sudah lewat 3 jam atau sudah masuk jendela berita; (3) **berhenti total**. |
 
 **Batas drawdown** = yang **lebih kecil** antara **15%** dan **1,5 × drawdown terburuk di backtest**. Contoh: drawdown terburuk backtest 8% → 1,5 × 8% = 12% → batasnya 12%.
 
-**Belum jelas** → [Q-44](09-pertanyaan-untuk-anda.md#q-44--hari-dan-rugi-dihitung-bagaimana): "hari" dan "minggu" mulai jam berapa, rugi dihitung termasuk posisi yang masih terbuka atau tidak, apa yang terjadi pada posisi terbuka saat berhenti total, dan berapa lama "koneksi putus lama".
+**Arti "berhenti total" (Q-44):** bot **tidak membuka posisi baru**. Posisi yang sudah ada **tetap diurus** sesuai aturannya: SL/TP-nya tersimpan dan dijalankan di server broker ([MetaTrader 5](https://www.metatrader5.com/en/terminal/help/trading/performing_deals)), dan posisi scalping tetap ditutup setelah 3 jam atau sebelum berita. Selama koneksi putus, SL/TP tetap jalan di server, tetapi bot tidak bisa menutup posisi scalping tepat waktu; karena itu ada langkah (2) di atas.
+
+**Tombol stop darurat manual** yang Anda tekan sendiri (tahap 3) **menutup semua posisi**.
+
+Apakah batas ini dihitung gabungan untuk akun forex dan akun kripto, atau terpisah per akun → [Q-49](09-pertanyaan-untuk-anda.md#q-49--forex-dan-kripto-batas-digabung-atau-terpisah).
 
 ---
 
@@ -299,19 +312,45 @@ Patokan dari Anda: ESMA membatasi trader ritel **30×** untuk pair mayor, **20×
 
 ## G-17 · Parameter uji dan pemilihan varian
 
-**Instruksi Anda:** angka "uji dulu" menjadi parameter backtest dengan **nilai awal** dari Anda, diuji **hanya di sekitar** nilai itu supaya tidak overfitting, dan varian **dipilih dari hasil di data yang tidak dipakai saat menyusun strategi**.
+**Instruksi Anda:** angka "uji dulu" menjadi parameter backtest dengan **nilai awal** dari Anda, diuji **hanya di sekitar** nilai itu supaya tidak overfitting, dan hasil dilaporkan dari **data yang tidak dipakai saat menyusun strategi**. Rinciannya dari Q-42 dan Q-43.
 
-**Cara menjalankannya:**
+### 1. Data dibagi tiga menurut tanggal (Q-42)
 
-1. **Data dibagi menurut waktu**, tidak diacak:
-   - **Data penyusunan** (bagian yang lebih lama): untuk menulis dan memeriksa kode, dan menjalankan semua nilai/varian.
-   - **Data pemilihan** (bagian terbaru): tidak dilihat sampai kode selesai. Nilai parameter dan varian **dipilih dari hasil di sini**.
+| Bagian | Porsi | Dipakai untuk |
+|---|---|---|
+| **Penyusunan** | 60% paling lama | Menulis dan memeriksa kode; semua nilai dan varian dijalankan di sini. |
+| **Pemilihan** | 20% berikutnya | Memilih nilai parameter dan varian (aturan di butir 4). |
+| **Uji akhir** | 20% paling baru | Tidak dilihat sampai semua pilihan dikunci, lalu dijalankan **sekali**. Hasil inilah yang dilaporkan sebagai "hasil di data yang tidak dipakai saat menyusun strategi". |
 
-   Berapa bagian yang disisihkan → [Q-42](09-pertanyaan-untuk-anda.md#q-42--data-mana-yang-disisihkan-untuk-memilih-varian). Ukuran "hasil lebih baik" → [Q-43](09-pertanyaan-untuk-anda.md#q-43--hasil-lebih-baik-diukur-dengan-apa).
-2. **Rentang uji.** Kalau Anda menulis rentang, rentang itu yang dipakai. Kalau hanya nilai awal, yang diuji adalah **0,5×, 1×, dan 1,5×** nilai awal. Pola ini diambil dari rentang yang Anda tulis sendiri (Q-11: 0,5–1,5× ATR; Q-20: 10–30 candle untuk nilai 20; Q-28: 0,5–1,5×). Hitungan candle dibulatkan.
-3. **Satu parameter diubah sekali**; parameter lain tetap di nilai awal. Ini membatasi jumlah kombinasi, supaya hasilnya tidak kebetulan cocok dengan data.
-4. Kalau hasil terbaik jatuh di ujung rentang, rentang **tidak diperlebar**.
-5. Karena pilihan diambil dari data pemilihan, angka hasilnya cenderung sedikit terlalu bagus. Pemeriksaan terakhir sebelum uang sungguhan adalah **akun demo** (Q-03).
+- Periode dan tanggal potongnya **sama untuk semua instrumen**. Data dipakai sepanjang yang tersedia dan rapi, idealnya **sejak 2010** ([G-14](#g-14--backtest-dulu-dan-nilai-hasilnya-dengan-data)). Data kripto tidak ada sejak 2010 → [Q-50](09-pertanyaan-untuk-anda.md#q-50--pemilihan-varian-per-instrumen-atau-gabungan).
+- Alasannya: data yang dipakai untuk memilih membuat hasilnya terlalu bagus. Bailey dkk. (2014) juga menunjukkan metode *hold-out* tidak memperhitungkan berapa banyak percobaan sebelum model dipilih ([Bailey dkk.](https://carmamaths.org/jon/backtest.pdf)). Karena itu laporan juga mencatat **berapa varian yang dicoba** untuk tiap setup.
+
+### 2. Rentang uji
+
+- Kalau Anda menulis rentang, rentang itu yang dipakai. Kalau hanya nilai awal, yang diuji **0,5×, 1×, dan 1,5×** nilai awal, mengikuti pola rentang yang Anda tulis sendiri (Q-11, Q-20, Q-28). Hitungan candle dibulatkan.
+- **Satu parameter diubah sekali**; parameter lain tetap di nilai awal.
+- **Timeframe lebih dulu** (Q-47): kalau timeframe ikut diuji (AFS-05, AFS-13A/B, AFS-16), timeframe dipilih dulu dengan parameter lain di nilai awal. Baru setelah itu parameter lain diuji di timeframe terpilih.
+- Kalau hasil terbaik jatuh di ujung rentang, rentang **tidak diperlebar**.
+
+### 3. Ukuran "hasil lebih baik" (Q-43)
+
+**Recovery Factor** = untung bersih setelah biaya ÷ drawdown terburuk (dari equity, [G-15](#g-15--rem-darurat)). Angka ini sama dengan *Recovery Factor* di laporan MetaTrader 5 ([MT5](https://www.metatrader5.com/en/terminal/help/algotrading/testing_report)).
+
+### 4. Aturan memilih (Q-43)
+
+1. **Syarat ikut dibandingkan:** minimal **30 transaksi** di data pemilihan, **dan** untung bersih di data penyusunan **maupun** data pemilihan. Angka 30 adalah batas yang umum dipakai; contohnya, backtrader menganggap SQN baru bisa dipercaya mulai 30 transaksi ([backtrader](https://backtrader.readthedocs.io/en/latest/api/analyzers/backtrader.analyzers.sqn.html)).
+2. **Nilai awal atau versi mentor tetap dipakai**, kecuali ada varian yang memenuhi butir 1 dan Recovery Factor-nya **lebih baik di kedua bagian** (penyusunan dan pemilihan). Tujuannya supaya pilihan tidak berganti hanya karena kebetulan. Kalau ada lebih dari satu varian seperti itu, ambil yang terbaik di data pemilihan.
+3. Kalau nilai awal tidak memenuhi butir 1, atau kalau pasangan variannya **setara** (tidak ada default; ditandai "setara" di tabel bawah), pilih varian yang memenuhi butir 1 dengan Recovery Factor **terbaik di data pemilihan**.
+4. Kalau tidak ada varian yang memenuhi butir 1, setup dilaporkan **"belum bisa dinilai"** (bukan gagal) dan belum dipakai.
+
+Apakah pilihan ini dibuat per instrumen atau satu untuk semua instrumen → [Q-50](09-pertanyaan-untuk-anda.md#q-50--pemilihan-varian-per-instrumen-atau-gabungan).
+
+### 5. Uji akhir (Q-42)
+
+- Setelah semua pilihan dikunci, data uji akhir dijalankan **sekali**.
+- Setup **lolos** kalau di uji akhir **untung bersih setelah biaya** dengan **minimal 30 transaksi**. Selain itu, setup **tidak lolos**.
+- Setup **tidak boleh diubah lalu diuji ulang** di data uji akhir yang sama, karena data itu jadi tidak bersih lagi.
+- Setup yang lolos masih diuji di **akun demo** sebelum memakai uang sungguhan (Q-03).
 
 ### Daftar parameter uji
 
@@ -328,6 +367,8 @@ Patokan dari Anda: ESMA membatasi trader ritel **30×** untuk pair mayor, **20×
 | Grey area: jarak ke resistance | LIVE-F1 | 1 × ATR(14) | 0,5× · 1× · 1,5× | Q-28 |
 | Pola N: jumlah candle koreksi maksimal | PLN-01 | 3 | 2 · 3 · 4 | Q-34 |
 | Pola N: kedalaman koreksi maksimal | PLN-01 | 50% impuls | 25% · 50% · 75% | Q-34 |
+| Range Wyckoff: lama minimal | KMS-02 | 20 candle D1 | tidak divariasikan | Q-48 |
+| Range Wyckoff: lebar maksimal | KMS-02 | 20% kripto; k × ATR forex | tidak divariasikan | Q-48 |
 | Fase bulan: jendela | WKT-01 | ±1 hari | ±1 · ±2 hari | Q-39 |
 | Fibonacci waktu: jumlah proyeksi yang bertumpuk | WKT-02 | ≥3 | ≥3 · ≥4 | PETA, makalah Gema |
 
@@ -336,18 +377,20 @@ Patokan dari Anda: ESMA membatasi trader ritel **30×** untuk pair mayor, **20×
 | Setup | Default | Pembanding | Dasar |
 |---|---|---|---|
 | AFS-01, AFS-02 | minimal 4 dari 5 poin (poin 1, 2, 4 wajib) | 5 dari 5 | Q-18 |
+| AFS-01, AFS-02 | pola wajib | tanpa syarat pola | Q-46 |
 | AFS-03, AFS-04 | versi konfirmasi | versi antisipasi | Q-09 |
 | Setup Alvesting & Ichimoku yang punya beberapa target | satu TP | 50% di TP1, sisanya SL ke titik impas | Q-08 |
 | Posisi scalping | ditutup setelah 3 jam | ditutup setelah 24 jam | Q-19 |
-| AFS-06 | (a) masuk saat candle BMS close | (b) limit order di OB/FVG — **setara**, keduanya diuji | Q-20 |
-| AFS-12 | SL di bawah P | SL di bawah S1 — **setara**, keduanya diuji | Q-22 |
-| AFS-13 | AFS-13A (mode tren) | AFS-13B (mode pantulan) — diuji terpisah; di live hanya satu yang aktif per instrumen | Q-24 |
-| AFS-19 | POC minggu lalu (chart H1) | POC bulan lalu (chart H4/D1) — **setara** | Q-24 |
+| AFS-05, AFS-13A, AFS-13B, AFS-16 | — | timeframe H1 · H4 · D1 — **setara**, dipilih lebih dulu | Q-47 |
+| AFS-06 | — | (a) masuk saat candle BMS close · (b) limit order di OB/FVG — **setara** | Q-20 |
+| AFS-12 | — | SL di bawah P · SL di bawah S1 — **setara** | Q-22 |
+| AFS-13 | — | AFS-13A (mode tren) · AFS-13B (mode pantulan) — diuji terpisah, **setara**; di live hanya satu yang aktif per instrumen | Q-24 |
+| AFS-19 | — | POC minggu lalu (chart H1) · POC bulan lalu (chart H4/D1) — **setara** | Q-24 |
 | ICH-01 – ICH-03 | SL di balik Kijun + ATR | SL di balik swing terakhir + ATR | Q-35 |
-| PLN-01 | entry mulai 18.00 WIB | tanpa batas jam | Q-34 |
-| HKI-01 | *buy on weakness* | *buy on breakout* — **setara**, keduanya sah menurut Ko Hengki | Q-09 |
-| Semua aturan volume di forex | tick volume | aturan volume dimatikan | Q-14 |
-| WKT-02 | cara (a): hitungan Fibonacci dari titik balik | cara (b): kelipatan Fibonacci dari jarak antar-titik balik — **setara** | Q-40 |
+| PLN-01 | entry 18.00–23.59 WIB | tanpa batas jam | Q-34, Q-44 |
+| HKI-01 | — | *buy on weakness* · *buy on breakout* — **setara**, keduanya sah menurut Ko Hengki | Q-09 |
+| Semua aturan volume di forex | — | tick volume · aturan volume dimatikan — **setara** ("pakai yang hasilnya lebih baik") | Q-14 |
+| WKT-02 | — | cara (a): hitungan Fibonacci dari titik balik · cara (b): kelipatan Fibonacci dari jarak antar-titik balik — **setara** | Q-40 |
 
 ---
 
@@ -416,7 +459,7 @@ Ukuran candle (Q-16, Q-26):
 - Volume **naik/tinggi** = volume candle **di atas rata-rata 20 candle** terakhir. **Turun/rendah** = di bawahnya (Q-26).
 - **Kripto:** volume dari exchange sumber data harga.
 - **Forex & emas:** **tick volume** dari sumber data yang sama dengan harga, hanya untuk perbandingan relatif (Q-14). Data bursa berjangka CME tidak dipakai di versi pertama.
-- Di backtest forex, setiap aturan volume diuji dua cara: memakai tick volume, dan aturan volume **dimatikan**. Yang dipakai adalah yang hasilnya lebih baik di data pemilihan (G-17). Kalau aturan volume dimatikan, setup yang **seluruhnya** bergantung volume (AFS-18 CMF, AFS-19 POC) tidak dijalankan di forex; filter volume (AFS-F2, KMS-F1, HKI-F1, HKI-F2) dianggap selalu lolos.
+- Di backtest forex, setiap aturan volume diuji dua cara: memakai tick volume, dan aturan volume **dimatikan**. Yang dipakai adalah yang hasilnya lebih baik di data pemilihan (G-17). Kalau aturan volume dimatikan, setup yang **seluruhnya** bergantung volume (AFS-18 CMF, AFS-19 POC, KMS-02 Wyckoff) tidak dijalankan di forex; filter volume (AFS-F2, KMS-F1, HKI-F1, HKI-F2) dianggap selalu lolos.
 
 ### D-08 · Osilator
 
@@ -436,8 +479,9 @@ Dari Q-10:
   ```
 
 - **Contoh hitungan:** kalau rata-rata ATR% harian BTC = 3,36% (angka contoh mentor, [AC_crypto_59 L2841](../materi/mentah/AC_crypto_59.txt#L2841)), maka untuk aturan 3%: k = 3 ÷ 3,36 ≈ 0,89. Kalau ATR harian EURUSD 70 pip, ambangnya 0,89 × 70 ≈ 62 pip.
-- Backtest hanya menguji **0,5k, k, 1,5k** (G-17).
-- Dipakai di: [AFS-09](01-alvesting-akademi-crypto.md#afs-09--validasi-tembus-3-dow-theory) (3%) dan [AFS-04](01-alvesting-akademi-crypto.md#afs-04--pantulan-golden-pocket-fibonacci) varian konfirmasi (3–5%).
+- Dipakai di:
+  - [AFS-09](01-alvesting-akademi-crypto.md#afs-09--validasi-tembus-3-dow-theory) (3%) dan [AFS-04](01-alvesting-akademi-crypto.md#afs-04--pantulan-golden-pocket-fibonacci) varian konfirmasi (3–5%): backtest menguji **0,5k, k, 1,5k** (G-17).
+  - [KMS-02](02-kalimasada-akademi-crypto.md#kms-02--wyckoff-breakout-range--retest), lebar maksimal range 20%: k = 20 ÷ ATR% BTC, **tanpa** variasi 0,5k/1,5k (Q-48).
 
 ### D-10 · Konvensi eksekusi
 
@@ -461,9 +505,29 @@ Dari Ko Andri ([AND-G1](05-ko-andri-andre-hakim.md#and-g1--tentukan-jenis-posisi
 | Batas waktu (G-07) | ditutup setelah **3 jam** (pembanding 24 jam) | tidak ada |
 | Saat berita besar (G-13) | ditutup sebelum rilis | dibiarkan dengan SL |
 
-- **Scalping:** [AFS-02](01-alvesting-akademi-crypto.md#afs-02--technical-research-5-tahap-versi-scalping).
-- **Belum pasti:** AFS-03, AFS-12, AFS-20 → [Q-45](09-pertanyaan-untuk-anda.md#q-45--setup-mana-yang-dihitung-scalping).
-- **Trading:** semua setup lain.
+| Setup | Label | Dasar |
+|---|---|---|
+| [AFS-02](01-alvesting-akademi-crypto.md#afs-02--technical-research-5-tahap-versi-scalping) | Scalping | mentor |
+| [AFS-03](01-alvesting-akademi-crypto.md#afs-03--double-topbottom--tembus-neckline) | Scalping | Q-45: diajarkan di pelajaran scalping, contoh di M15 |
+| [AFS-12](01-alvesting-akademi-crypto.md#afs-12--pivot-point-entry-di-garis-p) | Scalping di **M5/M15** (pivot harian); trading di **H1** (pivot mingguan). Ditentukan dari timeframe saat posisi dibuka. | Q-45 |
+| [AFS-20](01-alvesting-akademi-crypto.md#afs-20--linear-regression-channel) | Trading | Q-45: contoh mentor di H4, gerakan selesai sekitar satu hari |
+| Semua setup lain | Trading | — |
+
+### D-12 · Batas hari, minggu, dan candle
+
+Dari Q-44:
+
+| Pasar | Hari mulai | Minggu mulai |
+|---|---|---|
+| Forex & emas | **17.00 New York**: 04.00 WIB saat AS memakai jam musim panas, 05.00 WIB di luar itu | Minggu 17.00 New York (Senin 04.00 atau 05.00 WIB) |
+| Kripto | **00.00 UTC** (07.00 WIB) | Senin 00.00 UTC |
+
+- Menurut FXCM, 17.00 New York adalah awal dan akhir hari trading forex ([FXCM](https://www.fxcm.com/markets/help/c/trading/execution-rollover/rollover/)).
+- Candle **D1, H4, dan W1** di backtest dibentuk dengan batas yang sama; candle H4 dimulai dari batas hari itu. Hasilnya, chart D1 forex berisi 5 candle hari kerja per minggu.
+- Banyak broker MT5 memakai jam server yang tengah malamnya jatuh di 17.00 New York ([MQL5](https://www.mql5.com/en/blogs/post/774934)). Kalau jam server broker nanti berbeda, bot **membentuk candle sendiri** dengan batas ini supaya sama dengan backtest.
+- **Bulan** (untuk PMH/PML di AFS-06 – AFS-08) dimulai di awal hari pertama bulan kalender, dengan batas hari di atas. *(Usulan saya.)*
+- Dipakai oleh: batas transaksi per hari ([G-08](#g-08--jangan-overtrading)), rem darurat ([G-15](#g-15--rem-darurat)), pivot harian dan mingguan (AFS-12), PDH/PDL/PWH/PWL (AFS-06 – AFS-08), ATR harian (D-09), dan semua setup D1/W1.
+- Apakah batas G-08 dan G-15 dihitung gabungan untuk akun forex dan akun kripto, atau terpisah per akun → [Q-49](09-pertanyaan-untuk-anda.md#q-49--forex-dan-kripto-batas-digabung-atau-terpisah).
 
 ---
 

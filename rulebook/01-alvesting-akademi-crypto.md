@@ -2,7 +2,7 @@
 
 Alvesting adalah pengajar teknikal Akademi Crypto. Materinya paling banyak dan paling sistematis, jadi ini **mesin utama** bot. Semua contoh di kelas memakai kripto (terutama BTC), tetapi hampir semuanya berlaku juga di forex. Angka yang khas kripto ditandai **K\*** / **F\***.
 
-Aturan global ([00](00-aturan-global.md)) tetap berlaku di atas semua setup di halaman ini, termasuk definisi bersama ([D-01 – D-11](00-aturan-global.md#definisi-bersama)): swing, zona, retest, candle, volume, osilator, dan label scalping. Angka "Q-xx" merujuk ke jawaban Anda di [10](10-jawaban.md).
+Aturan global ([00](00-aturan-global.md)) tetap berlaku di atas semua setup di halaman ini, termasuk definisi bersama ([D-01 – D-12](00-aturan-global.md#definisi-bersama)): swing, zona, retest, candle, volume, osilator, label scalping, dan batas hari & candle. Angka "Q-xx" merujuk ke jawaban Anda di [10](10-jawaban.md).
 
 Setiap kartu setup sekarang punya baris **Label** (scalping/trading, [D-11](00-aturan-global.md#d-11--label-posisi-scalping-atau-trading)) dan **RR minimum** ([G-03](00-aturan-global.md#g-03--rr-minimum-115)).
 
@@ -50,18 +50,15 @@ Kelas gratis Alvesting (5 modul). Ia menyebutnya "fondasi": **tren → area → 
 | Arah | Long dan short |
 | Label | Trading |
 | RR minimum | 1:1,5 |
-| Status | 🟡 (tinggal Q-46) |
+| Status | 🟢 |
 
 **Syarat 1 — Tren (D1).** Tentukan bias dengan struktur ([D-02](00-aturan-global.md#d-02--struktur-dan-tren)).
 
 - **Bullish** = struktur membuat **minimal 2 higher low dan 2 higher high**. Sebuah higher low tetap valid selama low sebelumnya tidak ditembus. Tembusnya high sebelumnya = *break of structure* ke atas ([AC_crypto_35 L370–L429](../materi/mentah/AC_crypto_35.txt#L370-L429)). → bias **long**.
 - **Bearish** = minimal 2 lower high dan 2 lower low ([AC_crypto_35 L425–L469](../materi/mentah/AC_crypto_35.txt#L425-L469)). → bias **short**.
 - **Sideways** = bukan keduanya (mentor: *equal high* dan *equal low* di range sempit, [AC_crypto_35 L460–L499](../materi/mentah/AC_crypto_35.txt#L460-L499)). → **tidak ada bias**, setup ini tidak dipakai. Mentor: kalau tidak tahu arah pasar, jangan berharap untung ([AC_crypto_35 L80–L99](../materi/mentah/AC_crypto_35.txt#L80-L99)).
-- Alat bantu tren menurut mentor (**maksimal satu**, lihat G-11; pilihannya di [Q-46](09-pertanyaan-untuk-anda.md#q-46--afs-01-indikator-untuk-poin-5)):
-  - **Trendline**: garis diagonal lewat minimal 2 titik. Uptrend digambar di bawah harga; harga yang memantul di trendline = peluang long; tembus ke bawah = tanda pembalikan. Downtrend sebaliknya ([AC_crypto_35 L500–L579](../materi/mentah/AC_crypto_35.txt#L500-L579)).
-  - **Moving average**: harga di atas MA → bias long; tembus ke bawah → tanda pembalikan. Contoh MA20/MA10 di D1, dan MA50 sebagai penolak di downtrend ([AC_crypto_35 L590–L615](../materi/mentah/AC_crypto_35.txt#L590-L615), [AC_crypto_35 L690–L705](../materi/mentah/AC_crypto_35.txt#L690-L705)).
-  - **Bollinger Bands** (tengahnya MA20): menyentuh band bawah = jenuh jual, band atas = jenuh beli ([AC_crypto_35 L612–L635](../materi/mentah/AC_crypto_35.txt#L612-L635)).
-  - **Supertrend**: harga di atas (hijau) → bias long; di bawah (merah) → bias short ([AC_crypto_35 L635–L649](../materi/mentah/AC_crypto_35.txt#L635-L649)).
+- **Alat bantu tren: trendline saja** (poin 3 di daftar 5 poin): garis diagonal lewat minimal 2 titik. Uptrend digambar di bawah harga; harga yang memantul di trendline = peluang long; tembus ke bawah = tanda pembalikan. Downtrend sebaliknya ([AC_crypto_35 L500–L579](../materi/mentah/AC_crypto_35.txt#L500-L579)).
+- Mentor juga menyebut **moving average** (contoh MA20/MA10 di D1, MA50 sebagai penolak di downtrend), **Bollinger Bands**, dan **Supertrend** ([AC_crypto_35 L590–L649](../materi/mentah/AC_crypto_35.txt#L590-L649), [AC_crypto_35 L690–L705](../materi/mentah/AC_crypto_35.txt#L690-L705)). **Tidak dipakai di AFS-01** (Q-46): indikator tren setup ini sudah **pita EMA 13–21** (sumber area di syarat 2), dan mentor sendiri bilang memakai dua indikator tren sekaligus, misalnya EMA dan Bollinger, itu salah ([AC_crypto_61 L2210–L2217](../materi/mentah/AC_crypto_61.txt#L2210-L2217)) (G-11).
 
 **Syarat 2 — Area.** Posisi hanya dibuka di area yang tepat.
 
@@ -75,7 +72,7 @@ Kelas gratis Alvesting (5 modul). Ia menyebutnya "fondasi": **tren → area → 
   5. Fibonacci: *golden pocket* 0,5–0,618 dari impuls terakhir ([AFS-04](#afs-04--pantulan-golden-pocket-fibonacci)).
 - Makin banyak alat yang bertemu di area yang sama (*confluence*), makin bagus setup-nya ([AC_crypto_58 L2063–L2088](../materi/mentah/AC_crypto_58.txt#L2063-L2088)).
 
-**Syarat 3 — Pola (H4).** Ada pola harga yang searah bias di area tersebut. Pola **bukan alat utama**, hanya konfirmasi; tren dan area harus beres dulu ([AC_crypto_57 L1341–L1380](../materi/mentah/AC_crypto_57.txt#L1341-L1380)). Contoh dari mentor: double bottom ([AC_crypto_35 L260–L269](../materi/mentah/AC_crypto_35.txt#L260-L269)) dan falling wedge di support ([AC_crypto_57 L1560–L1569](../materi/mentah/AC_crypto_57.txt#L1560-L1569)). Di versi pertama, pola yang dikenali bot hanya **double/triple top-bottom** ([AFS-03](#afs-03--double-topbottom--tembus-neckline)) dan **ABCD** ([AFS-10](#afs-10--pola-abcd)) (Q-23). Apakah syarat ini tetap wajib setelah daftar polanya menyempit → [Q-46](09-pertanyaan-untuk-anda.md#q-46--afs-01-indikator-untuk-poin-5).
+**Syarat 3 — Pola (H4).** Ada pola harga yang searah bias di area tersebut. Pola **bukan alat utama**, hanya konfirmasi; tren dan area harus beres dulu ([AC_crypto_57 L1341–L1380](../materi/mentah/AC_crypto_57.txt#L1341-L1380)). Contoh dari mentor: double bottom ([AC_crypto_35 L260–L269](../materi/mentah/AC_crypto_35.txt#L260-L269)) dan falling wedge di support ([AC_crypto_57 L1560–L1569](../materi/mentah/AC_crypto_57.txt#L1560-L1569)). Di versi pertama, pola yang dikenali bot hanya **double/triple top-bottom** ([AFS-03](#afs-03--double-topbottom--tembus-neckline)) dan **ABCD** ([AFS-10](#afs-10--pola-abcd)) (Q-23). Pola **tetap wajib** (Q-46): pola memang bukan alat utama, tetapi menurut mentor di support harus terlihat pola dulu, misalnya double bottom, "baru kamu bisa masuk" ([AC_crypto_57 L1360–L1371](../materi/mentah/AC_crypto_57.txt#L1360-L1371)). Versi **tanpa syarat pola** diuji sebagai pembanding ([G-17](00-aturan-global.md#g-17--parameter-uji-dan-pemilihan-varian)).
 
 **Syarat 4 — Pemicu (M15).** M15 disebut timeframe paling ideal untuk melihat pemicu ([AC_crypto_57 L1484–L1503](../materi/mentah/AC_crypto_57.txt#L1484-L1503)). Pemicu (salah satu cukup):
 
@@ -87,13 +84,15 @@ Kelas gratis Alvesting (5 modul). Ia menyebutnya "fondasi": **tren → area → 
 
 | Poin | Kata mentor | Cara bot mengukurnya |
 |---|---|---|
-| 1 | Tren terlihat "secara kasat mata" | Tidak punya ukuran tersendiri; disamakan dengan poin 2 (lihat [Q-46](09-pertanyaan-untuk-anda.md#q-46--afs-01-indikator-untuk-poin-5)) |
+| 1 | Tren terlihat "secara kasat mata" | Disamakan dengan poin 2 (Q-46). Mentor menyebut keduanya bersamaan: "secara kasat mata dia naik ya, selalu membuat dua higher low" ([AC_crypto_35 L672–L673](../materi/mentah/AC_crypto_35.txt#L672-L673)) |
 | 2 | Struktur minimal 2 higher low & 2 higher high | Syarat 1 (D-02) |
 | 3 | Trendline dihormati | Garis lewat 2 swing low terakhir (uptrend) atau 2 swing high terakhir (downtrend) di D1; dihormati = belum ada candle close yang menembus garis sejak swing kedua |
 | 4 | Harga di area support/resistance | Syarat 2 |
-| 5 | Indikator mendukung (contoh mentor: *oversold* di Bollinger Bands; ditolak MA50) | Menunggu [Q-46](09-pertanyaan-untuk-anda.md#q-46--afs-01-indikator-untuk-poin-5) |
+| 5 | Indikator mendukung | **Stochastic 5,3,3** di timeframe pemicu (M15): pada candle pemicu, %K **di bawah 20** untuk long, **di atas 80** untuk short (Q-46) |
 
 Karena poin 1 disamakan dengan poin 2, aturan "4 dari 5" berarti: poin 2 dan 4 wajib, ditambah **minimal satu** dari poin 3 dan 5.
+
+Kenapa Stochastic untuk poin 5 (Q-46): Stochastic 5,3,3 bersama EMA 13/21 adalah kombinasi yang menurut Akademi Crypto sudah mereka riset dan pakai bertahun-tahun ([AC_crypto_61 L2258–L2262](../materi/mentah/AC_crypto_61.txt#L2258-L2262), [AC_crypto_57 L1779–L1782](../materi/mentah/AC_crypto_57.txt#L1779-L1782)). Di contoh lengkap mentor, M15 *oversold* dan ada hammer, "baru execute" ([AC_crypto_57 L1863–L1865](../materi/mentah/AC_crypto_57.txt#L1863-L1865)).
 
 **Contoh lengkap dari mentor:** D1 naik → long di support → H4 ada double bottom → M15 stochastic jenuh jual + hammer → eksekusi ([AC_crypto_57 L1854–L1873](../materi/mentah/AC_crypto_57.txt#L1854-L1873)).
 
@@ -111,8 +110,6 @@ Karena poin 1 disamakan dengan poin 2, aturan "4 dari 5" berarti: poin 2 dan 4 w
 - Harga tidak berada di area yang tepat.
 - Tidak ada zona lawan yang memberi RR minimal 1:1,5.
 
-**Belum jelas** → [Q-46](09-pertanyaan-untuk-anda.md#q-46--afs-01-indikator-untuk-poin-5): indikator untuk poin 5, konfirmasi bahwa poin 1 disamakan dengan poin 2, dan apakah syarat pola tetap wajib.
-
 ---
 
 ### AFS-02 · Technical Research 5 tahap, versi scalping
@@ -125,7 +122,7 @@ Karena poin 1 disamakan dengan poin 2, aturan "4 dari 5" berarti: poin 2 dan 4 w
 | Arah | Dua arah dalam satu hari (long lalu short, atau sebaliknya) ([AC_crypto_62 L3609–L3668](../materi/mentah/AC_crypto_62.txt#L3609-L3668)) |
 | Label | **Scalping** |
 | RR minimum | 1:2 |
-| Status | 🟡 (tinggal Q-46, sama dengan AFS-01) |
+| Status | 🟢 |
 
 **Aturan:** sama persis dengan AFS-01 (termasuk daftar 5 poin), tetapi timeframe-nya "dikompres": tren H1, area & pola M15, pemicu M5. SL dan zona memakai ATR(14) dari timeframe masing-masing. Ditambah aturan khusus scalping:
 
@@ -138,7 +135,7 @@ Karena poin 1 disamakan dengan poin 2, aturan "4 dari 5" berarti: poin 2 dan 4 w
 
 **Contoh dari mentor** ([AC_crypto_62 L3719–L3768](../materi/mentah/AC_crypto_62.txt#L3719-L3768)): H1 masih bearish, tetapi terbentuk *descending broadening wedge* lalu breakout dan retest → bias long. M15: cari area, ada breakout + retest. M5: ada double bottom, breakout → entry. SL di bawah area. TP1, TP2, TP3 → bot memakai satu TP, yaitu target terdekat yang RR-nya minimal 1:2 (Q-08).
 
-**Belum jelas:** sama dengan AFS-01 → [Q-46](09-pertanyaan-untuk-anda.md#q-46--afs-01-indikator-untuk-poin-5).
+**Poin 5** diukur dengan Stochastic 5,3,3 di **M5**, timeframe pemicu versi ini (Q-46).
 
 ---
 
@@ -150,9 +147,9 @@ Karena poin 1 disamakan dengan poin 2, aturan "4 dari 5" berarti: poin 2 dan 4 w
 | Pasar | K, F |
 | Timeframe | M15 (contoh scalping) |
 | Arah | Short (double top), long (double bottom) |
-| Label | Belum pasti → [Q-45](09-pertanyaan-untuk-anda.md#q-45--setup-mana-yang-dihitung-scalping) |
+| Label | **Scalping** (Q-45): diajarkan di pelajaran scalping, dengan contoh double top di M15 ([AC_crypto_58 L3135–L3153](../materi/mentah/AC_crypto_58.txt#L3135-L3153)) |
 | RR minimum | 1:2 (TP mentor) |
-| Status | 🟡 (tinggal Q-45) |
+| Status | 🟢 |
 
 **Syarat:**
 
@@ -166,6 +163,8 @@ Karena poin 1 disamakan dengan poin 2, aturan "4 dari 5" berarti: poin 2 dan 4 w
 **Entry — versi antisipasi (pembanding, Q-09):** masuk **sebelum** neckline tembus. Mentor: SL beberapa persen di atas swing high, target sama, RR bisa 1:6; makin besar RR yang diinginkan, makin presisi entry dan makin tipis SL-nya ([AC_crypto_58 L3155–L3179](../materi/mentah/AC_crypto_58.txt#L3155-L3179)). Untuk bot: masuk saat puncak kedua (atau ketiga) **diakui** sebagai swing high (D-01) dan harga masih di atas neckline; SL sama dengan versi konfirmasi; TP di **harga yang sama** dengan TP versi konfirmasi.
 
 Double bottom = cerminannya (long).
+
+**Aturan scalping** ([D-11](00-aturan-global.md#d-11--label-posisi-scalping-atau-trading)): risiko 0,5%, posisi ditutup setelah 3 jam, dan ditutup sebelum berita besar.
 
 ---
 
@@ -189,7 +188,7 @@ Double bottom = cerminannya (long).
 2. Tarik Fibonacci retracement dari **low ke high** impuls (uptrend) atau **high ke low** (downtrend) ([AC_crypto_60 L141–L169](../materi/mentah/AC_crypto_60.txt#L141-L169)).
 3. Harga masuk **golden pocket 0,5–0,618**. Mentor: harga "sampai 80%" mengunjungi area ini ([AC_crypto_60 L191–L230](../materi/mentah/AC_crypto_60.txt#L191-L230)).
 4. **Fokus hanya di golden pocket.** Level 0,236 / 0,382 / 0,786 juga bisa jadi pantulan, tetapi menurut rangkuman mentor peluangnya hanya sekitar 20% ([AC_crypto_56 L75–L99](../materi/mentah/AC_crypto_56.txt#L75-L99)).
-5. **Wajib confluence**: golden pocket bertumpuk dengan minimal satu support lain: zona horizontal (D-04), trendline (garis lewat 2 swing low terakhir), pita EMA 13–21, atau MA100. Contoh mentor: golden pocket + MA100 + support horizontal ([AC_crypto_56 L95–L139](../materi/mentah/AC_crypto_56.txt#L95-L139)).
+5. **Wajib confluence**: golden pocket bertumpuk dengan minimal satu support lain: zona horizontal (D-04), trendline (garis lewat 2 swing low terakhir), atau **MA100** (MA biasa, bawaan TradingView). Contoh mentor: golden pocket + MA100 + support horizontal ([AC_crypto_56 L95–L139](../materi/mentah/AC_crypto_56.txt#L95-L139)). Pita EMA 13–21 tidak dipakai di setup ini: G-11 membatasi satu indikator tren per setup, dan contoh mentor untuk setup ini memakai MA100.
 6. Ada **pemicu** di area itu, seperti di AFS-01 ([AC_crypto_58 L3525–L3534](../materi/mentah/AC_crypto_58.txt#L3525-L3534)). Pemicu ini dipakai versi antisipasi.
 
 **Dua cara entry yang diajarkan:**
@@ -226,20 +225,20 @@ Mentor juga menyebut *trend-based Fib extension* (impuls utama + koreksi) sebaga
 |---|---|
 | Sumber | [AC_crypto_58 L1745–L1789](../materi/mentah/AC_crypto_58.txt#L1745-L1789); setting diklaim sudah diriset bertahun-tahun: [AC_crypto_61 L2253–L2262](../materi/mentah/AC_crypto_61.txt#L2253-L2262) |
 | Pasar | K, F |
+| Timeframe | Tidak disebut mentor → diuji **H1, H4, D1** (setara), dipilih dengan aturan G-17 (Q-47) |
 | Arah | Long dalam uptrend (cerminannya untuk downtrend) |
 | Label | Trading |
-| RR minimum | TP tetap: 1:2 (entry H1 ke bawah) / 1:3 (H4 ke atas) (Q-07) |
-| Status | 🟡 (tinggal Q-47) |
+| RR minimum | TP tetap: 1:2 (entry H1) / 1:3 (H4, D1) (Q-07) |
+| Status | 🟢 |
 
 **Aturan:** dua EMA, **13 dan 21**, bekerja seperti magnet. Dalam uptrend, setiap koreksi "selalu mencari" area EMA 13–21 lalu memantul → **long di area EMA**. Mentor menyebutnya *dynamic support*, lebih cocok dengan pergerakan kripto yang sangat volatil dibanding garis horizontal atau diagonal ([AC_crypto_58 L1765–L1819](../materi/mentah/AC_crypto_58.txt#L1765-L1819)).
 
 Setup ini terutama dipakai sebagai **sumber area** di AFS-01. Kalau berdiri sendiri:
 
 - **Tren:** struktur bullish (D-02) untuk long, bearish untuk short.
+- **Entry (Q-47):** harga menyentuh pita EMA 13–21, lalu **tunggu pemicu** di pita itu, di timeframe yang sama. Pemicunya sama dengan syarat 4 AFS-01: candle pemicu ([D-06](00-aturan-global.md#d-06--candle)), atau Stochastic 5,3,3 silang di area jenuh ([D-08](00-aturan-global.md#d-08--osilator)) → order pasar saat candle pemicu close. Di contoh WLD, mentor masuk di area EMA 13–21 setelah Stochastic *oversold* dan silang, ditambah pola ([AC_crypto_33 L1849–L1900](../materi/mentah/AC_crypto_33.txt#L1849-L1900)).
 - **SL:** swing low terakhir − 1 × ATR(14) (G-02).
 - **TP:** mentor tidak menyebut target → TP tetap 1:2 atau 1:3 sesuai timeframe entry (Q-07).
-
-**Belum jelas** → [Q-47](09-pertanyaan-untuk-anda.md#q-47--timeframe-dan-cara-masuk-yang-belum-disebut): timeframe berapa, dan masuk langsung saat harga menyentuh pita EMA atau menunggu candle pemicu.
 
 ---
 
@@ -264,7 +263,7 @@ Fokus SMC adalah **likuiditas** (kumpulan stop loss), bukan tren. Hanya relevan 
 **Aturan bersama AFS-06 – AFS-08 (Q-20):**
 
 - **Timeframe:** pola dan entry di **M15**. Arah tidak boleh melawan struktur **H4** (D-02): short tidak diambil kalau H4 bullish, long tidak diambil kalau H4 bearish. *(Terjemahan saya dari "H4 untuk arah".)*
-- **Likuiditas acuan:** BSL = PDH, PWH, PMH, dan swing high M15 sebelumnya; SSL = PDL, PWL, PML, dan swing low M15 sebelumnya.
+- **Likuiditas acuan:** BSL = PDH, PWH, PMH, dan swing high M15 sebelumnya; SSL = PDL, PWL, PML, dan swing low M15 sebelumnya. Batas hari, minggu, dan bulannya mengikuti [D-12](00-aturan-global.md#d-12--batas-hari-minggu-dan-candle).
 - **TP:** likuiditas **terdekat** di sisi lawan: PDH/PDL, PWH/PWL, atau swing high/low. Masuk **hanya** kalau RR ke sana minimal **1:2** (mentor: 1:2 jangka pendek, [AC_crypto_58 L730–L739](../materi/mentah/AC_crypto_58.txt#L730-L739)). Bot tidak mencari target yang lebih jauh.
 - **SL:** swing (puncak/lembah) yang menjadi titik invalidasi ± 1 × ATR(14) M15 (G-02).
 - **Label:** trading. **RR minimum:** 1:2.
@@ -571,11 +570,11 @@ Semua indikator memakai **setting default TradingView** kecuali disebut lain, ka
 | Sumber | [AC_crypto_44 L1–L299](../materi/mentah/AC_crypto_44.txt#L1-L299) |
 | Pasar | K, F |
 | Timeframe | **H1, M15, M5** ([AC_crypto_44 L285–L295](../materi/mentah/AC_crypto_44.txt#L285-L295)); mentor mengaitkan pivot dengan "yang suka intraday trading, suka scalping" ([AC_crypto_44 L118–L125](../materi/mentah/AC_crypto_44.txt#L118-L125)) |
-| Label | Belum pasti → [Q-45](09-pertanyaan-untuk-anda.md#q-45--setup-mana-yang-dihitung-scalping) |
+| Label | **Scalping di M5/M15** (pivot harian), **trading di H1** (pivot mingguan, targetnya bisa butuh beberapa hari). Label ditentukan dari timeframe saat posisi dibuka (Q-45) |
 | RR minimum | 1:1,5 |
-| Status | 🟡 (tinggal Q-45) |
+| Status | 🟢 |
 
-**Indikator:** *Pivot Points Standard*, tipe **Traditional**, setting bawaan TradingView, sesuai pesan mentor "settingnya default aja" ([AC_crypto_44 L60–L90](../materi/mentah/AC_crypto_44.txt#L60-L90)). Dengan *Pivots Timeframe* "Auto": chart **M5/M15 memakai pivot harian**, chart **H1 memakai pivot mingguan** (Q-22). Rumus ([AC_crypto_44 L35–L65](../materi/mentah/AC_crypto_44.txt#L35-L65)):
+**Indikator:** *Pivot Points Standard*, tipe **Traditional**, setting bawaan TradingView, sesuai pesan mentor "settingnya default aja" ([AC_crypto_44 L60–L90](../materi/mentah/AC_crypto_44.txt#L60-L90)). Dengan *Pivots Timeframe* "Auto": chart **M5/M15 memakai pivot harian**, chart **H1 memakai pivot mingguan** (Q-22). Batas hari dan minggu mengikuti [D-12](00-aturan-global.md#d-12--batas-hari-minggu-dan-candle). Rumus ([AC_crypto_44 L35–L65](../materi/mentah/AC_crypto_44.txt#L35-L65)):
 
 ```
 P  = (High + Low + Close) ÷ 3            ← periode sebelumnya
@@ -605,7 +604,7 @@ Hanya pakai **P, S1–S3, R1–R3**. Level di luar itu terlalu jauh ([AC_crypto_
 
 Mentor: tunggu setup pivot-nya siap, jangan asal masuk ([AC_crypto_44 L285–L295](../materi/mentah/AC_crypto_44.txt#L285-L295)).
 
-**Belum jelas** → [Q-45](09-pertanyaan-untuk-anda.md#q-45--setup-mana-yang-dihitung-scalping): dihitung scalping (0,5%, tutup 3 jam) atau trading.
+**Label (Q-45):** di M5/M15 posisinya scalping (risiko 0,5%, ditutup setelah 3 jam dan sebelum berita besar); di H1 posisinya trading (risiko 1%). Mentor mengaitkan pivot dengan intraday dan scalping ([AC_crypto_44 L123–L125](../materi/mentah/AC_crypto_44.txt#L123-L125)), di H1, M15, dan M5 ([AC_crypto_44 L292–L293](../materi/mentah/AC_crypto_44.txt#L292-L293)).
 
 ---
 
@@ -615,9 +614,9 @@ Mentor: tunggu setup pivot-nya siap, jangan asal masuk ([AC_crypto_44 L285–L29
 |---|---|
 | Sumber | [AC_crypto_44 L300–L489](../materi/mentah/AC_crypto_44.txt#L300-L489) |
 | Pasar | K, F |
-| Timeframe | Tidak disebut mentor → [Q-47](09-pertanyaan-untuk-anda.md#q-47--timeframe-dan-cara-masuk-yang-belum-disebut) |
+| Timeframe | Tidak disebut mentor → diuji **H1, H4, D1** (setara), dipilih dengan aturan G-17 (Q-47) |
 | Label | Trading |
-| Status | 🟡 (tinggal Q-47) |
+| Status | 🟢 (AFS-13A dan AFS-13B) |
 
 **Setting (Q-24):** bawaan TradingView yang dipakai mentor: garis tengah **EMA 20**, ATR **10**, pengali **2**. Pita atas = EMA + 2 × ATR, pita bawah = EMA − 2 × ATR ([AC_crypto_44 L340–L369](../materi/mentah/AC_crypto_44.txt#L340-L369)). Mentor sempat menyebut SMA, tetapi angka yang ia sebut persis setting bawaan TradingView yang memakai EMA ([AC_crypto_44 L362–L365](../materi/mentah/AC_crypto_44.txt#L362-L365)).
 
@@ -695,9 +694,9 @@ Lihat juga versi Ichimoku yang jauh lebih lengkap dari Rafał di [06 · ICH-01�
 |---|---|
 | Sumber | [AC_crypto_59 L3556–L3718](../materi/mentah/AC_crypto_59.txt#L3556-L3718) |
 | Pasar | K, F |
-| Timeframe | Tidak disebut mentor → [Q-47](09-pertanyaan-untuk-anda.md#q-47--timeframe-dan-cara-masuk-yang-belum-disebut) |
+| Timeframe | Tidak disebut mentor → diuji **H1, H4, D1** (setara), dipilih dengan aturan G-17 (Q-47) |
 | Label | Trading |
-| Status | 🟡 (tinggal Q-47) |
+| Status | 🟢 |
 
 **Setting (Q-24):** bawaan TradingView, **panjang 20**. Atas = high tertinggi 20 candle; bawah = low terendah 20 candle; tengah = rata-rata keduanya ([AC_crypto_59 L3586–L3610](../materi/mentah/AC_crypto_59.txt#L3586-L3610)).
 
@@ -788,15 +787,15 @@ Lihat juga versi Ichimoku yang jauh lebih lengkap dari Rafał di [06 · ICH-01�
 |---|---|
 | Sumber | [AC_crypto_61 L852–L976](../materi/mentah/AC_crypto_61.txt#L852-L976) |
 | Pasar | K, F |
-| Timeframe | Intraday ("selesai dalam satu hari"); mentor: cocok "buat kalian yang suka scalping" ([AC_crypto_61 L882–L890](../materi/mentah/AC_crypto_61.txt#L882-L890), [AC_crypto_61 L908–L916](../materi/mentah/AC_crypto_61.txt#L908-L916)). Timeframe chart tidak disebut → [Q-47](09-pertanyaan-untuk-anda.md#q-47--timeframe-dan-cara-masuk-yang-belum-disebut) |
-| Label | Belum pasti → [Q-45](09-pertanyaan-untuk-anda.md#q-45--setup-mana-yang-dihitung-scalping) |
-| RR minimum | 1:1,5 |
-| Status | 🟡 (tinggal Q-45 dan Q-47) |
+| Timeframe | **H4**, sesuai contoh mentor "lrc dalam h 4 bitcoin" ([AC_crypto_61 L903](../materi/mentah/AC_crypto_61.txt#L903)) (Q-47). M15 dan H1 tidak diuji |
+| Label | **Trading** (Q-45). Mentor menyebutnya cocok untuk intraday dan "yang suka scalping", tetapi contohnya di H4 dengan tiap gerakan selesai sekitar satu hari ([AC_crypto_61 L882–L890](../materi/mentah/AC_crypto_61.txt#L882-L890), [AC_crypto_61 L903–L916](../materi/mentah/AC_crypto_61.txt#L903-L916)), sedangkan menurut Alvesting scalping hanya beberapa menit sampai beberapa jam, maksimal 3 jam ([AC_crypto_58 L3018–L3036](../materi/mentah/AC_crypto_58.txt#L3018-L3036), [AC_crypto_58 L3053](../materi/mentah/AC_crypto_58.txt#L3053)) |
+| RR minimum | 1:1,5; mode breakout TP tetap 1:3 (entry H4) |
+| Status | 🟢 |
 
 **Setting (Q-24):** bawaan TradingView, **100 candle**, deviasi **2** (garis atas dan bawah).
 
 - **Mode range:** long di sisi bawah channel → TP sisi atas; short di sisi atas → TP sisi bawah ([AC_crypto_61 L912–L940](../materi/mentah/AC_crypto_61.txt#L912-L940)). Entry: order limit tepat di garis. SL: swing terakhir ± 1 × ATR(14) (G-02).
-- **Mode breakout:** candle close di bawah channel + **retest** ([D-05](00-aturan-global.md#d-05--retest)) → short, SL di atas swing high + 1 × ATR. Keluar ke atas → bias long, cerminannya ([AC_crypto_61 L940–L960](../materi/mentah/AC_crypto_61.txt#L940-L960)). Mentor tidak menyebut target → TP tetap sesuai timeframe entry (Q-07).
+- **Mode breakout:** candle close di bawah channel + **retest** ([D-05](00-aturan-global.md#d-05--retest)) → short, SL di atas swing high + 1 × ATR. Keluar ke atas → bias long, cerminannya ([AC_crypto_61 L940–L960](../materi/mentah/AC_crypto_61.txt#L940-L960)). Mentor tidak menyebut target → TP tetap **1:3** (entry H4; Q-07).
 
 ---
 
@@ -831,7 +830,7 @@ Order flow butuh data transaksi per level harga (*footprint*). Data ini tersedia
 |---|---|
 | Sumber | [AC_crypto_57 L2713–L3272](../materi/mentah/AC_crypto_57.txt#L2713-L3272), [AC_crypto_59 L2360–L2639](../materi/mentah/AC_crypto_59.txt#L2360-L2639), [AC_crypto_58 L3879–L3946](../materi/mentah/AC_crypto_58.txt#L3879-L3946) |
 | Pasar | K |
-| Status | 🟡 (definisinya jelas, tetapi entry/SL/TP tidak disebut; paling cocok sebagai sinyal tambahan) |
+| Status | 🟡 (definisinya jelas, tetapi entry/SL/TP tidak disebut; paling cocok sebagai sinyal tambahan) → [Q-51](09-pertanyaan-untuk-anda.md#q-51--order-flow-afs-22) |
 
 | Sinyal | Definisi dari mentor | Arti |
 |---|---|---|

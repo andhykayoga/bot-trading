@@ -2,7 +2,7 @@
 
 Bagian-bagian di bawah ini **tidak saya tebak**, karena mentor tidak menyebutnya, menyebutnya dengan kabur, atau para mentor berbeda pendapat. Jawaban Anda akan mengubah label 🟡 di rulebook menjadi 🟢.
 
-> **Status:** Q-01 – Q-41 **sudah dijawab**. Jawabannya ada di [10-jawaban.md](10-jawaban.md) dan sudah diterapkan ke rulebook. Teks pertanyaannya dibiarkan seperti aslinya sebagai catatan. Yang **masih terbuka** hanya [Bagian 8 (Q-42 – Q-48)](#bagian-8--pertanyaan-lanjutan).
+> **Status:** Q-01 – Q-48 **sudah dijawab**. Jawabannya ada di [10-jawaban.md](10-jawaban.md) dan sudah diterapkan ke rulebook. Teks pertanyaannya dibiarkan seperti aslinya sebagai catatan. Yang **masih terbuka** hanya [Bagian 9 (Q-49 – Q-51)](#bagian-9--pertanyaan-lanjutan-kedua). Tidak ada setup lain yang menunggu bagian ini, kecuali AFS-22.
 
 **Cara menjawab:** cukup tulis nomornya dan pilihan Anda, misalnya `Q-01: A, scalping 0,5%`. Kalau tidak ada pilihan yang cocok, tulis jawaban sendiri. Kalau belum yakin, tulis "uji dulu" — artinya angka itu akan dicari lewat backtest.
 
@@ -15,7 +15,8 @@ Bagian-bagian di bawah ini **tidak saya tebak**, karena mentor tidak menyebutnya
 5. [Forex (Q-31 – Q-36)](#bagian-5--forex)
 6. [Saham (Q-37)](#bagian-6--saham)
 7. [Filter waktu Astronacci & Hosoda (Q-38 – Q-41)](#bagian-7--filter-waktu)
-8. [**Pertanyaan lanjutan (Q-42 – Q-48) — masih terbuka**](#bagian-8--pertanyaan-lanjutan)
+8. [Pertanyaan lanjutan (Q-42 – Q-48)](#bagian-8--pertanyaan-lanjutan)
+9. [**Pertanyaan lanjutan kedua (Q-49 – Q-51) — masih terbuka**](#bagian-9--pertanyaan-lanjutan-kedua)
 
 ---
 
@@ -501,7 +502,9 @@ Untuk [PLN-01](06-mentor-forex.md#pln-01--pola-n-impuls--koreksi-sempit--tembus)
 
 ## Bagian 8 — Pertanyaan lanjutan
 
-Pertanyaan ini muncul saat menerapkan jawaban Anda. Setup yang masih 🟡 hanya menunggu pertanyaan di bagian ini. Cara menjawabnya sama: tulis nomor dan pilihan, misalnya `Q-45: B`.
+*Sudah dijawab → [10 · Bagian 8](10-jawaban.md#bagian-8--pertanyaan-lanjutan).*
+
+Pertanyaan ini muncul saat menerapkan jawaban Anda. Cara menjawabnya sama: tulis nomor dan pilihan, misalnya `Q-45: B`.
 
 ### Q-42 · Data mana yang disisihkan untuk memilih varian?
 
@@ -607,3 +610,52 @@ Mentor tidak menyebut timeframe untuk setup berikut:
 1. **Timeframe:** **A.** D1 · **B.** H4 · **C.** Uji keduanya.
 2. **Lama minimal range:** ___ candle (contoh: 20).
 3. **Lebar maksimal range:** **A.** 20% (batas atas contoh mentor) · **B.** ___ × ATR(14) · **C.** Uji dulu, nilai awal ___.
+
+---
+
+## Bagian 9 — Pertanyaan lanjutan kedua
+
+Pertanyaan ini muncul saat menerapkan jawaban Q-42 – Q-48. Tidak ada yang menghambat setup, kecuali Q-51 untuk AFS-22.
+
+### Q-49 · Forex dan kripto: batas digabung atau terpisah?
+
+**Pertanyaannya:** forex berjalan di akun broker, kripto di exchange spot, jadi saldonya terpisah. Hari forex mulai 17.00 New York, hari kripto 00.00 UTC ([D-12](00-aturan-global.md#d-12--batas-hari-minggu-dan-candle), Q-44). Batas-batas berikut dihitung bagaimana?
+
+- risiko per transaksi 1% / 0,5% ([G-01](00-aturan-global.md#g-01--risiko-per-transaksi-maksimal-1));
+- 3 transaksi baru per hari, 3 posisi bersamaan, risiko terbuka 3% ([G-08](00-aturan-global.md#g-08--jangan-overtrading));
+- rem darurat harian 3%, mingguan 6%, dan batas drawdown ([G-15](00-aturan-global.md#g-15--rem-darurat)).
+
+**Pilihan:**
+
+- **A.** Terpisah per akun. Tiap akun memakai saldonya sendiri dan batas harinya sendiri: masing-masing maksimal 3 transaksi baru per hari, 3 posisi, dan risiko terbuka 3% dari saldonya. Rem darurat satu akun tidak menghentikan akun lain.
+- **B.** Gabungan. Satu set batas untuk kedua akun, dihitung dari jumlah equity keduanya. "Hari" untuk batas gabungan memakai: batas forex (17.00 New York) / batas kripto (00.00 UTC) — pilih satu.
+- **C.** Lainnya: ___
+
+---
+
+### Q-50 · Pemilihan varian: per instrumen atau gabungan?
+
+1. **Pilihan nilai parameter dan varian (G-17) dibuat untuk apa?**
+   - **A.** Satu pilihan untuk semua instrumen setup itu. Transaksi semua instrumen digabung saat menghitung Recovery Factor dan syarat 30 transaksi.
+   - **B.** Per instrumen. Tiap instrumen punya pilihan sendiri dan harus memenuhi 30 transaksi sendiri. Lebih cocok dengan karakter tiap pasar, tetapi jumlah percobaannya 4× lebih banyak dan syarat 30 transaksi lebih sulit dipenuhi.
+   - **C.** Per pasar: satu pilihan untuk forex (EURUSD, XAUUSD), satu untuk kripto (BTC, ETH).
+
+   Catatan: untuk Keltner, Anda sudah menulis "di live hanya satu yang aktif per instrumen" (Q-24). Jawaban di sini menentukan apakah aturan "per instrumen" itu juga berlaku untuk setup lain.
+
+2. **Data kripto tidak ada sejak 2010.** ETH baru diperdagangkan sejak Agustus 2015, dan Binance (exchange terbesar sekarang) baru buka Juli 2017. Padahal Anda minta tanggal potong 60/20/20 sama untuk semua instrumen (Q-42).
+   - **A.** Semua instrumen memakai periode bersama, mulai dari tanggal data kripto yang rapi tersedia (contoh: 2017). Forex jadi sekitar 9 tahun.
+   - **B.** Forex sejak 2010, kripto sejak datanya ada; tanggal potong 60/20/20 dihitung per pasar.
+   - **C.** Tanggal potong sama untuk semua, dihitung dari periode forex (2010–sekarang). Kripto mendapat bagian penyusunan yang lebih pendek (contoh: 2017–2019).
+   - **D.** Lainnya: ___
+
+---
+
+### Q-51 · Order flow (AFS-22)
+
+**Pertanyaannya:** [AFS-22](01-alvesting-akademi-crypto.md#afs-22--sinyal-order-flow) adalah satu-satunya setup 🟡 yang belum punya pertanyaan. Mentor mendefinisikan sinyalnya (delta, imbalance ≥300%, stacked imbalance, unfinished auction), tetapi **tidak menyebut entry, SL, dan TP**. Datanya (*footprint*, volume per level harga) hanya ada di exchange kripto, dan jauh lebih besar daripada data candle biasa.
+
+**Pilihan:**
+
+- **A.** Tunda (⏸) di versi pertama.
+- **B.** Pakai sebagai filter tambahan untuk setup kripto, misalnya long hanya diizinkan kalau delta candle pemicu positif. Rinciannya perlu ditentukan lagi.
+- **C.** Lainnya: ___

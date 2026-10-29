@@ -2,7 +2,7 @@
 
 Kalimasada mengajar investasi, money management, dan Wyckoff. Aturan money management-nya sudah masuk ke [aturan global](00-aturan-global.md) (G-01, G-04, G-05, G-06). Halaman ini berisi sisanya:
 
-- [A. Wyckoff](#a-wyckoff) — untuk trading, khusus aset besar (BTC, ETH).
+- [A. Wyckoff](#a-wyckoff) — untuk trading, di aset besar: BTC, ETH, dan (untuk KMS-02) juga EURUSD dan XAUUSD (Q-48).
 - [B. Modul investasi spot kripto](#b-modul-investasi-spot-kripto-ditunda) — **ditunda**: versi pertama hanya trading (Q-29).
 
 ---
@@ -65,15 +65,27 @@ Kalimasada mengajar investasi, money management, dan Wyckoff. Aturan money manag
 | | |
 |---|---|
 | Sumber | [AC_crypto_40 L360–L441](../materi/mentah/AC_crypto_40.txt#L360-L441), [AC_crypto_60 L3385–L3440](../materi/mentah/AC_crypto_60.txt#L3385-L3440) |
-| Pasar | K (BTC, ETH) |
+| Pasar | K (BTC, ETH), F\* (EURUSD, XAUUSD) |
+| Timeframe | **D1**: kedua contoh Wyckoff mentor memakai chart daily BTC ([AC_crypto_62 L2805–L2807](../materi/mentah/AC_crypto_62.txt#L2805-L2807), [AC_crypto_62 L2846–L2848](../materi/mentah/AC_crypto_62.txt#L2846-L2848)) (Q-48) |
 | Arah | Long (markup), short (markdown) |
 | Label | Trading |
-| RR minimum | TP tetap: 1:2 (entry H1 ke bawah) / 1:3 (H4 ke atas) (Q-07) |
-| Status | 🟡 (tinggal Q-48) |
+| RR minimum | TP tetap 1:3 (entry D1, mentor tidak menyebut target; Q-07) |
+| Status | 🟢 |
+
+**Range konsolidasi (Q-48).** Mentor hanya bilang "konsolidasi yang lama" ([AC_crypto_60 L2871–L2875](../materi/mentah/AC_crypto_60.txt#L2871-L2875)) dan memberi contoh *tight range* BTC 10–20% ([AC_crypto_60 L2896–L2900](../materi/mentah/AC_crypto_60.txt#L2896-L2900)). Untuk bot:
+
+- **Lama:** minimal **20 candle D1** (sekitar satu bulan di forex). Jadi bot memeriksa 20 candle terakhir sebelum candle breakout.
+- **Lebar** = high tertinggi − low terendah di dalam range. Batasnya:
+  - Kripto: **≤ 20%** (batas atas contoh mentor), dihitung terhadap low terendah *(pembagi ini usulan saya)*.
+  - Forex & emas: **≤ k × ATR(14) D1** pair itu, dengan k = 20 ÷ rata-rata ATR% harian BTC ([D-09](00-aturan-global.md#d-09--angka-persen-kripto-di-forex)).
+- Batas atas range = high tertinggi; batas bawah = low terendah.
+- Angka 20 candle, 20%, dan k **tidak divariasikan** (tanpa 0,5k/1,5k), supaya jumlah percobaan KMS-02 tetap kecil.
+
+**Forex (Q-48):** menurut mentor, Wyckoff bisa dipakai di pasar mana pun selama ada pemain kecil dan pemain besar ([AC_crypto_60 L3259–L3265](../materi/mentah/AC_crypto_60.txt#L3259-L3265)). Volumenya memakai tick volume ([D-07](00-aturan-global.md#d-07--volume)). Kalau aturan volume dimatikan di forex (Q-14), KMS-02 **tidak dijalankan** di forex, karena menurut mentor Wyckoff tanpa volume tidak bisa dipakai ([AC_crypto_60 L3272–L3280](../materi/mentah/AC_crypto_60.txt#L3272-L3280)).
 
 **Long (markup):**
 
-1. Ada range konsolidasi yang lama (fase akumulasi). Ukuran range → [Q-48](09-pertanyaan-untuk-anda.md#q-48--wyckoff-kms-02-range-seperti-apa).
+1. Ada range konsolidasi yang lama (fase akumulasi), sesuai ukuran di atas.
 2. Candle **close di atas** range **dengan volume naik**, yaitu volume di atas rata-rata 20 candle ([D-07](00-aturan-global.md#d-07--volume), Q-26). Kalau volume belum mendukung: *wait and see*, supaya tidak kena *false breakout* ([AC_crypto_40 L381–L399](../materi/mentah/AC_crypto_40.txt#L381-L399)).
 3. Tunggu **retest** batas atas range (LPS) — menurut mentor harga selalu retest dulu ([AC_crypto_60 L3401–L3420](../materi/mentah/AC_crypto_60.txt#L3401-L3420)). Retest mengikuti [D-05](00-aturan-global.md#d-05--retest): harga masuk zona batas range dalam maksimal 10 candle.
 4. → Long: order limit di tepi atas zona itu.
@@ -82,9 +94,7 @@ Kalimasada mengajar investasi, money management, dan Wyckoff. Aturan money manag
 
 **SL:** mentor tidak menyebut → di titik invalidasi (G-02): long = swing low terakhir di dalam range − 1 × ATR(14); short = swing high terakhir + 1 × ATR(14).
 
-**TP:** mentor tidak menyebut → TP tetap 1:2 atau 1:3 sesuai timeframe entry (Q-07).
-
-**Belum jelas** → [Q-48](09-pertanyaan-untuk-anda.md#q-48--wyckoff-kms-02-range-seperti-apa): timeframe, berapa lama minimal range, dan selebar apa maksimalnya.
+**TP:** mentor tidak menyebut → TP tetap **1:3** (entry D1; Q-07).
 
 ---
 

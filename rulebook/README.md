@@ -25,8 +25,8 @@ Rulebook ini menerjemahkan isi kelas ke dalam **aturan yang bisa dikodekan**. Su
 | [06-mentor-forex.md](06-mentor-forex.md) | Dua sumber forex: **Pola N** di emas (forex_2) dan **Ichimoku** Rafał Zuchowicz (forex_3). FXcopet tidak dipakai. |
 | [07-filter-waktu.md](07-filter-waktu.md) | **Filter waktu opsional**: Astronacci (fase bulan, Fibonacci waktu, retrograde) dan angka waktu Hosoda (Ichimoku). |
 | [08-tidak-dijadikan-aturan.md](08-tidak-dijadikan-aturan.md) | Materi yang sengaja **tidak** dijadikan aturan atau **ditunda**, beserta alasannya. Termasuk arsip FXcopet. |
-| [09-pertanyaan-untuk-anda.md](09-pertanyaan-untuk-anda.md) | Semua pertanyaan. Q-01 – Q-41 sudah dijawab; **Q-42 – Q-48 masih terbuka**. |
-| [10-jawaban.md](10-jawaban.md) | **Jawaban Anda** untuk Q-01 – Q-41, dengan tautan ke tempat penerapannya. |
+| [09-pertanyaan-untuk-anda.md](09-pertanyaan-untuk-anda.md) | Semua pertanyaan. Q-01 – Q-48 sudah dijawab; **Q-49 – Q-51 masih terbuka**. |
+| [10-jawaban.md](10-jawaban.md) | **Jawaban Anda** untuk Q-01 – Q-48, dengan tautan ke tempat penerapannya. |
 
 ---
 
@@ -87,29 +87,29 @@ Semua setup dipasang di dalam alur yang sama. Urutan ini diambil dari cara para 
 
 | ID | Setup | Pasar | TF | Status |
 |---|---|---|---|---|
-| AFS-01 | Technical Research 5 tahap, versi swing | K, F | D1 / H4 / M15 | 🟡 Q-46 |
-| AFS-02 | Technical Research 5 tahap, versi scalping | K, F | H1 / M15 / M5 | 🟡 Q-46 |
-| AFS-03 | Double/triple top-bottom + tembus neckline | K, F | M15 | 🟡 Q-45 |
+| AFS-01 | Technical Research 5 tahap, versi swing | K, F | D1 / H4 / M15 | 🟢 |
+| AFS-02 | Technical Research 5 tahap, versi scalping | K, F | H1 / M15 / M5 | 🟢 |
+| AFS-03 | Double/triple top-bottom + tembus neckline (scalping) | K, F | M15 | 🟢 |
 | AFS-04 | Pantulan Fibonacci *golden pocket* 0,5–0,618 | K, F\* | D1 / W1 | 🟢 |
-| AFS-05 | *Money magnet* EMA 13 & 21 | K, F | ? | 🟡 Q-47 |
+| AFS-05 | *Money magnet* EMA 13 & 21 | K, F | H1 / H4 / D1 (diuji) | 🟢 |
 | AFS-06 | Stop hunt + break of structure (inti SMC) | K, F | H4 / M15 | 🟢 |
 | AFS-07 | Change of character (CHoCH) + retest | K, F | H4 / M15 | 🟢 |
 | AFS-08 | Revisit fair value gap setelah BOS | K, F | H4 / M15 | 🟢 |
 | AFS-09 | Validasi tembus 3% Dow Theory (MA21) | K, F\* | D1 | 🟢 |
 | AFS-10 | Pola ABCD | K, F | M15 / H1 | 🟢 |
 | AFS-11 | Pola harmonic XABCD (Gartley, Bat, Crab, Butterfly, Shark) | K, F | H1–D1 | ⏸ |
-| AFS-12 | Pivot point: entry di garis P | K, F | H1 / M15 / M5 | 🟡 Q-45 |
-| AFS-13A | Keltner Channel (EMA20, ATR10, ×2), mode tren | K, F | ? | 🟡 Q-47 |
-| AFS-13B | Keltner Channel, mode pantulan | K, F | ? | 🟡 Q-47 |
+| AFS-12 | Pivot point: entry di garis P (scalping di M5/M15, trading di H1) | K, F | H1 / M15 / M5 | 🟢 |
+| AFS-13A | Keltner Channel (EMA20, ATR10, ×2), mode tren | K, F | H1 / H4 / D1 (diuji) | 🟢 |
+| AFS-13B | Keltner Channel, mode pantulan | K, F | H1 / H4 / D1 (diuji) | 🟢 |
 | AFS-14 | Ichimoku "di atas/bawah semua garis" | K, F | D1 | 🟢 |
 | AFS-15 | Parabolic SAR titik ke-2 | K, F | H1 / H4 | 🟢 |
-| AFS-16 | Donchian Channel (pantulan & silang tengah) | K, F | ? | 🟡 Q-47 |
+| AFS-16 | Donchian Channel (pantulan & silang tengah) | K, F | H1 / H4 / D1 (diuji) | 🟢 |
 | AFS-17 | KST silang di garis nol | K, F | D1 | 🟢 |
 | AFS-18 | Konfirmasi Chaikin Money Flow | K, F\* | H4 / D1 | 🟢 |
 | AFS-19 | Pantulan POC (volume profile) | K, F\* | H1 / H4 / D1 | 🟢 |
-| AFS-20 | Linear Regression Channel (intraday) | K, F | ? | 🟡 Q-45, Q-47 |
+| AFS-20 | Linear Regression Channel | K, F | H4 | 🟢 |
 | AFS-21 | Renko reversal | K, F | D1 | 🟢 |
-| AFS-22 | Order flow: divergensi delta, stacked imbalance, unfinished auction | K | — | 🟡 (belum ada entry/SL/TP dari mentor) |
+| AFS-22 | Order flow: divergensi delta, stacked imbalance, unfinished auction | K | — | 🟡 Q-51 |
 | AFS-23 | Pola grafik klasik selain double/triple top-bottom | K, F | H4 / D1 | ⏸ |
 | AFS-24 | Elliott Wave (masuk di gelombang 2 & 4) | K, F | D1 | 🔴 |
 | AFS-25 | Andrews Pitchfork | K, F | D1 | 🔴 |
@@ -122,7 +122,7 @@ Semua setup dipasang di dalam alur yang sama. Urutan ini diambil dari cara para 
 | ID | Setup | Pasar | Status |
 |---|---|---|---|
 | KMS-01 | Wyckoff spring / UTAD + reclaim | K (BTC, ETH) | 🔴 |
-| KMS-02 | Wyckoff breakout range + retest (JAC/LPS, LPSY) | K (BTC, ETH) | 🟡 Q-48 |
+| KMS-02 | Wyckoff breakout range + retest (JAC/LPS, LPSY), D1 | K, F\* | 🟢 |
 | KMS-F1 | Filter VSA (volume vs ukuran candle) | K, F\* | ⚪ 🟢 |
 | KMS-I1 – I4 | Modul investasi spot (alokasi, moon bag, cicilan, Fear & Greed) | K (spot) | ⏸ |
 
@@ -175,24 +175,20 @@ Semua filter waktu hanya **dicatat** sampai lolos uji (Q-38).
 
 Ini **saran**, bukan aturan dari mentor. Alasannya: mulai dari setup yang aturannya paling lengkap, paling sering diulang mentor, dan paling mudah diuji.
 
-1. **Pasang aturan global dulu** ([00](00-aturan-global.md)): risiko 1% / 0,5%, SL swing ± 1 ATR, RR minimum, batas transaksi & posisi, rem darurat, jendela berita, dan definisi bersama D-01 – D-11. Ini dipakai semua setup.
+1. **Pasang aturan global dulu** ([00](00-aturan-global.md)): risiko 1% / 0,5%, SL swing ± 1 ATR, RR minimum, batas transaksi & posisi, rem darurat, jendela berita, dan definisi bersama D-01 – D-12. Ini dipakai semua setup.
 2. **Setup pertama yang layak dicoba** (semuanya 🟢):
    - **ICH-01 – ICH-04** Ichimoku Rafał dan **AFS-14** Ichimoku Alvesting. Rumusnya baku, setting jelas (9/26/52), satu perhitungan Ichimoku dipakai bersama.
    - **PLN-01** Pola N. Aturannya rinci, mentor punya data backtest sendiri (≈67% menang, RR 1:1,5–1:2).
    - **AFS-06** Stop hunt + BOS. Diulang berkali-kali sebagai "kombinasi paling ampuh".
    - **AFS-04** Golden pocket, **AFS-09** Dow 3%, **AFS-17** KST — semuanya timeframe besar.
-3. **Setup 🟡** menyusul setelah Q-42 – Q-48 dijawab.
+3. **Setup 🟢 lainnya** (AFS-01/02, AFS-03, AFS-05, AFS-12, AFS-13A/B, AFS-16, AFS-20, KMS-02) menyusul. Beberapa di antaranya punya banyak varian atau timeframe yang diuji, jadi jumlah percobaannya lebih besar (G-17).
 4. **Setup 🔴 dan ⏸** disimpan untuk versi berikutnya.
 5. **Filter waktu** hanya dicatat dulu, dan baru boleh mengubah keputusan **setelah** lolos uji statistik (lihat [07](07-filter-waktu.md#cara-menguji-sebelum-dipakai)).
 
 ## Pertanyaan yang masih terbuka
 
-Detailnya di [09 · Bagian 8](09-pertanyaan-untuk-anda.md#bagian-8--pertanyaan-lanjutan):
+Detailnya di [09 · Bagian 9](09-pertanyaan-untuk-anda.md#bagian-9--pertanyaan-lanjutan-kedua). Tidak ada yang menghambat setup selain AFS-22:
 
-- **Q-42** Berapa bagian data terbaru yang disisihkan untuk memilih varian?
-- **Q-43** "Hasil lebih baik" diukur dengan angka apa?
-- **Q-44** "Hari" mulai jam berapa, rugi dihitung dari apa, dan apa yang terjadi saat bot berhenti total?
-- **Q-45** AFS-03, AFS-12, AFS-20: scalping atau trading?
-- **Q-46** AFS-01/AFS-02: indikator untuk poin 5, dan apakah pola tetap wajib?
-- **Q-47** Timeframe untuk AFS-05, AFS-13, AFS-16, AFS-20.
-- **Q-48** Ukuran range Wyckoff untuk KMS-02.
+- **Q-49** Akun forex dan akun kripto: batas transaksi, risiko terbuka, dan rem darurat dihitung gabungan atau terpisah?
+- **Q-50** Pilihan parameter/varian dibuat per instrumen atau gabungan, dan periode data apa untuk kripto (tidak ada data sejak 2010)?
+- **Q-51** Order flow AFS-22: tunda, atau jadikan filter tambahan?

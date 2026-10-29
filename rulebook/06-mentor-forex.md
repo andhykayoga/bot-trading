@@ -36,7 +36,7 @@ Instrumen untuk semua setup di halaman ini: **EURUSD** dan **XAUUSD**; setup Ich
 
    Mentor: penjual melawan **sedikit**, ruangnya **sempit**, tidak lama "bertarung" ([forex_2 L1515–L1580](../materi/mentah/forex_2.txt#L1515-L1580), [forex_2 L1700–L1715](../materi/mentah/forex_2.txt#L1700-L1715)).
 3. Bentuknya tidak harus huruf N; yang penting urutannya: **naik → turun sedikit → naik** ([forex_2 L1590–L1650](../materi/mentah/forex_2.txt#L1590-L1650)).
-4. **Jam:** order hanya dipasang mulai **18.00 WIB**, sesuai pesan "trading malam hari aja di atas 6.00 sore" ([forex_2 L2206](../materi/mentah/forex_2.txt#L2206)) (Q-34). Mentor tidak menyebut batas akhirnya; bot memakai **23.59 WIB** (tafsiran saya, lihat [Q-44](09-pertanyaan-untuk-anda.md#q-44--hari-dan-rugi-dihitung-bagaimana)). Pembanding di backtest: tanpa batas jam.
+4. **Jam:** order hanya dipasang mulai **18.00 WIB**, sesuai pesan "trading malam hari aja di atas 6.00 sore" ([forex_2 L2206](../materi/mentah/forex_2.txt#L2206)) (Q-34). Batas akhirnya **23.59 WIB** (Q-44), kira-kira akhir overlap sesi London dan New York (19.00–23.00 WIB saat jam musim panas AS, 20.00–24.00 WIB di luar itu), periode paling ramai di forex menurut [BabyPips](https://www.babypips.com/learn/forex/session-overlaps). Pembanding di backtest: tanpa batas jam.
 
 **Entry:** **buy stop** di atas wick tertinggi koreksi. Order terisi ketika harga menembus ([forex_2 L1650–L1659](../materi/mentah/forex_2.txt#L1650-L1659), [forex_2 L1200–L1229](../materi/mentah/forex_2.txt#L1200-L1229)).
 

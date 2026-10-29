@@ -174,6 +174,6 @@ Diambil dari [PETA 9.3](../materi/PETA.md#93-cara-memakainya-di-bot-bisa-diuji-s
 1. **Hitung tanggal-tanggal kandidat** untuk periode historis: fase bulan dan retrograde (pustaka astronomi), tumpukan Fibonacci waktu (WKT-02), dan hitungan Hosoda (WKT-05).
 2. **Tandai titik balik sebenarnya** di data harga dengan definisi di atas.
 3. **Bandingkan:** apakah tanggal kandidat **lebih sering** menjadi titik balik dibanding hari biasa (patokan dasar ±8–9% di makalah Gema)?
-4. **Uji di data yang berbeda** dari data yang dipakai untuk mengatur parameter (supaya tidak mengulang kelemahan makalah Gema), dan pastikan jumlah kejadiannya cukup banyak. Pembagian datanya sama dengan [G-17](00-aturan-global.md#g-17--parameter-uji-dan-pemilihan-varian) ([Q-42](09-pertanyaan-untuk-anda.md#q-42--data-mana-yang-disisihkan-untuk-memilih-varian)).
-5. **Kalau tidak lebih baik dari acak → buang.** Kalau lebih baik → boleh dinyalakan dengan efek di tabel atas (Q-38).
+4. **Uji di data yang berbeda** dari data yang dipakai untuk mengatur parameter (supaya tidak mengulang kelemahan makalah Gema), dan pastikan jumlah kejadiannya cukup banyak. Pembagian datanya sama dengan [G-17](00-aturan-global.md#g-17--parameter-uji-dan-pemilihan-varian) (Q-42): pilihan uji (jendela ±1/±2 hari, cara a/b, ambang ≥3/≥4) ditentukan di data penyusunan dan pemilihan, lalu dikunci dan dicek **sekali** di data uji akhir.
+5. **Kalau di data uji akhir tidak lebih baik dari acak → buang.** Kalau lebih baik → boleh dinyalakan dengan efek di tabel atas (Q-38). *(Memakai data uji akhir untuk filter waktu adalah penerapan saya atas Q-42.)*
 6. Instrumen yang diuji: **XAUUSD, EURUSD, BTC, ETH** (Q-39).
