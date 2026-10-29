@@ -96,6 +96,17 @@ def test_bootstrap_keeps_five_year_blocks_in_order():
             assert all((row[k + i + 1] - row[k + i]) % 20 == 1 for i in range(4))
 
 
+def test_forex_cepat_session_windows_eurusd_winter():
+    import pandas as pd
+    from bot.research.forex_cepat import posisi
+    t = pd.date_range("2025-01-15 00:00", "2025-01-15 23:55", freq="5min", tz="UTC")
+    p = pd.Series(posisi("S1", "EURUSD", t.as_unit("ns").asi8), index=t.strftime("%H:%M"))
+    # Frankfurt buka sendiri 07–13 UTC → jual; New York buka sendiri 16–22 UTC → beli; rollover 21.55 tutup
+    assert p["06:55"] == 0 and p["07:00"] == -1 and p["12:55"] == -1 and p["13:00"] == 0
+    assert p["16:00"] == 1 and p["21:50"] == 1 and p["21:55"] == 0
+    assert (posisi("S1", "USDCAD", t.as_unit("ns").asi8) == 0).all()
+
+
 def test_tsmom_stats_cagr():
     import pandas as pd
     from bot.research.tsmom import stats
