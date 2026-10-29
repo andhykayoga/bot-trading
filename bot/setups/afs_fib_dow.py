@@ -5,6 +5,7 @@ import numpy as np
 
 from bot import indicators as ind
 from bot.engine.orders import Order
+from bot.markets import is_crypto
 from bot.setups.base import Ctx, Setup, TestPlan, swing_levels, swing_sl, trigger_ok
 
 BTC_ATR_PCT = 3.36   # ATR BTC (%) yang disebut mentor; dasar faktor k di forex (D-09, Q-50)
@@ -26,10 +27,17 @@ class AFS04(Setup):
     mentor = "Alvesting (Akademi Crypto) — Fibonacci Secret"
     category = "trend"
     entry_tf = "D1"
-    defaults = {"mode": "confirm", "k_mult": 1.0, "sl_atr": 1.0, "partial": False}
+    defaults = {"mode": "confirm", "k_mult": 1.0, "rebound_pct": 3.0, "sl_atr": 1.0, "partial": False}
 
     def plan(self):
         return TestPlan(tested={"k_mult": [0.5, 1.0, 1.5], "sl_atr": [0.5, 1.0, 1.5]},
+                        comparisons={"mode": ["confirm", "anticipate"], "partial": [False, True]})
+
+    def plan_for(self, market):
+        if market != "crypto":
+            return self.plan()
+        # kripto: pantulan 3% · 4% · 5% dipakai apa adanya (rentang mentor, setara; D-09)
+        return TestPlan(setara={"rebound_pct": [3.0, 4.0, 5.0]}, tested={"sl_atr": [0.5, 1.0, 1.5]},
                         comparisons={"mode": ["confirm", "anticipate"], "partial": [False, True]})
 
     def signals_for(self, sym, d, p):
@@ -45,6 +53,7 @@ class AFS04(Setup):
         ma100 = ctx._memo("ma100", lambda: ind.sma(b.c, 100))
         datr = daily_atr_on(ctx)
         k = 3.0 / BTC_ATR_PCT * p["k_mult"]       # pantulan 3% di kripto → k × ATR harian
+        crypto = is_crypto(sym)
         out = []
         used = set()
         for t in range(5, len(b)):
@@ -102,11 +111,17 @@ class AFS04(Setup):
                     continue
                 entry = b.c[t]
                 if p["mode"] == "confirm":
-                    if np.isnan(datr[t]):
+                    if crypto:     # kripto: pantulan p% dari low/high koreksi
+                        need_up = corr_low * (1 + p["rebound_pct"] / 100) if dirn > 0 else np.nan
+                        need_dn = corr_high * (1 - p["rebound_pct"] / 100) if dirn < 0 else np.nan
+                    elif np.isnan(datr[t]):
                         continue
-                    if dirn > 0 and entry < corr_low + k * datr[t]:
+                    else:
+                        need_up = corr_low + k * datr[t] if dirn > 0 else np.nan
+                        need_dn = corr_high - k * datr[t] if dirn < 0 else np.nan
+                    if dirn > 0 and entry < need_up:
                         continue
-                    if dirn < 0 and entry > corr_high - k * datr[t]:
+                    if dirn < 0 and entry > need_dn:
                         continue
                 else:
                     if not trigger_ok(ctx, t, dirn):
@@ -179,11 +194,16 @@ class AFS09(Setup):
     def plan(self):
         return TestPlan(tested={"k_mult": [0.5, 1.0, 1.5], "sl_atr": [0.5, 1.0, 1.5]})
 
+    def plan_for(self, market):
+        # faktor k hanya untuk forex (D-09); di kripto 3% dipakai apa adanya
+        return self.plan() if market != "crypto" else TestPlan(tested={"sl_atr": [0.5, 1.0, 1.5]})
+
     def signals_for(self, sym, d, p):
         ctx = Ctx.get(d, "D1")
         b, sw, a = ctx.b, ctx.sw, ctx.atr
         ma = ctx._memo("ma21", lambda: ind.sma(b.c, 21))
         k = 3.0 / BTC_ATR_PCT * p["k_mult"]
+        crypto = is_crypto(sym)
         use_vol = p.get("volume", "tick") == "tick"
         volhi = ctx.vol_high
         out = []
@@ -203,7 +223,8 @@ class AFS09(Setup):
                 state = 0; continue
             if state == -1 and c > ma[t]:
                 state = 0; continue
-            if (state == 1 and c >= ma[t] + k * a[t]) or (state == -1 and c <= ma[t] - k * a[t]):
+            thr = ma[t] * 0.03 if crypto else k * a[t]     # kripto: 3% apa adanya; forex: k × ATR harian
+            if (state == 1 and c >= ma[t] + thr) or (state == -1 and c <= ma[t] - thr):
                 dirn = state
                 state = 0
                 if use_vol and not volhi[t]:

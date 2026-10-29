@@ -45,6 +45,10 @@ class Setup:
     def plan(self) -> TestPlan:
         return TestPlan()
 
+    def plan_for(self, market: str) -> TestPlan:
+        """Rencana uji untuk pasar tertentu (sebagian angka berbeda di kripto, D-09)."""
+        return self.plan()
+
     def params(self, **override) -> dict:
         p = dict(self.defaults)
         p.update(override)

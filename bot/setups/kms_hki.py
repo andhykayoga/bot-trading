@@ -5,6 +5,7 @@ import numpy as np
 
 from bot import indicators as ind
 from bot.engine.orders import Order
+from bot.markets import is_crypto
 from bot.setups.afs_fib_dow import BTC_ATR_PCT
 from bot.setups.base import Ctx, Setup, TestPlan, swing_levels, swing_sl
 
@@ -29,13 +30,14 @@ class KMS02(Setup):
         b, a = ctx.b, ctx.atr
         volhi = ctx.vol_high
         k = 20.0 / BTC_ATR_PCT          # lebar range maks 20% kripto → 5,95 × ATR(14) D1 (D-09, Q-48)
+        crypto = is_crypto(sym)
         out = []
         n = len(b)
         for t in range(21, n - p["retest"]):
             if np.isnan(a[t]):
                 continue
             rh, rl = b.h[t - 20:t].max(), b.l[t - 20:t].min()
-            if rh - rl > k * a[t - 1]:
+            if (rh - rl > 0.20 * rl) if crypto else (rh - rl > k * a[t - 1]):   # kripto: lebar ≤ 20% dari low
                 continue
             half = 0.5 * a[t]
             for dirn in (1, -1):

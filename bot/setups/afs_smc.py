@@ -14,14 +14,16 @@ from bot.setups.base import Ctx, Setup, TestPlan, swing_levels
 TF = "M15"
 
 
-def _smc_ctx(d):
-    ctx = Ctx.get(d, TF)
+def _smc_ctx(d, tf: str = TF, dir_tf: str = "H4"):
+    """Konteks SMC: likuiditas acuan & struktur timeframe arah. Default M15 + arah H4 (Q-20);
+    versi perbaikan V4 memakai H1 + arah D1."""
+    ctx = Ctx.get(d, tf)
     def build():
         b = ctx.b
         i_d, i_w, i_m = (d[x].idx_at(b.t_close) for x in ("D1", "W1", "MN"))
         pick = lambda arr, i: np.where(i >= 0, arr[np.clip(i, 0, None)], np.nan)
-        h4 = Ctx.get(d, "H4")
-        i_h4 = ctx.htf_index("H4")
+        h4 = Ctx.get(d, dir_tf)
+        i_h4 = ctx.htf_index(dir_tf)
         return {
             "pdh": pick(d["D1"].h, i_d), "pdl": pick(d["D1"].l, i_d),
             "pwh": pick(d["W1"].h, i_w), "pwl": pick(d["W1"].l, i_w),
@@ -30,7 +32,7 @@ def _smc_ctx(d):
             # ambang "Auto" FVG LuxAlgo: rata-rata kumulatif (high − low) / low
             "fvg_thr": np.cumsum((b.h - b.l) / b.l) / np.arange(1, len(b) + 1),
         }
-    return ctx, ctx._memo("smc", build)
+    return ctx, ctx._memo(f"smc_{dir_tf}", build)
 
 
 def liquidity_tp(ctx: Ctx, L: dict, t: int, direction: int, entry: float, sl: float, min_rr: float = 2.0):
@@ -75,14 +77,15 @@ class _SMC(Setup):
 
     def _make(self, sym, ctx, L, t, d, entry_kind, entry, sl, p, expiry_bars):
         b = ctx.b
+        tf = ctx.tf
         tp = liquidity_tp(ctx, L, t, d, entry, sl, 2.0)
         if np.isnan(tp) or np.isnan(sl):
             return None
         if entry_kind == "market":
-            return Order(self.id, sym, d, int(b.t_close[t]), "market", sl=float(sl), tp=tp, min_rr=2.0, entry_tf=TF)
+            return Order(self.id, sym, d, int(b.t_close[t]), "market", sl=float(sl), tp=tp, min_rr=2.0, entry_tf=tf)
         e = min(t + expiry_bars, len(b) - 1)
         return Order(self.id, sym, d, int(b.t_close[t]), "limit", sl=float(sl), price=float(entry), tp=tp,
-                     min_rr=2.0, expiry=int(b.t_close[e]), entry_tf=TF,
+                     min_rr=2.0, expiry=int(b.t_close[e]), entry_tf=tf,
                      cancel_above=tp if d > 0 else np.nan, cancel_below=tp if d < 0 else np.nan)
 
 
@@ -98,7 +101,9 @@ class AFS06(_SMC):
                                 "limit_bars": [10, 20, 30], "sl_atr": [0.5, 1.0, 1.5]})
 
     def signals_for(self, sym, d, p):
-        ctx, L = _smc_ctx(d)
+        # tf/dir_tf/dir_mode hanya dipakai versi perbaikan V4; defaultnya = rulebook (M15, H4 tidak berlawanan)
+        ctx, L = _smc_ctx(d, p.get("tf", TF), p.get("dir_tf", "H4"))
+        same_dir = p.get("dir_mode", "not_opposite") == "same"
         b, a, sw = ctx.b, ctx.atr, ctx.sw
         out = []
         n = len(b)
@@ -127,7 +132,8 @@ class AFS06(_SMC):
                     bms = b.c[t] < st["hl"] if dirn < 0 else b.c[t] > st["hl"]
                     if bms:
                         h4 = L["h4trend"][t]
-                        if not ((dirn < 0 and h4 == 1) or (dirn > 0 and h4 == -1)):
+                        ok_dir = (h4 == dirn) if same_dir else not ((dirn < 0 and h4 == 1) or (dirn > 0 and h4 == -1))
+                        if ok_dir:
                             sl = st["peak"] + p["sl_atr"] * a[t] if dirn < 0 else st["peak"] - p["sl_atr"] * a[t]
                             if p["entry"] == "market":
                                 o = self._make(sym, ctx, L, t, dirn, "market", b.c[t], sl, p, 0)

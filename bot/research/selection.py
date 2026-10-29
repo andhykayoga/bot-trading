@@ -114,7 +114,7 @@ def _strip(r: dict) -> dict:
 
 
 def select(ev: Evaluator, setup: Setup, log=print) -> dict:
-    plan = setup.plan()
+    plan = setup.plan_for(ev.market)
     tried: dict[str, dict] = {}
 
     def run(p):
@@ -139,7 +139,7 @@ def select(ev: Evaluator, setup: Setup, log=print) -> dict:
         base = pick_setara([dict(base, tf=t) for t in plan.tf])
         stages.append(("timeframe", plan.tf, base.get("tf")))
     setara = dict(plan.setara)
-    if setup.uses_volume:
+    if setup.uses_volume and ev.market != "crypto":   # tick volume vs dimatikan hanya untuk forex (D-07)
         setara["volume"] = ["tick", "off"]
     for name, opts in setara.items():
         base = pick_setara([dict(base, **{name: v}) for v in opts])

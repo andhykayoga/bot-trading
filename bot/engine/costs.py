@@ -7,8 +7,8 @@
   akhir pekan dihitung 3 malam. Tarif per tahun dari nilai posisi:
       long  = (bunga mata uang dasar − bunga mata uang kuotasi) − biaya admin broker
       short = (bunga mata uang kuotasi − bunga mata uang dasar) − biaya admin broker
-  Bunga = suku bunga kebijakan bulanan (perkiraan, dibulatkan) Fed dan ECB; emas
-  dianggap berbunga 0. Biaya admin dari `Instrument.swap_markup`.
+  Bunga = suku bunga kebijakan bulanan (perkiraan, dibulatkan) Fed, ECB, BoE, BoJ;
+  emas dianggap berbunga 0. Kripto spot tidak kena swap. Biaya admin dari `Instrument.swap_markup`.
 """
 from __future__ import annotations
 
@@ -28,7 +28,14 @@ EUR = [("2009-05", 0.25), ("2011-04", 0.5), ("2011-07", 0.75), ("2011-11", 0.5),
        ("2023-02", 2.5), ("2023-03", 3.0), ("2023-05", 3.25), ("2023-06", 3.5), ("2023-08", 3.75),
        ("2023-09", 4.0), ("2024-06", 3.75), ("2024-09", 3.5), ("2024-10", 3.25), ("2024-12", 3.0),
        ("2025-02", 2.75), ("2025-03", 2.5), ("2025-04", 2.25), ("2025-06", 2.0)]
-RATES = {"USD": USD, "EUR": EUR}
+GBP = [("2009-03", 0.5), ("2016-08", 0.25), ("2017-11", 0.5), ("2018-08", 0.75), ("2020-03", 0.1),
+       ("2021-12", 0.25), ("2022-02", 0.5), ("2022-03", 0.75), ("2022-05", 1.0), ("2022-06", 1.25),
+       ("2022-08", 1.75), ("2022-09", 2.25), ("2022-11", 3.0), ("2022-12", 3.5), ("2023-02", 4.0),
+       ("2023-03", 4.25), ("2023-05", 4.5), ("2023-06", 5.0), ("2023-08", 5.25), ("2024-08", 5.0),
+       ("2024-11", 4.75), ("2025-02", 4.5), ("2025-05", 4.25), ("2025-08", 4.0), ("2025-12", 3.75)]
+JPY = [("2008-12", 0.1), ("2016-02", -0.1), ("2024-03", 0.1), ("2024-08", 0.25), ("2025-01", 0.5),
+       ("2025-12", 0.75)]
+RATES = {"USD": USD, "EUR": EUR, "GBP": GBP, "JPY": JPY}
 
 
 def policy_rate(ccy: str, yyyymm: str) -> float:

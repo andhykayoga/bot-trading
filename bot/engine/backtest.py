@@ -2,8 +2,10 @@
 
 Aturan global yang diterapkan (rulebook 00):
 - G-01  ukuran posisi dari jarak SL: risiko 1% saldo (scalping 0,5%); dipotong kalau
-        melewati risiko terbuka 3% (G-08) atau total nilai posisi 10× saldo (G-16);
-        tidak dibuka kalau di bawah ukuran minimum.
+        melewati risiko terbuka 3% (G-08) atau total nilai posisi melewati batas
+        leverage pasar (G-16: forex 10× saldo, kripto spot 1×); tidak dibuka kalau di
+        bawah ukuran minimum. Akun dalam USD; untung/rugi pair berkuotasi bukan USD
+        (USDJPY) dikonversi ke USD.
 - G-03  RR minimum dicek ulang dengan harga isi sebenarnya (termasuk spread).
 - G-07  set and forget; pengecualian: scalping ditutup setelah 3 jam dan sebelum
         berita, keluar paksa setup (HKI-01).
@@ -42,7 +44,7 @@ class Rules:
     max_trades_day: int = 3
     max_positions: int = 3
     max_open_risk: float = 0.03
-    leverage_cap: float = 10.0
+    leverage_cap: float | None = None   # None = batas leverage pasar (G-16)
     daily_brake: float = 0.03
     weekly_brake: float = 0.06
     dd_alarm: float = 0.15
@@ -73,6 +75,7 @@ class Trade:
     swap: float = 0.0
     tags: dict = field(default_factory=dict)
     legs: list = field(default_factory=list)  # [(units, exit_idx, exit_price, reason)] untuk varian bertahap
+    conv: float = 1.0   # USD per satuan harga per unit saat entry (USDJPY: 1/harga)
 
     @property
     def r(self) -> float:
@@ -85,6 +88,7 @@ class Simulator:
         self.rules = rules or Rules()
         self.g: Grid = load_grid(market)
         self.syms = list(self.market.instruments)
+        self.lev_cap = self.rules.leverage_cap or self.market.leverage_cap
         g = self.g
         self.spread = {s: INSTRUMENTS[s].spread(g.c[s]) for s in self.syms}
         self.live_idx = {s: np.flatnonzero(g.live[s]) for s in self.syms}
@@ -220,7 +224,7 @@ class Simulator:
                     worst = self.g.l[s][lo:hi] - hf - t.entry_price
                 else:
                     worst = t.entry_price - (self.g.h[s][lo:hi] + hf)
-                eq[lo - a: hi - a] += worst * t.units
+                eq[lo - a: hi - a] += worst * t.units * t.conv
             if 0 <= ex < b and t.exit_idx >= 0:
                 eq[max(ex, a) - a:] += t.pnl
         return float(eq.min())
@@ -330,19 +334,21 @@ class Simulator:
                 if rr < o.min_rr - 1e-9:
                     reject("RR kurang dari minimum"); continue
                 bal = balance_at(j)
+                inst = INSTRUMENTS[s]
+                conv = inst.usd_per_quote(px)
                 risk_pct = R.risk_scalping if o.label == "scalping" else R.risk_trading
-                units = bal * risk_pct / dist
+                units = bal * risk_pct / (dist * conv)
                 open_risk = sum(t.risk_amount for t in opens.values())
                 room = bal * R.max_open_risk - open_risk
-                units = min(units, max(room, 0) / dist)
-                notional_open = sum(t.units * t.entry_price for t in opens.values())
-                units = min(units, max(bal * R.leverage_cap - notional_open, 0) / px)
-                if R.min_size and units < INSTRUMENTS[s].min_units:
+                units = min(units, max(room, 0) / (dist * conv))
+                notional_open = sum(INSTRUMENTS[t.symbol].notional_usd(t.units, t.entry_price) for t in opens.values())
+                units = min(units, max(bal * self.lev_cap - notional_open, 0) / inst.notional_usd(1.0, px))
+                if R.min_size and units < inst.min_units:
                     reject("di bawah ukuran minimum"); continue
                 if units <= 0:
                     reject("batas risiko terbuka"); continue
                 tr = Trade(o.setup, s, d, o.label, o.created, j, int(g.t[j]), px, o.sl, tp, units,
-                           units * dist, tags=dict(o.tags))
+                           units * dist * conv, tags=dict(o.tags), conv=conv)
                 # keluar waktu: scalping 3 jam, sebelum berita, atau keluar paksa setup
                 forced = []
                 if o.label == "scalping":
@@ -399,11 +405,11 @@ class Simulator:
         pnl = 0.0
         swap = 0.0
         ym = pd.Timestamp(tr.entry_time, tz="UTC").strftime("%Y-%m")
-        rate = swap_rate(inst.base_ccy, inst.quote_ccy, tr.direction, ym, inst.swap_markup)
+        rate = swap_rate(inst.base_ccy, inst.quote_ccy, tr.direction, ym, inst.swap_markup) if inst.swap else 0.0
         for units, ei, ep, _ in tr.legs:
-            pnl += units * (ep - tr.entry_price) * tr.direction
+            pnl += units * (ep - tr.entry_price) * tr.direction * inst.usd_per_quote(ep)
             nights = int(self.g.day[ei] - self.g.day[tr.entry_idx])
-            swap += units * tr.entry_price * rate * nights / 365.0
+            swap += inst.notional_usd(units, tr.entry_price) * rate * nights / 365.0
         tr.exit_price = tr.legs[-1][2]
         tr.exit_reason = "+".join(l_[3] for l_ in tr.legs) if len(tr.legs) > 1 else tr.legs[0][3]
         tr.swap = swap
@@ -429,7 +435,7 @@ class Result:
                         w = g.l[t.symbol][lo:hi] - hf - t.entry_price
                     else:
                         w = t.entry_price - (g.h[t.symbol][lo:hi] + hf)
-                    eq[lo - a: hi - a] += w * units
+                    eq[lo - a: hi - a] += w * units * t.conv
             eq[t.exit_idx - a:] += t.pnl
         return eq
 
