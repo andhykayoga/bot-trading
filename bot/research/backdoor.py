@@ -14,7 +14,8 @@ from bot.research import ipo
 ROOT = Path(__file__).resolve().parents[2]
 PERISTIWA = ROOT / "bot" / "research" / "backdoor_peristiwa.csv"
 HARGA = ROOT / "data" / "backdoor" / "harga"
-MULAI, AKHIR = pd.Timestamp("2019-01-01"), pd.Timestamp("2025-10-29")
+MULAI, AKHIR = pd.Timestamp("2023-08-01"), pd.Timestamp("2025-10-29")   # arsip BEI baru mulai Agustus 2023
+BATAS_KOHORT = pd.Timestamp("2024-10-01")
 
 
 def baca_peristiwa() -> pd.DataFrame:
@@ -52,8 +53,8 @@ def hitung_semua() -> pd.DataFrame:
 def lolos(d: pd.DataFrame, n: int = 250) -> dict:
     kol = f"B{n}_lebih"
     x = d[kol].dropna()
-    a = d[d.tanggal.dt.year <= 2021][kol].median()
-    b = d[d.tanggal.dt.year >= 2022][kol].median()
+    a = d[d.tanggal < BATAS_KOHORT][kol].median()
+    b = d[d.tanggal >= BATAS_KOHORT][kol].median()
     return {"n": len(x), "hasil_median": d[f"B{n}"].median(), "median": x.median(), "rata": x.mean(),
-            "positif": (x > 0).mean(), "kohort_19_21": a, "kohort_22_25": b, "nol": int(d[f"B{n}_nol"].sum()),
+            "positif": (x > 0).mean(), "kohort_1": a, "kohort_2": b, "nol": int(d[f"B{n}_nol"].sum()),
             "lolos": x.mean() > 0 and x.median() > 0 and (x > 0).mean() >= 0.5 and a > 0 and b > 0}

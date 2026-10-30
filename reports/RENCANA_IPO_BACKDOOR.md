@@ -98,6 +98,12 @@ mengandung "pengendali", "pengambilalihan", "tender wajib", atau "negosiasi". Is
 baru dan untuk membuang perpindahan di dalam satu grup. Tanggal peristiwa = pengumuman pertama per emiten (dalam 12
 bulan) yang menyebut siapa pengendali barunya. Berita hanya dipakai untuk label "pengendali kuat". Aturan lain tetap.
 
+**Perubahan kedua, 30 Oktober 2026, juga sebelum harga diunduh:** arsip BEI yang bisa dicari lewat jalur itu ternyata
+baru mulai Agustus 2023 (sebelumnya kosong). Supaya daftarnya tetap lengkap, periode uji diganti menjadi **peristiwa
+1 Agustus 2023 – 29 Oktober 2025**, dan dua kelompok waktunya menjadi **Agustus 2023 – September 2024** dan **Oktober
+2024 – Oktober 2025**. Kasus lama yang terkenal (ARTO, BBHI, PANI, BBYB) hanya dilaporkan sebagai contoh, tidak ikut
+menentukan lolos, karena dipilih justru karena terkenal.
+
 ### Strategi dan syarat lolos
 
 - Beli di penutupan hari bursa pertama **setelah** tanggal peristiwa (kalau sedang disuspensi: penutupan pertama

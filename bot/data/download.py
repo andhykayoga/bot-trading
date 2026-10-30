@@ -320,8 +320,9 @@ IDX_PENGUMUMAN = ("https://www.idx.id/primary/ListedCompany/GetAnnouncement?kode
                   "&pageSize=1000&dateFrom={a}&dateTo={b}&lang=id&keyword=")
 
 
-def download_pengumuman_idx(mulai: str = "2019-01-01", akhir: str = "2025-12-31") -> None:
-    """Judul semua pengumuman emiten di situs BEI (idx.id), per bulan, untuk mencari peristiwa ganti pengendali."""
+def download_pengumuman_idx(mulai: str = "2023-07-01", akhir: str = "2025-12-31") -> None:
+    """Judul semua pengumuman emiten di situs BEI (idx.id), per bulan, untuk mencari peristiwa ganti pengendali.
+    Arsip yang bisa dicari lewat jalur ini baru mulai sekitar Agustus 2023. `indexFrom` adalah nomor halaman."""
     out = DATA / "backdoor" / "pengumuman"
     out.mkdir(parents=True, exist_ok=True)
     for bulan in pd.period_range(mulai, akhir, freq="M"):
@@ -346,8 +347,8 @@ def download_pengumuman_idx(mulai: str = "2019-01-01", akhir: str = "2025-12-31"
                              "judul": p["JudulPengumuman"], "nomor": p["NoPengumuman"],
                              "lampiran": json.dumps([(x["OriginalFilename"], x["FullSavePath"])
                                                      for x in r.get("attachments") or []])})
-            i += 1000
-            if i >= d["ResultCount"] or not d["Replies"]:
+            i += 1
+            if i * 1000 >= d["ResultCount"] or not d["Replies"]:
                 break
             time.sleep(0.5)
         pd.DataFrame(rows).to_parquet(f, index=False)
