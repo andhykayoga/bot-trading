@@ -1,0 +1,25 @@
+coin,proyek,valuasi_usd,tanggal_putaran,status,supply,jenis_supply,sumber,catatan
+ARB,Offchain Labs (Arbitrum),1200000000,2021-08-31,ketat,10000000000,maks,https://www.theblock.co/post/116148,Series B $120 jt
+SUI,Mysten Labs (Sui),2000000000,2022-09-08,ketat,10000000000,maks,https://www.theblock.co/post/168532/mysten-labs-sui-blockchain-fundraise-ftx-ventures,Series B $300 jt; valuasi disebut di atas $2 miliar
+STRK,StarkWare (Starknet),8000000000,2022-05-25,ketat,10000000000,genesis,https://www.theblock.co/post/148672/starkware-raises-series-d-funding-8-billion-valuation,Series D $100 jt; valuasi perusahaan
+W,Wormhole,2500000000,2023-11-29,ketat,10000000000,maks,https://fortune.com/crypto/2023/11/29/wormhole-raises-225-million-2-5-billion-valuation-jump-crypto-split,putaran $225 jt
+ZRO,LayerZero Labs,3000000000,2023-04-04,ketat,1000000000,maks,https://www.theblock.co/post/224762/layerzero-series-b,Series B $120 jt
+SCR,Scroll,1800000000,2023-03-06,ketat,1000000000,maks,https://www.theblock.co/post/217340/ethereum-scaling-scroll-50-million-funding-round-1-8-billion-valuation,putaran $50 jt; valuasi dari sumber anonim
+SEI,Sei Labs,800000000,2023-04-11,ketat,10000000000,genesis,https://techcrunch.com/2023/04/11/trading-focused-blockchain-sei-raises-30m-bringing-valuation-up-to-800m/,dua putaran strategis $30 jt
+TIA,Celestia Labs,1000000000,2022-10-19,ketat,1000000000,genesis,https://www.theblock.co/post/177841,Series A-B $55 jt; valuasi dari sumber anonim
+IO,io.net,1000000000,2024-03-05,ketat,800000000,maks,https://www.theblockcrypto.com/post/280665/solana-depin-io-net-1-billion-token-valuation-funding,valuasi token (FDV) tranche terakhir Series A; sebagian besar investor masuk di $500 jt
+ENA,Ethena Labs,300000000,2024-02-16,ketat,15000000000,maks,https://www.coincarp.com/fundraising/ethena-strategic/,putaran strategis $14 jt; hanya dari agregator (CoinCarp/Multiples)
+ME,Magic Eden,1600000000,2022-06-21,ketat,1000000000,maks,https://techcrunch.com/2022/06/21/magic-eden-raises-130m-hitting-unicorn-status-at-1-6b-valuation/,Series B $130 jt
+MANTA,p0x labs (Manta Network),500000000,2023-07-19,ketat,1000000000,maks,https://techcrunch.com/2023/07/19/team-behind-crypto-privacy-protocol-manta-network-is-now-valued-at-500m/,Series A $25 jt
+BERA,Berachain,1000000000,2024-04-12,ketat,500000000,genesis,https://arrakis.finance/blog/lessons-from-h1-2025-top-token-launches,Series B $100 jt; Bloomberg: minimal $1 miliar (agregator: $1;5 miliar)
+LAYER,Solayer,80000000,2024-08-01,ketat,1000000000,maks,https://arrakis.finance/blog/lessons-from-h1-2025-top-token-launches,seed Agustus 2024
+SXT,Space and Time,300000000,2022-01-01,ketat,5000000000,maks,https://arrakis.finance/blog/lessons-from-h1-2025-top-token-launches,putaran 2022
+NIL,Nillion,400000000,2024-06-01,ketat,1000000000,genesis,https://arrakis.finance/blog/lessons-from-h1-2025-top-token-launches,putaran Juni 2024
+INIT,Initia,250000000,2024-09-26,ketat,1000000000,maks,https://www.theblock.co/post/318547/initia-cobie-echo-funding-token-valuation,putaran komunitas Echo $2;5 jt (Series A sebelumnya $350 jt)
+SOLV,Solv Protocol,200000000,2024-10-14,ketat,9660000000,maks,https://app.dealroom.co/news/feed/solv-protocol-raises-11m-funding,putaran $11 jt; agregator (Dealroom) yang mengutip pemberitaan
+WLD,Tools for Humanity (Worldcoin),3000000000,2022-03-01,terakhir_diketahui,10000000000,maks,https://decrypt.co/142308/sam-altman-worldcoin-115-million-blockchain-capital,Series B 2022; Series C Mei 2023 ($115 jt) tanpa valuasi
+EIGEN,Eigen Labs (EigenLayer),500000000,2023-03-01,terakhir_diketahui,1673646668,genesis,https://www.theblock.co/post/278575/andreessen-horowitz-invests-100-million-in-restaking-project-eigenlayer-bloomberg,valuasi token Series A 2023; Series B Feb 2024 ($100 jt) tanpa valuasi
+SAGA,Saga,130000000,2022-05-01,terakhir_diketahui,1000000000,genesis,https://www.theblock.co/post/147770,putaran Nov 2023 ($5 jt) tanpa valuasi
+REZ,Renzo,25000000,2024-01-15,terakhir_diketahui,10000000000,maks,https://forklog.com/en/renzo-raises-3-2-million-in-seed-funding-valued-at-25-million/,seed $3;2 jt; investasi Binance Labs sesudahnya tanpa angka
+SHELL,MyShell,57000000,2023-10-01,terakhir_diketahui,1000000000,maks,https://www.theblock.co/post/285072/web3-ai-platform-myshell-funding,seed Okt 2023; pre-Series A Mar 2024 ($11 jt) tanpa valuasi
+OMNI,Omni Network,150000000,2023-04-26,ketat,100000000,maks,https://icodrops.com/omni-network,Series A di harga token $1;5 (FDV $150 jt); hanya dari agregator (ICO Drops/Coinlaunch); sudah dihapus dari Binance 2025

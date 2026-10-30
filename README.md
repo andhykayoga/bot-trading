@@ -2,3 +2,122 @@
 
 - [`materi/PETA.md`](materi/PETA.md) — peta materi kelas (kripto, saham, forex, Astronacci) dari transkrip di `materi/mentah/`.
 - [`rulebook/`](rulebook/README.md) — rulebook strategi untuk bot forex & kripto, dipisah per mentor dan per setup, lengkap dengan pertanyaan dan jawaban Anda.
+- [`reports/LAPORAN_BACKTEST_FOREX.md`](reports/LAPORAN_BACKTEST_FOREX.md) — **hasil backtest semua setup forex** (EURUSD, XAUUSD), dengan dan tanpa filter Astronacci, dalam bahasa sederhana.
+- [`reports/LAPORAN_RENCANA_CADANGAN.md`](reports/LAPORAN_RENCANA_CADANGAN.md) — **rencana cadangan**: perbaikan terbatas (diuji di GBPUSD/USDJPY), setup mentor di BTC/ETH, patokan riset time-series momentum, kesimpulan, dan usulan semi-otomatis. Pra-registrasinya di [`reports/RENCANA_CADANGAN.md`](reports/RENCANA_CADANGAN.md).
+- [`reports/RENCANA_UNTUNG.md`](reports/RENCANA_UNTUNG.md) — **rencana supaya uang bertambah** berdasarkan riset (bukan trading): portofolio Seimbang 50/40/10, kalkulasi untung per minggu/bulan/tahun, rentang hasil, dan peluang rugi.
+- [`reports/LAPORAN_FOREX_CEPAT.md`](reports/LAPORAN_FOREX_CEPAT.md) — **uji forex cepat**: hitungan impas scalping, tiga pola forex dari jurnal (jam sesi, hari FOMC, fixing London) di 7 pair, dan demo otak-atik teknikal. Pra-registrasinya di [`reports/RENCANA_FOREX_CEPAT.md`](reports/RENCANA_FOREX_CEPAT.md).
+- [`reports/LAPORAN_EA_XAUUSD.md`](reports/LAPORAN_EA_XAUUSD.md) — **uji tipe EA XAUUSD yang viral** (grid martingale beli saja/dua arah, breakout London) di data emas 2010–2026, plus cara memeriksa EA sebelum membeli. Pra-registrasinya di [`reports/RENCANA_EA_XAUUSD.md`](reports/RENCANA_EA_XAUUSD.md).
+- [`reports/LAPORAN_MODUL_BARU.md`](reports/LAPORAN_MODUL_BARU.md) — **rancangan sendiri + semua modul mentor yang belum diuji**: filter tren kripto spot, trend-following 34 pasar, modul investasi spot Kalimasada, siklus halving, trailing stop Ko Andri, pola harmonic & klasik. Pra-registrasinya di [`reports/RENCANA_MODUL_BARU.md`](reports/RENCANA_MODUL_BARU.md).
+- [`reports/LAPORAN_ORDERFLOW_TGE.md`](reports/LAPORAN_ORDERFLOW_TGE.md) — **order flow (delta) di BTC/ETH dan aturan token baru (TGE)** dengan valuasi investor 24 token beserta sumbernya. Pra-registrasinya di [`reports/RENCANA_ORDERFLOW_TGE.md`](reports/RENCANA_ORDERFLOW_TGE.md).
+- [`reports/LAPORAN_SAHAM_KO_ANDRI.md`](reports/LAPORAN_SAHAM_KO_ANDRI.md) — **uji checklist valuasi Ko Andri** (PBV, PER, ROE, DER, dividen) di 45 saham LQ45 2018, April 2019 – Oktober 2026. Pra-registrasinya di [`reports/RENCANA_SAHAM_KO_ANDRI.md`](reports/RENCANA_SAHAM_KO_ANDRI.md).
+- [`reports/SKOR_STRATEGI.md`](reports/SKOR_STRATEGI.md) — **skor 0–100 semua cara kripto dan saham yang sudah diuji** (pengganti syarat lolos/tidak lolos), dengan arti tiap rentang skor.
+- [`reports/LAPORAN_IPO_BACKDOOR.md`](reports/LAPORAN_IPO_BACKDOOR.md) — **uji saham IPO** (202 IPO e-IPO 2022–2025: dapat jatah lalu jual hari pertama vs beli setelah listing) dan **saham backdoor/ganti pengendali** (dari arsip pengumuman resmi BEI). Pra-registrasinya di [`reports/RENCANA_IPO_BACKDOOR.md`](reports/RENCANA_IPO_BACKDOOR.md).
+- `scripts/cek_saham.py KODE` — **cek cepat satu saham**: tren harga, valuasi dan utang, dividen, umur sejak IPO, dan tanda bahaya dari pengumuman BEI 12 bulan terakhir (suspensi, Papan Pemantauan Khusus, UMA, PKPU, ganti pengendali, private placement). Hanya informasi, bukan sinyal beli.
+- `scripts/sinyal_harian.py` — sinyal harian trailing stop 10% BTC/ETH dan pengingat IPO, dikirim ke **Telegram** tiap 07.15 WIB lewat GitHub Actions. Cara memasang dan rekomendasi aplikasi: [`reports/PANDUAN_TELEGRAM.md`](reports/PANDUAN_TELEGRAM.md).
+- [`reports/PANDUAN_DATA_STOCKBIT.md`](reports/PANDUAN_DATA_STOCKBIT.md) — **cara mengambil data saham** (Stockbit, Yahoo, broker summary) untuk uji valuasi Ko Andri dan bandarmologi Ko Hengki.
+- `bot/` — kode bot Python (backtest sekarang, live nanti). Belum terhubung ke broker.
+
+## Struktur kode
+
+| Folder / file | Isi |
+|---|---|
+| `bot/markets.py` | Pasar = akun: **forex** (EURUSD, XAUUSD), **forex_uji** (GBPUSD, USDJPY) dan **forex_riset** (AUDUSD, USDCAD, USDCHF, NZDUSD), keduanya hanya untuk pengujian, **crypto** (BTC, ETH spot Binance). Instrumen, batas hari D-12, spread/komisi, swap. |
+| `bot/data/` | Pengunduh data (`download.py`), pembentuk candle M5→M15/H1/H4/D1/W1/MN dengan batas 17.00 New York (`candles.py`), kalender berita G-13 (`news.py`). |
+| `bot/indicators.py` | Indikator dan definisi bersama D-01 – D-08 (swing fractal 2–2, struktur, ATR TradingView, Ichimoku geser 25, Stochastic, KST, CMF, PSAR, dll.). |
+| `bot/setups/` | **Satu kelas per setup**, masing-masing berdiri sendiri: `pln01.py` (Pola N), `ichimoku.py` (ICH-01–04), `afs_*.py` (Alvesting), `kms_hki.py` (Wyckoff, Ko Hengki), `improved.py` (versi perbaikan V1–V4), `pola.py` (pola harmonic & klasik), `orderflow.py` (delta order flow AFS-22). |
+| `bot/engine/` | Mesin backtest dengan aturan global G-01, G-03, G-07, G-08, G-13, G-15, G-16 dan biaya (spread + swap). |
+| `bot/filters/astro.py` | Filter Astronacci WKT-01 – WKT-04 (fase bulan, Fibonacci waktu, Merkurius retrograde) dengan pustaka `ephem`. |
+| `bot/research/` | Pembagian data 60/20/20, pemilihan varian G-17, uji filter waktu, pembanding entry acak, patokan time-series momentum (`tsmom.py`), simulasi portofolio jangka panjang (`investasi.py`), uji forex cepat (`forex_cepat.py`), uji tipe EA XAUUSD (`ea_xauusd.py`), modul investasi kripto (`kripto_investasi.py`), trend-following multi-aset (`multi_aset.py`), aturan token baru (`tge.py`, valuasi di `tge_valuasi.csv`), uji valuasi saham Ko Andri (`saham.py`). |
+| `bot/live.py` | Kerangka live: antarmuka `Broker`, `PaperBroker`, pemeriksaan keselamatan G-15. |
+| `scripts/sinyal.py` | **Mode semi-otomatis**: memindai sinyal, menghitung lot, mencatat jurnal; Anda yang mengeksekusi. Termasuk status harian aturan tren kripto spot (A1 SMA 200, B6 trailing stop). |
+| `config/setups.toml` | **Menyalakan/mematikan setup** satu per satu (daftar `enabled`), per pasar. |
+| `config/sinyal.toml` | Saldo, risiko, dan setup yang dipindai mode semi-otomatis. |
+| `scripts/rencana_untung.py`, `config/rencana.toml` | Kalkulator rencana investasi: modal, setoran bulanan, pilihan portofolio. |
+
+## Menjalankan
+
+```bash
+pip install -r requirements.txt
+```
+
+```bash
+python -m bot.data.download
+```
+
+```bash
+python scripts/run_backtest.py --jobs 4
+```
+
+```bash
+python scripts/make_report.py
+```
+
+Menguji sebagian setup saja: `python scripts/run_backtest.py --setups PLN-01,ICH-01`. Data mentah disimpan di `data/` dan tidak masuk git.
+
+Rencana cadangan (perbaikan, kripto, patokan riset):
+
+```bash
+python -m bot.data.download forex_uji crypto
+```
+
+```bash
+python scripts/run_cadangan.py
+```
+
+```bash
+python scripts/run_backtest.py --market crypto
+```
+
+```bash
+python scripts/run_cadangan.py --crypto-long
+```
+
+```bash
+python scripts/make_report_cadangan.py
+```
+
+Mode semi-otomatis (tanpa broker):
+
+```bash
+python scripts/sinyal.py
+```
+
+Uji forex cepat (scalping, pola jurnal, demo otak-atik):
+
+```bash
+python -m bot.data.download forex forex_uji forex_riset
+```
+
+```bash
+python scripts/run_forex_cepat.py
+```
+
+Rancangan sendiri + modul mentor yang belum diuji:
+
+```bash
+python -m bot.data.download harian kripto_harian
+```
+
+```bash
+python scripts/run_modul_baru.py --hitung
+```
+
+Uji tipe EA XAUUSD yang viral (±5 menit):
+
+```bash
+python scripts/run_ea_xauusd.py --ulang
+```
+
+Rencana investasi dan kalkulasi untung (ubah angka di `config/rencana.toml`):
+
+```bash
+python -m bot.data.download riset
+```
+
+```bash
+python scripts/rencana_untung.py --layar
+```
+
+## Kripto
+
+Pasar `crypto` sudah aktif untuk backtest: akun, batas hari (00.00 UTC), leverage 1×, dan batas risiko terpisah dari forex (Q-49); pembagian data 60/20/20 dihitung sendiri (Q-50). Biaya memakai komisi spot Binance; sesuaikan `spread_pct` di `bot/markets.py` dengan exchange berizin OJK yang Anda pakai.

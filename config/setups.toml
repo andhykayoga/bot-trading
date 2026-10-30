@@ -1,0 +1,28 @@
+# Setup yang dinyalakan. Setiap setup berdiri sendiri: hapus ID dari daftar untuk mematikannya.
+# Urutan = urutan prioritas (setup forex dulu, lalu setup mentor saham–kripto di forex).
+
+[forex]
+instruments = ["EURUSD", "XAUUSD"]
+enabled = [
+  # Prioritas 1: mentor forex
+  "PLN-01", "ICH-01", "ICH-02", "ICH-03",
+  # Prioritas 2: mentor saham–kripto yang diterapkan di forex
+  "AFS-01", "AFS-02", "AFS-03", "AFS-04", "AFS-05", "AFS-06", "AFS-07", "AFS-08", "AFS-09", "AFS-10",
+  "AFS-12", "AFS-13A", "AFS-13B", "AFS-14", "AFS-15", "AFS-16P", "AFS-16T", "AFS-17", "AFS-18",
+  "AFS-19", "AFS-20R", "AFS-20B", "AFS-21", "KMS-02", "HKI-01-D1", "HKI-01-H4",
+]
+
+# Filter waktu Astronacci (rulebook 07): default MATI di bot. Backtest selalu menghitung
+# versi dengan dan tanpa filter; nyalakan di live hanya kalau lolos uji.
+[forex.astronacci]
+enabled = false
+
+[crypto]
+# Akun terpisah (Q-49), data mulai saat BTC & ETH sama-sama tersedia di Binance (Q-50).
+# Rencana cadangan tahap 2: setup mentor saham–kripto diuji di pasar asalnya.
+instruments = ["BTCUSD", "ETHUSD"]
+enabled = [
+  "AFS-01", "AFS-02", "AFS-03", "AFS-04", "AFS-05", "AFS-06", "AFS-07", "AFS-08", "AFS-09", "AFS-10",
+  "AFS-12", "AFS-13A", "AFS-13B", "AFS-14", "AFS-15", "AFS-16P", "AFS-16T", "AFS-17", "AFS-18",
+  "AFS-19", "AFS-20R", "AFS-20B", "AFS-21", "KMS-02", "HKI-01-D1", "HKI-01-H4",
+]
