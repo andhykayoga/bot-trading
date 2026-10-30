@@ -3,15 +3,28 @@
 Tiap pagi 07.15 WIB, GitHub menjalankan `scripts/sinyal_harian.py` (jadwal di `.github/workflows/sinyal-harian.yml`)
 lalu mengirim pesan ke Telegram Anda. Gratis, tidak perlu komputer Anda menyala.
 
-**Kapan pesan masuk**
+**Isi pesan: semua bertanda skor 0–100** (cara menghitungnya di [`SKOR_STRATEGI.md`](SKOR_STRATEGI.md)), supaya Anda
+yang memilih:
 
-- 🚨 Ada sinyal kripto: JUAL atau BELI BTC/ETH (aturan trailing stop 10%).
-- 🆕 Ada IPO: masa pemesanan e-IPO dibuka hari itu, atau saham IPO mulai diperdagangkan hari itu.
-- 📊 Tiap Senin: laporan singkat (posisi sekarang dan seberapa jauh dari sinyal berikutnya), supaya Anda tahu bot
-  masih hidup.
-- ⚠️ Kalau bot gagal mengambil data.
+| Sinyal | Skor | Kapan |
+|---|---|---|
+| Trailing stop 10% BTC/ETH | 100 | jual saat turun 10% dari puncak, beli lagi saat tembus tertinggi 20 hari |
+| Trailing stop 5% BTC/ETH | 100 | sama, dengan jarak 5% (lebih sering) |
+| Rata-rata 200 hari BTC/ETH | 100 | pegang selama harga di atas rata-rata 200 hari |
+| Cicil 5× RSI mingguan BTC/ETH | 87 | tiap Senin: beli 1/5 kalau RSI mingguan di bawah 30, jual 1/5 kalau di atas 70 |
+| IPO: pesan, lalu jual di hari pertama | 100 | saat masa pemesanan dibuka dan saat hari listing |
+| Info ganti pengendali (backdoor) | 49 | saat ada pengumuman BEI; di uji tidak lebih baik dari IHSG |
 
-Hari lain tidak ada pesan, artinya tidak ada yang perlu dilakukan.
+Pilih **satu** aturan kripto dan ikuti terus. Papan skor di tiap pesan menunjukkan posisi semua aturan dan seberapa
+jauh dari sinyal berikutnya.
+
+**Kapan pesan masuk:** ada sinyal di atas, tiap Senin (laporan mingguan dan ringkasan jurnal), atau bot gagal
+mengambil data. Hari lain tidak ada pesan, artinya tidak ada yang perlu dilakukan.
+
+**Jurnal otomatis:** tiap sinyal dicatat di `jurnal/sinyal.csv` di GitHub. Di bawah pesan ada tombol **✅** (saya
+jalankan) dan **❌** (saya lewati); jawaban Anda dicatat paling lambat jam 07.15 atau 19.15 berikutnya. Tekan dalam 24
+jam. Untuk menilai jurnal: minta saya menjalankan `scripts/nilai_jurnal.py`, atau jalankan sendiri. Di bawah 30
+transaksi selesai, hasilnya belum bisa disimpulkan (aturan trailing stop memberi ±25 sinyal setahun untuk BTC+ETH).
 
 ## Pasang sekali (±10 menit)
 

@@ -1,11 +1,13 @@
-# Sinyal harian (kripto trailing stop 10% + pengingat IPO) ke Telegram, tiap 07.15 WIB.
+# Sinyal harian bertanda skor (kripto, IPO, ganti pengendali) ke Telegram tiap 07.15 WIB, dengan jurnal otomatis
+# di jurnal/sinyal.csv. Jawaban tombol Telegram (ambil/lewati) dicatat lagi tiap 19.15 WIB.
 # Butuh dua secret di Settings → Secrets and variables → Actions: TELEGRAM_BOT_TOKEN dan TELEGRAM_CHAT_ID.
 # Jadwal otomatis hanya berjalan dari branch utama (main). Push ke branch lain hanya mencoba skripnya tanpa mengirim.
 name: Sinyal harian ke Telegram
 
 on:
   schedule:
-    - cron: "15 0 * * *"          # 00.15 UTC = 07.15 WIB
+    - cron: "15 0 * * *"          # 00.15 UTC = 07.15 WIB: sinyal
+    - cron: "15 12 * * *"         # 12.15 UTC = 19.15 WIB: hanya mencatat jawaban tombol
   workflow_dispatch:
     inputs:
       selalu:
@@ -16,7 +18,15 @@ on:
     paths:
       - "scripts/sinyal_harian.py"
       - "bot/telegram.py"
+      - "bot/jurnal.py"
       - ".github/workflows/sinyal-harian.yml"
+
+permissions:
+  contents: write                 # untuk menyimpan jurnal/sinyal.csv ke repo
+
+concurrency:
+  group: sinyal-harian
+  cancel-in-progress: false
 
 jobs:
   sinyal:
@@ -35,8 +45,21 @@ jobs:
         run: |
           if [ "${{ github.event_name }}" = "push" ]; then
             python scripts/sinyal_harian.py
+          elif [ "${{ github.event.schedule }}" = "15 12 * * *" ]; then
+            python scripts/sinyal_harian.py --catat-jawaban
           elif [ "${{ inputs.selalu }}" = "true" ]; then
-            python scripts/sinyal_harian.py --telegram --selalu
+            python scripts/sinyal_harian.py --telegram --jurnal --selalu
           else
-            python scripts/sinyal_harian.py --telegram
+            python scripts/sinyal_harian.py --telegram --jurnal
+          fi
+      - name: Simpan jurnal ke repo
+        if: github.event_name != 'push'
+        run: |
+          git config user.name "bot-sinyal"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add jurnal/
+          if ! git diff --cached --quiet; then
+            git commit -m "Jurnal sinyal $(date -u +%F)"
+            git pull --rebase -q
+            git push
           fi

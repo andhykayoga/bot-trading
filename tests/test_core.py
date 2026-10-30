@@ -222,22 +222,59 @@ def test_ipo_ara_and_split_and_holding():
     assert tahan(p, ihsg, hari[0], (250,))["B250"] == -1.0
 
 
-def test_sinyal_harian_pesan_telegram():
+def _muat_skrip(nama):
     import importlib.util
+    spec = importlib.util.spec_from_file_location(nama, f"scripts/{nama}.py")
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod
+
+
+def _kripto(aksi_btc="JUAL", rsi=55.0):
+    pegang = {"aksi": "PEGANG", "pegang": True, "pemicu": 70000.0, "puncak": 80000.0}
+    usdt = {"aksi": "USDT", "pegang": False, "pemicu": 80000.0, "puncak": 80000.0}
+    return {"BTC": {"close": 77500.0, "TS10": {**usdt, "aksi": aksi_btc}, "TS5": usdt, "MA200": pegang,
+                    "RSI5": {"aksi": "TUNGGU", "rsi": rsi}}}
+
+
+def test_sinyal_harian_pesan_bertanda_skor():
     import pandas as pd
-    spec = importlib.util.spec_from_file_location("sinyal_harian", "scripts/sinyal_harian.py")
-    sh = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(sh)
+    sh = _muat_skrip("sinyal_harian")
     senin = pd.Timestamp("2026-11-02")
-    jual = {"aksi": "JUAL ke stablecoin", "pegang": False, "close": 77500.0, "pemicu": 79800.0, "puncak": 86620.0}
-    tetap = {"aksi": "TETAP PEGANG", "pegang": True, "close": 2600.0, "pemicu": 2340.0, "puncak": 2600.0}
-    teks, penting = sh.pesan(senin, {"BTC": jual, "ETH": tetap}, [], [], "2026-11-01", [])
-    assert penting and "JUAL BTC" in teks and "Jual BTC → USDT" in teks and "$77.500" in teks
-    assert "tetap pegang" in teks and "turun 10,0% lagi" in teks and "&amp;q=" in teks
+    teks, penting = sh.pesan(senin, _kripto(), [], [], "2026-11-01", [])
+    assert penting and "JUAL BTC</b> · Trailing stop 10% · skor 100/100" in teks and "$77.500" in teks
+    assert "Papan skor" in teks and "Cicil 5× RSI mingguan (87)" in teks and "&amp;q=" in teks
+    assert [x["id"] for x in sh.aksi_kripto(_kripto(), senin)] == ["20261102-BTC-TS10"]
     ipo = {"jenis": "listing", "kode": "AB&C", "nama": "PT A & B Tbk", "papan": "Utama", "harga": 250, "bawah": 200,
            "atas": 260, "bb": None, "bb_akhir": None, "tawar": None, "tawar_akhir": None, "listing": senin}
-    teks, penting = sh.pesan(senin, {"BTC": tetap}, [ipo], [], "", ["data contoh <x>"])
-    assert penting and "AB&amp;C" in teks and "PT A &amp; B Tbk" in teks and "jual hari ini" in teks
-    assert "&lt;x&gt;" in teks
-    teks, penting = sh.pesan(senin, {"BTC": tetap}, [], [], "2026-11-01", [])
-    assert not penting and "Laporan mingguan" in teks
+    teks, penting = sh.pesan(senin, _kripto("USDT"), [ipo], [], "", ["data contoh <x>"])
+    assert penting and "AB&amp;C" in teks and "PT A &amp; B Tbk" in teks and "skor 100/100" in teks
+    assert "&lt;x&gt;" in teks and sh.sinyal_ipo([ipo], senin)[0]["aksi"] == "JUAL"
+    bd = [{"kode": "ABCD", "judul": "Negosiasi Rencana Pengambilalihan", "tautan": ""}]
+    teks, penting = sh.pesan(senin, _kripto("USDT"), [], [], "", [], bd)
+    assert penting and "Info ganti pengendali" in teks and "Skor 49/100" in teks
+    teks, penting = sh.pesan(senin, _kripto("USDT"), [], [], "2026-11-01", [], [], "Jurnal: 0")
+    assert not penting and "Laporan mingguan" in teks and "Jurnal: 0" in teks
+
+
+def test_status_rsi_hanya_senin_dan_jurnal(tmp_path, monkeypatch):
+    import pandas as pd
+    from bot import jurnal
+    sh = _muat_skrip("sinyal_harian")
+    hari = pd.date_range("2025-01-01", "2025-06-29", freq="D")          # 2025-06-29 hari Minggu
+    turun = pd.Series(range(len(hari), 0, -1), index=hari, dtype=float)
+    assert sh.status_rsi(turun)["aksi"] == "BELI 1/5"                  # turun terus: RSI mingguan < 30
+    assert sh.status_rsi(turun.iloc[:-1])["aksi"] == "TUNGGU"           # Sabtu: minggu belum ditutup
+    monkeypatch.setattr(jurnal, "FOLDER", tmp_path)
+    monkeypatch.setattr(jurnal, "JURNAL", tmp_path / "sinyal.csv")
+    s1 = {"id": "20261102-BTC-TS10", "tanggal": "2026-11-02", "strategi": "Trailing stop 10%", "skor": 100,
+          "aset": "BTC", "aksi": "BELI", "harga": 100.0}
+    s2 = {**s1, "id": "20261110-BTC-TS10", "tanggal": "2026-11-10", "aksi": "JUAL", "harga": 110.0}
+    assert len(jurnal.catat([s1])) == 1 and jurnal.catat([s1]) == [] and len(jurnal.catat([s2])) == 1
+    d = jurnal.baca()
+    d.loc[d.id == s1["id"], "diambil"] = "ya"
+    d["singkat"] = d.id.str.split("-").str[-1]
+    nj = _muat_skrip("nilai_jurnal")
+    t = nj.transaksi(d)
+    assert len(t) == 1 and bool(t.diambil.iloc[0]) and abs(t.hasil.iloc[0] - (1.1 * 0.9989 / 1.0011 - 1)) < 1e-12
+    assert "tombol" not in jurnal.ringkas() and "2 sinyal" in jurnal.ringkas()
