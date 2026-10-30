@@ -87,6 +87,10 @@ def baca_keuangan(path: Path | None = None) -> pd.DataFrame:
         out += list(rec.values())
     df = pd.DataFrame(out)
     df["nci"] = df["nci"].fillna(0.0)
+    # neraca harus seimbang; kalau "Total Ekuitas" tidak cocok (mis. BJBR), ekuitas = aset − liabilitas
+    salah = (df.aset - df.liabilitas - df.ekuitas).abs() > 0.01 * df.aset.abs()
+    df["ekuitas_dikoreksi"] = salah
+    df.loc[salah, "ekuitas"] = df.loc[salah, "aset"] - df.loc[salah, "liabilitas"]
     kr = baca_tempelan()
     if len(kr):                                                # Key Ratio yang ditempel di chat mengisi yang kosong
         df = df.merge(kr, on=["kode", "tahun"], how="left", suffixes=("", "_kr"))
@@ -97,6 +101,19 @@ def baca_keuangan(path: Path | None = None) -> pd.DataFrame:
 
 
 KR_BARIS = {"Share Outstanding": "saham_kr", "EPS (Annual)": "eps", "Book Value Per Share (Annual)": "bvps"}
+
+
+def cek_tempelan(fin: pd.DataFrame, batas: float = 0.03) -> pd.DataFrame:
+    """Saham-tahun (2014+) yang Key Ratio-nya tidak cocok dengan laporan: BVPS × saham vs ekuitas induk (semua tahun),
+    EPS × saham vs laba induk Yahoo (2022+, perusahaan yang melapor dalam rupiah)."""
+    f = fin[(fin.tahun >= 2014) & fin.bvps.notna()].copy()
+    f["sel_bvps"] = f.bvps * f.saham_kr / (f.ekuitas - f.nci) - 1
+    y = pd.read_csv(IDX / "yahoo_fundamental.csv")
+    y = y[(y.jenis == "annualNetIncomeCommonStockholders") & (y.mata_uang == "IDR")]
+    f = f.merge(y[["kode", "tahun", "nilai"]].rename(columns={"nilai": "laba_yahoo"}), on=["kode", "tahun"], how="left")
+    f["sel_eps"] = f.eps * f.saham_kr * 1e9 / f.laba_yahoo - 1
+    return f[(f.sel_bvps.abs() > batas) | (f.sel_eps.abs() > batas)][
+        ["kode", "tahun", "eps", "bvps", "saham_kr", "sel_bvps", "sel_eps"]]
 
 
 def baca_tempelan(folder: Path | None = None) -> pd.DataFrame:
