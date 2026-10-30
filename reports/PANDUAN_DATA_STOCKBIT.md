@@ -1,5 +1,38 @@
 # Panduan mengambil data saham untuk uji Ko Andri & Ko Hengki
 
+## ⭐ Yang perlu dikirim sekarang (30 Oktober 2026)
+
+File `Financials_45_Saham_OneTab_Revisi.xlsx` sudah diterima. Tinggal **dua hal**:
+
+**1. Tambah 2 baris di tiap tab saham (45 tab), di bawah tabel yang sudah ada.**
+
+| Nama baris | Ambil dari Stockbit |
+|---|---|
+| `EPS` | Financials → **Income Statement** → Annual → tabel **Key Ratio** di bawahnya → baris **EPS (Annual)** |
+| `BVPS` | Financials → **Balance Sheet** → Annual → tab **Key Ratio** di bawahnya → baris **Book Value Per Share (Annual)** |
+
+Kolom tahunnya sama dengan tabel di atasnya (12M 2025, 12M 2024, …). Salin angkanya apa adanya, misalnya `764.65`.
+Kalau lebih mudah, kirim saja **screenshot dua tabel Key Ratio itu** untuk tiap saham; angkanya saya salin sendiri.
+
+**2. Harga penutupan SRIL dan WSKT** (lihat grafik di Stockbit), cukup ditulis di chat:
+
+```
+SRIL 30-04-2015:      WSKT 30-04-2015:
+SRIL 29-04-2016:      WSKT 29-04-2016:
+SRIL 28-04-2017:      WSKT 28-04-2017:
+SRIL 30-04-2018:      WSKT 30-04-2018:
+SRIL 30-04-2019:      WSKT 30-04-2019:
+SRIL 30-04-2020:      WSKT 30-04-2020:
+SRIL 30-04-2021:      WSKT 30-04-2021:
+                      WSKT 28-04-2022:
+                      WSKT 28-04-2023:
+```
+
+Tidak perlu: Cash Flow, sektor, harga saham lain, dividen (sudah saya ambil sendiri). Bagian di bawah ini adalah
+panduan lengkap sebelumnya, untuk rujukan saja.
+
+---
+
 Tujuannya: menguji **valuasi Ko Andri** (PBV, PER, ROE, DER, dividen) dan, kalau datanya memungkinkan,
 **bandarmologi Ko Hengki**, di saham BEI dengan cara yang sama seperti uji lain — aturan dikunci dulu, lalu diuji
 sekali.
