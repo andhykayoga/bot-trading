@@ -29,14 +29,16 @@ def cek_data(fin: pd.DataFrame) -> list[str]:
         beda = fin[(fin.tahun >= 2014) & (sel > 0.03)]
     else:
         beda = fin.iloc[:0]
-    neraca = fin[(fin.tahun >= 2014) & ((fin.liabilitas + fin.ekuitas - fin.aset).abs() > 0.01 * fin.aset.abs())]
+    koreksi = fin[(fin.tahun >= 2014) & fin.ekuitas_dikoreksi]
     out = [f"- Baris EPS/BVPS kosong (2014–2025): {len(kurang)} dari {len(fin[fin.tahun >= 2014])} saham-tahun"
            + (f" ({', '.join(sorted(kurang.kode.unique()))})" if len(kurang) else "") + ".",
            f"- BVPS × jumlah saham ≠ ekuitas milik induk (selisih > 3%): {len(beda)} saham-tahun"
            + (f" ({', '.join(sorted(beda.kode.unique()))})" if len(beda) else "") + ".",
-           f"- Aset ≠ liabilitas + ekuitas (selisih > 1%): {len(neraca)} saham-tahun "
-           f"({', '.join(sorted(neraca.kode.unique())) or '–'}); BJBR wajar karena dana syirkah temporer dicatat di "
-           "antara liabilitas dan ekuitas."]
+           "  Penyebabnya: BJBR 2024–2025 (kepentingan non-pengendali Bank Banten tidak tercatat di ekspor), TPIA 2025 "
+           "(ekuitas dikoreksi), WSBP 2015 (sebelum IPO). Tidak memengaruhi uji: PBV, PER, dan ROE dari EPS/BVPS.",
+           f"- \"Total Ekuitas\" di ekspor tidak sama dengan aset − liabilitas di {len(koreksi)} saham-tahun "
+           f"({', '.join(sorted(koreksi.kode.unique())) or '–'}); di situ ekuitas = aset − liabilitas (cocok dengan "
+           "Yahoo untuk BJBR)."]
     return out
 
 
@@ -60,6 +62,42 @@ def tabel_pilihan(h: dict) -> list[str]:
             rows.append([str(t.date()), r.kode, r.sektor, num(r.pbv), num(r.per, 1), pc(100 * r.roe, 1, False),
                          num(r.der, 2)])
     return md_table(["Tanggal pilih", "Saham", "Sektor", "PBV", "PER", "ROE", "DER"], rows)
+
+
+def artinya(h: dict) -> list[str]:
+    u, t = h["utama"], h["tambahan_2015_2019"]
+    r = u["ringkas"]
+    ka, ew, k4 = r["Ko Andri (5 syarat)"], r["45 saham bobot sama"], r["Ko Andri (≥ 4 syarat)"]
+    jumlah = [len(v) for v in u["pilihan"].values()]
+    kosong = sum(n == 0 for n in jumlah)
+    sril4 = [str(d.year) for d, v in u["pilihan4"].items() if "SRIL" in v]
+    rt = t["ringkas"]["Ko Andri (5 syarat)"]
+    return [
+        "## Artinya",
+        "",
+        f"- **Hampir sama dengan membeli semua saham, dan kalah dari deposito.** Dalam 7,5 tahun, memilih saham murah "
+        f"ala Ko Andri dari 45 saham besar menghasilkan {pc(100 * ka['cagr'])} per tahun, dibanding "
+        f"{pc(100 * ew['cagr'])} kalau membeli semuanya sama rata dan {pc(4.0)} di deposito. Periode ini memang berat "
+        "untuk saham besar BEI (COVID 2020 dan penurunan 2026; IHSG tanpa dividen "
+        f"{pc(100 * r['IHSG (tanpa dividen)']['cagr'])} per tahun).",
+        f"- **Saham yang lolos sedikit dan terpusat.** Tiap tahun hanya {min(jumlah)}–{max(jumlah)} saham yang lolos "
+        f"kelima syarat; {kosong} tahun tidak ada sama sekali (uang ke deposito). Yang paling sering terpilih saham batu "
+        "bara (ADRO, ITMG) dan BBNI, jadi hasilnya sangat dipengaruhi harga batu bara.",
+        f"- **Versi longgar (minimal 4 dari 5 syarat) lebih buruk: {pc(100 * k4['cagr'])} per tahun.** Salah satunya "
+        f"karena memasukkan SRIL ({', '.join(sril4)}): PBV di bawah 1, PER 3–6, ROE 13–16%, dan membagi dividen; hanya "
+        "DER-nya di atas median sektor. Sebulan setelah pemilihan April 2021 SRIL disuspensi, lalu pailit. Saham yang "
+        "terlihat murah sering murah karena memang bermasalah (*value trap*), dan syarat DER Ko Andri yang "
+        "menyelamatkan versi lima syarat dari SRIL.",
+        f"- **Periode 2015–2019 terlihat sangat bagus ({pc(100 * rt['cagr'])} per tahun), tetapi jangan dipercaya.** "
+        "Hampir semuanya dari satu saham (ITMG naik 164% dalam setahun saat harga batu bara melonjak 2016–2017), dan "
+        "daftar sahamnya disusun dengan pengetahuan masa depan.",
+        "- **Batasan uji ini:** hanya 45 saham besar (LQ45), hanya 8 kali pemilihan, dan tiap tahun 0–5 saham, jadi "
+        "keberuntungan berpengaruh besar. Uji ini tidak membuktikan checklist Ko Andri tidak pernah berhasil; yang "
+        "terbukti adalah checklist itu, dijalankan mekanis di saham besar, tidak memberi keunggulan yang bisa diandalkan. "
+        "Saham kecil yang sering dibahas Ko Andri (misalnya PANI, BBHI) tidak termasuk.",
+        "- **Untuk uang Anda:** inti tetap di rencana Seimbang (`reports/RENCANA_UNTUNG.md`). Checklist ini boleh dipakai "
+        "sebagai penyaring awal untuk menghindari saham yang mahal atau berutang besar, bukan sebagai sinyal beli.",
+    ]
 
 
 def laporan(h: dict, fin: pd.DataFrame) -> None:
@@ -91,6 +129,8 @@ def laporan(h: dict, fin: pd.DataFrame) -> None:
         "## Saham yang terpilih tiap tahun (lolos kelima syarat)",
         "",
         *tabel_pilihan(u),
+        "",
+        *artinya(h),
         "",
         "## Tambahan (tidak menentukan lolos): April 2015 – April 2019",
         "",
