@@ -97,9 +97,8 @@ def b5_halving(setelah: int) -> pd.Series:
     return s
 
 
-def b6_trailing(coin: str, jarak: float, akhir: str | None = AKHIR) -> pd.Series:
-    c = harga(coin)["c"].loc[MULAI:akhir]
-    tinggi20 = harga(coin)["c"].rolling(20).max().shift(1).reindex(c.index)
+def trailing(c: pd.Series, tinggi20: pd.Series, jarak: float) -> tuple[pd.Series, float]:
+    """Posisi trailing stop per close (1 = pegang, 0 = stablecoin) dan puncak terakhir sejak masuk."""
     pos, puncak, out = 1.0, c.iloc[0], []
     for dt, px in c.items():
         if pos:
@@ -109,7 +108,13 @@ def b6_trailing(coin: str, jarak: float, akhir: str | None = AKHIR) -> pd.Series
         elif px > tinggi20.loc[dt]:
             pos, puncak = 1.0, px
         out.append(pos)
-    return pd.Series(out, index=c.index)
+    return pd.Series(out, index=c.index), puncak
+
+
+def b6_trailing(coin: str, jarak: float, akhir: str | None = AKHIR) -> pd.Series:
+    c = harga(coin)["c"].loc[MULAI:akhir]
+    tinggi20 = harga(coin)["c"].rolling(20).max().shift(1).reindex(c.index)
+    return trailing(c, tinggi20, jarak)[0]
 
 
 def b3_cicil_5x(coin: str, modal: float = 1.0) -> pd.Series:
