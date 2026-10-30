@@ -183,3 +183,17 @@ def test_tge_cut_loss_below_floor():
     r = simulasi(_candle_tge([10, 8, 6, 4, 3.2, 3.0, 3.0]), lantai=4.0)
     assert r["alasan"] == "cut loss" and r["tgl_base"] is None and r["hari_keluar"] == 5
     assert abs(r["hasil"] - (0.3 * 0.998 / 10 * 3.2 * 0.998 - 0.3)) < 1e-9
+
+
+def test_saham_angka_and_ko_andri_rules():
+    import pandas as pd
+    from bot.research.saham import _angka, syarat
+    assert _angka("12.238,94") == 12238.94 and _angka("12,238.94") == 12238.94 and _angka("764,65") == 764.65
+    assert _angka("(1,234)") == -1234 and _angka("764.65") == 764.65 and np.isnan(_angka("-")) and _angka(5) == 5.0
+    m = pd.DataFrame({"kode": list("ABCD"), "sektor": ["X"] * 4, "pbv": [0.8, 0.9, 1.2, 0.5],
+                      "per": [5.0, 9.0, 4.0, np.nan], "roe": [0.10, 0.04, 0.2, -0.1],
+                      "der": [1.0, 3.0, 0.5, 2.0], "dividen": [10.0, 5.0, 0.0, 0.0]})
+    s = syarat(m).set_index("kode")
+    # median PER dari laba positif = 5; median DER = 1,5
+    assert s.loc["A", "skor"] == 4 and not s.loc["A", "s_per"] and s.loc["A", "s_der"]
+    assert s.loc["C", "s_per"] and not s.loc["C", "s_pbv"] and not s.loc["D", "s_per"]
