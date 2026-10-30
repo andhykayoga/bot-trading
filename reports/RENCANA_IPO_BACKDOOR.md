@@ -91,6 +91,13 @@ Patrick Walujo masuk, BBHI setelah dijual ke CT (Chairul Tanjung), PANI sebelum 
   orang terkaya Indonesia (tahun mana pun 2019–2025); atau (c) bank/lembaga keuangan dengan aset ≥ Rp100 triliun.
   Label diberikan dari berita, sebelum harga dilihat. Ini versi terukur dari "pilih orang yang jago".
 
+**Perubahan 30 Oktober 2026, sebelum harga saham backdoor diunduh:** sumber daftar diganti dari pencarian berita
+menjadi **arsip pengumuman resmi BEI** (idx.id, semua pengumuman Januari 2019 – Desember 2025), karena ternyata bisa
+diakses dan jauh lebih lengkap (berita cenderung hanya meliput yang ramai). Calon peristiwa = pengumuman yang judulnya
+mengandung "pengendali", "pengambilalihan", "tender wajib", atau "negosiasi". Isi lampiran dibaca untuk nama pengendali
+baru dan untuk membuang perpindahan di dalam satu grup. Tanggal peristiwa = pengumuman pertama per emiten (dalam 12
+bulan) yang menyebut siapa pengendali barunya. Berita hanya dipakai untuk label "pengendali kuat". Aturan lain tetap.
+
 ### Strategi dan syarat lolos
 
 - Beli di penutupan hari bursa pertama **setelah** tanggal peristiwa (kalau sedang disuspensi: penutupan pertama

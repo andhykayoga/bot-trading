@@ -316,6 +316,44 @@ def download_tge() -> None:
     print(f"tge: candle harian {len(valuasi)} token")
 
 
+IDX_PENGUMUMAN = ("https://www.idx.id/primary/ListedCompany/GetAnnouncement?kodeEmiten=&emitenType=*&indexFrom={i}"
+                  "&pageSize=1000&dateFrom={a}&dateTo={b}&lang=id&keyword=")
+
+
+def download_pengumuman_idx(mulai: str = "2019-01-01", akhir: str = "2025-12-31") -> None:
+    """Judul semua pengumuman emiten di situs BEI (idx.id), per bulan, untuk mencari peristiwa ganti pengendali."""
+    out = DATA / "backdoor" / "pengumuman"
+    out.mkdir(parents=True, exist_ok=True)
+    for bulan in pd.period_range(mulai, akhir, freq="M"):
+        f = out / f"{bulan}.parquet"
+        if f.exists():
+            continue
+        a, b = bulan.start_time.strftime("%Y%m%d"), bulan.end_time.strftime("%Y%m%d")
+        rows, i = [], 0
+        while True:
+            req = urllib.request.Request(IDX_PENGUMUMAN.format(i=i, a=a, b=b), headers={"User-Agent": "Mozilla/5.0"})
+            for coba in range(5):
+                try:
+                    d = json.loads(urllib.request.urlopen(req, timeout=120).read())
+                    break
+                except Exception:  # noqa: BLE001 - jaringan: coba lagi dengan jeda
+                    time.sleep(2 ** (coba + 1))
+            else:
+                raise RuntimeError(f"gagal mengambil pengumuman {bulan} mulai {i}")
+            for r in d["Replies"]:
+                p = r["pengumuman"]
+                rows.append({"tanggal": p["TglPengumuman"], "kode": (p["Kode_Emiten"] or "").strip(),
+                             "judul": p["JudulPengumuman"], "nomor": p["NoPengumuman"],
+                             "lampiran": json.dumps([(x["OriginalFilename"], x["FullSavePath"])
+                                                     for x in r.get("attachments") or []])})
+            i += 1000
+            if i >= d["ResultCount"] or not d["Replies"]:
+                break
+            time.sleep(0.5)
+        pd.DataFrame(rows).to_parquet(f, index=False)
+        print(f"pengumuman {bulan}: {len(rows)}")
+
+
 def main(markets: list[str] | None = None) -> None:
     for nama, fungsi in [("riset", download_riset), ("harian", download_harian),
                          ("kripto_harian", download_kripto_harian), ("orderflow", download_orderflow),
