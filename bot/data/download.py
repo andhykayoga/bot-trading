@@ -16,9 +16,10 @@ Sumber:
 
 - Candle 1 jam BTC/ETH dengan volume beli taker (order flow) dan data token baru Binance (TGE).
 - Harga harian, dividen, dan split saham BEI (LQ45 2018) + IHSG dari Yahoo Finance.
+- Daftar IPO e-IPO (dataset Kaggle `fahmirk/e-ipo-realtime-data`) + harga harian semua IPO sejak 2021 dari Yahoo.
 
 Jalankan: python -m bot.data.download [forex forex_uji forex_riset crypto riset harian kripto_harian orderflow tge
-idx]
+idx ipo]
 """
 from __future__ import annotations
 
@@ -246,35 +247,54 @@ LQ45_2018 = ["ADHI", "ADRO", "AKRA", "ANTM", "ASII", "BBCA", "BBNI", "BBRI", "BB
              "TPIA", "UNTR", "UNVR", "WIKA", "WSBP", "WSKT"]
 
 
-def download_idx() -> None:
-    """Harga harian, dividen, dan split saham LQ45_2018 + IHSG sejak 2014 dari Yahoo Finance (chart API).
-    Saham yang sudah dihapus Yahoo (mis. SRIL, WSKT) dicatat di gagal.txt."""
-    out = DATA / "idx"
+def _yahoo_banyak(kode: list[str], out: Path, mulai: int = 1388534400) -> None:
+    """Harga harian, dividen, dan split dari Yahoo Finance (chart API) + IHSG, satu parquet per kode, sejak `mulai`
+    (detik Unix). Kode yang tidak ada di Yahoo (sudah dihapus) dicatat di gagal.txt."""
     out.mkdir(parents=True, exist_ok=True)
     aksi, gagal = [], []
-    for kode, yahoo in [("IHSG", "%5EJKSE"), *((k, f"{k}.JK") for k in LQ45_2018)]:
-        url = (f"https://query1.finance.yahoo.com/v8/finance/chart/{yahoo}?period1=1388534400"
+    for k, yahoo in [("IHSG", "%5EJKSE"), *((k, f"{k}.JK") for k in kode)]:
+        url = (f"https://query1.finance.yahoo.com/v8/finance/chart/{yahoo}?period1={mulai}"
                f"&period2={int(time.time())}&interval=1d&events=div%2Csplit")
         try:
             req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
             r = json.loads(urllib.request.urlopen(req, timeout=60).read())["chart"]["result"][0]
+            q = r["indicators"]["quote"][0]
         except Exception as e:  # noqa: BLE001 - catat lalu lanjut ke saham berikutnya
-            gagal.append(f"{kode}: {e}")
+            gagal.append(f"{k}: {e}")
             continue
-        q = r["indicators"]["quote"][0]
         df = pd.DataFrame({"t": pd.to_datetime(r["timestamp"], unit="s").normalize(), "o": q["open"], "h": q["high"],
                            "l": q["low"], "c": q["close"], "v": q["volume"],
                            "adj": r["indicators"]["adjclose"][0]["adjclose"]}).dropna(subset=["c"])
-        df.to_parquet(out / f"{kode}.parquet", index=False)
+        df.to_parquet(out / f"{k}.parquet", index=False)
         for jenis, ev in r.get("events", {}).items():
             for e in ev.values():
                 nilai = e["amount"] if jenis == "dividends" else e["numerator"] / e["denominator"]
-                aksi.append((kode, pd.to_datetime(e["date"], unit="s").date(), jenis, nilai))
-        print(f"idx: {kode} {len(df)} hari sejak {df.t.iloc[0].date()}")
+                aksi.append((k, pd.to_datetime(e["date"], unit="s").date(), jenis, nilai))
+        print(f"{out.name}: {k} {len(df)} hari sejak {df.t.iloc[0].date() if len(df) else '-'}")
     pd.DataFrame(aksi, columns=["kode", "tanggal", "jenis", "nilai"]).sort_values(["kode", "tanggal"]).to_csv(
         out / "aksi_korporasi.csv", index=False)
     (out / "gagal.txt").write_text("\n".join(gagal) or "semua berhasil")
-    print("idx gagal:", gagal or "tidak ada")
+    print(f"{out.name} gagal:", gagal or "tidak ada")
+
+
+def download_idx() -> None:
+    """Saham LQ45_2018 + IHSG sejak 2014 (uji Ko Andri)."""
+    _yahoo_banyak(LQ45_2018, DATA / "idx")
+
+
+KAGGLE_EIPO = "https://www.kaggle.com/api/v1/datasets/download/fahmirk/e-ipo-realtime-data"
+
+
+def download_ipo() -> None:
+    """Daftar IPO e-IPO (dataset Kaggle, dari e-ipo.co.id) + harga harian Yahoo semua IPO sejak 2021."""
+    out = DATA / "ipo"
+    out.mkdir(parents=True, exist_ok=True)
+    with zipfile.ZipFile(io.BytesIO(_get(KAGGLE_EIPO))) as z:
+        (out / "e-IPO Data.csv").write_bytes(z.read("e-IPO Data.csv"))
+    d = pd.read_csv(out / "e-IPO Data.csv")
+    d = d[(d["IPO Status"] == "Closed") & (pd.to_datetime(d["Listing Date"], format="mixed") >= "2021-01-01")]
+    print(f"ipo: {len(d)} IPO sejak 2021")
+    _yahoo_banyak(sorted(d["Ticker Code"]), out / "harga", mulai=1609459200)
 
 
 def download_tge() -> None:
@@ -299,7 +319,7 @@ def download_tge() -> None:
 def main(markets: list[str] | None = None) -> None:
     for nama, fungsi in [("riset", download_riset), ("harian", download_harian),
                          ("kripto_harian", download_kripto_harian), ("orderflow", download_orderflow),
-                         ("tge", download_tge), ("idx", download_idx)]:
+                         ("tge", download_tge), ("idx", download_idx), ("ipo", download_ipo)]:
         if markets and nama in markets:
             fungsi()
             markets = [m for m in markets if m != nama]

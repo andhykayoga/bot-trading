@@ -197,3 +197,26 @@ def test_saham_angka_and_ko_andri_rules():
     # median PER dari laba positif = 5; median DER = 1,5
     assert s.loc["A", "skor"] == 4 and not s.loc["A", "s_per"] and s.loc["A", "s_der"]
     assert s.loc["C", "s_per"] and not s.loc["C", "s_pbv"] and not s.loc["D", "s_per"]
+
+
+def test_ipo_ara_and_split_and_holding():
+    import pandas as pd
+    from bot.research.ipo import batas_ara, faktor_split, hari_ara, tahan
+    assert batas_ara(150, "Pengembangan") == 0.35 and batas_ara(1000, "Utama") == 0.25
+    assert batas_ara(6000, "Utama") == 0.20 and batas_ara(150, "Akselerasi") == 0.10
+    # hari 1 ARA 35% dari harga IPO 100; hari 2 naik 30% tapi tutup di bawah tertinggi; hari 3 naik 35% tutup
+    # tertinggi; hari 4 naik 25% dari harga di atas Rp200 (batas 25%) tutup tertinggi; hari 5 naik 20% saja
+    c = np.array([135.0, 175.5, 236.9, 296.1, 355.3])
+    h = np.array([135.0, 180.0, 236.9, 296.1, 355.3])
+    ara = hari_ara(c, h, np.r_[100.0, c[:-1]], np.r_[100.0, c[:-1]], "Pengembangan")
+    assert ara.tolist() == [True, False, True, True, False]
+    t = pd.DatetimeIndex(["2023-01-02", "2023-06-01", "2024-01-02"])
+    f = faktor_split(pd.DataFrame({"tanggal": ["2023-03-01"], "nilai": [5.0]}), t)
+    assert f.tolist() == [5.0, 1.0, 1.0]
+    hari = pd.bdate_range("2024-01-01", periods=300)
+    ihsg = pd.Series(np.linspace(100, 110, 300), index=hari)
+    p = pd.DataFrame({"adj": np.linspace(50, 100, 300), "v": 1.0}, index=hari)
+    r = tahan(p, ihsg, hari[0], (250,))
+    assert abs(r["B250"] - (p.adj.iloc[250] / 50 * 0.9975 / 1.0015 - 1)) < 1e-12 and not r["B250_nol"]
+    p.loc[hari[100]:, "v"] = 0.0                  # tidak bertransaksi 150 hari bursa sebelum keluar → dianggap 0
+    assert tahan(p, ihsg, hari[0], (250,))["B250"] == -1.0
