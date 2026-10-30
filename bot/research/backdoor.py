@@ -90,6 +90,38 @@ def hitung_semua() -> pd.DataFrame:
     return pd.DataFrame([satu(r, ihsg) for r in baca_peristiwa().itertuples()])
 
 
+def setelah_ara() -> pd.DataFrame:
+    """Pembanding (tidak menentukan lolos): beli di penutupan pertama yang tidak terkunci ARA. Terkunci = tutup di
+    harga tertinggi dan naik ≥ 9,5% (batas terkecil, Papan Pemantauan Khusus 10%), karena saham kecil sering ARA
+    beruntun setelah berita sehingga tidak bisa dibeli di penutupan hari pertama."""
+    ihsg, rows = harga("IHSG").c, []
+    for r in baca_peristiwa().itertuples():
+        p = harga(r.kode)
+        s = p[(p.index > r.tanggal) & (p.v > 0)]
+        naik = s.c / p.c.shift(1).reindex(s.index) - 1
+        bebas = ~((s.c >= s.h * (1 - 1e-9)) & (naik >= 0.095))
+        masuk = s.index[int(bebas.to_numpy().argmax())] if bebas.any() else s.index[-1]
+        rows.append({"kode": r.kode, "hari_ara": int((s.index < masuk).sum()), **ipo.tahan(p, ihsg, masuk, (250,))})
+    return pd.DataFrame(rows)
+
+
+# Contoh yang sering diceritakan Ko Andri (dipilih justru karena terkenal; hanya ilustrasi): tanggal berita pertama.
+CONTOH = {"ARTO": ("2019-08-22", "Jerry Ng dan Patrick Walujo (Bank Jago)"), "BBHI": ("2020-11-02", "CT Corp (Allo Bank)"),
+          "PANI": ("2021-10-08", "Agung Sedayu (PIK 2)")}
+
+
+def contoh_terkenal() -> list[str]:
+    ihsg, out = harga("IHSG").c, []
+    for kode, (tgl, siapa) in CONTOH.items():
+        p = harga(kode)
+        if p is None:
+            continue
+        masuk = p[(p.index > pd.Timestamp(tgl)) & (p.v > 0)].index[0]
+        t = ipo.tahan(p, ihsg, masuk, (250, 500))
+        out.append(f"{kode} setelah masuknya {siapa}: setahun {_p(t['B250'], 0)}, dua tahun {_p(t['B500'], 0)}")
+    return out
+
+
 def _p(x: float, nd: int = 1) -> str:
     return "–" if pd.isna(x) else f"{100 * x:+.{nd}f}%".replace(".", ",")
 
@@ -109,6 +141,8 @@ def laporan(h: pd.DataFrame) -> list[str]:
     top = ada.sort_values("B250", ascending=False).head(5)
     b500 = ada.dropna(subset=["B500"])
     b500 = b500[b500.B500_penuh]
+    sa = setelah_ara()
+    contoh = contoh_terkenal()
     return [
         "## B. Saham backdoor (ganti pengendali)",
         "",
@@ -129,11 +163,34 @@ def laporan(h: pd.DataFrame) -> list[str]:
         f"- Ditahan dua tahun (hanya peristiwa yang sudah genap dua tahun, {len(b500)}): median "
         f"{_p(b500.B500.median())}, {100 * (b500.B500_lebih > 0).mean():.0f}% mengalahkan IHSG."
         if len(b500) else "- Belum ada peristiwa yang genap dua tahun.",
+        f"- **Kenyataannya lebih sulit lagi:** {(sa.hari_ara > 0).sum()} dari {len(sa)} saham langsung ARA setelah "
+        "berita, jadi tidak bisa dibeli di penutupan hari pertama. Kalau baru bisa membeli setelah ARA-nya berhenti: "
+        f"median {_p(sa.B250.median())}, {100 * (sa.B250_lebih > 0).mean():.0f}% mengalahkan IHSG.",
         f"- Tanpa data harga (sudah dihapus dari Yahoo atau tidak pernah bertransaksi lagi): "
         f"{int((~h.ada_harga).sum())} peristiwa; disuspensi lebih dari 6 bulan di akhir masa tahan (dihitung 0): "
-        f"{int(ada.B250_nol.sum())}.",
+        f"{int(ada.B250_nol.sum())} (PTMR, disuspensi sehari setelah dibeli). Belum genap setahun (dihitung sampai "
+        f"data terakhir): {int((~ada.B250_penuh).sum())} (TGUK baru bisa dibeli setelah suspensinya dibuka Agustus 2026, "
+        "PADA).",
+        "- Tidak dihitung karena berita pertamanya sebelum Agustus 2023: SMMT, VOKS, MFIN (Juli 2023), LPGI (2022), INCO. "
+        "Juga tidak dihitung: perpindahan di dalam grup atau keluarga (GEMS, INTP, CITY, INKP, BTON, WIRG), "
+        "pengendali lama yang menambah saham (BACA, SULI, SMMF), merger (EXCL), restrukturisasi BUMN (APIA, KRAS), dan "
+        "penjualan tanpa pengendali baru yang jelas (AKKU, GDST).",
+        f"- Contoh lama yang terkenal (hanya ilustrasi, tidak ikut dihitung): {'; '.join(contoh)}. Kasus seperti ini "
+        "nyata, tetapi dipilih setelah tahu hasilnya.",
         "- Daftar lengkap, pengendali baru, dan sumbernya: `bot/research/backdoor_peristiwa.csv`; hasil per peristiwa: "
         "`reports/hasil_ipo_backdoor/backdoor_per_peristiwa.csv`.",
+        "",
+        "### Artinya",
+        "",
+        "- Membeli setiap saham yang ganti pengendali **seperti melempar koin**: separuh menang, separuh kalah, dan "
+        "medianya sedikit di bawah IHSG. Rata-ratanya terlihat besar hanya karena segelintir saham gocapan yang naik "
+        "puluhan kali lipat (MINA, KARW, FUTR, IRSX, CNKO), yang tidak bisa dikenali lebih dulu.",
+        "- **\"Pilih orangnya\" (pengendali kuat) tidak membantu** di periode ini: dari 12 peristiwa, hanya 5 yang "
+        "mengalahkan IHSG. Pemenang besar justru dari pembeli yang tidak dikenal, yang juga paling sering ambruk.",
+        "- Ditahan dua tahun hasilnya lebih baik, tetapi baru 18 peristiwa (semuanya Agustus 2023 – Oktober 2024), "
+        "terlalu sedikit untuk dipercaya, dan tidak termasuk syarat lolos.",
+        "- Batasan: hanya 26 bulan dan 48 peristiwa (arsip BEI yang bisa dicari baru mulai Agustus 2023), dan 2026 adalah "
+        "tahun berat bagi IHSG.",
         "",
     ]
 

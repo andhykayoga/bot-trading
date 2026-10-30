@@ -19,7 +19,7 @@ Sumber:
 - Daftar IPO e-IPO (dataset Kaggle `fahmirk/e-ipo-realtime-data`) + harga harian semua IPO sejak 2021 dari Yahoo.
 
 Jalankan: python -m bot.data.download [forex forex_uji forex_riset crypto riset harian kripto_harian orderflow tge
-idx ipo]
+idx ipo backdoor pengumuman_idx]
 """
 from __future__ import annotations
 
@@ -297,6 +297,12 @@ def download_ipo() -> None:
     _yahoo_banyak(sorted(d["Ticker Code"]), out / "harga", mulai=1609459200)
 
 
+def download_backdoor() -> None:
+    """Harga harian saham-saham di bot/research/backdoor_peristiwa.csv sejak 2023 (uji ganti pengendali)."""
+    kode = sorted(set(pd.read_csv(ROOT / "bot" / "research" / "backdoor_peristiwa.csv").kode) | {"ARTO", "BBHI", "PANI"})
+    _yahoo_banyak(kode, DATA / "backdoor" / "harga", mulai=1546300800)       # 2019: contoh lama ARTO, BBHI, PANI
+
+
 def download_tge() -> None:
     """Tanggal listing semua pasangan USDT di Binance spot + candle harian token yang punya valuasi (LIVE-02)."""
     out = DATA / "tge"
@@ -335,7 +341,7 @@ def download_pengumuman_idx(mulai: str = "2023-07-01", akhir: str = "2025-12-31"
             req = urllib.request.Request(IDX_PENGUMUMAN.format(i=i, a=a, b=b), headers={"User-Agent": "Mozilla/5.0"})
             for coba in range(5):
                 try:
-                    d = json.loads(urllib.request.urlopen(req, timeout=120).read())
+                    d = json.loads(urllib.request.urlopen(req, timeout=60).read())
                     break
                 except Exception:  # noqa: BLE001 - jaringan: coba lagi dengan jeda
                     time.sleep(2 ** (coba + 1))
@@ -358,7 +364,8 @@ def download_pengumuman_idx(mulai: str = "2023-07-01", akhir: str = "2025-12-31"
 def main(markets: list[str] | None = None) -> None:
     for nama, fungsi in [("riset", download_riset), ("harian", download_harian),
                          ("kripto_harian", download_kripto_harian), ("orderflow", download_orderflow),
-                         ("tge", download_tge), ("idx", download_idx), ("ipo", download_ipo)]:
+                         ("tge", download_tge), ("idx", download_idx), ("ipo", download_ipo),
+                         ("backdoor", download_backdoor), ("pengumuman_idx", download_pengumuman_idx)]:
         if markets and nama in markets:
             fungsi()
             markets = [m for m in markets if m != nama]

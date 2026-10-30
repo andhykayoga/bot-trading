@@ -55,7 +55,28 @@ Ditahan lebih pendek juga kalah: 20 hari bursa median -8,3% (36% mengalahkan IHS
 
 ## B. Saham backdoor (ganti pengendali)
 
-Daftar peristiwa sedang dikumpulkan.
+**Hasil singkat: TIDAK LOLOS.** Dari 48 peristiwa ganti pengendali Agustus 2023 – Oktober 2025 (dari arsip pengumuman resmi BEI), membeli sehari setelah pengumuman lalu menahan setahun menghasilkan median -3,9%; 48% mengalahkan IHSG. Kelompok pengendali kuat (konglomerat, perusahaan besar, bank besar): median -1,5%, 42% mengalahkan IHSG.
+
+| Kelompok | Peristiwa | Hasil median | Median vs IHSG | Rata-rata vs IHSG | Kalahkan IHSG | Median vs IHSG Agu 2023–Sep 2024 / Okt 2024–Okt 2025 | Lolos |
+|---|---|---|---|---|---|---|---|
+| Semua peristiwa | 48 | -3,9% | -4,3% | +129,8% | 48% | +0,0% / -8,3% | ✗ |
+| Pengendali kuat | 12 | -1,5% | -8,8% | +35,5% | 42% | -23,4% / +1,2% | ✗ |
+| Pengendali lain | 36 | -4,8% | +5,6% | +161,2% | 50% | +50,6% / -11,8% | ✗ |
+
+- Naik paling tinggi dalam setahun: MINA (+1844%), KARW (+1187%), FUTR (+759%), IRSX (+533%), CNKO (+527%). 13 peristiwa naik lebih dari 2 kali lipat, 7 turun lebih dari separuh.
+- Ditahan dua tahun (hanya peristiwa yang sudah genap dua tahun, 18): median +71,1%, 72% mengalahkan IHSG.
+- **Kenyataannya lebih sulit lagi:** 19 dari 48 saham langsung ARA setelah berita, jadi tidak bisa dibeli di penutupan hari pertama. Kalau baru bisa membeli setelah ARA-nya berhenti: median -8,7%, 44% mengalahkan IHSG.
+- Tanpa data harga (sudah dihapus dari Yahoo atau tidak pernah bertransaksi lagi): 0 peristiwa; disuspensi lebih dari 6 bulan di akhir masa tahan (dihitung 0): 1 (PTMR, disuspensi sehari setelah dibeli). Belum genap setahun (dihitung sampai data terakhir): 2 (TGUK baru bisa dibeli setelah suspensinya dibuka Agustus 2026, PADA).
+- Tidak dihitung karena berita pertamanya sebelum Agustus 2023: SMMT, VOKS, MFIN (Juli 2023), LPGI (2022), INCO. Juga tidak dihitung: perpindahan di dalam grup atau keluarga (GEMS, INTP, CITY, INKP, BTON, WIRG), pengendali lama yang menambah saham (BACA, SULI, SMMF), merger (EXCL), restrukturisasi BUMN (APIA, KRAS), dan penjualan tanpa pengendali baru yang jelas (AKKU, GDST).
+- Contoh lama yang terkenal (hanya ilustrasi, tidak ikut dihitung): ARTO setelah masuknya Jerry Ng dan Patrick Walujo (Bank Jago): setahun +2181%, dua tahun +13845%; BBHI setelah masuknya CT Corp (Allo Bank): setahun +9098%, dua tahun +5119%; PANI setelah masuknya Agung Sedayu (PIK 2): setahun +2337%, dua tahun +12448%. Kasus seperti ini nyata, tetapi dipilih setelah tahu hasilnya.
+- Daftar lengkap, pengendali baru, dan sumbernya: `bot/research/backdoor_peristiwa.csv`; hasil per peristiwa: `reports/hasil_ipo_backdoor/backdoor_per_peristiwa.csv`.
+
+### Artinya
+
+- Membeli setiap saham yang ganti pengendali **seperti melempar koin**: separuh menang, separuh kalah, dan medianya sedikit di bawah IHSG. Rata-ratanya terlihat besar hanya karena segelintir saham gocapan yang naik puluhan kali lipat (MINA, KARW, FUTR, IRSX, CNKO), yang tidak bisa dikenali lebih dulu.
+- **"Pilih orangnya" (pengendali kuat) tidak membantu** di periode ini: dari 12 peristiwa, hanya 5 yang mengalahkan IHSG. Pemenang besar justru dari pembeli yang tidak dikenal, yang juga paling sering ambruk.
+- Ditahan dua tahun hasilnya lebih baik, tetapi baru 18 peristiwa (semuanya Agustus 2023 – Oktober 2024), terlalu sedikit untuk dipercaya, dan tidak termasuk syarat lolos.
+- Batasan: hanya 26 bulan dan 48 peristiwa (arsip BEI yang bisa dicari baru mulai Agustus 2023), dan 2026 adalah tahun berat bagi IHSG.
 
 ## Cara mengulang
 
