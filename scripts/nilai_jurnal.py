@@ -44,7 +44,8 @@ def transaksi(d: pd.DataFrame) -> pd.DataFrame:
 
 
 def uji(kode: str, aset: str) -> pd.Series:
-    """Hasil per transaksi di data sejarah 2018–sekarang, diukur sama dengan jurnal (close ke close, setelah biaya)."""
+    """Hasil per transaksi di data sejarah 2018–sekarang, diukur sama dengan jurnal (close ke close, setelah
+    biaya)."""
     c = ki.harga(aset)["c"].loc[ki.MULAI:]
     if kode == "MA200":
         pos = (ki.harga(aset)["c"] > ki.harga(aset)["c"].rolling(200).mean()).loc[ki.MULAI:].astype(float)
@@ -118,8 +119,8 @@ def laporan() -> str:
     else:
         out += ["Sudah ada aturan dengan cukup transaksi. Bandingkan rata-rata jurnal dengan rata-rata uji di atas: "
                 "kalau jauh lebih buruk (lebih dari separuhnya), kurangi porsi; kalau rugi melewati turun terdalam di "
-                "uji (38–61%), berhenti; kalau mirip atau lebih baik, lanjut. Tambah modal hanya kalau hasilnya mirip "
-                "uji selama minimal setahun."]
+                "uji (38–61%), berhenti; kalau mirip atau lebih baik, lanjut. Tambah modal hanya kalau hasilnya "
+                "mirip uji selama minimal setahun."]
     return "\n".join(out)
 
 
