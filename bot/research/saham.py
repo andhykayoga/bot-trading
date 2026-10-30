@@ -87,7 +87,34 @@ def baca_keuangan(path: Path | None = None) -> pd.DataFrame:
         out += list(rec.values())
     df = pd.DataFrame(out)
     df["nci"] = df["nci"].fillna(0.0)
+    kr = baca_tempelan()
+    if len(kr):                                                # Key Ratio yang ditempel di chat mengisi yang kosong
+        df = df.merge(kr, on=["kode", "tahun"], how="left", suffixes=("", "_kr"))
+        for c in ("eps", "bvps"):
+            df[c] = df[c].fillna(df[f"{c}_kr"])
+        df = df.drop(columns=["eps_kr", "bvps_kr"])
     return df.sort_values(["kode", "tahun"]).reset_index(drop=True)
+
+
+KR_BARIS = {"Share Outstanding": "saham_kr", "EPS (Annual)": "eps", "Book Value Per Share (Annual)": "bvps"}
+
+
+def baca_tempelan(folder: Path | None = None) -> pd.DataFrame:
+    """Tabel Key Ratio Stockbit yang disalin sebagai teks, satu file per saham: data/saham/tempel/<KODE>.txt.
+    saham_kr dalam miliar lembar; eps & bvps dalam rupiah per saham (seperti dilaporkan)."""
+    rows = []
+    for f in sorted((folder or SAHAM / "tempel").glob("*.txt")):
+        tahun = []
+        rec: dict[int, dict] = {}
+        for line in f.read_text().splitlines():
+            sel = [x.strip() for x in line.split("\t")]
+            if sel[0] == "Dalam IDR":
+                tahun = [int(x[-4:]) for x in sel[1:] if x]
+            elif sel[0] in KR_BARIS and tahun:
+                for t, v in zip(tahun, sel[1:]):
+                    rec.setdefault(t, {"kode": f.stem.upper(), "tahun": t})[KR_BARIS[sel[0]]] = _angka(v)
+        rows += list(rec.values())
+    return pd.DataFrame(rows, columns=["kode", "tahun", "saham_kr", "eps", "bvps"])
 
 
 # ---------------------------------------------------------------- harga, dividen, split

@@ -24,9 +24,16 @@ NAMA = ["Ko Andri (5 syarat)", "45 saham bobot sama", "IHSG (tanpa dividen)", "D
 
 def cek_data(fin: pd.DataFrame) -> list[str]:
     kurang = fin[(fin.tahun >= 2014) & (fin.eps.isna() | fin.bvps.isna())]
+    if "saham_kr" in fin:                                      # BVPS × jumlah saham harus = ekuitas induk
+        sel = (fin.bvps * fin.saham_kr / (fin.ekuitas - fin.nci) - 1).abs()
+        beda = fin[(fin.tahun >= 2014) & (sel > 0.03)]
+    else:
+        beda = fin.iloc[:0]
     neraca = fin[(fin.tahun >= 2014) & ((fin.liabilitas + fin.ekuitas - fin.aset).abs() > 0.01 * fin.aset.abs())]
     out = [f"- Baris EPS/BVPS kosong (2014–2025): {len(kurang)} dari {len(fin[fin.tahun >= 2014])} saham-tahun"
            + (f" ({', '.join(sorted(kurang.kode.unique()))})" if len(kurang) else "") + ".",
+           f"- BVPS × jumlah saham ≠ ekuitas milik induk (selisih > 3%): {len(beda)} saham-tahun"
+           + (f" ({', '.join(sorted(beda.kode.unique()))})" if len(beda) else "") + ".",
            f"- Aset ≠ liabilitas + ekuitas (selisih > 1%): {len(neraca)} saham-tahun "
            f"({', '.join(sorted(neraca.kode.unique())) or '–'}); BJBR wajar karena dana syirkah temporer dicatat di "
            "antara liabilitas dan ekuitas."]
