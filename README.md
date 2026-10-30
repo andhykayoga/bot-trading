@@ -12,7 +12,7 @@
 - [`reports/LAPORAN_SAHAM_KO_ANDRI.md`](reports/LAPORAN_SAHAM_KO_ANDRI.md) — **uji checklist valuasi Ko Andri** (PBV, PER, ROE, DER, dividen) di 45 saham LQ45 2018, April 2019 – Oktober 2026. Pra-registrasinya di [`reports/RENCANA_SAHAM_KO_ANDRI.md`](reports/RENCANA_SAHAM_KO_ANDRI.md).
 - [`reports/LAPORAN_IPO_BACKDOOR.md`](reports/LAPORAN_IPO_BACKDOOR.md) — **uji saham IPO** (202 IPO e-IPO 2022–2025: dapat jatah lalu jual hari pertama vs beli setelah listing) dan **saham backdoor/ganti pengendali** (dari arsip pengumuman resmi BEI). Pra-registrasinya di [`reports/RENCANA_IPO_BACKDOOR.md`](reports/RENCANA_IPO_BACKDOOR.md).
 - `scripts/cek_saham.py KODE` — **cek cepat satu saham**: tren harga, valuasi dan utang, dividen, umur sejak IPO, dan tanda bahaya dari pengumuman BEI 12 bulan terakhir (suspensi, Papan Pemantauan Khusus, UMA, PKPU, ganti pengendali, private placement). Hanya informasi, bukan sinyal beli.
-- `scripts/sinyal_harian.py` — sinyal harian trailing stop 10% BTC/ETH (dijalankan otomatis tiap 07.15 WIB, notifikasi hanya kalau ada BELI/JUAL).
+- `scripts/sinyal_harian.py` — sinyal harian trailing stop 10% BTC/ETH dan pengingat IPO, dikirim ke **Telegram** tiap 07.15 WIB lewat GitHub Actions. Cara memasang dan rekomendasi aplikasi: [`reports/PANDUAN_TELEGRAM.md`](reports/PANDUAN_TELEGRAM.md).
 - [`reports/PANDUAN_DATA_STOCKBIT.md`](reports/PANDUAN_DATA_STOCKBIT.md) — **cara mengambil data saham** (Stockbit, Yahoo, broker summary) untuk uji valuasi Ko Andri dan bandarmologi Ko Hengki.
 - `bot/` — kode bot Python (backtest sekarang, live nanti). Belum terhubung ke broker.
 

@@ -1,0 +1,42 @@
+# Sinyal harian (kripto trailing stop 10% + pengingat IPO) ke Telegram, tiap 07.15 WIB.
+# Butuh dua secret di Settings → Secrets and variables → Actions: TELEGRAM_BOT_TOKEN dan TELEGRAM_CHAT_ID.
+# Jadwal otomatis hanya berjalan dari branch utama (main). Push ke branch lain hanya mencoba skripnya tanpa mengirim.
+name: Sinyal harian ke Telegram
+
+on:
+  schedule:
+    - cron: "15 0 * * *"          # 00.15 UTC = 07.15 WIB
+  workflow_dispatch:
+    inputs:
+      selalu:
+        description: "Kirim pesan walaupun tidak ada aksi (untuk mencoba)"
+        type: boolean
+        default: true
+  push:
+    paths:
+      - "scripts/sinyal_harian.py"
+      - "bot/telegram.py"
+      - ".github/workflows/sinyal-harian.yml"
+
+jobs:
+  sinyal:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install "numpy>=2.0" "pandas>=2.2" "pyarrow>=15"
+      - name: Hitung sinyal dan kirim
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          if [ "${{ github.event_name }}" = "push" ]; then
+            python scripts/sinyal_harian.py
+          elif [ "${{ inputs.selalu }}" = "true" ]; then
+            python scripts/sinyal_harian.py --telegram --selalu
+          else
+            python scripts/sinyal_harian.py --telegram
+          fi

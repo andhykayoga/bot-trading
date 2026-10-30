@@ -220,3 +220,24 @@ def test_ipo_ara_and_split_and_holding():
     assert abs(r["B250"] - (p.adj.iloc[250] / 50 * 0.9975 / 1.0015 - 1)) < 1e-12 and not r["B250_nol"]
     p.loc[hari[100]:, "v"] = 0.0                  # tidak bertransaksi 150 hari bursa sebelum keluar → dianggap 0
     assert tahan(p, ihsg, hari[0], (250,))["B250"] == -1.0
+
+
+def test_sinyal_harian_pesan_telegram():
+    import importlib.util
+    import pandas as pd
+    spec = importlib.util.spec_from_file_location("sinyal_harian", "scripts/sinyal_harian.py")
+    sh = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(sh)
+    senin = pd.Timestamp("2026-11-02")
+    jual = {"aksi": "JUAL ke stablecoin", "pegang": False, "close": 77500.0, "pemicu": 79800.0, "puncak": 86620.0}
+    tetap = {"aksi": "TETAP PEGANG", "pegang": True, "close": 2600.0, "pemicu": 2340.0, "puncak": 2600.0}
+    teks, penting = sh.pesan(senin, {"BTC": jual, "ETH": tetap}, [], [], "2026-11-01", [])
+    assert penting and "JUAL BTC" in teks and "Jual BTC → USDT" in teks and "$77.500" in teks
+    assert "tetap pegang" in teks and "turun 10,0% lagi" in teks and "&amp;q=" in teks
+    ipo = {"jenis": "listing", "kode": "AB&C", "nama": "PT A & B Tbk", "papan": "Utama", "harga": 250, "bawah": 200,
+           "atas": 260, "bb": None, "bb_akhir": None, "tawar": None, "tawar_akhir": None, "listing": senin}
+    teks, penting = sh.pesan(senin, {"BTC": tetap}, [ipo], [], "", ["data contoh <x>"])
+    assert penting and "AB&amp;C" in teks and "PT A &amp; B Tbk" in teks and "jual hari ini" in teks
+    assert "&lt;x&gt;" in teks
+    teks, penting = sh.pesan(senin, {"BTC": tetap}, [], [], "2026-11-01", [])
+    assert not penting and "Laporan mingguan" in teks
